@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.evolutionx.ota;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -27,7 +28,7 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.pixelexperience.ota.misc.FileUtils;
+import org.evolutionx.ota.misc.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

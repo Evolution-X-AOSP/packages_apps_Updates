@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
- * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.evolutionx.ota.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import org.pixelexperience.ota.R;
+import org.evolutionx.ota.R;
 
 import java.text.DateFormat;
 import java.util.Date;

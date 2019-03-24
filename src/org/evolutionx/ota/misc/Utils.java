@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
- * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.evolutionx.ota.misc;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -34,11 +34,11 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.pixelexperience.ota.UpdatesDbHelper;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.model.Update;
-import org.pixelexperience.ota.model.UpdateBaseInfo;
-import org.pixelexperience.ota.model.UpdateInfo;
+import org.evolutionx.ota.UpdatesDbHelper;
+import org.evolutionx.ota.controller.UpdaterService;
+import org.evolutionx.ota.model.Update;
+import org.evolutionx.ota.model.UpdateBaseInfo;
+import org.evolutionx.ota.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

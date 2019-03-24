@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
- * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.evolutionx.ota.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -31,13 +31,13 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import org.pixelexperience.ota.R;
-import org.pixelexperience.ota.UpdaterReceiver;
-import org.pixelexperience.ota.UpdatesActivity;
-import org.pixelexperience.ota.misc.StringGenerator;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.evolutionx.ota.R;
+import org.evolutionx.ota.UpdaterReceiver;
+import org.evolutionx.ota.UpdatesActivity;
+import org.evolutionx.ota.misc.StringGenerator;
+import org.evolutionx.ota.misc.Utils;
+import org.evolutionx.ota.model.UpdateInfo;
+import org.evolutionx.ota.model.UpdateStatus;
 
 import java.io.IOException;
 import java.text.NumberFormat;

@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
- * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.evolutionx.ota.misc;
 
 public final class Constants {
     public static final String AB_PAYLOAD_BIN_PATH = "payload.bin";
@@ -23,7 +23,7 @@ public final class Constants {
     public static final String PREF_MOBILE_DATA_WARNING = "pref_mobile_data_warning";
     public static final String PREF_NEEDS_REBOOT_ID = "needs_reboot_id";
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
-    public static final String PROP_BUILD_DATE = "org.pixelexperience.build_date_utc";
+    public static final String PROP_BUILD_DATE = "org.evolutionx.build_date_utc";
     public static final String PROP_DISABLE_UNCRYPT = "sys.ota.disable_uncrypt";
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
@@ -36,11 +36,11 @@ public final class Constants {
     static final int AUTO_UPDATES_CHECK_INTERVAL_WEEKLY = 2;
     static final int AUTO_UPDATES_CHECK_INTERVAL_MONTHLY = 3;
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "org.pixelexperience.device";
-    static final String PROP_BUILD_VERSION = "org.pixelexperience.version";
-    static final String PROP_VERSION_CODE = "org.pixelexperience.ota.version_code";
-    static final String OTA_URL = "https://download.pixelexperience.org/ota_v2/%s/%s";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://download.pixelexperience.org/changelog/%s/%s";
+    static final String PROP_DEVICE = "org.evolutionx.device";
+    static final String PROP_BUILD_VERSION = "org.evolutionx.version";
+    static final String PROP_VERSION_CODE = "org.evolutionx.ota.version_code";
+    static final String OTA_URL = "https://raw.githubusercontent.com/evolution-x-devices/official_devices/master/builds/%s.json";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/evolution-x-devices/official_devices/master/changelogs/%s/%s.txt";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
-    static final String EXPORT_PATH = "PixelExperience-Updates/";
+    static final String EXPORT_PATH = "EvolutionX-Updates/";
 }

@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
- * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.download;
+package org.evolutionx.ota.download;
 
 import android.os.SystemClock;
 import android.util.Log;
@@ -48,7 +48,7 @@ public class HttpURLConnectionClient implements DownloadClient {
                             DownloadClient.DownloadCallback callback,
                             boolean useDuplicateLinks) throws IOException {
         mClient = (HttpURLConnection) new URL(url).openConnection();
-        mClient.setRequestProperty("User-Agent", "org.pixelexperience.ota");
+        mClient.setRequestProperty("User-Agent", "org.evolutionx.ota");
         mDestination = destination;
         mProgressListener = progressListener;
         mCallback = callback;
@@ -167,7 +167,7 @@ public class HttpURLConnectionClient implements DownloadClient {
             String range = mClient.getRequestProperty("Range");
             mClient.disconnect();
             mClient = (HttpURLConnection) newUrl.openConnection();
-            mClient.setRequestProperty("User-Agent", "org.pixelexperience.ota");
+            mClient.setRequestProperty("User-Agent", "org.evolutionx.ota");
             if (range != null) {
                 mClient.setRequestProperty("Range", range);
             }

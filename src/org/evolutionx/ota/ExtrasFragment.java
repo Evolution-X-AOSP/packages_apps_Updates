@@ -1,4 +1,4 @@
-package org.pixelexperience.ota;
+package org.evolutionx.ota;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,7 +10,7 @@ import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.widget.ListView;
 
-import org.pixelexperience.ota.model.UpdateInfo;
+import org.evolutionx.ota.model.UpdateInfo;
 
 public class ExtrasFragment extends PreferenceFragment implements Preference.OnPreferenceClickListener {
 

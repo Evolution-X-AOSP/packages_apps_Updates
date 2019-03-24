@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.evolutionx.ota;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -45,12 +46,12 @@ import android.widget.Spinner;
 import android.widget.Switch;
 
 import org.json.JSONException;
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
+import org.evolutionx.ota.controller.UpdaterController;
+import org.evolutionx.ota.controller.UpdaterService;
+import org.evolutionx.ota.download.DownloadClient;
+import org.evolutionx.ota.misc.Constants;
+import org.evolutionx.ota.misc.Utils;
+import org.evolutionx.ota.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

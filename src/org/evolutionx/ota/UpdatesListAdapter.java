@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.evolutionx.ota;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -46,14 +47,14 @@ import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.PermissionsUtils;
-import org.pixelexperience.ota.misc.StringGenerator;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.evolutionx.ota.controller.UpdaterController;
+import org.evolutionx.ota.controller.UpdaterService;
+import org.evolutionx.ota.misc.Constants;
+import org.evolutionx.ota.misc.PermissionsUtils;
+import org.evolutionx.ota.misc.StringGenerator;
+import org.evolutionx.ota.misc.Utils;
+import org.evolutionx.ota.model.UpdateInfo;
+import org.evolutionx.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
