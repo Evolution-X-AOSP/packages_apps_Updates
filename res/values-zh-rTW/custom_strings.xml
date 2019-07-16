@@ -45,6 +45,7 @@
     <string name="menu_export_update">匯出更新</string>
     <string name="menu_show_changelog">目前版本變更</string>
     <string name="changelog_loading">載入中...</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">下載網址</string>
     <string name="toast_download_url_copied">網址已複製</string>
     <!-- General -->
@@ -110,9 +111,12 @@
     <string name="menu_mobile_data_warning">行動數據警告</string>
     <!-- Info section -->
     <string name="extras_category_title">附加功能</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">維護者</string>
     <string name="donate_info_title">捐贈</string>
     <string name="donate_info_summary">支持開發作業</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">網站</string>
     <string name="website_info_summary">瀏覽我們的網站</string>
     <string name="news_info_title">新聞</string>

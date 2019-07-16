@@ -45,6 +45,7 @@
     <string name="menu_export_update">အဆင့်မြင့်တင်မှုဖိုင်အား ပြင်ပသို့ ဖိုင်ထုတ်မည်</string>
     <string name="menu_show_changelog">ယခုဗားရှင်းတွင် ပြောင်းလဲမှုများ</string>
     <string name="changelog_loading">တင်နေပါသည်…</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">URL ကို ‌ဒေါင်းလုဒ်ဆွဲရန်</string>
     <string name="toast_download_url_copied">URL ကို ကူးယူပြီးပါပြီ</string>
     <!-- General -->
@@ -77,10 +78,22 @@
     <string name="details_button">အသေးစိတ်ကြည့်ရန်</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">အဆင့်မြှင့်တင်မှု ပြုလုပ်ရန်</string>
+    <string name="apply_update_dialog_message">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
+    <string name="apply_update_dialog_message_ab">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
     <string name="cancel_installation_dialog_message">သွင်းခြင်းကို ပယ်ဖျက်မလား?</string>
+    <string name="installing_update">Installing update package</string>
+    <string name="installing_update_error">Install error</string>
+    <string name="installing_update_finished">Update installed</string>
+    <string name="finalizing_package">Finalizing package installation</string>
     <string name="preparing_ota_first_boot">ကနဦး စနစ်စတင်မှုအတွက် ပြင်ဆင်နေပါသည် . . .</string>
+    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
     <string name="dialog_battery_low_title">ဖုန်းအား နည်းနေပါပြီ။</string>
+    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
     <!-- Export update -->
+    <string name="dialog_export_title">Exporting update</string>
+    <string name="notification_export_success">Update exported</string>
+    <string name="notification_export_fail">Export error</string>
+    <string name="toast_already_exporting">Already exporting an update</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="other">၁ စက္ကန့်သာ ကျန်ပါသည်။
@@ -96,15 +109,22 @@
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">သတိပြုရန်</string>
+    <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
     <string name="checkbox_mobile_data_warning">ထပ်မပြပါနှင့်</string>
     <string name="menu_mobile_data_warning">မိုဘိုင်းဒေတာ သတိပေးချက်</string>
     <!-- Info section -->
     <string name="extras_category_title">အပိုဆောင်းများ</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">ပြုပြင်ပေးသူ</string>
     <string name="donate_info_title">လှူရန်</string>
     <string name="donate_info_summary">တိုးတက်တီတွင်မှုအတွက် ပံ့ပိုးပါ</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">ဝဘ်ဆိုက်</string>
     <string name="website_info_summary">ကျွန်ုပ်တို့၏ ၀ဘ်ဆိုဒ်ကို ကြည့်ရှူရန်</string>
     <string name="news_info_title">သတင်းများ</string>
+    <string name="news_info_summary">Stay informed about updates and other news</string>
     <string name="forum_info_title">ဖိုရမ်</string>
+    <string name="forum_info_summary">View forum posts</string>
+    <string name="error_open_url">Failed to open URL in browser</string>
 </resources>

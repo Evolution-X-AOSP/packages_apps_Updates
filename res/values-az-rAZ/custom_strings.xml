@@ -45,6 +45,7 @@
     <string name="menu_export_update">Yeniləməni ixrac et</string>
     <string name="menu_show_changelog">Hazırki versiyadakı dəyişikliklər</string>
     <string name="changelog_loading">Yüklənir…</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">Endirmə Linki</string>
     <string name="toast_download_url_copied">Link kopyalandı</string>
     <!-- General -->
@@ -113,9 +114,12 @@
     <string name="menu_mobile_data_warning">Mobil trafik xəbərdarlığı</string>
     <!-- Info section -->
     <string name="extras_category_title">Ekstralar</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">Cihaz tərtibatçısı</string>
     <string name="donate_info_title">İanə et</string>
     <string name="donate_info_summary">İnkişaf Etdirməni Dəstəklə</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">Vebsayt</string>
     <string name="website_info_summary">Veb saytımıza baş çəkin</string>
     <string name="news_info_title">Xəbərlər</string>

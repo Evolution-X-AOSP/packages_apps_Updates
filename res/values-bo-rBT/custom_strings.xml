@@ -45,6 +45,7 @@
     <string name="menu_export_update">གསར་བསྒྱུར་ཕྱིར་གཏོང་བྱེད་པ།</string>
     <string name="menu_show_changelog">ཐོན་རིམ་གསར་བའི་ཁྱད་གཤིས།</string>
     <string name="changelog_loading">ནང་འཇུག་བྱེད་བཞིན་ཡོོད།</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">ཕབ་ལེན་ས་གནས།</string>
     <string name="toast_download_url_copied">ས་གནས་བསྐྱར་བཤུས་བྱས་ཟིན།</string>
     <!-- General -->
@@ -110,9 +111,12 @@
     <string name="menu_mobile_data_warning">སྤོ་འགུལ་གཞི་གྲངས་ཀྱི་ཉེན་བརྡ།</string>
     <!-- Info section -->
     <string name="extras_category_title">ཟུར་སྣོན་བྱས་པའི་བྱེད་ནུས།</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">སྲུང་འཛིན་པ།</string>
     <string name="donate_info_title">ཞལ་འདེབས།</string>
     <string name="donate_info_summary">གསར་སྤེལ་ལ་རྒྱབ་སྐྱོར་བྱེད་པ།</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">དྲ་ཚིགས།</string>
     <string name="website_info_summary">ངེད་ཚོའི་དྲ་ཚིགས་ལ་གཟིགས་པ།</string>
     <string name="news_info_title">གསར་འགྱུར།</string>

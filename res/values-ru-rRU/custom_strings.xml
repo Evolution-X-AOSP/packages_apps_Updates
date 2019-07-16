@@ -31,6 +31,7 @@
     <string name="download_completed_notification">Загрузка завершена</string>
     <string name="download_starting_notification">Загрузка началась</string>
     <string name="update_failed_notification">Сбой обновления</string>
+    <string name="installation_suspended_notification">Установка приостановлена</string>
     <!-- Menu -->
     <string name="menu_refresh">Обновить</string>
     <string name="menu_preferences">Настройки</string>
@@ -44,6 +45,7 @@
     <string name="menu_export_update">Экспорт обновлений</string>
     <string name="menu_show_changelog">Показать журнал изменений</string>
     <string name="changelog_loading">Загрузка…</string>
+    <string name="menu_ab_perf_mode">Приоритет процесса обновления</string>
     <string name="label_download_url">Ссылка для скачивания</string>
     <string name="toast_download_url_copied">URL скопирован в буфер обмена</string>
     <!-- General -->
@@ -71,7 +73,9 @@
     <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
     <string name="pause_button">Пауза</string>
     <string name="resume_button">Возобновить</string>
+    <string name="suspend_button">Приостановить</string>
     <string name="reboot">Перезапуск</string>
+    <string name="details_button">Просмотреть детали</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Применить обновление</string>
     <string name="apply_update_dialog_message">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство будет перезапущено и переведено в режим восстановления для установки новой версии.\n\nПримечание: для этой функции необходим совместимый режим восстановления. При возникновении ошибки потребуется установить обновление вручную.</string>
@@ -116,9 +120,12 @@
     <string name="menu_mobile_data_warning">Предупрежд. о моб. данных</string>
     <!-- Info section -->
     <string name="extras_category_title">Дополнения</string>
+    <string name="developer_info_title">Разработчик прошивки</string>
     <string name="maintainer_info_title">Разработчик</string>
     <string name="donate_info_title">Пожертвовать</string>
     <string name="donate_info_summary">Поддержать разработку</string>
+    <string name="support_info_title">Пожертвовать сопровождающему устройства</string>
+    <string name="support_info_summary">Поддержите сопровождающего устройства</string>
     <string name="website_info_title">Веб-сайт</string>
     <string name="website_info_summary">Посетить наш веб-сайт</string>
     <string name="news_info_title">Новости</string>

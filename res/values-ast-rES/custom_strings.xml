@@ -31,6 +31,7 @@
     <string name="download_completed_notification">Completóse la descarga</string>
     <string name="download_starting_notification">Aniciando descarga</string>
     <string name="update_failed_notification">Falló l\'anovamientu</string>
+    <string name="installation_suspended_notification">Installation suspended</string>
     <!-- Menu -->
     <string name="menu_refresh">Refrescar</string>
     <string name="menu_preferences">Preferencies</string>
@@ -42,9 +43,13 @@
     <string name="menu_delete_update">Desaniciar</string>
     <string name="menu_copy_url">Copiar URL</string>
     <string name="menu_export_update">Esportar anovamientu</string>
+    <string name="menu_show_changelog">Changes in current version</string>
+    <string name="changelog_loading">Loading…</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">URL de descarga</string>
     <string name="toast_download_url_copied">Copióse la URL</string>
     <!-- General -->
+    <string name="update_found_notification">New update available</string>
     <string name="snack_no_updates_found">Nun s\'alcontraron anovamientos</string>
     <string name="snack_updates_check_failed">Falló la comprobación d\'anovamientos. Comprueba la to conexón a Internet y volvi tentalo, por favor.</string>
     <string name="snack_download_failed">Falló la descarga. Comprueba la to conexón a Internet y volvi tentalo, por favor.</string>
@@ -68,7 +73,9 @@
     <string name="confirm_delete_dialog_message">¿Desaniciar l\'anovamientu esbilláu?</string>
     <string name="pause_button">Posar</string>
     <string name="resume_button">Siguir</string>
+    <string name="suspend_button">Suspend</string>
     <string name="reboot">Reaniciar</string>
+    <string name="details_button">View details</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Aplicar anovamientu</string>
     <string name="apply_update_dialog_message">Tas a piques d\'anovar a <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi primes <xliff:g id="ok">%2$s</xliff:g>, el preséu va reaniciase solu al recovery pa instalar l\'anovamientu.\n\nNota: Esta carauterística rique un recovery compatible o los anovamientos van precisar instalase a mano.</string>
@@ -106,4 +113,18 @@
     <string name="checkbox_mobile_data_warning">Nun amosar más</string>
     <string name="menu_mobile_data_warning">Alvertencia de datos de móviles</string>
     <!-- Info section -->
+    <string name="extras_category_title">Extras</string>
+    <string name="developer_info_title">ROM developer</string>
+    <string name="maintainer_info_title">Maintainer</string>
+    <string name="donate_info_title">Donate</string>
+    <string name="donate_info_summary">Support the development</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
+    <string name="website_info_title">Website</string>
+    <string name="website_info_summary">Visit our website</string>
+    <string name="news_info_title">News</string>
+    <string name="news_info_summary">Stay informed about updates and other news</string>
+    <string name="forum_info_title">Forum</string>
+    <string name="forum_info_summary">View forum posts</string>
+    <string name="error_open_url">Failed to open URL in browser</string>
 </resources>

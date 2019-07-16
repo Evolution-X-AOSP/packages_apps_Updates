@@ -45,6 +45,7 @@
     <string name="menu_export_update">Ekspordi värskendus</string>
     <string name="menu_show_changelog">Muudatused praeguses versioonis</string>
     <string name="changelog_loading">Laadimine…</string>
+    <string name="menu_ab_perf_mode">Eelista uuendusprotsessi</string>
     <string name="label_download_url">Laadimise url</string>
     <string name="toast_download_url_copied">URL salvestatud</string>
     <!-- General -->
@@ -113,9 +114,12 @@
     <string name="menu_mobile_data_warning">Mobiilse andmeside kasutamise hoiatus</string>
     <!-- Info section -->
     <string name="extras_category_title">Lisad</string>
+    <string name="developer_info_title">ROM-i arendaja</string>
     <string name="maintainer_info_title">Hooldaja</string>
     <string name="donate_info_title">Anneta</string>
     <string name="donate_info_summary">Toeta arengut</string>
+    <string name="support_info_title">Anneta seadme hooldajale</string>
+    <string name="support_info_summary">Toetage oma seadme hooldajat</string>
     <string name="website_info_title">Koduleht</string>
     <string name="website_info_summary">Külasta meie kodulehte</string>
     <string name="news_info_title">Uudised</string>

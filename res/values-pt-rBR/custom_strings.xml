@@ -45,6 +45,7 @@
     <string name="menu_export_update">Exportar atualização</string>
     <string name="menu_show_changelog">Mudanças na versão atual</string>
     <string name="changelog_loading">Carregando…</string>
+    <string name="menu_ab_perf_mode">Priorizar o processo de atualização</string>
     <string name="label_download_url">URL de Download</string>
     <string name="toast_download_url_copied">URL copiado</string>
     <!-- General -->
@@ -113,10 +114,13 @@
     <string name="menu_mobile_data_warning">Aviso de dados móveis</string>
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
+    <string name="developer_info_title">Desenvolvedores da ROM</string>
     <string name="maintainer_info_title">Mantenedor</string>
     <string name="donate_info_title">Doar</string>
     <string name="donate_info_summary">Apoie o desenvolvimento</string>
-    <string name="website_info_title">Website</string>
+    <string name="support_info_title">Doe para o mantenedor do dispositivo</string>
+    <string name="support_info_summary">Apoie o mantenedor do seu dispositivo</string>
+    <string name="website_info_title">Site</string>
     <string name="website_info_summary">Visite o website do projeto</string>
     <string name="news_info_title">Notícias</string>
     <string name="news_info_summary">Mantenha-se informado sobre atualizações e outras novidades</string>

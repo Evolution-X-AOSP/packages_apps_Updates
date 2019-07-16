@@ -31,19 +31,21 @@
     <string name="download_completed_notification">Η λήψη ολοκληρώθηκε</string>
     <string name="download_starting_notification">Έναρξη λήψης</string>
     <string name="update_failed_notification">Η ενημέρωση απέτυχε</string>
+    <string name="installation_suspended_notification">Η εγκατάσταση έχει ανασταλεί</string>
     <!-- Menu -->
     <string name="menu_refresh">Ανανέωση</string>
     <string name="menu_preferences">Προτιμήσεις</string>
     <string name="menu_auto_updates_check">Αυτόματος έλεγχος ενημερώσεων</string>
-    <string name="menu_auto_updates_check_interval_daily">Μία φορά την ημέρα</string>
-    <string name="menu_auto_updates_check_interval_weekly">Μία φορά την εβδομάδα</string>
-    <string name="menu_auto_updates_check_interval_monthly">Μία φορά το μήνα</string>
+    <string name="menu_auto_updates_check_interval_daily">Ημερήσια</string>
+    <string name="menu_auto_updates_check_interval_weekly">Εβδομαδιαία</string>
+    <string name="menu_auto_updates_check_interval_monthly">Μηνιαία</string>
     <string name="menu_auto_updates_check_interval_never">Ποτέ</string>
     <string name="menu_delete_update">Διαγραφή</string>
     <string name="menu_copy_url">Αντιγραφή URL</string>
     <string name="menu_export_update">Εξαγωγή ενημέρωσης</string>
     <string name="menu_show_changelog">Εμφάνιση αλλαγών</string>
     <string name="changelog_loading">Φόρτωση…</string>
+    <string name="menu_ab_perf_mode">Επιτάχυνση διαδικασίας ενημέρωσης</string>
     <string name="label_download_url">Λήψη συνδέσμου</string>
     <string name="toast_download_url_copied">Ο σύνδεσμος αντιγράφηκε</string>
     <!-- General -->
@@ -55,8 +57,8 @@
     <string name="snack_download_verified">Η λήψη ολοκληρώθηκε.</string>
     <string name="snack_update_not_installable">Αυτή η ενημέρωση δεν μπορεί να εγκατασταθεί πάνω από την τρέχουσα έκδοση.</string>
     <string name="text_download_speed">%1$s, %2$s/δ</string>
-    <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> από <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> από <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> από <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> από <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Επαλήθευση ενημέρωσης</string>
     <string name="list_no_updates">Δεν βρέθηκαν νέες ενημερώσεις. Για να ελέγξετε χειροκίνητα για νέες ενημερώσεις, χρησιμοποιήστε το πλήκτρο Ανανέωσης.</string>
     <string name="blocked_update_dialog_title">Η ενημέρωση μπλοκαρίστηκε</string>
@@ -71,7 +73,9 @@
     <string name="confirm_delete_dialog_message">Διαγραφή του επιλεγμένου αρχείου ενημέρωσης;</string>
     <string name="pause_button">Παύση</string>
     <string name="resume_button">Συνέχιση</string>
+    <string name="suspend_button">Αναστολή</string>
     <string name="reboot">Επανεκκίνηση</string>
+    <string name="details_button">Προβολή λεπτομερειών</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Εφαρμογή ενημέρωσης</string>
     <string name="apply_update_dialog_message">Πρόκειται να αναβαθμίσετε σε <xliff:g id="update_name">%1$s</xliff:g>.\n\nΑν πατήσετε <xliff:g id="ok">%2$s</xliff:g>, η συσκευή θα κάνει επανεκκίνηση σε λειτουργία recovery για να εγκατασταθεί η ενημέρωση.\n\nΣημείωση: Αυτή η λειτουργία απαιτεί μια συμβατή recovery αλλιώς η ενημέρωση θα πρέπει να εγκατασταθεί χειροκίνητα.</string>
@@ -104,15 +108,18 @@
         <item quantity="other">απομένουν <xliff:g id="count">%d</xliff:g> ώρες</item>
     </plurals>
     <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Προειδοποίηση</string>
+    <string name="update_on_mobile_data_title">Προσοχή</string>
     <string name="update_on_mobile_data_message">Είστε έτοιμος να κατεβάσετε ένα πακέτο ενημέρωσης χρησιμοποιώντας δεδομένα κινητής τηλεφωνίας, το οποίο είναι πιθανό να προκαλέσει υψηλή χρήση δεδομένων. Θα θέλατε να συνεχίσετε;</string>
     <string name="checkbox_mobile_data_warning">Να μην εμφανιστεί ξανά</string>
     <string name="menu_mobile_data_warning">Προειδοποίηση δεδομένων κινητής τηλ.</string>
     <!-- Info section -->
     <string name="extras_category_title">Πρόσθετα</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">Συντηρητής</string>
     <string name="donate_info_title">Δωρεές</string>
     <string name="donate_info_summary">Υποστηρίξτε την ανάπτυξη εφαρμογών</string>
+    <string name="support_info_title">Δωρίστε στον συντηρητή της συσκευής σας</string>
+    <string name="support_info_summary">Υποστήριξε τον maintainer της συσκευής σου</string>
     <string name="website_info_title">Ιστοσελίδα</string>
     <string name="website_info_summary">Επισκεφθείτε την ιστοσελίδα μας</string>
     <string name="news_info_title">Νέα</string>

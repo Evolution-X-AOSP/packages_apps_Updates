@@ -45,6 +45,7 @@
     <string name="menu_export_update">L-esportazzjoni tal-aġġornament</string>
     <string name="menu_show_changelog">Bidliet fil-verżjoni kurrenti</string>
     <string name="changelog_loading">Tagħbija…</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">Niżżel il-URL</string>
     <string name="toast_download_url_copied">URL Ikkupjat</string>
     <!-- General -->
@@ -94,6 +95,24 @@
     <string name="notification_export_fail">Żball ta \'esportazzjoni</string>
     <string name="toast_already_exporting">Diġà qed tesporta aġġornament</string>
     <!-- ETA -->
+    <plurals name="eta_seconds">
+        <item quantity="one">1 second left</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minute left</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 hour left</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+    </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Twissija</string>
     <string name="update_on_mobile_data_message">Qed tniżżel pakkett ta \'aġġornament bl-użu tad-data tal-mowbajl li x\'aktarx se tikkawża użu għoli tad-data. Tixtieq tipproċedi?</string>
@@ -101,9 +120,12 @@
     <string name="menu_mobile_data_warning">Twissija mobbli tad-data</string>
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">Maintainer</string>
     <string name="donate_info_title">Donatja</string>
     <string name="donate_info_summary">Appoġġja l-iżvilupp</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">Sit tal-Web</string>
     <string name="website_info_summary">Żur il-websajt tagħna</string>
     <string name="news_info_title">Aħbarijiet</string>

@@ -31,15 +31,21 @@
     <string name="download_completed_notification">Pobieranie zakończone</string>
     <string name="download_starting_notification">Rozpoczęcie pobierania</string>
     <string name="update_failed_notification">Aktualizacja nie powiodła się</string>
+    <string name="installation_suspended_notification">Instalacja zawieszona</string>
     <!-- Menu -->
     <string name="menu_refresh">Odśwież</string>
     <string name="menu_preferences">Ustawienia</string>
     <string name="menu_auto_updates_check">Automatyczne sprawdzanie aktualizacji</string>
+    <string name="menu_auto_updates_check_interval_daily">Raz dziennie</string>
+    <string name="menu_auto_updates_check_interval_weekly">Raz w tygodniu</string>
+    <string name="menu_auto_updates_check_interval_monthly">Raz w miesiącu</string>
+    <string name="menu_auto_updates_check_interval_never">Nigdy</string>
     <string name="menu_delete_update">Usuń</string>
     <string name="menu_copy_url">Kopiuj adres URL</string>
     <string name="menu_export_update">Wyślij aktualizację</string>
     <string name="menu_show_changelog">Pokaż listę zmian</string>
     <string name="changelog_loading">Ładowanie…</string>
+    <string name="menu_ab_perf_mode">Nadaj wyższy priorytet procesowi aktualizacji</string>
     <string name="label_download_url">Pobierz adres URL</string>
     <string name="toast_download_url_copied">Skopiowano adres URL</string>
     <!-- General -->
@@ -67,7 +73,9 @@
     <string name="confirm_delete_dialog_message">Usunąć wybrany plik?</string>
     <string name="pause_button">Wstrzymaj</string>
     <string name="resume_button">Wznów</string>
+    <string name="suspend_button">Zawieś</string>
     <string name="reboot">Uruchom ponownie</string>
+    <string name="details_button">Szczegóły</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Zastosuj aktualizację</string>
     <string name="apply_update_dialog_message">Masz zamiar zaktualizować do <xliff:g id="update_name">%1$s</xliff:g>.\n\nGdy naciśniesz <xliff:g id="ok">%2$s</xliff:g>, urządzenie uruchomi się ponownie w trybie recovery, aby zainstalować aktualizację.\n\nUwaga: Ta funkcja wymaga kompatybilnego recovery, w innym przypadku aktualizację należy zainstalować ręcznie.</string>
@@ -112,9 +120,12 @@
     <string name="menu_mobile_data_warning">Ostrzeżenie o danych komórkowych</string>
     <!-- Info section -->
     <string name="extras_category_title">Dodatki</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">Opiekun</string>
     <string name="donate_info_title">Dotacja</string>
     <string name="donate_info_summary">Wesprzyj rozwój programu</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">Strona</string>
     <string name="website_info_summary">Odwiedź naszą stronę</string>
     <string name="news_info_title">Nowości</string>

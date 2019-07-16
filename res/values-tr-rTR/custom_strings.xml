@@ -31,6 +31,7 @@
     <string name="download_completed_notification">İndirme tamamlandı</string>
     <string name="download_starting_notification">İndirme başlatılıyor</string>
     <string name="update_failed_notification">Güncelleme başarısız</string>
+    <string name="installation_suspended_notification">Kurulum askıya alındı</string>
     <!-- Menu -->
     <string name="menu_refresh">Yenile</string>
     <string name="menu_preferences">Tercihler</string>
@@ -44,6 +45,7 @@
     <string name="menu_export_update">Güncellemeyi dışarı aktar</string>
     <string name="menu_show_changelog">Değişiklikleri göster</string>
     <string name="changelog_loading">Yükleniyor…</string>
+    <string name="menu_ab_perf_mode">Güncelleme işlemine öncelik ver</string>
     <string name="label_download_url">İndirme bağlantısı</string>
     <string name="toast_download_url_copied">Bağlantı kopyalandı</string>
     <!-- General -->
@@ -54,7 +56,7 @@
     <string name="snack_download_verification_failed">Güncelleme doğrulaması başarısız oldu.</string>
     <string name="snack_download_verified">İndirme tamamlandı.</string>
     <string name="snack_update_not_installable">Bu güncelleştirme mevcut yapı üstüne kurulamaz.</string>
-    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="text_download_speed">%1$s, %2$s/sn</string>
     <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> / <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> / <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
     <string name="list_verifying_update">Güncelleme doğrulanıyor</string>
@@ -71,7 +73,9 @@
     <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
     <string name="pause_button">Duraklat</string>
     <string name="resume_button">Devam</string>
+    <string name="suspend_button">Askıya al</string>
     <string name="reboot">Yeniden başlat</string>
+    <string name="details_button">Ayrıntıları görüntüle</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
     <string name="apply_update_dialog_message"><xliff:g id="update_name">%1$s</xliff:g> yükseltmek üzeresiniz.\n\n<xliff:g id="ok">%2$s</xliff:g> bastığınızda, güncellemeyi yüklemek için cihaz kurtarma modun da yeniden başlatılacak.\n\nNot: Bu özellik uyumlu bir Kurtarma bölümü gerektirir veya güncellemelerin el ile kurulması gerekir.</string>
@@ -110,9 +114,12 @@
     <string name="menu_mobile_data_warning">Mobil veri uyarısı</string>
     <!-- Info section -->
     <string name="extras_category_title">Ekstralar</string>
+    <string name="developer_info_title">Rom geliştiricisi</string>
     <string name="maintainer_info_title">Cihaz sorumlusu</string>
     <string name="donate_info_title">Bağış yap</string>
-    <string name="donate_info_summary">Geliştirmeyi destekle</string>
+    <string name="donate_info_summary">Rom gelişimini destekleyin</string>
+    <string name="support_info_title">Cihaz sorumlusuna bağış yapın</string>
+    <string name="support_info_summary">Cihaz sorumlusunu destekleyin</string>
     <string name="website_info_title">İnternet sitesi</string>
     <string name="website_info_summary">İnternet sitemizi ziyaret edin</string>
     <string name="news_info_title">Haberler</string>

@@ -31,15 +31,21 @@
     <string name="download_completed_notification">다운로드 완료</string>
     <string name="download_starting_notification">다운로드 시작</string>
     <string name="update_failed_notification">업데이트 실패</string>
+    <string name="installation_suspended_notification">Installation suspended</string>
     <!-- Menu -->
     <string name="menu_refresh">새로고침</string>
     <string name="menu_preferences">설정</string>
     <string name="menu_auto_updates_check">업데이트 자동 확인</string>
+    <string name="menu_auto_updates_check_interval_daily">Once a day</string>
+    <string name="menu_auto_updates_check_interval_weekly">Once a week</string>
+    <string name="menu_auto_updates_check_interval_monthly">Once a month</string>
+    <string name="menu_auto_updates_check_interval_never">Never</string>
     <string name="menu_delete_update">삭제</string>
     <string name="menu_copy_url">URL 복사</string>
     <string name="menu_export_update">업데이트 내보내기</string>
     <string name="menu_show_changelog">변경 사항 보기</string>
     <string name="changelog_loading">로딩 중…</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">다운로드 URL</string>
     <string name="toast_download_url_copied">URL 복사됨</string>
     <!-- General -->
@@ -67,7 +73,9 @@
     <string name="confirm_delete_dialog_message">선택한 업데이트 파일을 삭제하시겠습니까?</string>
     <string name="pause_button">일시 중지</string>
     <string name="resume_button">이어 받기</string>
+    <string name="suspend_button">Suspend</string>
     <string name="reboot">다시 시작</string>
+    <string name="details_button">View details</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">업데이트 적용</string>
     <string name="apply_update_dialog_message"><xliff:g id="update_name">%1$s</xliff:g> 버전으로 업그레이드를 시도하려 합니다.\n\n<xliff:g id="ok">%2$s</xliff:g>을 누르면 업데이트를 설치하기 위해 기기가 리커버리 모드로 다시 시작됩니다.\n\n주의: 이 기능은 호환되는 리커버리가 필요하며, 없을 경우 업데이트를 수동으로 설치해야 합니다.</string>
@@ -103,9 +111,12 @@
     <string name="menu_mobile_data_warning">모바일 데이터 경고</string>
     <!-- Info section -->
     <string name="extras_category_title">부가 기능</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">관리자</string>
     <string name="donate_info_title">기부</string>
     <string name="donate_info_summary">개발 지원하기</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">웹사이트</string>
     <string name="website_info_summary">웹사이트 방문</string>
     <string name="news_info_title">뉴스</string>

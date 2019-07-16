@@ -31,6 +31,7 @@
     <string name="download_completed_notification">Descărcare terminată</string>
     <string name="download_starting_notification">Pornire descărcare</string>
     <string name="update_failed_notification">Actualizare eșuată</string>
+    <string name="installation_suspended_notification">Installation suspended</string>
     <!-- Menu -->
     <string name="menu_refresh">Reîmprospătare</string>
     <string name="menu_preferences">Preferințe</string>
@@ -44,6 +45,7 @@
     <string name="menu_export_update">Exportează actualizarea</string>
     <string name="menu_show_changelog">Arată changelog</string>
     <string name="changelog_loading">Se încarcă…</string>
+    <string name="menu_ab_perf_mode">Prioritize update process</string>
     <string name="label_download_url">Descărcați URL-ul</string>
     <string name="toast_download_url_copied">URL copiat</string>
     <!-- General -->
@@ -71,7 +73,9 @@
     <string name="confirm_delete_dialog_message">Șterge fișierul de actualizare selectat?</string>
     <string name="pause_button">Pauză</string>
     <string name="resume_button">Reluaţi</string>
+    <string name="suspend_button">Suspend</string>
     <string name="reboot">Repornire</string>
+    <string name="details_button">View details</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Aplicaţi actualizarea</string>
     <string name="apply_update_dialog_message">Sunteți pe cale de a face upgrade la <xliff:g id="update_name">%1$s</xliff:g>.\n\nDacă apăsați <xliff:g id="ok">%2$s</xliff:g>, dispozitivul se va restarta în modul de recuperare pentru a instala actualizarea.\n\nNotă: Această caracteristică necesită o Recuperare compatibilă sau actualizările vor trebui să fie instalate manual.</string>
@@ -113,9 +117,12 @@
     <string name="menu_mobile_data_warning">Avertizare de date mobile</string>
     <!-- Info section -->
     <string name="extras_category_title">Extra</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">Dezvoltator</string>
     <string name="donate_info_title">Donează</string>
     <string name="donate_info_summary">Susțineți dezvoltarea</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">Pagină Web</string>
     <string name="website_info_summary">Vizitați pagina noastră web</string>
     <string name="news_info_title">Noutăți</string>

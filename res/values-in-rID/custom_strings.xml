@@ -31,15 +31,21 @@
     <string name="download_completed_notification">Unduhan selesai</string>
     <string name="download_starting_notification">Memulai unduhan</string>
     <string name="update_failed_notification">Pembaruan gagal</string>
+    <string name="installation_suspended_notification">Instalasi ditangguhkan</string>
     <!-- Menu -->
     <string name="menu_refresh">Segarkan</string>
     <string name="menu_preferences">Preferensi</string>
     <string name="menu_auto_updates_check">Periksa pembaruan otomatis</string>
+    <string name="menu_auto_updates_check_interval_daily">Sekali sehari</string>
+    <string name="menu_auto_updates_check_interval_weekly">Seminggu sekali</string>
+    <string name="menu_auto_updates_check_interval_monthly">Sebulan sekali</string>
+    <string name="menu_auto_updates_check_interval_never">Jangan pernah</string>
     <string name="menu_delete_update">Hapus</string>
     <string name="menu_copy_url">Salin URL</string>
     <string name="menu_export_update">Ekspor pembaruan</string>
     <string name="menu_show_changelog">Tampilkan catatan perubahan</string>
     <string name="changelog_loading">Memuat…</string>
+    <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>
     <string name="label_download_url">URL Unduh</string>
     <string name="toast_download_url_copied">URL disalin</string>
     <!-- General -->
@@ -67,7 +73,9 @@
     <string name="confirm_delete_dialog_message">Hapus berkas pemutakhiran terpilih?</string>
     <string name="pause_button">Jeda</string>
     <string name="resume_button">Lanjutkan</string>
+    <string name="suspend_button">Menangguhkan</string>
     <string name="reboot">Mulai ulang</string>
+    <string name="details_button">Lihat Detail</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Terapkan pembaruan</string>
     <string name="apply_update_dialog_message">Anda akan meningkatkan ke <xliff:g id="update_name">%1$s</xliff:g>.\n\nJika Anda menekan <xliff:g id="ok">%2$s</xliff:g>, perangkat akan mulai ulang sendiri dalam mode recovery untuk memasang pembaruan.\n\nPerhatian: Fitur ini memerlukan Recovery yang kompatibel atau pembaruan perlu dipasang secara manual.</string>
@@ -103,9 +111,12 @@
     <string name="menu_mobile_data_warning">Peringatan data seluler</string>
     <!-- Info section -->
     <string name="extras_category_title">Tambahan</string>
+    <string name="developer_info_title">ROM developer</string>
     <string name="maintainer_info_title">Pengelola</string>
     <string name="donate_info_title">Donasi</string>
     <string name="donate_info_summary">Dukung pengembangan</string>
+    <string name="support_info_title">Donate to the device maintainer</string>
+    <string name="support_info_summary">Support your device maintainer</string>
     <string name="website_info_title">Situs web</string>
     <string name="website_info_summary">Kunjungi situs web kami</string>
     <string name="news_info_title">Berita</string>
