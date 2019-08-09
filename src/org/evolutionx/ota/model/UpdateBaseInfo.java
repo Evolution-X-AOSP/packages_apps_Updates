@@ -31,6 +31,8 @@ public interface UpdateBaseInfo {
 
     String getDonateUrl();
 
+    String getSupportUrl();
+
     String getForumUrl();
 
     String getWebsiteUrl();
@@ -40,6 +42,8 @@ public interface UpdateBaseInfo {
     String getMaintainer();
 
     String getMaintainerUrl();
+
+    String getDeveloperUrl();
 
     String getHash();
 }

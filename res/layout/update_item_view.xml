@@ -42,7 +42,7 @@
             android:paddingBottom="8sp"
             android:singleLine="true"
             android:textSize="16sp"
-            tools:text="PixelExperience_device-9.0-20190324-0250-CAF-OFFICIAL.zip" />
+            tools:text="EvolutionX_2.0_device-9.0-20190324-0250-OFFICIAL.zip" />
 
         <TextView
             android:id="@+id/build_date"

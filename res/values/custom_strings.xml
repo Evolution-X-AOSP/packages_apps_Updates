@@ -120,14 +120,17 @@
 
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
-    <string name="maintainer_info_title">Maintainer</string>
+    <string name="developer_info_title">ROM developer</string>
+    <string name="developer_info_summary" translatable="false">Joey Huab</string>
+    <string name="maintainer_info_title">Device maintainer</string>
     <string name="donate_info_title">Donate</string>
-    <string name="donate_info_summary">Support the development</string>
-    <string name="website_info_title">Website</string>
+    <string name="donate_info_summary">Support the ROM development</string>
+    <string name="support_info_summary">Support your device maintainer</string>
+    <string name="website_info_title">Homepage</string>
     <string name="website_info_summary">Visit our website</string>
-    <string name="news_info_title">News</string>
-    <string name="news_info_summary">Stay informed about updates and other news</string>
-    <string name="forum_info_title">Forum</string>
+    <string name="news_info_title">ROM News</string>
+    <string name="news_info_summary">Stay informed about announcements and other updates</string>
+    <string name="forum_info_title">Forum thread</string>
     <string name="forum_info_summary">View forum posts</string>
     <string name="error_open_url">Failed to open URL in browser</string>
 </resources>

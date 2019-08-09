@@ -4,6 +4,7 @@
     <PreferenceCategory
         android:key="extras_category"
         android:title="@string/extras_category_title">
+
         <Preference
             android:icon="@drawable/ic_web_icon"
             android:key="website_info"
@@ -17,9 +18,26 @@
             android:title="@string/news_info_title" />
 
         <Preference
+            android:icon="@drawable/ic_maintainers_icon"
+            android:key="developer_info"
+            android:summary="@string/developer_info_summary"
+            android:title="@string/developer_info_title" />
+
+        <Preference
+            android:icon="@drawable/ic_donate_icon"
+            android:key="support_info"
+            android:summary="@string/donate_info_summary"
+            android:title="@string/donate_info_title" />
+
+        <Preference
+            android:icon="@drawable/ic_maintainers_icon"
+            android:key="maintainer_info"
+            android:title="@string/maintainer_info_title" />
+
+        <Preference
             android:icon="@drawable/ic_donate_icon"
             android:key="donate_info"
-            android:summary="@string/donate_info_summary"
+            android:summary="@string/support_info_summary"
             android:title="@string/donate_info_title" />
 
         <Preference
@@ -28,9 +46,6 @@
             android:summary="@string/forum_info_summary"
             android:title="@string/forum_info_title" />
 
-        <Preference
-            android:icon="@drawable/ic_maintainers_icon"
-            android:key="maintainer_info"
-            android:title="@string/maintainer_info_title" />
     </PreferenceCategory>
+
 </PreferenceScreen>
