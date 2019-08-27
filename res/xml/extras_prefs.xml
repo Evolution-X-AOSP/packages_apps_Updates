@@ -21,7 +21,7 @@
             android:layout="@layout/preference_material_settings" />
 
         <Preference
-            android:icon="@drawable/ic_maintainers_icon"
+            android:icon="@drawable/ic_developer_icon"
             android:key="developer_info"
             android:summary="@string/developer_info_summary"
             android:title="@string/developer_info_title"
@@ -41,10 +41,10 @@
             android:layout="@layout/preference_material_settings" />
 
         <Preference
-            android:icon="@drawable/ic_donate_icon"
+            android:icon="@drawable/ic_support_icon"
             android:key="donate_info"
             android:summary="@string/support_info_summary"
-            android:title="@string/donate_info_title"
+            android:title="@string/support_info_title"
             android:layout="@layout/preference_material_settings" />
 
         <Preference
