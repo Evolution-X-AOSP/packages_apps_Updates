@@ -22,7 +22,6 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.PowerManager;
 import android.os.SystemClock;
-import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import org.evolutionx.ota.UpdatesDbHelper;
@@ -31,6 +30,8 @@ import org.evolutionx.ota.misc.Utils;
 import org.evolutionx.ota.model.Update;
 import org.evolutionx.ota.model.UpdateInfo;
 import org.evolutionx.ota.model.UpdateStatus;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import java.io.File;
 import java.io.IOException;

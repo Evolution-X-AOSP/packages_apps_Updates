@@ -27,8 +27,6 @@ import android.content.IntentFilter;
 import android.os.Binder;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import org.evolutionx.ota.R;
@@ -38,6 +36,9 @@ import org.evolutionx.ota.misc.StringGenerator;
 import org.evolutionx.ota.misc.Utils;
 import org.evolutionx.ota.model.UpdateInfo;
 import org.evolutionx.ota.model.UpdateStatus;
+
+import androidx.core.app.NotificationCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import java.io.IOException;
 import java.text.NumberFormat;
