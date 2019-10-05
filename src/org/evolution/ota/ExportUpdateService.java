@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota;
+package org.evolution.ota;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -27,7 +27,7 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.evolutionx.ota.misc.FileUtils;
+import org.evolution.ota.misc.FileUtils;
 
 import androidx.core.app.NotificationCompat;
 

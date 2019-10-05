@@ -14,36 +14,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota.model;
+package org.evolution.ota.model;
 
-public interface UpdateBaseInfo {
-    String getName();
+public enum UpdateStatus {
+    UNKNOWN,
+    STARTING,
+    DOWNLOADING,
+    DOWNLOADED,
+    PAUSED,
+    PAUSED_ERROR,
+    DELETED,
+    VERIFYING,
+    VERIFIED,
+    VERIFICATION_FAILED,
+    INSTALLING,
+    INSTALLED,
+    INSTALLATION_FAILED,
+    INSTALLATION_CANCELLED,
+    INSTALLATION_SUSPENDED;
 
-    String getDownloadId();
-
-    long getTimestamp();
-
-    String getVersion();
-
-    String getDownloadUrl();
-
-    long getFileSize();
-
-    String getDonateUrl();
-
-    String getSupportUrl();
-
-    String getForumUrl();
-
-    String getWebsiteUrl();
-
-    String getNewsUrl();
-
-    String getMaintainer();
-
-    String getMaintainerUrl();
-
-    String getDeveloperUrl();
-
-    String getHash();
+    public static final class Persistent {
+        public static final int UNKNOWN = 0;
+        public static final int INCOMPLETE = 1;
+        public static final int VERIFIED = 2;
+    }
 }

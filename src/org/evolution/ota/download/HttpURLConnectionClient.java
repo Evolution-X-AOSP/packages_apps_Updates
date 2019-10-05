@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota.download;
+package org.evolution.ota.download;
 
 import android.os.SystemClock;
 import android.util.Log;
@@ -48,7 +48,7 @@ public class HttpURLConnectionClient implements DownloadClient {
                             DownloadClient.DownloadCallback callback,
                             boolean useDuplicateLinks) throws IOException {
         mClient = (HttpURLConnection) new URL(url).openConnection();
-        mClient.setRequestProperty("User-Agent", "org.evolutionx.ota");
+        mClient.setRequestProperty("User-Agent", "org.evolution.ota");
         mDestination = destination;
         mProgressListener = progressListener;
         mCallback = callback;
@@ -167,7 +167,7 @@ public class HttpURLConnectionClient implements DownloadClient {
             String range = mClient.getRequestProperty("Range");
             mClient.disconnect();
             mClient = (HttpURLConnection) newUrl.openConnection();
-            mClient.setRequestProperty("User-Agent", "org.evolutionx.ota");
+            mClient.setRequestProperty("User-Agent", "org.evolution.ota");
             if (range != null) {
                 mClient.setRequestProperty("Range", range);
             }

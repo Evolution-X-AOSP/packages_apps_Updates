@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota.controller;
+package org.evolution.ota.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,10 +25,10 @@ import android.os.UpdateEngineCallback;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.evolutionx.ota.misc.Constants;
-import org.evolutionx.ota.misc.Utils;
-import org.evolutionx.ota.model.Update;
-import org.evolutionx.ota.model.UpdateStatus;
+import org.evolution.ota.misc.Constants;
+import org.evolution.ota.misc.Utils;
+import org.evolution.ota.model.Update;
+import org.evolution.ota.model.UpdateStatus;
 
 import androidx.preference.PreferenceManager;
 

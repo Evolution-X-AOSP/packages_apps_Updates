@@ -1,4 +1,4 @@
-package org.evolutionx.ota;
+package org.evolution.ota;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,7 +9,7 @@ import android.preference.PreferenceFragment;
 import android.util.Log;
 import android.widget.ListView;
 
-import org.evolutionx.ota.model.UpdateInfo;
+import org.evolution.ota.model.UpdateInfo;
 
 import com.google.android.material.snackbar.Snackbar;
 

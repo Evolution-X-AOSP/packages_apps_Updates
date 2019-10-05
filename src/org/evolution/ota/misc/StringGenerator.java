@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota.misc;
+package org.evolution.ota.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import org.evolutionx.ota.R;
+import org.evolution.ota.R;
 
 import java.text.DateFormat;
 import java.util.Date;

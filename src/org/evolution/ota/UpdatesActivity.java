@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota;
+package org.evolution.ota;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -50,12 +50,12 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import org.evolutionx.ota.controller.UpdaterController;
-import org.evolutionx.ota.controller.UpdaterService;
-import org.evolutionx.ota.download.DownloadClient;
-import org.evolutionx.ota.misc.Constants;
-import org.evolutionx.ota.misc.Utils;
-import org.evolutionx.ota.model.UpdateInfo;
+import org.evolution.ota.controller.UpdaterController;
+import org.evolution.ota.controller.UpdaterService;
+import org.evolution.ota.download.DownloadClient;
+import org.evolution.ota.misc.Constants;
+import org.evolution.ota.misc.Utils;
+import org.evolution.ota.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

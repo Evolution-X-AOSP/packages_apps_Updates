@@ -14,28 +14,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota.model;
+package org.evolution.ota.model;
 
-public enum UpdateStatus {
-    UNKNOWN,
-    STARTING,
-    DOWNLOADING,
-    DOWNLOADED,
-    PAUSED,
-    PAUSED_ERROR,
-    DELETED,
-    VERIFYING,
-    VERIFIED,
-    VERIFICATION_FAILED,
-    INSTALLING,
-    INSTALLED,
-    INSTALLATION_FAILED,
-    INSTALLATION_CANCELLED,
-    INSTALLATION_SUSPENDED;
+import java.io.File;
 
-    public static final class Persistent {
-        public static final int UNKNOWN = 0;
-        public static final int INCOMPLETE = 1;
-        public static final int VERIFIED = 2;
-    }
+public interface UpdateInfo extends UpdateBaseInfo {
+    UpdateStatus getStatus();
+
+    int getPersistentStatus();
+
+    File getFile();
+
+    long getFileSize();
+
+    int getProgress();
+
+    long getEta();
+
+    long getSpeed();
+
+    int getInstallProgress();
+
+    boolean getAvailableOnline();
+
+    boolean getFinalizing();
 }

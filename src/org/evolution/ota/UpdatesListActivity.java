@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2019 The PixelExperience Project
  * Copyright (C) 2019 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,28 +15,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolutionx.ota.model;
+package org.evolution.ota;
 
-import java.io.File;
+import androidx.appcompat.app.AppCompatActivity;
 
-public interface UpdateInfo extends UpdateBaseInfo {
-    UpdateStatus getStatus();
-
-    int getPersistentStatus();
-
-    File getFile();
-
-    long getFileSize();
-
-    int getProgress();
-
-    long getEta();
-
-    long getSpeed();
-
-    int getInstallProgress();
-
-    boolean getAvailableOnline();
-
-    boolean getFinalizing();
+public abstract class UpdatesListActivity extends AppCompatActivity {
+    public abstract void showSnackbar(int stringId, int duration);
 }

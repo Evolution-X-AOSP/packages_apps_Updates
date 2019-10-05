@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-     Copyright (C) 2017 The LineageOS Project
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2019 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -121,16 +122,16 @@
 
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
-    <string name="developer_info_title">Evolution X lead developer</string>
+    <string name="developer_info_title">Lead developer</string>
     <string name="developer_info_summary" translatable="false">Joey Huab</string>
     <string name="maintainer_info_title">Device maintainer</string>
-    <string name="donate_info_title">Donate to the ROM developer</string>
+    <string name="donate_info_title">Donate to the developer</string>
     <string name="donate_info_summary">Support Evolution X\'s development</string>
     <string name="support_info_title">Donate to the device maintainer</string>
     <string name="support_info_summary">Support your device maintainer\'s work</string>
-    <string name="website_info_title">Evolution X homepage</string>
+    <string name="website_info_title">Homepage</string>
     <string name="website_info_summary">Visit our website</string>
-    <string name="news_info_title">Evolution X news</string>
+    <string name="news_info_title">News portal</string>
     <string name="news_info_summary">Stay updated about announcements</string>
     <string name="forum_info_title">XDA Forum thread</string>
     <string name="forum_info_summary">View the forum posts</string>
