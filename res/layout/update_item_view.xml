@@ -42,7 +42,7 @@
             android:paddingBottom="8sp"
             android:singleLine="true"
             android:textSize="16sp"
-            tools:text="EvolutionX_3.0_device-10.0-20190324-0250-OFFICIAL.zip" />
+            tools:text="EvolutionX_3.1_device-10.0-20191029-1342-OFFICIAL.zip" />
 
         <TextView
             android:id="@+id/build_date"
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:maxLines="2"
             android:textSize="14sp"
-            tools:text="29 February 2018" />
+            tools:text="29 October 2019" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
