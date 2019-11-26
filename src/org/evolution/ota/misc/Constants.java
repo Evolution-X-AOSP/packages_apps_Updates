@@ -38,10 +38,10 @@ public final class Constants {
     static final int AUTO_UPDATES_CHECK_INTERVAL_MONTHLY = 3;
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
     static final String PROP_DEVICE = "org.evolution.device";
-    static final String PROP_BUILD_VERSION = "org.evolution.version";
+    static final String PROP_BUILD_VERSION = "org.evolution.version.prop";
     static final String PROP_VERSION_CODE = "org.evolution.ota.version_code";
-    static final String OTA_URL = "https://raw.githubusercontent.com/evolution-x-devices/official_devices/master/builds/%s.json";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/evolution-x-devices/official_devices/master/changelogs/%s/%s.txt";
+    static final String OTA_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/builds/%s.json";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/changelogs/%s/%s.txt";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String EXPORT_PATH = "EvolutionX-Updates/";
 }
