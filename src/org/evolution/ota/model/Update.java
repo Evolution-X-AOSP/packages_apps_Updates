@@ -29,7 +29,6 @@ public class Update extends UpdateBase implements UpdateInfo {
     private int mInstallProgress;
     private boolean mAvailableOnline;
     private boolean mIsFinalizing;
-    private String mHash;
 
     public Update() {
     }
@@ -45,7 +44,6 @@ public class Update extends UpdateBase implements UpdateInfo {
         mInstallProgress = update.getInstallProgress();
         mAvailableOnline = update.getAvailableOnline();
         mIsFinalizing = update.getFinalizing();
-        mHash = update.getHash();
     }
 
     @Override
@@ -127,14 +125,5 @@ public class Update extends UpdateBase implements UpdateInfo {
 
     public void setFinalizing(boolean finalizing) {
         mIsFinalizing = finalizing;
-    }
-
-    @Override
-    public String getHash() {
-        return mHash;
-    }
-
-    public void setHash(String hash) {
-        mHash = hash;
     }
 }

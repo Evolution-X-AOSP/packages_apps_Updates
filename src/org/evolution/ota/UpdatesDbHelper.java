@@ -32,7 +32,7 @@ import java.util.List;
 
 public class UpdatesDbHelper extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 4;
+    private static final int DATABASE_VERSION = 3;
     private static final String DATABASE_NAME = "updates.db";
     private static final String SQL_CREATE_ENTRIES =
             "CREATE TABLE " + UpdateEntry.TABLE_NAME + " (" +
@@ -48,8 +48,7 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
                     UpdateEntry.COLUMN_NAME_WEBSITE_URL + " TEXT," +
                     UpdateEntry.COLUMN_NAME_NEWS_URL + " TEXT," +
                     UpdateEntry.COLUMN_NAME_MAINTAINER + " TEXT," +
-                    UpdateEntry.COLUMN_NAME_MAINTAINER_URL + " TEXT," +
-                    UpdateEntry.COLUMN_NAME_HASH + " TEXT)";
+                    UpdateEntry.COLUMN_NAME_MAINTAINER_URL + " TEXT)";
     private static final String SQL_DELETE_ENTRIES =
             "DROP TABLE IF EXISTS " + UpdateEntry.TABLE_NAME;
 
@@ -85,7 +84,6 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
         values.put(UpdateEntry.COLUMN_NAME_NEWS_URL, update.getNewsUrl());
         values.put(UpdateEntry.COLUMN_NAME_MAINTAINER, update.getMaintainer());
         values.put(UpdateEntry.COLUMN_NAME_MAINTAINER_URL, update.getMaintainerUrl());
-        values.put(UpdateEntry.COLUMN_NAME_HASH, update.getHash());
         return db.insertWithOnConflict(UpdateEntry.TABLE_NAME, null, values, conflictAlgorithm);
     }
 
@@ -124,8 +122,7 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
                 UpdateEntry.COLUMN_NAME_WEBSITE_URL,
                 UpdateEntry.COLUMN_NAME_NEWS_URL,
                 UpdateEntry.COLUMN_NAME_MAINTAINER,
-                UpdateEntry.COLUMN_NAME_MAINTAINER_URL,
-                UpdateEntry.COLUMN_NAME_HASH};
+                UpdateEntry.COLUMN_NAME_MAINTAINER_URL};
         String sort = UpdateEntry.COLUMN_NAME_TIMESTAMP + " DESC";
         Cursor cursor = db.query(UpdateEntry.TABLE_NAME, projection, null, null,
                 null, null, sort);
@@ -158,8 +155,6 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
                 update.setMaintainer(cursor.getString(index));
                 index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_MAINTAINER_URL);
                 update.setMaintainerUrl(cursor.getString(index));
-                index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_HASH);
-                update.setHash(cursor.getString(index));
                 updates.add(update);
             }
             cursor.close();
@@ -181,6 +176,5 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
         static final String COLUMN_NAME_NEWS_URL = "news_url";
         static final String COLUMN_NAME_MAINTAINER = "maintainer";
         static final String COLUMN_NAME_MAINTAINER_URL = "maintainer_url";
-        static final String COLUMN_NAME_HASH = "hash";
     }
 }

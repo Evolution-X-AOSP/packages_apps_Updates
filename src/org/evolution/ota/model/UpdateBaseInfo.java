@@ -44,6 +44,4 @@ public interface UpdateBaseInfo {
     String getMaintainerUrl();
 
     String getDeveloperUrl();
-
-    String getHash();
 }

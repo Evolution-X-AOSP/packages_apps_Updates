@@ -32,7 +32,6 @@ public class UpdateBase implements UpdateBaseInfo {
     private String mMaintainer;
     private String mMaintainerUrl;
     private String mDeveloperUrl;
-    private String mHash;
 
     UpdateBase() {
     }
@@ -170,14 +169,5 @@ public class UpdateBase implements UpdateBaseInfo {
 
     public void setDeveloperUrl(String developerUrl) {
         mDeveloperUrl = developerUrl;
-    }
-
-    @Override
-    public String getHash() {
-        return mHash;
-    }
-
-    public void setHash(String hash) {
-        mHash = hash;
     }
 }
