@@ -36,11 +36,11 @@ public final class Constants {
     static final int AUTO_UPDATES_CHECK_INTERVAL_WEEKLY = 2;
     static final int AUTO_UPDATES_CHECK_INTERVAL_MONTHLY = 3;
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "org.pixelexperience.device";
-    static final String PROP_BUILD_VERSION = "org.pixelexperience.version";
-    static final String PROP_VERSION_CODE = "org.pixelexperience.ota.version_code";
-    static final String OTA_URL = "https://download.pixelexperience.org/ota_v3/%s/%s";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://download.pixelexperience.org/changelog/%s/%s";
-    public static final String DOWNLOAD_PATH = "/data/system_updates/";
-    static final String EXPORT_PATH = "PixelExperience-Updates/";
+    static final String PROP_DEVICE = "ro.android.device";
+    static final String PROP_BUILD_VERSION = "ro.android.build.version";
+    static final String PROP_VERSION_CODE = "ro.android.ota.version_code";
+    static final String OTA_URL = "https://raw.githubusercontent.com/RaghuVarma331/internal-testing/master/pe.json";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/RaghuVarma331/changelogs/master/Dragon/PixelExperience.txt";
+    public static final String DOWNLOAD_PATH = "/data/os_updates/";
+    static final String EXPORT_PATH = "Os_Updates/";
 }
