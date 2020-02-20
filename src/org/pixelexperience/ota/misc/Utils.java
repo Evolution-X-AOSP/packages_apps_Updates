@@ -149,6 +149,10 @@ public class Utils {
         return String.format(Constants.OTA_URL, SystemProperties.get(Constants.PROP_DEVICE), SystemProperties.get(Constants.PROP_VERSION_CODE));
     }
 
+    public static String getSecurityPatchLevel() {
+        return String.valueOf(SystemProperties.get(Constants.SECURITY_PATCH_LEVEL));
+    }
+
     public static String getDownloadWebpageUrl(String fileName) {
         return String.format(Constants.DOWNLOAD_WEBPAGE_URL, SystemProperties.get(Constants.PROP_DEVICE), fileName);
     }

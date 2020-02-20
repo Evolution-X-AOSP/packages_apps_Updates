@@ -34,8 +34,10 @@ import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Switch;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
@@ -101,6 +103,9 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         Button checkUpdateButton = findViewById(R.id.check_updates);
         checkUpdateButton.setOnClickListener(view -> downloadUpdatesList(true));
+
+        TextView securityVersion = findViewById(R.id.security_version);
+        securityVersion.setText(R.string.security_patch_level + Utils.getSecurityPatchLevel());
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         mAdapter = new UpdatesListAdapter(this);
