@@ -33,6 +33,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Switch;
 
@@ -97,6 +98,9 @@ public class UpdatesActivity extends UpdatesListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_updates);
+
+        Button checkUpdateButton = findViewById(R.id.check_updates);
+        checkUpdateButton.setOnClickListener(view -> downloadUpdatesList(true));
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         mAdapter = new UpdatesListAdapter(this);

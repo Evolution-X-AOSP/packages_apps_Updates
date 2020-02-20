@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_version_10">Android version: 10</string>
+    <string name="security_patch_level">Security patch level: January 1, 2020</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="last_successful_check_for_update">Last successful check for update at 5:15 PM</string>
+</resources>
