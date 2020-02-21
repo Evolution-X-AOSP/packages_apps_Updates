@@ -109,6 +109,12 @@
             android:paddingEnd="5dp"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
     </LinearLayout>
 
     <Button
