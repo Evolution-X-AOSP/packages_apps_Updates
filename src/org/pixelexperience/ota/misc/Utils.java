@@ -150,7 +150,7 @@ public class Utils {
     }
 
     public static String getSecurityPatchLevel() {
-        return String.valueOf(SystemProperties.get(Constants.SECURITY_PATCH_LEVEL));
+        return String.valueOf(SystemProperties.get("ro.vendor.build.security_patch"));
     }
 
     public static String getDownloadWebpageUrl(String fileName) {
