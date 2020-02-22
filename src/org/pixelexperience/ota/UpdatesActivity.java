@@ -264,6 +264,10 @@ public class UpdatesActivity extends UpdatesListActivity {
             editor.putString("LastUpdateCheck", date);
             editor.apply();
 
+            LastUpdateCheck = sharedPref.getString("LastUpdateCheck", "Not checked");
+            lastUpdateCheck.setText(String.format(getResources()
+                    .getString(R.string.last_successful_check_for_update), LastUpdateCheck));
+
             showSnackbar(
                     updateAvailable ? R.string.update_found_notification : R.string.snack_no_updates_found,
                     Snackbar.LENGTH_SHORT);
