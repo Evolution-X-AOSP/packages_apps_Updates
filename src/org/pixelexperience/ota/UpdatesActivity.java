@@ -171,9 +171,9 @@ public class UpdatesActivity extends UpdatesListActivity {
         mRefreshAnimation.setInterpolator(new LinearInterpolator());
         mRefreshAnimation.setDuration(1000);
         mExtrasFragment = new ExtrasFragment();
-        getFragmentManager().beginTransaction()
-                .replace(R.id.extras_view, mExtrasFragment)
-                .commit();
+//        getFragmentManager().beginTransaction()
+//                .replace(R.id.extras_view, mExtrasFragment)
+//                .commit();
     }
 
     @Override
