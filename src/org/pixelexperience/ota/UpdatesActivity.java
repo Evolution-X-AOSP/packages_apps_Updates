@@ -258,6 +258,8 @@ public class UpdatesActivity extends UpdatesListActivity {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
             String date = simpleDateFormat.format(new Date());
 
+            Log.d("HRITIK", date);
+
             SharedPreferences.Editor editor = sharedPref.edit();
             editor.putString("LastUpdateCheck", date);
             editor.apply();
