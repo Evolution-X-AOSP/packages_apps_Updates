@@ -78,6 +78,7 @@ public class UpdatesActivity extends UpdatesListActivity {
 
     private ProgressBar progressBar;
     private Button checkUpdateButton;
+    private TextView androidVersion;
     private TextView securityVersion;
     private TextView lastUpdateCheck;
     private String LastUpdateCheck;
@@ -114,6 +115,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         progressBar = findViewById(R.id.progress_bar);
 
         checkUpdateButton = findViewById(R.id.check_updates);
+
+        androidVersion = findViewById(R.id.android_version);
 
         securityVersion = findViewById(R.id.security_version);
         securityVersion.setText(String.format(getResources()
@@ -389,6 +392,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton.setVisibility(View.GONE);
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
+        androidVersion.setVisibility(View.GONE);
 
         if (mRefreshIconView == null) {
             mRefreshIconView = findViewById(R.id.menu_refresh);
@@ -405,6 +409,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton.setVisibility(View.VISIBLE);
         securityVersion.setVisibility(View.VISIBLE);
         lastUpdateCheck.setVisibility(View.VISIBLE);
+        androidVersion.setVisibility(View.VISIBLE);
 
         if (mRefreshIconView != null) {
             mRefreshAnimation.setRepeatCount(0);
