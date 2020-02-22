@@ -59,7 +59,9 @@ import org.pixelexperience.ota.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
@@ -78,6 +80,9 @@ public class UpdatesActivity extends UpdatesListActivity {
     private Button checkUpdateButton;
     private TextView securityVersion;
     private TextView lastUpdateCheck;
+    private String LastUpdateCheck;
+
+    private SharedPreferences sharedPref;
 
     private ExtrasFragment mExtrasFragment;
     private ServiceConnection mConnection = new ServiceConnection() {
@@ -104,6 +109,9 @@ public class UpdatesActivity extends UpdatesListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_updates);
 
+        sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+        LastUpdateCheck = sharedPref.getString("LastUpdateCheck", "Not checked");
+
         progressBar = findViewById(R.id.progress_bar);
 
         checkUpdateButton = findViewById(R.id.check_updates);
@@ -113,16 +121,15 @@ public class UpdatesActivity extends UpdatesListActivity {
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
 
         lastUpdateCheck = findViewById(R.id.last_update_check);
+        lastUpdateCheck.setText(String.format(getResources()
+                .getString(R.string.last_successful_check_for_update), LastUpdateCheck));
 
-        checkUpdateButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                progressBar.setVisibility(View.VISIBLE);
-                checkUpdateButton.setVisibility(View.GONE);
-                securityVersion.setVisibility(View.GONE);
-                lastUpdateCheck.setVisibility(View.GONE);
-                downloadUpdatesList(true);
-            }
+        checkUpdateButton.setOnClickListener(view -> {
+            progressBar.setVisibility(View.VISIBLE);
+            checkUpdateButton.setVisibility(View.GONE);
+            securityVersion.setVisibility(View.GONE);
+            lastUpdateCheck.setVisibility(View.GONE);
+            downloadUpdatesList(true);
         });
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
@@ -248,6 +255,13 @@ public class UpdatesActivity extends UpdatesListActivity {
         boolean updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
 
         if (manualRefresh) {
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
+            String date = simpleDateFormat.format(new Date());
+
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.putString("LastUpdateCheck", date);
+            editor.apply();
+
             showSnackbar(
                     updateAvailable ? R.string.update_found_notification : R.string.snack_no_updates_found,
                     Snackbar.LENGTH_SHORT);
