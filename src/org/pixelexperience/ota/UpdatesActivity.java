@@ -109,7 +109,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton = findViewById(R.id.check_updates);
 
         securityVersion = findViewById(R.id.security_version);
-        securityVersion.setText(R.string.security_patch_level + Utils.getSecurityPatchLevel());
+        securityVersion.setText(String.format(getResources()
+                .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
 
         lastUpdateCheck = findViewById(R.id.last_update_check);
 
