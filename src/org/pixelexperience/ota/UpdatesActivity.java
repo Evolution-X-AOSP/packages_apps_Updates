@@ -236,7 +236,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     }
 
     private void showUpdates() {
-        findViewById(R.id.no_new_updates_view).setVisibility(View.GONE);
+        findViewById(R.id.no_new_updates_view).setVisibility(View.VISIBLE);
         findViewById(R.id.recycler_view).setVisibility(View.GONE);
     }
 
