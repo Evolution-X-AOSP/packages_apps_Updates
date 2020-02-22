@@ -34,7 +34,7 @@ import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
-import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -47,8 +47,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SimpleItemAnimator;
 
-import com.google.android.material.appbar.AppBarLayout;
-import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
@@ -76,6 +74,11 @@ public class UpdatesActivity extends UpdatesListActivity {
     private View mRefreshIconView;
     private RotateAnimation mRefreshAnimation;
 
+    private ProgressBar progressBar;
+    private Button checkUpdateButton;
+    private TextView securityVersion;
+    private TextView lastUpdateCheck;
+
     private ExtrasFragment mExtrasFragment;
     private ServiceConnection mConnection = new ServiceConnection() {
 
@@ -101,11 +104,25 @@ public class UpdatesActivity extends UpdatesListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_updates);
 
-        Button checkUpdateButton = findViewById(R.id.check_updates);
-        checkUpdateButton.setOnClickListener(view -> downloadUpdatesList(true));
+        progressBar = findViewById(R.id.progress_bar);
 
-        TextView securityVersion = findViewById(R.id.security_version);
+        checkUpdateButton = findViewById(R.id.check_updates);
+
+        securityVersion = findViewById(R.id.security_version);
         securityVersion.setText(R.string.security_patch_level + Utils.getSecurityPatchLevel());
+
+        lastUpdateCheck = findViewById(R.id.last_update_check);
+
+        checkUpdateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                progressBar.setVisibility(View.VISIBLE);
+                checkUpdateButton.setVisibility(View.GONE);
+                securityVersion.setVisibility(View.GONE);
+                lastUpdateCheck.setVisibility(View.GONE);
+                downloadUpdatesList(true);
+            }
+        });
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         mAdapter = new UpdatesListAdapter(this);
@@ -353,6 +370,11 @@ public class UpdatesActivity extends UpdatesListActivity {
     }
 
     private void refreshAnimationStart() {
+        progressBar.setVisibility(View.VISIBLE);
+        checkUpdateButton.setVisibility(View.GONE);
+        securityVersion.setVisibility(View.GONE);
+        lastUpdateCheck.setVisibility(View.GONE);
+
         if (mRefreshIconView == null) {
             mRefreshIconView = findViewById(R.id.menu_refresh);
         }
@@ -364,6 +386,11 @@ public class UpdatesActivity extends UpdatesListActivity {
     }
 
     private void refreshAnimationStop() {
+        progressBar.setVisibility(View.GONE);
+        checkUpdateButton.setVisibility(View.VISIBLE);
+        securityVersion.setVisibility(View.VISIBLE);
+        lastUpdateCheck.setVisibility(View.VISIBLE);
+
         if (mRefreshIconView != null) {
             mRefreshAnimation.setRepeatCount(0);
             mRefreshIconView.setEnabled(true);

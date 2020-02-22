@@ -110,11 +110,12 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
         <ProgressBar
-            android:id="@+id/progressBar3"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:progressDrawable="@drawable/progress_bar"
+            android:id="@+id/progress_bar"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleLarge"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginBottom="32dp" />
 
     </LinearLayout>
 
