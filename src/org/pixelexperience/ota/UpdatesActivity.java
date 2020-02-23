@@ -285,6 +285,12 @@ public class UpdatesActivity extends UpdatesListActivity {
             showSnackbar(
                     updateAvailable ? R.string.update_found_notification : R.string.snack_no_updates_found,
                     Snackbar.LENGTH_SHORT);
+
+            if (updateAvailable) {
+                showUpdates();
+            } else {
+                hideUpdates();
+            }
         }
 
         List<String> updateIds = new ArrayList<>();
