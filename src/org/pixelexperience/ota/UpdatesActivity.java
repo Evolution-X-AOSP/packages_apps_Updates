@@ -87,6 +87,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     private String LastUpdateCheck;
 
     private TextView whatsNewTitle;
+    private TextView whatsNew;
 
     private SharedPreferences sharedPref;
 
@@ -122,6 +123,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         updateStatus = findViewById(R.id.no_new_updates_view);
         androidVersion = findViewById(R.id.android_version);
         whatsNewTitle = findViewById(R.id.whats_new_title);
+        whatsNew = findViewById(R.id.whats_new);
 
         securityVersion = findViewById(R.id.security_version);
         securityVersion.setText(String.format(getResources()
@@ -248,18 +250,20 @@ public class UpdatesActivity extends UpdatesListActivity {
         lastUpdateCheck.setVisibility(View.VISIBLE);
 
         whatsNewTitle.setVisibility(View.GONE);
+        whatsNew.setVisibility(View.GONE);
     }
 
     private void showUpdates() {
-        updateStatus.setVisibility(View.VISIBLE);
-        updateStatus.setText(getResources().getString(R.string.system_update_available));
+            updateStatus.setVisibility(View.VISIBLE);
+            updateStatus.setText(getResources().getString(R.string.system_update_available));
 
-        findViewById(R.id.recycler_view).setVisibility(View.GONE);
-        androidVersion.setVisibility(View.GONE);
-        securityVersion.setVisibility(View.GONE);
-        lastUpdateCheck.setVisibility(View.GONE);
+            findViewById(R.id.recycler_view).setVisibility(View.GONE);
+            androidVersion.setVisibility(View.GONE);
+            securityVersion.setVisibility(View.GONE);
+            lastUpdateCheck.setVisibility(View.GONE);
 
-        whatsNewTitle.setVisibility(View.VISIBLE);
+            whatsNewTitle.setVisibility(View.VISIBLE);
+            whatsNew.setVisibility(View.VISIBLE);
     }
 
     private void loadUpdatesList(File jsonFile, boolean manualRefresh)
