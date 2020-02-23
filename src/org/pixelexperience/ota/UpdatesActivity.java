@@ -76,6 +76,8 @@ public class UpdatesActivity extends UpdatesListActivity {
     private View mRefreshIconView;
     private RotateAnimation mRefreshAnimation;
 
+    private boolean updateAvailable;
+
     private ProgressBar progressBar;
     private Button checkUpdateButton;
     private TextView updateStatus;
@@ -266,7 +268,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         UpdaterController controller = mUpdaterService.getUpdaterController();
 
         UpdateInfo newUpdate = Utils.parseJson(jsonFile, true);
-        boolean updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
+        updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
 
         if (manualRefresh) {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
@@ -285,12 +287,6 @@ public class UpdatesActivity extends UpdatesListActivity {
             showSnackbar(
                     updateAvailable ? R.string.update_found_notification : R.string.snack_no_updates_found,
                     Snackbar.LENGTH_SHORT);
-
-            if (updateAvailable) {
-                showUpdates();
-            } else {
-                hideUpdates();
-            }
         }
 
         List<String> updateIds = new ArrayList<>();
@@ -430,9 +426,11 @@ public class UpdatesActivity extends UpdatesListActivity {
     private void refreshAnimationStop() {
         progressBar.setVisibility(View.GONE);
         checkUpdateButton.setVisibility(View.VISIBLE);
-        securityVersion.setVisibility(View.VISIBLE);
-        lastUpdateCheck.setVisibility(View.VISIBLE);
-        androidVersion.setVisibility(View.VISIBLE);
+        if (updateAvailable) {
+            showUpdates();
+        } else {
+            hideUpdates();
+        }
 
         if (mRefreshIconView != null) {
             mRefreshAnimation.setRepeatCount(0);
