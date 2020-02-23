@@ -361,7 +361,6 @@ public class UpdatesActivity extends UpdatesListActivity {
             @Override
             public void onResponse(int statusCode, String url,
                                    DownloadClient.Headers headers) {
-                Log.d("HRITIK", headers.get("id"));
             }
 
             @Override
