@@ -100,8 +100,6 @@ public class Utils {
         update.setWebsiteUrl(object.isNull("website_url") ? "" : object.getString("website_url"));
         update.setNewsUrl(object.isNull("news_url") ? "" : object.getString("news_url"));
         update.setWhatsNew(object.isNull("whatsNew") ? "" : object.getString("whatsNew"));
-
-        Log.d("Hritik2118", update.getWhatsNew());
         return update;
     }
 
