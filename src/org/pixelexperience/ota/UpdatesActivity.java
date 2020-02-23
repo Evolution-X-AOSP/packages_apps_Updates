@@ -84,6 +84,8 @@ public class UpdatesActivity extends UpdatesListActivity {
     private TextView lastUpdateCheck;
     private String LastUpdateCheck;
 
+    private TextView whatsNewTitle;
+
     private SharedPreferences sharedPref;
 
     private ServiceConnection mConnection = new ServiceConnection() {
@@ -114,12 +116,10 @@ public class UpdatesActivity extends UpdatesListActivity {
         LastUpdateCheck = sharedPref.getString("LastUpdateCheck", "Not checked");
 
         progressBar = findViewById(R.id.progress_bar);
-
         checkUpdateButton = findViewById(R.id.check_updates);
-
         updateStatus = findViewById(R.id.no_new_updates_view);
-
         androidVersion = findViewById(R.id.android_version);
+        whatsNewTitle = findViewById(R.id.whats_new_title);
 
         securityVersion = findViewById(R.id.security_version);
         securityVersion.setText(String.format(getResources()
@@ -238,13 +238,26 @@ public class UpdatesActivity extends UpdatesListActivity {
 
     private void hideUpdates() {
         updateStatus.setVisibility(View.VISIBLE);
+        updateStatus.setText(getResources().getString(R.string.list_no_updates));
+
         findViewById(R.id.recycler_view).setVisibility(View.GONE);
+        androidVersion.setVisibility(View.VISIBLE);
+        securityVersion.setVisibility(View.VISIBLE);
+        lastUpdateCheck.setVisibility(View.VISIBLE);
+
+        whatsNewTitle.setVisibility(View.GONE);
     }
 
     private void showUpdates() {
         updateStatus.setVisibility(View.VISIBLE);
         updateStatus.setText(getResources().getString(R.string.system_update_available));
+
         findViewById(R.id.recycler_view).setVisibility(View.GONE);
+        androidVersion.setVisibility(View.GONE);
+        securityVersion.setVisibility(View.GONE);
+        lastUpdateCheck.setVisibility(View.GONE);
+
+        whatsNewTitle.setVisibility(View.VISIBLE);
     }
 
     private void loadUpdatesList(File jsonFile, boolean manualRefresh)

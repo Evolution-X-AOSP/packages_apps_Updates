@@ -5,4 +5,5 @@
     <string name="check_for_update">Check for update</string>
     <string name="last_successful_check_for_update">Last successful check for update at %1$s</string>
     <string name="system_update_available">System update available</string>
+    <string name="what_s_new">What\'s New</string>
 </resources>
