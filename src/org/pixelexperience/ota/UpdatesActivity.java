@@ -78,6 +78,7 @@ public class UpdatesActivity extends UpdatesListActivity {
 
     private ProgressBar progressBar;
     private Button checkUpdateButton;
+    private TextView updateStatus;
     private TextView androidVersion;
     private TextView securityVersion;
     private TextView lastUpdateCheck;
@@ -115,6 +116,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         progressBar = findViewById(R.id.progress_bar);
 
         checkUpdateButton = findViewById(R.id.check_updates);
+
+        updateStatus = findViewById(R.id.no_new_updates_view);
 
         androidVersion = findViewById(R.id.android_version);
 
@@ -234,12 +237,13 @@ public class UpdatesActivity extends UpdatesListActivity {
     }
 
     private void hideUpdates() {
-        findViewById(R.id.no_new_updates_view).setVisibility(View.VISIBLE);
+        updateStatus.setVisibility(View.VISIBLE);
         findViewById(R.id.recycler_view).setVisibility(View.GONE);
     }
 
     private void showUpdates() {
-        findViewById(R.id.no_new_updates_view).setVisibility(View.VISIBLE);
+        updateStatus.setVisibility(View.VISIBLE);
+        updateStatus.setText(getResources().getString(R.string.system_update_available));
         findViewById(R.id.recycler_view).setVisibility(View.GONE);
     }
 
