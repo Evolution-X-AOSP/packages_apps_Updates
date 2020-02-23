@@ -268,6 +268,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         UpdateInfo newUpdate = Utils.parseJson(jsonFile, true);
         boolean updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
 
+        Log.d("HRITIK2118", newUpdate.getWhatsNew());
+
         if (manualRefresh) {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
             String date = simpleDateFormat.format(new Date());
@@ -361,7 +363,7 @@ public class UpdatesActivity extends UpdatesListActivity {
             @Override
             public void onResponse(int statusCode, String url,
                                    DownloadClient.Headers headers) {
-                Log.d("HRITIK", headers.toString());
+                Log.d("HRITIK", headers.get("id"));
             }
 
             @Override
