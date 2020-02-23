@@ -31,6 +31,7 @@ public class UpdateBase implements UpdateBaseInfo {
     private String mMaintainer;
     private String mMaintainerUrl;
     private String mHash;
+    private String mWhatsNew;
 
     UpdateBase() {
     }
@@ -159,5 +160,14 @@ public class UpdateBase implements UpdateBaseInfo {
 
     public void setHash(String hash) {
         mHash = hash;
+    }
+
+    @Override
+    public String getWhatsNew() {
+        return mWhatsNew;
+    }
+
+    public void setWhatsNew(String whatsNew) {
+        mWhatsNew = whatsNew;
     }
 }
