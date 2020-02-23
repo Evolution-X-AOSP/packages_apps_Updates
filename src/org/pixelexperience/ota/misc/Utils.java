@@ -99,6 +99,7 @@ public class Utils {
         update.setForumUrl(object.isNull("forum_url") ? "" : object.getString("forum_url"));
         update.setWebsiteUrl(object.isNull("website_url") ? "" : object.getString("website_url"));
         update.setNewsUrl(object.isNull("news_url") ? "" : object.getString("news_url"));
+        update.setWhatsNew(object.isNull("whatsNew") ? "" : object.getString("whatsNew"));
         return update;
     }
 
