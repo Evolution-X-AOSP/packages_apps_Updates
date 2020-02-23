@@ -274,6 +274,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         UpdateInfo newUpdate = Utils.parseJson(jsonFile, true);
         updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
 
+        whatsNew.setText(newUpdate.getWhatsNew());
+
         if (manualRefresh) {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
             String date = simpleDateFormat.format(new Date());
