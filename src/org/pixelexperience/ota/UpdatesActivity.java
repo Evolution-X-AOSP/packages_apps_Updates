@@ -434,6 +434,14 @@ public class UpdatesActivity extends UpdatesListActivity {
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
         androidVersion.setVisibility(View.GONE);
+        findViewById(R.id.notification_title).setVisibility(View.GONE);
+        notificationContent.setVisibility(View.GONE);
+        findViewById(R.id.whats_new_title).setVisibility(View.GONE);
+        whatsNew.setVisibility(View.GONE);
+        findViewById(R.id.advisory).setVisibility(View.GONE);
+        findViewById(R.id.advisory_content).setVisibility(View.GONE);
+        updateSize.setVisibility(View.GONE);
+
 
         if (mRefreshIconView == null) {
             mRefreshIconView = findViewById(R.id.menu_refresh);
