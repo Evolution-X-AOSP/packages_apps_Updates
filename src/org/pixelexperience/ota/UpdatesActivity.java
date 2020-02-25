@@ -276,6 +276,8 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         whatsNew.setText(newUpdate.getWhatsNew());
 
+        Log.d("HRITIK FILE SIZE", String.valueOf(newUpdate.getFileSize()));
+
         if (manualRefresh) {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
             String date = simpleDateFormat.format(new Date());
