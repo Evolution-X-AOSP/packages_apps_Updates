@@ -86,8 +86,9 @@ public class UpdatesActivity extends UpdatesListActivity {
     private TextView lastUpdateCheck;
     private String LastUpdateCheck;
 
-    private TextView whatsNewTitle;
+    private TextView notificationContent;
     private TextView whatsNew;
+    private TextView updateSize;
 
     private SharedPreferences sharedPref;
 
@@ -122,8 +123,9 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton = findViewById(R.id.check_updates);
         updateStatus = findViewById(R.id.no_new_updates_view);
         androidVersion = findViewById(R.id.android_version);
-        whatsNewTitle = findViewById(R.id.whats_new_title);
         whatsNew = findViewById(R.id.whats_new);
+        notificationContent = findViewById(R.id.notification_content);
+        updateSize = findViewById(R.id.update_size);
 
         securityVersion = findViewById(R.id.security_version);
         securityVersion.setText(String.format(getResources()
@@ -249,8 +251,13 @@ public class UpdatesActivity extends UpdatesListActivity {
         securityVersion.setVisibility(View.VISIBLE);
         lastUpdateCheck.setVisibility(View.VISIBLE);
 
-        whatsNewTitle.setVisibility(View.GONE);
+        findViewById(R.id.notification_title).setVisibility(View.GONE);
+        notificationContent.setVisibility(View.GONE);
+        findViewById(R.id.whats_new_title).setVisibility(View.GONE);
         whatsNew.setVisibility(View.GONE);
+        findViewById(R.id.advisory).setVisibility(View.GONE);
+        findViewById(R.id.advisory_content).setVisibility(View.GONE);
+        updateSize.setVisibility(View.GONE);
     }
 
     private void showUpdates() {
@@ -262,8 +269,13 @@ public class UpdatesActivity extends UpdatesListActivity {
             securityVersion.setVisibility(View.GONE);
             lastUpdateCheck.setVisibility(View.GONE);
 
-            whatsNewTitle.setVisibility(View.VISIBLE);
+            findViewById(R.id.notification_title).setVisibility(View.VISIBLE);
+            notificationContent.setVisibility(View.VISIBLE);
+            findViewById(R.id.whats_new_title).setVisibility(View.VISIBLE);
             whatsNew.setVisibility(View.VISIBLE);
+            findViewById(R.id.advisory).setVisibility(View.VISIBLE);
+            findViewById(R.id.advisory_content).setVisibility(View.VISIBLE);
+            updateSize.setVisibility(View.VISIBLE);
     }
 
     private void loadUpdatesList(File jsonFile, boolean manualRefresh)

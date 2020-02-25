@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:gravity="start"
-            android:visibility="gone"
+            android:visibility="visible"
             android:paddingStart="16dp"
             android:paddingTop="5dp"
             android:paddingEnd="16dp"
@@ -67,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
-            android:visibility="gone"
+            android:visibility="visible"
             android:paddingStart="16dp"
             android:paddingTop="5dp"
             android:paddingEnd="16dp"
@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
-            android:visibility="gone"
+            android:visibility="visible"
             android:paddingStart="16dp"
             android:paddingTop="5dp"
             android:paddingEnd="16dp"
@@ -95,21 +95,21 @@
             android:id="@+id/notification_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:gravity="start"
             android:paddingStart="16dp"
             android:paddingTop="5dp"
             android:paddingEnd="16dp"
             android:paddingBottom="5dp"
             android:layout_marginTop="16dp"
-            android:text="Notification"
+            android:text="@string/notification"
             android:textStyle="bold"
             android:textColor="@color/text_primary"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/notification_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
@@ -117,7 +117,7 @@
             android:paddingTop="5dp"
             android:paddingEnd="16dp"
             android:paddingBottom="5dp"
-            android:text="- Software update - New Android Revision"
+            android:text="@string/notification_content"
             android:textColor="@color/text_primary"
             android:textSize="16sp" />
 
@@ -125,7 +125,7 @@
             android:id="@+id/whats_new_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:gravity="start"
             android:paddingStart="16dp"
             android:paddingTop="5dp"
@@ -139,7 +139,7 @@
 
         <TextView
             android:id="@+id/whats_new"
-            android:visibility="visible"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
@@ -155,7 +155,7 @@
             android:id="@+id/advisory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:gravity="start"
             android:paddingStart="16dp"
             android:paddingTop="5dp"
@@ -169,7 +169,7 @@
 
         <TextView
             android:id="@+id/advisory_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
@@ -183,7 +183,7 @@
 
         <TextView
             android:id="@+id/update_size"
-            android:visibility="visible"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
@@ -192,7 +192,7 @@
             android:paddingTop="5dp"
             android:paddingEnd="16dp"
             android:paddingBottom="5dp"
-            android:text="Update size: 16.3 MB"
+            android:text="@string/update_size"
             android:textColor="@color/text_primary"
             android:textSize="16sp" />
 
