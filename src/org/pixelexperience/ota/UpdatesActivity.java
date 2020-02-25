@@ -288,6 +288,9 @@ public class UpdatesActivity extends UpdatesListActivity {
         UpdateInfo newUpdate = Utils.parseJson(jsonFile, true);
         updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
 
+        notificationContent.setText(String.format(getResources().getString(R.string.notification_content),
+                newUpdate.getNotificationContent()));
+
         whatsNew.setText(newUpdate.getWhatsNew());
 
         Log.d("HRITIK FILE SIZE", String.valueOf(newUpdate.getFileSize()));

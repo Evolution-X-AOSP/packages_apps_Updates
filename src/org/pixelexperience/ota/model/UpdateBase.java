@@ -32,6 +32,7 @@ public class UpdateBase implements UpdateBaseInfo {
     private String mMaintainerUrl;
     private String mHash;
     private String mWhatsNew;
+    private String mNotificationContent;
 
     UpdateBase() {
     }
@@ -169,5 +170,14 @@ public class UpdateBase implements UpdateBaseInfo {
 
     public void setWhatsNew(String whatsNew) {
         mWhatsNew = whatsNew;
+    }
+
+    @Override
+    public String getNotificationContent() {
+        return mNotificationContent;
+    }
+
+    public void setNotificationContent(String notificationContent) {
+        mNotificationContent = notificationContent;
     }
 }

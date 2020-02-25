@@ -44,4 +44,6 @@ public interface UpdateBaseInfo {
     String getHash();
 
     String getWhatsNew();
+
+    String getNotificationContent();
 }
