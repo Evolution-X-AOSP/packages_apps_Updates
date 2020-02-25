@@ -7,4 +7,6 @@
     <string name="system_update_available">System update available</string>
     <string name="what_s_new">What\'s New</string>
     <string name="this_is_what_s_new">- This is what\'s new</string>
+    <string name="advisory_notice_title">Advisory Notice</string>
+    <string name="advisory_notice_content">- It is recommended that Users use Wi-fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.</string>
 </resources>
