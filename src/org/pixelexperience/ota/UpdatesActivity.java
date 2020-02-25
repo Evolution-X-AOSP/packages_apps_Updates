@@ -276,6 +276,8 @@ public class UpdatesActivity extends UpdatesListActivity {
             findViewById(R.id.advisory).setVisibility(View.VISIBLE);
             findViewById(R.id.advisory_content).setVisibility(View.VISIBLE);
             updateSize.setVisibility(View.VISIBLE);
+
+            checkUpdateButton.setText("Download");
     }
 
     private void loadUpdatesList(File jsonFile, boolean manualRefresh)
