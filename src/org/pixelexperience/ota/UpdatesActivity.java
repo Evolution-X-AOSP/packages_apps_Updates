@@ -255,7 +255,7 @@ public class UpdatesActivity extends UpdatesListActivity {
             securityVersion.setVisibility(View.GONE);
             lastUpdateCheck.setVisibility(View.GONE);
 
-            checkUpdateButton.setVisibility(View.GONE);
+            checkUpdateButton.setVisibility(View.VISIBLE);
     }
 
     private void loadUpdatesList(File jsonFile, boolean manualRefresh)
