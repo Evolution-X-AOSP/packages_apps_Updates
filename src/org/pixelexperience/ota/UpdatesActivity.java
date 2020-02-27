@@ -236,6 +236,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     }
 
     private void hideUpdates() {
+        findViewById(R.id.update_ic).setVisibility(View.VISIBLE);
         updateStatus.setVisibility(View.VISIBLE);
         updateStatus.setText(getResources().getString(R.string.list_no_updates));
 
