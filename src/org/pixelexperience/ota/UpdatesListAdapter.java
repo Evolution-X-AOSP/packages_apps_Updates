@@ -248,6 +248,11 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         String buildVersion = update.getName();
         viewHolder.mBuildDate.setText(buildDate);
         viewHolder.mBuildName.setText(buildVersion);
+
+        viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
+                .getString(R.string.notification_content), update.getNotificationContent()));
+        viewHolder.mWhatsNew.setText(update.getWhatsNew());
+
         viewHolder.mBuildName.setCompoundDrawables(null, null, null, null);
         viewHolder.mDetails.setOnClickListener(v -> {
             try {
