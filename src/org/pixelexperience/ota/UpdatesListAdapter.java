@@ -185,6 +185,9 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         }
         String fileSize = Utils.readableFileSize(update.getFileSize());
         viewHolder.mBuildSize.setText(fileSize);
+        viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
+                .getString(R.string.notification_content), update.getNotificationContent()));
+        viewHolder.mWhatsNew.setText(update.getWhatsNew());
 
         viewHolder.mProgressBar.setVisibility(View.INVISIBLE);
         viewHolder.mProgressText.setVisibility(View.INVISIBLE);
@@ -571,6 +574,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         private TextView mBuildDate;
         private TextView mBuildName;
         private TextView mBuildSize;
+        private TextView mNotificationContent;
+        private TextView mWhatsNew;
 
         private ProgressBar mProgressBar;
         private TextView mProgressText;
@@ -583,6 +588,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             mBuildDate = view.findViewById(R.id.build_date);
             mBuildName = view.findViewById(R.id.build_name);
             mBuildSize = view.findViewById(R.id.build_size);
+            mNotificationContent = view.findViewById(R.id.notification_content);
+            mWhatsNew = view.findViewById(R.id.whats_new);
 
             mProgressBar = view.findViewById(R.id.progress_bar);
             mProgressText = view.findViewById(R.id.progress_text);
