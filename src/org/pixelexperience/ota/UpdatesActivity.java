@@ -76,7 +76,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     private View mRefreshIconView;
     private RotateAnimation mRefreshAnimation;
 
-    private boolean updateAvailable;
+    private boolean updateAvailable = false;
 
     private ProgressBar progressBar;
     private Button checkUpdateButton;
@@ -422,7 +422,11 @@ public class UpdatesActivity extends UpdatesListActivity {
     private void refreshAnimationStop() {
         progressBar.setVisibility(View.GONE);
         checkUpdateButton.setVisibility(View.VISIBLE);
-        getUpdatesList();
+        if (updateAvailable) {
+            showUpdates();
+        } else {
+            hideUpdates();
+        }
 
         if (mRefreshIconView != null) {
             mRefreshAnimation.setRepeatCount(0);
