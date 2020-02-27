@@ -158,7 +158,7 @@ public class Utils {
     }
 
     public static boolean isCurrentVersion(UpdateBaseInfo update) {
-        if (update.getTimestamp() <= SystemProperties.get("ro.build.date.utc")) {
+        if (update.getTimestamp() <= SystemProperties.getLong("ro.build.date.utc")) {
             Log.d(TAG, update.getName() + " is older than/equal to the current build");
             return false;
         }
