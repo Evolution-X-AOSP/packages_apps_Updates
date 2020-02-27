@@ -119,6 +119,11 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             viewHolder.mProgressBar.setIndeterminate(update.getStatus() == UpdateStatus.STARTING);
             viewHolder.mProgressBar.setProgress(update.getProgress());
             viewHolder.mBuildName.setSelected(false);
+
+            viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
+                    .getString(R.string.notification_content), update.getNotificationContent()));
+            viewHolder.mWhatsNew.setText(update.getWhatsNew());
+
         } else if (mUpdaterController.isInstallingUpdate(downloadId)) {
             viewHolder.mDetails.setVisibility(View.GONE);
             setButtonAction(viewHolder.mAction, Action.CANCEL_INSTALLATION, downloadId, true);
@@ -149,6 +154,10 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             viewHolder.mProgressBar.setIndeterminate(false);
             viewHolder.mProgressBar.setProgress(update.getProgress());
             viewHolder.mBuildName.setSelected(false);
+
+            viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
+                    .getString(R.string.notification_content), update.getNotificationContent()));
+            viewHolder.mWhatsNew.setText(update.getWhatsNew());
         }
 
         viewHolder.itemView.setOnLongClickListener(getLongClickListener(update, canDelete,
@@ -184,7 +193,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             viewHolder.mDetails.setVisibility(View.VISIBLE);
         }
         String fileSize = Utils.readableFileSize(update.getFileSize());
-        viewHolder.mBuildSize.setText(fileSize);
+        viewHolder.mBuildSize.setText(String
+                .format(mActivity.getResources().getString(R.string.update_size), fileSize));
         viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
                 .getString(R.string.notification_content), update.getNotificationContent()));
         viewHolder.mWhatsNew.setText(update.getWhatsNew());
