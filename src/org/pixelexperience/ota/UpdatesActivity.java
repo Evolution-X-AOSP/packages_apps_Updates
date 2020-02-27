@@ -264,8 +264,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         UpdaterController controller = mUpdaterService.getUpdaterController();
 
         UpdateInfo newUpdate = Utils.parseJson(jsonFile, true);
-        updateAvailable = newUpdate != null;
-        controller.addUpdate(newUpdate);
+        updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
 
         if (manualRefresh) {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
@@ -423,11 +422,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     private void refreshAnimationStop() {
         progressBar.setVisibility(View.GONE);
         checkUpdateButton.setVisibility(View.VISIBLE);
-        if (updateAvailable) {
-            showUpdates();
-        } else {
-            hideUpdates();
-        }
+        getUpdatesList();
 
         if (mRefreshIconView != null) {
             mRefreshAnimation.setRepeatCount(0);
