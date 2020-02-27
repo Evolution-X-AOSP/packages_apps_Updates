@@ -40,19 +40,57 @@
             android:textColor="@color/text_primary"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/build_name"
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawablePadding="8dp"
-            android:ellipsize="marquee"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:marqueeRepeatLimit="marquee_forever"
-            android:paddingBottom="8sp"
-            android:singleLine="true"
-            android:textSize="16sp"
-            tools:text="PixelExperience_device-9.0-20190324-0250-CAF-OFFICIAL.zip" />
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/build_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:ellipsize="marquee"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingBottom="8sp"
+                android:singleLine="true"
+                android:textSize="16sp"
+                tools:text="PixelExperience_device-9.0-20190324-0250-CAF-OFFICIAL.zip" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="4sp"
+                android:visibility="invisible"
+                tools:progress="65"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progress_bar"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:visibility="invisible"
+                tools:text="162 of 300 MB (3 minutes left) • 65%"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/build_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8sp"
+                android:singleLine="true"
+                android:textSize="14sp"
+                tools:text="300 MB"
+                tools:visibility="invisible" />
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/notification_title"
