@@ -30,6 +30,8 @@ public class Update extends UpdateBase implements UpdateInfo {
     private boolean mAvailableOnline;
     private boolean mIsFinalizing;
     private String mHash;
+    private String mWhatsNew;
+    private String mNotificationContent;
 
     public Update() {
     }
@@ -46,6 +48,8 @@ public class Update extends UpdateBase implements UpdateInfo {
         mAvailableOnline = update.getAvailableOnline();
         mIsFinalizing = update.getFinalizing();
         mHash = update.getHash();
+        mNotificationContent = update.getNotificationContent();
+        mWhatsNew = update.getWhatsNew();
     }
 
     @Override
@@ -136,5 +140,23 @@ public class Update extends UpdateBase implements UpdateInfo {
 
     public void setHash(String hash) {
         mHash = hash;
+    }
+
+    @Override
+    public String getWhatsNew() {
+        return mWhatsNew;
+    }
+
+    public void setWhatsNew(String whatsNew) {
+        mWhatsNew = whatsNew;
+    }
+
+    @Override
+    public String getNotificationContent() {
+        return mNotificationContent;
+    }
+
+    public void setNotificationContent(String notificationContent) {
+        mNotificationContent = notificationContent;
     }
 }
