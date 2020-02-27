@@ -288,7 +288,6 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         List<String> updateIds = new ArrayList<>();
         List<UpdateInfo> sortedUpdates = controller.getUpdates();
-        updateAvailable = false;
         hideUpdates();
         if (newUpdate != null && Utils.isCompatible(newUpdate) && !sortedUpdates.isEmpty()) {
             sortedUpdates.sort((u1, u2) -> Long.compare(u2.getTimestamp(), u1.getTimestamp()));
