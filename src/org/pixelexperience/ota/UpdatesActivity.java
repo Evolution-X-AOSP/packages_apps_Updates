@@ -246,7 +246,8 @@ public class UpdatesActivity extends UpdatesListActivity {
     }
 
     private void showUpdates() {
-            updateStatus.setVisibility(View.VISIBLE);
+            findViewById(R.id.update_ic).setVisibility(View.GONE);
+            updateStatus.setVisibility(View.GONE);
             updateStatus.setText(getResources().getString(R.string.system_update_available));
 
             findViewById(R.id.recycler_view).setVisibility(View.VISIBLE);
