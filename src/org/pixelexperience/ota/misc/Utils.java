@@ -157,6 +157,14 @@ public class Utils {
         return String.valueOf(SystemProperties.get("ro.build.version.security_patch"));
     }
 
+    public static boolean isCurrentVersion(UpdateBaseInfo update) {
+        if (update.getTimestamp() <= SystemProperties.get("ro.build.date.utc")) {
+            Log.d(TAG, update.getName() + " is older than/equal to the current build");
+            return false;
+        }
+        return true;
+    }
+
     public static String getDownloadWebpageUrl(String fileName) {
         return String.format(Constants.DOWNLOAD_WEBPAGE_URL, SystemProperties.get(Constants.PROP_DEVICE), fileName);
     }
