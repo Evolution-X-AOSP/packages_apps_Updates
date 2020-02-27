@@ -97,8 +97,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
     private void handleActiveStatus(ViewHolder viewHolder, UpdateInfo update) {
         boolean canDelete = false;
 
-        Log.d("HKNOTIFY", update.getNotificationContent());
-
         final String downloadId = update.getDownloadId();
         if (mUpdaterController.isDownloading(downloadId)) {
             canDelete = true;
@@ -220,6 +218,11 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             // The update was deleted
             viewHolder.mAction.setEnabled(false);
             viewHolder.mAction.setText(R.string.action_download);
+
+            viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
+                    .getString(R.string.notification_content), update.getNotificationContent()));
+            viewHolder.mWhatsNew.setText(update.getWhatsNew());
+
             return;
         }
 
