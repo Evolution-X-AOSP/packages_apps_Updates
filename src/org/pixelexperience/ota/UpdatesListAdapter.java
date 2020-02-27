@@ -308,20 +308,17 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         switch (action) {
             case DOWNLOAD:
                 button.setText(R.string.action_download);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_download, 0, 0, 0);
                 button.setEnabled(enabled);
                 clickListener = enabled ? view -> startDownloadWithWarning(downloadId) : null;
                 break;
             case PAUSE:
                 button.setText(R.string.action_pause);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_pause, 0, 0, 0);
                 button.setEnabled(enabled);
                 clickListener = enabled ? view -> mUpdaterController.pauseDownload(downloadId)
                         : null;
                 break;
             case RESUME: {
                 button.setText(R.string.action_resume);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_resume, 0, 0, 0);
                 button.setEnabled(enabled);
                 UpdateInfo update = mUpdaterController.getUpdate(downloadId);
                 final boolean canInstall = Utils.canInstall(update) ||
@@ -338,7 +335,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             break;
             case INSTALL: {
                 button.setText(R.string.action_install);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_install, 0, 0, 0);
                 button.setEnabled(enabled);
                 UpdateInfo update = mUpdaterController.getUpdate(downloadId);
                 final boolean canInstall = Utils.canInstall(update);
@@ -354,28 +350,24 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             break;
             case INFO: {
                 button.setText(R.string.details_button);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_information, 0, 0, 0);
                 button.setEnabled(enabled);
                 clickListener = enabled ? view -> showInfoDialog() : null;
             }
             break;
             case DELETE: {
                 button.setText(R.string.action_delete);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_delete, 0, 0, 0);
                 button.setEnabled(enabled);
                 clickListener = enabled ? view -> getDeleteDialog(downloadId).show() : null;
             }
             break;
             case CANCEL_INSTALLATION: {
                 button.setText(R.string.action_cancel);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_cancel, 0, 0, 0);
                 button.setEnabled(enabled);
                 clickListener = enabled ? view -> getCancelInstallationDialog().show() : null;
             }
             break;
             case REBOOT: {
                 button.setText(R.string.reboot);
-                button.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_updateui_restart, 0, 0, 0);
                 button.setEnabled(enabled);
                 clickListener = enabled ? view -> {
                     PowerManager pm =
@@ -386,7 +378,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             break;
             default:
                 clickListener = null;
-                button.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
         }
         button.setAlpha(enabled ? 1.f : mAlphaDisabledValue);
 
