@@ -31,7 +31,7 @@
             android:paddingTop="5dp"
             android:paddingEnd="46dp"
             android:paddingBottom="5dp"
-            android:text="@string/list_no_updates"
+            android:text="@string/system_update_available"
             android:textColor="@color/text_primary"
             android:textSize="24sp" />
 
