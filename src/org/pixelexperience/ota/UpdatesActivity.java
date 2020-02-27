@@ -264,7 +264,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         UpdaterController controller = mUpdaterService.getUpdaterController();
 
         UpdateInfo newUpdate = Utils.parseJson(jsonFile, true);
-        updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
+        updateAvailable = newUpdate != null;
+        controller.addUpdate(newUpdate);
 
         if (manualRefresh) {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
