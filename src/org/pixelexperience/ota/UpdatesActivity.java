@@ -86,10 +86,6 @@ public class UpdatesActivity extends UpdatesListActivity {
     private TextView lastUpdateCheck;
     private String LastUpdateCheck;
 
-    private TextView notificationContent;
-    private TextView whatsNew;
-    private TextView updateSize;
-
     private SharedPreferences sharedPref;
 
     private ServiceConnection mConnection = new ServiceConnection() {
@@ -123,9 +119,6 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton = findViewById(R.id.check_updates);
         updateStatus = findViewById(R.id.no_new_updates_view);
         androidVersion = findViewById(R.id.android_version);
-        whatsNew = findViewById(R.id.whats_new);
-        notificationContent = findViewById(R.id.notification_content);
-        updateSize = findViewById(R.id.update_size);
 
         securityVersion = findViewById(R.id.security_version);
         securityVersion.setText(String.format(getResources()
@@ -250,14 +243,6 @@ public class UpdatesActivity extends UpdatesListActivity {
         androidVersion.setVisibility(View.VISIBLE);
         securityVersion.setVisibility(View.VISIBLE);
         lastUpdateCheck.setVisibility(View.VISIBLE);
-
-        findViewById(R.id.notification_title).setVisibility(View.GONE);
-        notificationContent.setVisibility(View.GONE);
-        findViewById(R.id.whats_new_title).setVisibility(View.GONE);
-        whatsNew.setVisibility(View.GONE);
-        findViewById(R.id.advisory).setVisibility(View.GONE);
-        findViewById(R.id.advisory_content).setVisibility(View.GONE);
-        updateSize.setVisibility(View.GONE);
     }
 
     private void showUpdates() {
@@ -269,14 +254,6 @@ public class UpdatesActivity extends UpdatesListActivity {
             securityVersion.setVisibility(View.GONE);
             lastUpdateCheck.setVisibility(View.GONE);
 
-            findViewById(R.id.notification_title).setVisibility(View.VISIBLE);
-            notificationContent.setVisibility(View.VISIBLE);
-            findViewById(R.id.whats_new_title).setVisibility(View.VISIBLE);
-            whatsNew.setVisibility(View.VISIBLE);
-            findViewById(R.id.advisory).setVisibility(View.VISIBLE);
-            findViewById(R.id.advisory_content).setVisibility(View.VISIBLE);
-            updateSize.setVisibility(View.VISIBLE);
-
             checkUpdateButton.setText("Download");
     }
 
@@ -287,15 +264,6 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         UpdateInfo newUpdate = Utils.parseJson(jsonFile, true);
         updateAvailable = newUpdate != null && controller.addUpdate(newUpdate);
-
-        notificationContent.setText(String.format(getResources().getString(R.string.notification_content),
-                newUpdate.getNotificationContent()));
-
-        whatsNew.setText(newUpdate.getWhatsNew());
-
-        Log.d("HRITIK FILE SIZE", String.valueOf(newUpdate.getFileSize()));
-        updateSize.setText(String.format(getResources().getString(R.string.update_size),
-                Utils.readableFileSize(newUpdate.getFileSize())));
 
         if (manualRefresh) {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE, h:mm a");
@@ -439,14 +407,6 @@ public class UpdatesActivity extends UpdatesListActivity {
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
         androidVersion.setVisibility(View.GONE);
-        findViewById(R.id.notification_title).setVisibility(View.GONE);
-        notificationContent.setVisibility(View.GONE);
-        findViewById(R.id.whats_new_title).setVisibility(View.GONE);
-        whatsNew.setVisibility(View.GONE);
-        findViewById(R.id.advisory).setVisibility(View.GONE);
-        findViewById(R.id.advisory_content).setVisibility(View.GONE);
-        updateSize.setVisibility(View.GONE);
-
 
         if (mRefreshIconView == null) {
             mRefreshIconView = findViewById(R.id.menu_refresh);
