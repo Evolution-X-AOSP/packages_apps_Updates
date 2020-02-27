@@ -4,15 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:focusable="true"
-    android:foreground="?attr/selectableItemBackground"
     android:nextFocusRight="@+id/update_action"
-    app:cardBackgroundColor="@color/cardview_background"
-    app:cardCornerRadius="8dp"
     app:contentPaddingBottom="8dp"
     app:contentPaddingLeft="16dp"
-    app:contentPaddingRight="16dp"
-    app:contentPaddingTop="16dp">
+    app:contentPaddingRight="16dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -233,10 +228,11 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_updateui_information"
                 android:drawablePadding="4dp"
+                android:layout_gravity="bottom"
                 android:fontFamily="@*android:string/config_headlineFontFamilyMedium"
                 android:text="@string/details_button"
                 android:textAllCaps="false"
-                android:visibility="gone" />
+                android:visibility="visible" />
         </LinearLayout>
 
     </LinearLayout>
