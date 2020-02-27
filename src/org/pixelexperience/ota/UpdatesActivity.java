@@ -249,7 +249,7 @@ public class UpdatesActivity extends UpdatesListActivity {
             updateStatus.setVisibility(View.VISIBLE);
             updateStatus.setText(getResources().getString(R.string.system_update_available));
 
-            findViewById(R.id.recycler_view).setVisibility(View.GONE);
+            findViewById(R.id.recycler_view).setVisibility(View.VISIBLE);
             androidVersion.setVisibility(View.GONE);
             securityVersion.setVisibility(View.GONE);
             lastUpdateCheck.setVisibility(View.GONE);
