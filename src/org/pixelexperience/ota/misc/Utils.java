@@ -153,7 +153,7 @@ public class Utils {
 
     public static boolean isCurrentVersion(UpdateBaseInfo update) {
         if (update.getTimestamp() <= SystemProperties.getLong("ro.build.date.utc", 0)) {
-            Log.d("HTITIK: isCurrentVersion", String.valueOf(SystemProperties.getLong("ro.build.date.utc", 0)));
+            Log.d("HRITIK: isCurrentVersion", SystemProperties.get("ro.build.date.utc"));
             return false;
         }
         return true;
