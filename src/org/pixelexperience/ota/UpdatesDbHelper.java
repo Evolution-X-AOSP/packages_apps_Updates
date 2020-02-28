@@ -42,12 +42,6 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
                     UpdateEntry.COLUMN_NAME_TIMESTAMP + " INTEGER," +
                     UpdateEntry.COLUMN_NAME_VERSION + " TEXT," +
                     UpdateEntry.COLUMN_NAME_SIZE + " INTEGER," +
-                    UpdateEntry.COLUMN_NAME_DONATE_URL + " TEXT," +
-                    UpdateEntry.COLUMN_NAME_FORUM_URL + " TEXT," +
-                    UpdateEntry.COLUMN_NAME_WEBSITE_URL + " TEXT," +
-                    UpdateEntry.COLUMN_NAME_NEWS_URL + " TEXT," +
-                    UpdateEntry.COLUMN_NAME_MAINTAINER + " TEXT," +
-                    UpdateEntry.COLUMN_NAME_MAINTAINER_URL + " TEXT," +
                     UpdateEntry.COLUMN_NAME_HASH + " TEXT)";
     private static final String SQL_DELETE_ENTRIES =
             "DROP TABLE IF EXISTS " + UpdateEntry.TABLE_NAME;
@@ -112,12 +106,6 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
                 UpdateEntry.COLUMN_NAME_VERSION,
                 UpdateEntry.COLUMN_NAME_STATUS,
                 UpdateEntry.COLUMN_NAME_SIZE,
-                UpdateEntry.COLUMN_NAME_DONATE_URL,
-                UpdateEntry.COLUMN_NAME_FORUM_URL,
-                UpdateEntry.COLUMN_NAME_WEBSITE_URL,
-                UpdateEntry.COLUMN_NAME_NEWS_URL,
-                UpdateEntry.COLUMN_NAME_MAINTAINER,
-                UpdateEntry.COLUMN_NAME_MAINTAINER_URL,
                 UpdateEntry.COLUMN_NAME_HASH};
         String sort = UpdateEntry.COLUMN_NAME_TIMESTAMP + " DESC";
         Cursor cursor = db.query(UpdateEntry.TABLE_NAME, projection, null, null,
@@ -139,18 +127,6 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
                 update.setPersistentStatus(cursor.getInt(index));
                 index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_SIZE);
                 update.setFileSize(cursor.getLong(index));
-                index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_DONATE_URL);
-                update.setDonateUrl(cursor.getString(index));
-                index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_FORUM_URL);
-                update.setForumUrl(cursor.getString(index));
-                index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_WEBSITE_URL);
-                update.setWebsiteUrl(cursor.getString(index));
-                index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_NEWS_URL);
-                update.setNewsUrl(cursor.getString(index));
-                index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_MAINTAINER);
-                update.setMaintainer(cursor.getString(index));
-                index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_MAINTAINER_URL);
-                update.setMaintainerUrl(cursor.getString(index));
                 index = cursor.getColumnIndex(UpdateEntry.COLUMN_NAME_HASH);
                 update.setHash(cursor.getString(index));
                 updates.add(update);
@@ -168,12 +144,6 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
         static final String COLUMN_NAME_TIMESTAMP = "timestamp";
         static final String COLUMN_NAME_VERSION = "version";
         static final String COLUMN_NAME_SIZE = "size";
-        static final String COLUMN_NAME_DONATE_URL = "donate_url";
-        static final String COLUMN_NAME_FORUM_URL = "forum_url";
-        static final String COLUMN_NAME_WEBSITE_URL = "website_url";
-        static final String COLUMN_NAME_NEWS_URL = "news_url";
-        static final String COLUMN_NAME_MAINTAINER = "maintainer";
-        static final String COLUMN_NAME_MAINTAINER_URL = "maintainer_url";
         static final String COLUMN_NAME_HASH = "hash";
     }
 }
