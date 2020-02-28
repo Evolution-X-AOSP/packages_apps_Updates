@@ -112,8 +112,6 @@ public class UpdatesActivity extends UpdatesListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_updates);
 
-        getUpdatesList();
-
         sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         LastUpdateCheck = sharedPref.getString("LastUpdateCheck", "Not checked");
 
@@ -147,6 +145,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         if (animator instanceof SimpleItemAnimator) {
             ((SimpleItemAnimator) animator).setSupportsChangeAnimations(false);
         }
+
+        getUpdatesList();
 
         mBroadcastReceiver = new BroadcastReceiver() {
             @Override
