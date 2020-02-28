@@ -78,12 +78,6 @@ public class UpdatesDbHelper extends SQLiteOpenHelper {
         values.put(UpdateEntry.COLUMN_NAME_TIMESTAMP, update.getTimestamp());
         values.put(UpdateEntry.COLUMN_NAME_VERSION, update.getVersion());
         values.put(UpdateEntry.COLUMN_NAME_SIZE, update.getFileSize());
-        values.put(UpdateEntry.COLUMN_NAME_DONATE_URL, update.getDonateUrl());
-        values.put(UpdateEntry.COLUMN_NAME_FORUM_URL, update.getForumUrl());
-        values.put(UpdateEntry.COLUMN_NAME_WEBSITE_URL, update.getWebsiteUrl());
-        values.put(UpdateEntry.COLUMN_NAME_NEWS_URL, update.getNewsUrl());
-        values.put(UpdateEntry.COLUMN_NAME_MAINTAINER, update.getMaintainer());
-        values.put(UpdateEntry.COLUMN_NAME_MAINTAINER_URL, update.getMaintainerUrl());
         values.put(UpdateEntry.COLUMN_NAME_HASH, update.getHash());
         return db.insertWithOnConflict(UpdateEntry.TABLE_NAME, null, values, conflictAlgorithm);
     }

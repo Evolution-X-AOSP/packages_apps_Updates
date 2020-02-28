@@ -24,12 +24,6 @@ public class UpdateBase implements UpdateBaseInfo {
     private long mTimestamp;
     private String mVersion;
     private long mFileSize;
-    private String mDonateUrl;
-    private String mForumUrl;
-    private String mWebsiteUrl;
-    private String mNewsUrl;
-    private String mMaintainer;
-    private String mMaintainerUrl;
     private String mHash;
     private String mWhatsNew;
     private String mNotificationContent;
@@ -98,60 +92,6 @@ public class UpdateBase implements UpdateBaseInfo {
 
     public void setFileSize(long fileSize) {
         mFileSize = fileSize;
-    }
-
-    @Override
-    public String getDonateUrl() {
-        return mDonateUrl;
-    }
-
-    public void setDonateUrl(String donateUrl) {
-        mDonateUrl = donateUrl;
-    }
-
-    @Override
-    public String getForumUrl() {
-        return mForumUrl;
-    }
-
-    public void setForumUrl(String forumUrl) {
-        mForumUrl = forumUrl;
-    }
-
-    @Override
-    public String getWebsiteUrl() {
-        return mWebsiteUrl;
-    }
-
-    public void setWebsiteUrl(String websiteUrl) {
-        mWebsiteUrl = websiteUrl;
-    }
-
-    @Override
-    public String getNewsUrl() {
-        return mNewsUrl;
-    }
-
-    public void setNewsUrl(String newsUrl) {
-        mNewsUrl = newsUrl;
-    }
-
-    @Override
-    public String getMaintainer() {
-        return mMaintainer;
-    }
-
-    public void setMaintainer(String maintainer) {
-        mMaintainer = maintainer;
-    }
-
-    @Override
-    public String getMaintainerUrl() {
-        return mMaintainerUrl;
-    }
-
-    public void setMaintainerUrl(String maintainerUrl) {
-        mMaintainerUrl = maintainerUrl;
     }
 
     @Override
