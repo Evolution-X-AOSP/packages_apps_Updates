@@ -174,13 +174,12 @@ public class UpdatesActivity extends UpdatesListActivity {
                 Animation.RELATIVE_TO_SELF, 0.5f);
         mRefreshAnimation.setInterpolator(new LinearInterpolator());
         mRefreshAnimation.setDuration(1000);
-
-        downloadUpdatesList(true);
     }
 
     @Override
     public void onStart() {
         super.onStart();
+        downloadUpdatesList(false);
         try {
             Intent intent = new Intent(this, UpdaterService.class);
             startService(intent);
@@ -204,6 +203,12 @@ public class UpdatesActivity extends UpdatesListActivity {
             unbindService(mConnection);
         }
         super.onStop();
+    }
+
+    @Override
+    protected void onResume() {
+        downloadUpdatesList(false);
+        super.onResume();
     }
 
     @Override
