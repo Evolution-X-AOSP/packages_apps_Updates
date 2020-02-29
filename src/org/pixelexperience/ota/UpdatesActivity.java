@@ -146,8 +146,6 @@ public class UpdatesActivity extends UpdatesListActivity {
             ((SimpleItemAnimator) animator).setSupportsChangeAnimations(false);
         }
 
-        getUpdatesList();
-
         mBroadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
@@ -176,6 +174,8 @@ public class UpdatesActivity extends UpdatesListActivity {
                 Animation.RELATIVE_TO_SELF, 0.5f);
         mRefreshAnimation.setInterpolator(new LinearInterpolator());
         mRefreshAnimation.setDuration(1000);
+
+        downloadUpdatesList(true);
     }
 
     @Override
