@@ -302,7 +302,6 @@ public class UpdatesActivity extends UpdatesListActivity {
             for (UpdateInfo update : sortedUpdates) {
                 if (Utils.isCompatible(update)) {
                     updateIds.add(update.getDownloadId());
-                    showUpdates();
                     break; // Limit to 1
                 }
             }
