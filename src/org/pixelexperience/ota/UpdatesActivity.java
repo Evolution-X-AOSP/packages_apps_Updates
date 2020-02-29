@@ -178,7 +178,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     @Override
     public void onStart() {
         super.onStart();
-        downloadUpdatesList(false);
+        downloadUpdatesList(true);
         try {
             Intent intent = new Intent(this, UpdaterService.class);
             startService(intent);
@@ -206,7 +206,7 @@ public class UpdatesActivity extends UpdatesListActivity {
 
     @Override
     protected void onResume() {
-        downloadUpdatesList(false);
+        downloadUpdatesList(true);
         super.onResume();
     }
 
