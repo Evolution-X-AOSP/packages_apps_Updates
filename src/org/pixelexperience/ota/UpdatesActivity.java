@@ -111,7 +111,6 @@ public class UpdatesActivity extends UpdatesListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_updates);
-        downloadUpdatesList(false);
 
         sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         LastUpdateCheck = sharedPref.getString("LastUpdateCheck", "Not checked");
@@ -120,15 +119,14 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton = findViewById(R.id.check_updates);
         updateStatus = findViewById(R.id.no_new_updates_view);
         androidVersion = findViewById(R.id.android_version);
-
+        RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        lastUpdateCheck = findViewById(R.id.last_update_check);
         securityVersion = findViewById(R.id.security_version);
+
         securityVersion.setText(String.format(getResources()
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
-
-        lastUpdateCheck = findViewById(R.id.last_update_check);
         lastUpdateCheck.setText(String.format(getResources()
                 .getString(R.string.last_successful_check_for_update), LastUpdateCheck));
-
         checkUpdateButton.setOnClickListener(view -> {
             progressBar.setVisibility(View.VISIBLE);
             checkUpdateButton.setVisibility(View.GONE);
@@ -137,7 +135,7 @@ public class UpdatesActivity extends UpdatesListActivity {
             downloadUpdatesList(true);
         });
 
-        RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        downloadUpdatesList(true);
         mAdapter = new UpdatesListAdapter(this);
         recyclerView.setAdapter(mAdapter);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
