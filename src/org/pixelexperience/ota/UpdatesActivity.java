@@ -111,6 +111,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_updates);
+        downloadUpdatesList(false);
 
         sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         LastUpdateCheck = sharedPref.getString("LastUpdateCheck", "Not checked");
