@@ -138,8 +138,12 @@ public class UpdatesActivity extends UpdatesListActivity {
         downloadUpdatesList(true);
         mAdapter = new UpdatesListAdapter(this);
         recyclerView.setAdapter(mAdapter);
-        recyclerView.setLayoutFrozen(true);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this) {
+            @Override
+            public boolean canScrollVertically() {
+                return false;
+            }
+        };
         recyclerView.setLayoutManager(layoutManager);
         RecyclerView.ItemAnimator animator = recyclerView.getItemAnimator();
         if (animator instanceof SimpleItemAnimator) {
