@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,199 +9,211 @@
     app:contentPaddingLeft="16dp"
     app:contentPaddingRight="16dp">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:weightSum="1">
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/ic_system_update" />
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:paddingStart="46dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="46dp"
-            android:paddingBottom="5dp"
-            android:text="@string/system_update_available"
-            android:textColor="@color/text_primary"
-            android:textSize="24sp" />
-
-        <RelativeLayout
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ProgressBar
-                android:id="@+id/progress_bar"
-                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="4sp"
-                android:visibility="invisible"
-                tools:progress="65"
-                tools:visibility="visible" />
-
-            <TextView
-                android:id="@+id/progress_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/progress_bar"
-                android:ellipsize="marquee"
-                android:singleLine="true"
-                android:textSize="14sp"
-                android:textAlignment="center"
-                android:visibility="invisible"
-                tools:text="162 of 300 MB (3 minutes left) • 65%"
-                tools:visibility="visible" />
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/notification_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="visible"
-            android:gravity="start"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/notification"
-            android:textStyle="bold"
-            android:textColor="@color/text_primary"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/notification_content"
-            android:visibility="visible"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:text="@string/notification_content"
-            android:textColor="@color/text_primary"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/whats_new_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="visible"
-            android:gravity="start"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/what_s_new"
-            android:textStyle="bold"
-            android:textColor="@color/text_primary"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/whats_new"
-            android:visibility="visible"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:text="@string/this_is_what_s_new"
-            android:textColor="@color/text_primary"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/advisory"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="visible"
-            android:gravity="start"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/advisory_notice_title"
-            android:textStyle="bold"
-            android:textColor="@color/text_primary"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/advisory_content"
-            android:visibility="visible"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:text="@string/advisory_notice_content"
-            android:textColor="@color/text_primary"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/build_size"
-            android:visibility="visible"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:layout_marginTop="16dp"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:text="@string/update_size"
-            android:textColor="@color/text_primary"
-            android:textSize="16sp" />
-
-        <TextView
-            android:visibility="gone"
-            android:id="@+id/build_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:maxLines="2"
-            android:textSize="14sp"
-            tools:text="29 February 2018" />
-
-        <androidx.coordinatorlayout.widget.CoordinatorLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_gravity="bottom"
-            android:layout_weight="1"
-            android:layout_marginBottom="8dp"
-            android:weightSum="1">
-
-            <Button
-                android:id="@id/update_action"
+            android:orientation="vertical">
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start|bottom"
-                android:layout_margin="16dp"
-                android:background="@drawable/roundedbutton"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_system_update" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:paddingStart="46dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="46dp"
+                android:paddingBottom="5dp"
+                android:text="@string/system_update_available"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp">
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4sp"
+                    android:visibility="invisible"
+                    tools:progress="65"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/progress_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/progress_bar"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:visibility="invisible"
+                    tools:text="162 of 300 MB (3 minutes left) • 65%"
+                    tools:visibility="visible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/notification_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="start"
                 android:paddingStart="16dp"
+                android:paddingTop="5dp"
                 android:paddingEnd="16dp"
-                android:text="@string/check_for_update"
-                android:textAllCaps="false"
-                android:textColor="#fff"
-                tools:text="Pause" />
+                android:paddingBottom="5dp"
+                android:text="@string/notification"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
 
-        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <TextView
+                android:id="@+id/notification_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="@string/notification_content"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:visibility="visible" />
 
-    </LinearLayout>
-</LinearLayout>
+            <TextView
+                android:id="@+id/whats_new_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="start"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="@string/what_s_new"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/whats_new"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="@string/this_is_what_s_new"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/advisory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="start"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="@string/advisory_notice_title"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/advisory_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="@string/advisory_notice_content"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/build_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="start"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="@string/update_size"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/build_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textSize="14sp"
+                android:visibility="gone"
+                tools:text="29 February 2018" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@id/update_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:layout_margin="16dp"
+            android:background="@drawable/roundedbutton"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/check_for_update"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            tools:text="Pause" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
