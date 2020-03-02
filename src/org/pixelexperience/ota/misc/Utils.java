@@ -50,8 +50,11 @@ import java.io.InputStream;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.text.DecimalFormat;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Enumeration;
 import java.util.List;
 import java.util.zip.ZipEntry;
@@ -147,8 +150,13 @@ public class Utils {
         return String.format(Constants.OTA_URL, SystemProperties.get(Constants.PROP_DEVICE), SystemProperties.get(Constants.PROP_VERSION_CODE));
     }
 
-    public static String getSecurityPatchLevel() {
-        return String.valueOf(SystemProperties.get("ro.build.version.security_patch"));
+    public static String getSecurityPatchLevel() throws ParseException {
+        String dateStr = String.valueOf(SystemProperties.get("ro.build.version.security_patch"));
+        DateFormat srcDf = new SimpleDateFormat("dd/MM/yyyy");
+        Date date = srcDf.parse(dateStr);
+        DateFormat destDf = new SimpleDateFormat("MMM dd, yyyy");
+        dateStr = destDf.format(date);
+        return dateStr;
     }
 
     public static boolean isCurrentVersion(UpdateBaseInfo update) {
