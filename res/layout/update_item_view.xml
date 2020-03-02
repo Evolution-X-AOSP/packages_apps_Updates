@@ -176,7 +176,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:orientation="horizontal"
-                android:visibility="gone">
+                android:visibility="visible">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -190,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/download_over_mobiledata_warning"
                     android:textColor="@color/warning"
-                    android:textSize="14sp" />
+                    android:textSize="16sp" />
             </LinearLayout>
 
             <TextView

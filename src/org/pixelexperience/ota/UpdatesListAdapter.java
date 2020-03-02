@@ -156,7 +156,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                 viewHolder.mBuildDate));
         viewHolder.mProgressBar.setVisibility(View.VISIBLE);
         viewHolder.mProgressText.setVisibility(View.VISIBLE);
-        viewHolder.mBuildSize.setVisibility(View.INVISIBLE);
+        viewHolder.mBuildSize.setVisibility(View.VISIBLE);
     }
 
     private void handleNotActiveStatus(ViewHolder viewHolder, UpdateInfo update) {
