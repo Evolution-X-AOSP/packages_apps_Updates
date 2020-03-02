@@ -10,6 +10,7 @@
     app:contentPaddingRight="16dp">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
@@ -79,9 +80,7 @@
                 android:layout_marginTop="16dp"
                 android:gravity="start"
                 android:paddingStart="16dp"
-                android:paddingTop="5dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="5dp"
                 android:text="@string/notification"
                 android:textColor="@color/text_primary"
                 android:textSize="24sp"
@@ -94,9 +93,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:paddingStart="16dp"
-                android:paddingTop="5dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="5dp"
                 android:text="@string/notification_content"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp"
@@ -124,9 +121,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:paddingStart="16dp"
-                android:paddingTop="5dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="5dp"
                 android:text="@string/this_is_what_s_new"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp"
@@ -139,9 +134,8 @@
                 android:layout_marginTop="16dp"
                 android:gravity="start"
                 android:paddingStart="16dp"
-                android:paddingTop="5dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="5dp"
+
                 android:text="@string/advisory_notice_title"
                 android:textColor="@color/text_primary"
                 android:textSize="24sp"
@@ -154,7 +148,6 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:paddingStart="16dp"
-                android:paddingTop="5dp"
                 android:paddingEnd="16dp"
                 android:paddingBottom="5dp"
                 android:text="@string/advisory_notice_content"
@@ -169,13 +162,36 @@
                 android:layout_marginTop="16dp"
                 android:gravity="start"
                 android:paddingStart="16dp"
-                android:paddingTop="5dp"
                 android:paddingEnd="16dp"
-                android:paddingBottom="5dp"
                 android:text="@string/update_size"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp"
                 android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/mobile_data_warning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/download_over_mobiledata_warning"
+                    android:src="@drawable/ic_warning" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download_over_mobiledata_warning"
+                    android:textColor="@color/warning"
+                    android:textSize="14sp" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/build_date"
@@ -195,9 +211,11 @@
         android:layout_height="0dp"
         android:layout_gravity="bottom"
         android:layout_weight="1"
+        android:background="@drawable/action_button_layout_background"
         android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="10dp"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button

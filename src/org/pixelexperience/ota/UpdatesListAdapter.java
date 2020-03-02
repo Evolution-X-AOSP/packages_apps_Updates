@@ -276,6 +276,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(mActivity);
         boolean warn = preferences.getBoolean(Constants.PREF_MOBILE_DATA_WARNING, true);
         if (Utils.isOnWifiOrEthernet(mActivity) || !warn) {
+            mActivity.findViewById(R.id.mobile_data_warning).setVisibility(View.GONE);
             mUpdaterController.startDownload(downloadId);
             return;
         }
@@ -283,6 +284,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         View checkboxView = LayoutInflater.from(mActivity).inflate(R.layout.checkbox_view, null);
         CheckBox checkbox = checkboxView.findViewById(R.id.checkbox);
         checkbox.setText(R.string.checkbox_mobile_data_warning);
+
+        mActivity.findViewById(R.id.mobile_data_warning).setVisibility(View.VISIBLE);
 
         new AlertDialog.Builder(mActivity, R.style.AppTheme_AlertDialogStyle)
                 .setTitle(R.string.update_on_mobile_data_title)

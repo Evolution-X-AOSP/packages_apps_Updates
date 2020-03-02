@@ -12,4 +12,5 @@
     <string name="update_size">Update size: %1$s</string>
     <string name="notification">Notification</string>
     <string name="notification_content">- %1$s</string>
+    <string name="download_over_mobiledata_warning">Downloading updates over a mobile network, metered Wi-Fi or while roaming may cause additional charges.</string>
 </resources>
