@@ -150,12 +150,16 @@ public class Utils {
         return String.format(Constants.OTA_URL, SystemProperties.get(Constants.PROP_DEVICE), SystemProperties.get(Constants.PROP_VERSION_CODE));
     }
 
-    public static String getSecurityPatchLevel() throws ParseException {
+    public static String getSecurityPatchLevel() {
         String dateStr = String.valueOf(SystemProperties.get("ro.build.version.security_patch"));
-        DateFormat srcDf = new SimpleDateFormat("dd/MM/yyyy");
-        Date date = srcDf.parse(dateStr);
-        DateFormat destDf = new SimpleDateFormat("MMM dd, yyyy");
-        dateStr = destDf.format(date);
+        try {
+            DateFormat srcDf = new SimpleDateFormat("dd/MM/yyyy");
+            Date date = srcDf.parse(dateStr);
+            DateFormat destDf = new SimpleDateFormat("MMM dd, yyyy");
+            dateStr = destDf.format(date);
+        } catch (ParseException e) {
+            Log.d("getSecurityPatchLevel", e.getMessage());
+        }
         return dateStr;
     }
 
