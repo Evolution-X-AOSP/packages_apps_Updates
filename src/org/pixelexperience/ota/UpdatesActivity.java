@@ -138,6 +138,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         downloadUpdatesList(true);
         mAdapter = new UpdatesListAdapter(this);
         recyclerView.setAdapter(mAdapter);
+        recyclerView.setLayoutFrozen(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         RecyclerView.ItemAnimator animator = recyclerView.getItemAnimator();
