@@ -153,7 +153,7 @@ public class Utils {
     public static String getSecurityPatchLevel() {
         String dateStr = String.valueOf(SystemProperties.get("ro.build.version.security_patch"));
         try {
-            DateFormat srcDf = new SimpleDateFormat("dd/MM/yyyy");
+            DateFormat srcDf = new SimpleDateFormat("yyyy-MM-dd");
             Date date = srcDf.parse(dateStr);
             DateFormat destDf = new SimpleDateFormat("MMM dd, yyyy");
             dateStr = destDf.format(date);
