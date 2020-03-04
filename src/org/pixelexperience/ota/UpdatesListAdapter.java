@@ -152,6 +152,10 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             viewHolder.mWhatsNew.setText(update.getWhatsNew());
         }
 
+        String fileSize = Utils.readableFileSize(update.getFileSize());
+        viewHolder.mBuildSize.setText(String
+                .format(mActivity.getResources().getString(R.string.update_size), fileSize));
+
         viewHolder.itemView.setOnLongClickListener(getLongClickListener(update, canDelete,
                 viewHolder.mBuildDate));
         viewHolder.mProgressBar.setVisibility(View.VISIBLE);
