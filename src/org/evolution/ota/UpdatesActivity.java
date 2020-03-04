@@ -111,6 +111,11 @@ public class UpdatesActivity extends UpdatesListActivity {
             mAdapter.notifyDataSetChanged();
         }
     };
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String[] permissions, int[] grantResults) {
+        mAdapter.onRequestPermissionsResult(requestCode, grantResults);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -181,6 +186,9 @@ public class UpdatesActivity extends UpdatesListActivity {
                     mAdapter.removeItem(downloadId);
                     hideUpdates();
                     downloadUpdatesList(false);
+                }else if (ExportUpdateService.ACTION_EXPORT_STATUS.equals(intent.getAction())){
+                    int status = intent.getIntExtra(ExportUpdateService.EXTRA_EXPORT_STATUS, -1);
+                    handleExportStatusChanged(status);
                 }
             }
         };
@@ -193,6 +201,25 @@ public class UpdatesActivity extends UpdatesListActivity {
                 Animation.RELATIVE_TO_SELF, 0.5f);
         mRefreshAnimation.setInterpolator(new LinearInterpolator());
         mRefreshAnimation.setDuration(1000);
+    }
+
+    private void handleExportStatusChanged(int status){
+        switch(status){
+            case ExportUpdateService.EXPORT_STATUS_RUNNING:
+                showSnackbar(R.string.dialog_export_title, Snackbar.LENGTH_SHORT);
+                break;
+            case ExportUpdateService.EXPORT_STATUS_ALREADY_RUNNING:
+                showSnackbar(R.string.toast_already_exporting, Snackbar.LENGTH_SHORT);
+                break;
+            case ExportUpdateService.EXPORT_STATUS_SUCCESS:
+                showSnackbar(R.string.notification_export_success, Snackbar.LENGTH_SHORT);
+                break;
+            case ExportUpdateService.EXPORT_STATUS_FAILED:
+                showSnackbar(R.string.notification_export_fail, Snackbar.LENGTH_SHORT);
+                break;
+            default:
+                break;
+        }
     }
 
     @Override
@@ -212,6 +239,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         intentFilter.addAction(UpdaterController.ACTION_INSTALL_PROGRESS);
         intentFilter.addAction(UpdaterController.ACTION_UPDATE_REMOVED);
         intentFilter.addAction(UpdaterController.ACTION_NETWORK_UNAVAILABLE);
+        intentFilter.addAction(ExportUpdateService.ACTION_EXPORT_STATUS);
         LocalBroadcastManager.getInstance(this).registerReceiver(mBroadcastReceiver, intentFilter);
     }
 
