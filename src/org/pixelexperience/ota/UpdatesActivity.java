@@ -257,16 +257,16 @@ public class UpdatesActivity extends UpdatesListActivity {
     }
 
     private void showUpdates() {
-            findViewById(R.id.update_ic).setVisibility(View.GONE);
-            updateStatus.setVisibility(View.GONE);
-            updateStatus.setText(getResources().getString(R.string.system_update_available));
+        findViewById(R.id.update_ic).setVisibility(View.GONE);
+        updateStatus.setVisibility(View.GONE);
+        updateStatus.setText(getResources().getString(R.string.system_update_available));
 
-            findViewById(R.id.recycler_view).setVisibility(View.VISIBLE);
-            androidVersion.setVisibility(View.GONE);
-            securityVersion.setVisibility(View.GONE);
-            lastUpdateCheck.setVisibility(View.GONE);
+        findViewById(R.id.recycler_view).setVisibility(View.VISIBLE);
+        androidVersion.setVisibility(View.GONE);
+        securityVersion.setVisibility(View.GONE);
+        lastUpdateCheck.setVisibility(View.GONE);
 
-            checkUpdateButton.setVisibility(View.GONE);
+        checkUpdateButton.setVisibility(View.GONE);
     }
 
     private void loadUpdatesList(File jsonFile, boolean manualRefresh)
@@ -318,7 +318,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         File jsonFile = Utils.getCachedUpdateList(this);
         if (jsonFile.exists()) {
             try {
-                loadUpdatesList(jsonFile, false);
+                if (mUpdaterService != null)
+                    loadUpdatesList(jsonFile, false);
                 Log.d(TAG, "Cached list parsed");
             } catch (IOException | JSONException e) {
                 Log.e(TAG, "Error while parsing json list", e);
@@ -330,7 +331,8 @@ public class UpdatesActivity extends UpdatesListActivity {
 
     private void processNewJson(File json, File jsonNew, boolean manualRefresh) {
         try {
-            loadUpdatesList(jsonNew, manualRefresh);
+            if (mUpdaterService != null)
+                loadUpdatesList(jsonNew, manualRefresh);
             if (json.exists() && Utils.isUpdateCheckEnabled(this) &&
                     Utils.checkForNewUpdates(json, jsonNew)) {
                 UpdatesCheckReceiver.updateRepeatingUpdatesCheck(this);
