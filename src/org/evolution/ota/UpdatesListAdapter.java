@@ -24,7 +24,6 @@ import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.BatteryManager;
 import android.os.PowerManager;
-import android.preference.PreferenceManager;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.util.TypedValue;
@@ -51,6 +50,7 @@ import androidx.appcompat.view.ContextThemeWrapper;
 import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.appcompat.view.menu.MenuPopupHelper;
 import androidx.appcompat.widget.PopupMenu;
+import androidx.preference.PreferenceManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -272,10 +272,13 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
     }
 
     private void startDownloadWithWarning(final String downloadId) {
+        if (!Utils.isNetworkAvailable(mActivity)) {
+            mUpdaterController.notifyNetworkUnavailable();
+            return;
+        }
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(mActivity);
         boolean warn = preferences.getBoolean(Constants.PREF_MOBILE_DATA_WARNING, true);
         if (Utils.isOnWifiOrEthernet(mActivity) || !warn) {
-            mActivity.findViewById(R.id.mobile_data_warning).setVisibility(View.GONE);
             mUpdaterController.startDownload(downloadId);
             return;
         }
