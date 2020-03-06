@@ -156,6 +156,12 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         viewHolder.mProgressBar.setVisibility(View.VISIBLE);
         viewHolder.mProgressText.setVisibility(View.VISIBLE);
         viewHolder.mBuildSize.setVisibility(View.VISIBLE);
+
+        if (Utils.isOnWifiOrEthernet(mActivity)) {
+            mActivity.findViewById(R.id.mobile_data_warning).setVisibility(View.GONE);
+        } else {
+            mActivity.findViewById(R.id.mobile_data_warning).setVisibility(View.VISIBLE);
+        }
     }
 
     private void handleNotActiveStatus(ViewHolder viewHolder, UpdateInfo update) {
@@ -190,6 +196,12 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         viewHolder.mProgressBar.setVisibility(View.INVISIBLE);
         viewHolder.mProgressText.setVisibility(View.INVISIBLE);
         viewHolder.mBuildSize.setVisibility(View.VISIBLE);
+
+        if (Utils.isOnWifiOrEthernet(mActivity)) {
+            mActivity.findViewById(R.id.mobile_data_warning).setVisibility(View.GONE);
+        } else {
+            mActivity.findViewById(R.id.mobile_data_warning).setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
