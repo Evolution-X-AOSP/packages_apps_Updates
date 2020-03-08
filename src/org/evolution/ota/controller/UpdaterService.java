@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.evolution.ota.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -29,13 +29,13 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
-import org.pixelexperience.ota.R;
-import org.pixelexperience.ota.UpdaterReceiver;
-import org.pixelexperience.ota.UpdatesActivity;
-import org.pixelexperience.ota.misc.StringGenerator;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.evolution.ota.R;
+import org.evolution.ota.UpdaterReceiver;
+import org.evolution.ota.UpdatesActivity;
+import org.evolution.ota.misc.StringGenerator;
+import org.evolution.ota.misc.Utils;
+import org.evolution.ota.model.UpdateInfo;
+import org.evolution.ota.model.UpdateStatus;
 
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;

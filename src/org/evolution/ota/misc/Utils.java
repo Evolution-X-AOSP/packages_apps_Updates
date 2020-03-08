@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.evolution.ota.misc;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -34,11 +34,11 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.pixelexperience.ota.UpdatesDbHelper;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.model.Update;
-import org.pixelexperience.ota.model.UpdateBaseInfo;
-import org.pixelexperience.ota.model.UpdateInfo;
+import org.evolution.ota.UpdatesDbHelper;
+import org.evolution.ota.controller.UpdaterService;
+import org.evolution.ota.model.Update;
+import org.evolution.ota.model.UpdateBaseInfo;
+import org.evolution.ota.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.evolution.ota.misc;
 
 public final class Constants {
     public static final String AB_PAYLOAD_BIN_PATH = "payload.bin";
@@ -23,7 +23,7 @@ public final class Constants {
     public static final String PREF_MOBILE_DATA_WARNING = "pref_mobile_data_warning";
     public static final String PREF_NEEDS_REBOOT_ID = "needs_reboot_id";
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
-    public static final String PROP_BUILD_DATE = "org.pixelexperience.build_date_utc";
+    public static final String PROP_BUILD_DATE = "org.evolution.build_date_utc";
     public static final String PROP_RECOVERY_UPDATE = "persist.sys.recovery_update";
     public static final String PREF_INSTALL_OLD_TIMESTAMP = "install_old_timestamp";
     public static final String PREF_INSTALL_NEW_TIMESTAMP = "install_new_timestamp";
@@ -36,11 +36,11 @@ public final class Constants {
     static final int AUTO_UPDATES_CHECK_INTERVAL_WEEKLY = 2;
     static final int AUTO_UPDATES_CHECK_INTERVAL_MONTHLY = 3;
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "ro.android.device";
-    static final String PROP_BUILD_VERSION = "ro.android.build.version";
-    static final String PROP_VERSION_CODE = "ro.android.ota.version_code";
-    static final String OTA_URL = "https://raw.githubusercontent.com/hritikutekar/vendor_nokia_DRG_sprout/pie/test.json";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/RaghuVarma331/changelogs/master/Dragon/PixelExperience.txt";
-    public static final String DOWNLOAD_PATH = "/data/os_updates/";
-    static final String EXPORT_PATH = "Os_Updates/";
+    static final String PROP_DEVICE = "org.evolution.device";
+    static final String PROP_BUILD_VERSION = "org.evolution.version.prop";
+    static final String PROP_VERSION_CODE = "org.evolution.ota.version_code";
+    static final String OTA_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/builds/%s.json";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/changelogs/%s/%s.txt";
+    public static final String DOWNLOAD_PATH = "/data/system_updates/";
+    static final String EXPORT_PATH = "EvolutionX-Updates/";
 }

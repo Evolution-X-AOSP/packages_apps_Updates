@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
 <resources>
     <string name="android_version_10">Android version: 10</string>
     <string name="security_patch_level">Security patch level: %1$s</string>
     <string name="check_for_update">Check for update</string>
-    <string name="last_successful_check_for_update">Last successful check for update at %1$s</string>
+    <string name="last_successful_check_for_update">Last checked for update at: %1$s</string>
     <string name="system_update_available">System update available</string>
     <string name="what_s_new">What\'s New</string>
     <string name="this_is_what_s_new">- This is what\'s new</string>
     <string name="advisory_notice_title">Advisory Notice</string>
-    <string name="advisory_notice_content">- It is recommended that Users use Wi-fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.</string>
+    <string name="advisory_notice_content">- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.</string>
     <string name="update_size">Update size: %1$s</string>
     <string name="notification">Notification</string>
     <string name="notification_content">- %1$s</string>

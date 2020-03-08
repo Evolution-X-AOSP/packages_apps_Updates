@@ -14,10 +14,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.evolution.ota.model;
 
-import androidx.appcompat.app.AppCompatActivity;
+public interface UpdateBaseInfo {
+    String getName();
 
-public abstract class UpdatesListActivity extends AppCompatActivity {
-    public abstract void showSnackbar(int stringId, int duration);
+    String getDownloadId();
+
+    long getTimestamp();
+
+    String getVersion();
+
+    String getDownloadUrl();
+
+    long getFileSize();
+
+    String getHash();
+
+    String getWhatsNew();
+
+    String getNotificationContent();
 }

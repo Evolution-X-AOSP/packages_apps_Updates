@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.evolution.ota.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,12 +24,12 @@ import android.os.PowerManager;
 import android.os.SystemClock;
 import android.util.Log;
 
-import org.pixelexperience.ota.UpdatesDbHelper;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.Update;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.evolution.ota.UpdatesDbHelper;
+import org.evolution.ota.download.DownloadClient;
+import org.evolution.ota.misc.Utils;
+import org.evolution.ota.model.Update;
+import org.evolution.ota.model.UpdateInfo;
+import org.evolution.ota.model.UpdateStatus;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 

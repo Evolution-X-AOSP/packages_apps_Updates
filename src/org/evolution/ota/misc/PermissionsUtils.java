@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.evolution.ota.misc;
 
 import android.Manifest;
 import android.app.Activity;

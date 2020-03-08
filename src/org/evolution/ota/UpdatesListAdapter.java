@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.evolution.ota;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -38,14 +38,14 @@ import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.PermissionsUtils;
-import org.pixelexperience.ota.misc.StringGenerator;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.evolution.ota.controller.UpdaterController;
+import org.evolution.ota.controller.UpdaterService;
+import org.evolution.ota.misc.Constants;
+import org.evolution.ota.misc.PermissionsUtils;
+import org.evolution.ota.misc.StringGenerator;
+import org.evolution.ota.misc.Utils;
+import org.evolution.ota.model.UpdateInfo;
+import org.evolution.ota.model.UpdateStatus;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.view.ContextThemeWrapper;
