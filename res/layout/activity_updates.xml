@@ -32,21 +32,37 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/ic_system_update" />
+            app:srcCompat="@drawable/ic_partial_system_update_current" />
 
         <TextView
             android:id="@+id/no_new_updates_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:gravity="center"
             android:paddingStart="46dp"
             android:paddingTop="5dp"
             android:paddingEnd="46dp"
             android:paddingBottom="5dp"
+            android:fontFamily="google-sans"
             android:text="@string/list_no_updates"
             android:textColor="@color/text_primary"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/last_update_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="start"
+            android:visibility="visible"
+            android:paddingStart="24dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="24dp"
+            android:paddingBottom="5dp"
+            android:text="@string/last_successful_check_for_update"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/android_version"
@@ -55,11 +71,10 @@
             android:layout_marginTop="16dp"
             android:gravity="start"
             android:visibility="visible"
-            android:paddingStart="16dp"
+            android:paddingStart="24dp"
             android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:text="@string/android_version_10"
+            android:paddingEnd="24dp"
+            android:paddingBottom="3dp"
             android:textColor="@color/text_primary"
             android:textSize="16sp" />
 
@@ -69,26 +84,8 @@
             android:layout_height="wrap_content"
             android:gravity="start"
             android:visibility="visible"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:text="@string/security_patch_level"
-            android:textColor="@color/text_primary"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/last_update_check"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:visibility="visible"
-            android:paddingStart="16dp"
-            android:paddingTop="5dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="5dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/last_successful_check_for_update"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
             android:textColor="@color/text_primary"
             android:textSize="16sp" />
 
@@ -126,6 +123,7 @@
         android:background="@drawable/roundedbutton"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
+        android:fontFamily="google-sans"
         android:text="@string/check_for_update"
         android:textAllCaps="false"
         android:textColor="#fff" />

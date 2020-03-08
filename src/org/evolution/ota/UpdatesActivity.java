@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019-2020 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +24,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -127,6 +129,8 @@ public class UpdatesActivity extends UpdatesListActivity {
         lastUpdateCheck = findViewById(R.id.last_update_check);
         securityVersion = findViewById(R.id.security_version);
 
+        androidVersion.setText(String.format(getResources()
+                .getString(R.string.android_version, Build.VERSION.RELEASE)));
         securityVersion.setText(String.format(getResources()
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
         lastUpdateCheck.setText(String.format(getResources()

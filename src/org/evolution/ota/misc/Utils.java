@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2017 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019-2020 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,10 +26,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Build;
 import android.os.Environment;
 import android.os.SystemProperties;
 import android.os.storage.StorageManager;
 import android.preference.PreferenceManager;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -50,13 +53,13 @@ import java.io.InputStream;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Enumeration;
 import java.util.List;
+import java.util.Locale;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
@@ -110,10 +113,6 @@ public class Utils {
     }
 
     public static boolean isCompatible(UpdateBaseInfo update) {
-        if (update.getVersion().compareTo(SystemProperties.get(Constants.PROP_BUILD_VERSION)) < 0) {
-            Log.d(TAG, update.getName() + " is older than current Android version");
-            return false;
-        }
         if (update.getTimestamp() <= SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0)) {
             Log.d(TAG, update.getName() + " is older than/equal to the current build");
             return false;
@@ -122,9 +121,7 @@ public class Utils {
     }
 
     public static boolean canInstall(UpdateBaseInfo update) {
-        return (update.getTimestamp() > SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0)) &&
-                update.getVersion().equalsIgnoreCase(
-                        SystemProperties.get(Constants.PROP_BUILD_VERSION));
+        return (update.getTimestamp() > SystemProperties.getLong(Constants.PROP_BUILD_DATE, 0));
     }
 
     public static UpdateInfo parseJson(File file, boolean compatibleOnly)
@@ -157,12 +154,12 @@ public class Utils {
     }
 
     public static String getSecurityPatchLevel() {
-        String dateStr = String.valueOf(SystemProperties.get("ro.build.version.security_patch"));
+        String dateStr = Build.VERSION.SECURITY_PATCH;
         try {
-            DateFormat srcDf = new SimpleDateFormat("yyyy-MM-dd");
-            Date date = srcDf.parse(dateStr);
-            DateFormat destDf = new SimpleDateFormat("MMM dd, yyyy");
-            dateStr = destDf.format(date);
+            SimpleDateFormat template = new SimpleDateFormat("yyyy-MM-dd");
+            Date patchDate = template.parse(dateStr);
+            String format = DateFormat.getBestDateTimePattern(Locale.getDefault(), "dMMMMyyyy");
+            dateStr = DateFormat.format(format, patchDate).toString();
         } catch (ParseException e) {
             Log.d("getSecurityPatchLevel", e.getMessage());
         }
