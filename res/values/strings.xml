@@ -17,6 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="android_version">Android version: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Security patch level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Check for update</string>
     <string name="last_successful_check_for_update">Last checked for update at: %1$s</string>

@@ -27,6 +27,7 @@ import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.os.SystemProperties;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -85,6 +86,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     private Button checkUpdateButton;
     private TextView updateStatus;
     private TextView androidVersion;
+    private TextView evolutionVersion;
     private TextView securityVersion;
     private TextView lastUpdateCheck;
     private String LastUpdateCheck;
@@ -125,12 +127,15 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton = findViewById(R.id.check_updates);
         updateStatus = findViewById(R.id.no_new_updates_view);
         androidVersion = findViewById(R.id.android_version);
+        evolutionVersion = findViewById(R.id.evolution_version);
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         lastUpdateCheck = findViewById(R.id.last_update_check);
         securityVersion = findViewById(R.id.security_version);
 
         androidVersion.setText(String.format(getResources()
                 .getString(R.string.android_version, Build.VERSION.RELEASE)));
+        evolutionVersion.setText(String.format(getResources()
+                .getString(R.string.evolution_version, SystemProperties.get("org.evolution.build_version"))));
         securityVersion.setText(String.format(getResources()
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
         lastUpdateCheck.setText(String.format(getResources()
@@ -260,6 +265,7 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         findViewById(R.id.recycler_view).setVisibility(View.GONE);
         androidVersion.setVisibility(View.VISIBLE);
+        evolutionVersion.setVisibility(View.VISIBLE);
         securityVersion.setVisibility(View.VISIBLE);
         lastUpdateCheck.setVisibility(View.VISIBLE);
     }
@@ -271,6 +277,7 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         findViewById(R.id.recycler_view).setVisibility(View.VISIBLE);
         androidVersion.setVisibility(View.GONE);
+        evolutionVersion.setVisibility(View.GONE);
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
 
@@ -430,6 +437,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
         androidVersion.setVisibility(View.GONE);
+        evolutionVersion.setVisibility(View.GONE);
 
         if (mRefreshIconView == null) {
             mRefreshIconView = findViewById(R.id.menu_refresh);
