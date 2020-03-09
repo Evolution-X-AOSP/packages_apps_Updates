@@ -43,4 +43,5 @@ public final class Constants {
     static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/changelogs/%s/%s.txt";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String EXPORT_PATH = "EvolutionX-Updates/";
+    public static  String fileName = "";
 }

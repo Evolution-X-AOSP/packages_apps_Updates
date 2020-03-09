@@ -22,7 +22,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
-import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.PowerManager;
 import android.preference.PreferenceManager;
@@ -67,6 +66,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
     private static final String TAG = "UpdateListAdapter";
 
     private final float mAlphaDisabledValue;
+
+    public static String changelogData;
 
     private List<String> mDownloadIds;
     private String mSelectedDownload;
@@ -144,8 +145,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         }
 
         viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
-                .getString(R.string.notification_content), update.getNotificationContent()));
-        viewHolder.mWhatsNew.setText(update.getWhatsNew());
+                .getString(R.string.notification_content), Utils.getDeviceCodeName()));
+        viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String fileSize = Utils.readableFileSize(update.getFileSize());
         viewHolder.mBuildSize.setText(String
@@ -180,8 +181,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             setButtonAction(viewHolder.mAction, Action.DOWNLOAD, downloadId, !isBusy());
         }
         viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
-                .getString(R.string.notification_content), update.getNotificationContent()));
-        viewHolder.mWhatsNew.setText(update.getWhatsNew());
+                .getString(R.string.notification_content), Utils.getDeviceCodeName()));
+        viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String fileSize = Utils.readableFileSize(update.getFileSize());
         viewHolder.mBuildSize.setText(String
@@ -226,8 +227,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         }
 
         viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
-                .getString(R.string.notification_content), update.getNotificationContent()));
-        viewHolder.mWhatsNew.setText(update.getWhatsNew());
+                .getString(R.string.notification_content), Utils.getDeviceCodeName()));
+        viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String buildDate = StringGenerator.getDateLocalizedUTC(mActivity,
                 DateFormat.LONG, update.getTimestamp());

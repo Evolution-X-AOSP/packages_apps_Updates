@@ -99,8 +99,14 @@ public class Utils {
         update.setWhatsNew(object.isNull("whatsNew") ? "" : object.getString("whatsNew"));
         update.setNotificationContent(object.isNull("notification") ? "" : object.getString("notification"));
 
+        Constants.fileName = object.getString("filename");
+
         Log.d("Hritik2118", update.getWhatsNew());
         return update;
+    }
+
+    public static String getDeviceCodeName() {
+        return SystemProperties.get(Constants.PROP_DEVICE);
     }
 
     public static boolean isCompatible(UpdateBaseInfo update) {
