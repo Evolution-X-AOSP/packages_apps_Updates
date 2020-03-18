@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name -->
+    <string name="app_name">Kemaskini sistem</string>
+    <!-- Notifications -->
+    <string name="export_channel_title">Penyelesaian eksport</string>
+    <string name="new_updates_channel_title">Kemaskini baru</string>
+    <string name="ongoing_channel_title">Muat turun sedang berjalan</string>
+    <string name="update_failed_channel_title">Kemas kini gagal</string>
+    <string name="verification_failed_notification">Pengesahan gagal</string>
+    <string name="verifying_download_notification">Mengesahkan kemas kini</string>
+    <string name="downloading_notification">Memuat turun</string>
+    <string name="download_paused_notification">Muat turun dijeda</string>
+    <string name="download_paused_error_notification">Muat turun gagal</string>
+    <string name="download_completed_notification">Muat turun selesai</string>
+    <string name="download_starting_notification">Memulakan muat turun</string>
+    <string name="update_failed_notification">Kemas kini gagal</string>
+    <string name="installation_suspended_notification">Pemasangan tergantung</string>
+    <!-- Menu -->
+    <string name="menu_preferences">Pilihan</string>
+    <string name="menu_auto_updates_check">Semakan kemas kini auto</string>
+    <string name="menu_auto_updates_check_interval_daily">Sekali sehari</string>
+    <string name="menu_auto_updates_check_interval_weekly">Sekali seminggu</string>
+    <string name="menu_auto_updates_check_interval_monthly">Sekali sebulan</string>
+    <string name="menu_auto_updates_check_interval_never">Tidak akan</string>
+    <string name="menu_delete_update">Padam</string>
+    <string name="menu_copy_url">Salin URL</string>
+    <string name="menu_export_update">Eksport kemas kini</string>
+    <string name="menu_show_changelog">Perubahan dalam versi ini</string>
+    <string name="changelog_loading">Memuatkan…</string>
+    <string name="label_download_url">Muat turun URL</string>
+    <string name="toast_download_url_copied">URL Disalin</string>
+    <!-- General -->
+    <string name="update_found_notification">Kemaskini tersedia</string>
+    <string name="snack_no_updates_found">Tiada kemas kini baru dijumpai</string>
+    <string name="snack_updates_check_failed">Semakan kemas kini gagal. Sila periksa sambungan internet anda dan cuba lagi kemudian.</string>
+    <string name="snack_download_failed">Muat turun gagal. Sila periksa sambungan internet anda dan cuba lagi kemudian.</string>
+    <string name="snack_download_verification_failed">Pengesahan kemas kini gagal.</string>
+    <string name="snack_download_verified">Muat turun selesai.</string>
+    <string name="snack_update_not_installable">Kemas kini ini tidak boleh dipasang bersama binaan ini.</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_verifying_update">Mengesahkan kemas kini</string>
+    <string name="list_no_updates">Peranti anda adalah terkini</string>
+    <string name="blocked_update_dialog_title">Kemas kini disekat</string>
+    <!-- Actions -->
+    <string name="action_download">Muat turun</string>
+    <string name="action_pause">Berhenti seketika</string>
+    <string name="action_resume">Teruskan</string>
+    <string name="action_install">Pasang</string>
+    <string name="action_delete">Padam</string>
+    <string name="action_cancel">Batal</string>
+    <string name="confirm_delete_dialog_title">Padam fail</string>
+    <string name="confirm_delete_dialog_message">Padam fail kemaskini yang telah dipilih?</string>
+    <string name="pause_button">Berhenti seketika</string>
+    <string name="resume_button">Teruskan</string>
+    <string name="suspend_button">Gantung</string>
+    <string name="reboot">Boot semula</string>
+    <string name="details_button">Lihat butiran</string>
+    <!-- Installation -->
+    <string name="apply_update_dialog_title">Tetapkan kemaskini</string>
+    <string name="apply_update_dialog_message">Anda akan menaik taraf kepada <xliff:g id="update_name">%1$s</xliff:g>.\n\nJika anda tekan <xliff:g id="ok">%2$s</xliff:g>, peranti akan hidup semula sendiri dalam mod pemulihan untuk memasang kemas kini tersebut.\n\nNota: Ciri ini memerlukan Pemulihan yang serasi atau kemas kini perlu dipasang secara manual.</string>
+    <string name="apply_update_dialog_message_ab">Anda akan menaik taraf kepada <xliff:g id="update_name">%1$s</xliff:g>.\n\nJika anda tekan <xliff:g id="ok">%2$s</xliff:g>, peranti akan memulakan pemasangan.\n\nSesudah selesai, anda akan diminta untuk but semula.</string>
+    <string name="cancel_installation_dialog_message">Batalkan pemasangan?</string>
+    <string name="installing_update">Memasang pakej kemas kini</string>
+    <string name="installing_update_error">Ralat pemasangan</string>
+    <string name="installing_update_finished">Kemas kini dipasang</string>
+    <string name="finalizing_package">Mengakhiri pemasangan pakej</string>
+    <string name="preparing_ota_first_boot">Bersedia untuk but yang pertama</string>
+    <string name="dialog_prepare_zip_message">Persediaan awal kemas kini</string>
+    <string name="dialog_battery_low_title">Bateri lemah</string>
+    <string name="dialog_battery_low_message_pct">Paras bateri terlalu lemah, anda perlu sekurang-kurangnya <xliff:g id="percent_discharging">%1$d</xliff:g>%% bateri untuk teruskan, <xliff:g id="percent_charging">%2$d</xliff:g>%% jika sedang mengecas.</string>
+    <!-- Export update -->
+    <string name="dialog_export_title">Mengeksport kemas kini ke storan dalaman</string>
+    <string name="notification_export_success">Kemas kini telah dieksport ke storan dalaman</string>
+    <string name="notification_export_fail">Ralat eksport</string>
+    <string name="toast_already_exporting">Telah mengeksport kemas kini</string>
+    <!-- ETA -->
+    <plurals name="eta_seconds">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> saat lagi</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minit lagi</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> jam lagi</item>
+    </plurals>
+    <!-- Mobile data warning -->
+    <string name="update_on_mobile_data_title">Amaran</string>
+    <string name="update_on_mobile_data_message">Anda akan memuat turun pakej kemaskini menggunakan data mudah alih yang akan mengakibatkan penggunaan data yang tinggi. Ingin teruskan?</string>
+    <string name="checkbox_mobile_data_warning">Jangan tunjukkan lagi</string>
+    <string name="menu_mobile_data_warning">Amaran data mudah alih</string>
+    <!-- Info section -->
+    <string name="extras_category_title">Tambahan</string>
+    <string name="maintainer_info_title">Penyelenggara</string>
+    <string name="donate_info_title">Sumbang</string>
+    <string name="donate_info_summary">Sokong pembangunan</string>
+    <string name="website_info_title">Laman sesawang</string>
+    <string name="website_info_summary">Kunjungi laman sesawang kami</string>
+    <string name="news_info_title">Berita</string>
+    <string name="news_info_summary">Dapatkan informasi dan berita-berita secara terus</string>
+    <string name="forum_info_title">Forum</string>
+    <string name="forum_info_summary">Lihat catatan forum</string>
+    <string name="error_open_url">Gagal untuk membuka pautan di pelayar</string>
+</resources>
