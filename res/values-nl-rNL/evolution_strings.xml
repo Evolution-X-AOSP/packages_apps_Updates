@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name -->
+    <string name="app_name">Systeemupdate</string>
+    <!-- Notifications -->
+    <string name="export_channel_title">Exporteren voltooid</string>
+    <string name="new_updates_channel_title">Nieuwe updates</string>
+    <string name="ongoing_channel_title">Huidige downloads</string>
+    <string name="update_failed_channel_title">Update mislukt</string>
+    <string name="verification_failed_notification">Verificatie mislukt</string>
+    <string name="verifying_download_notification">Update verifiëren</string>
+    <string name="downloading_notification">Downloaden</string>
+    <string name="download_paused_notification">Download gepauzeerd</string>
+    <string name="download_paused_error_notification">Fout bij downloaden</string>
+    <string name="download_completed_notification">Downloaden voltooid</string>
+    <string name="download_starting_notification">Download starten</string>
+    <string name="update_failed_notification">Update mislukt</string>
+    <string name="installation_suspended_notification">Installatie onderbroken</string>
+    <!-- Menu -->
+    <string name="menu_preferences">Voorkeuren</string>
+    <string name="menu_auto_updates_check">Automatisch controleren op updates</string>
+    <string name="menu_auto_updates_check_interval_daily">Eenmaal per dag</string>
+    <string name="menu_auto_updates_check_interval_weekly">Eenmaal per week</string>
+    <string name="menu_auto_updates_check_interval_monthly">Eenmaal per maand</string>
+    <string name="menu_auto_updates_check_interval_never">Nooit</string>
+    <string name="menu_copy_url">URL kopiëren</string>
+    <string name="menu_export_update">Update exporteren</string>
+    <string name="menu_show_changelog">Wijzigingen in huidige versie</string>
+    <string name="changelog_loading">Bezig met laden…</string>
+    <string name="label_download_url">Download-URL</string>
+    <string name="toast_download_url_copied">URL gekopieerd</string>
+    <!-- General -->
+    <string name="update_found_notification">Systeemupdate beschikbaar</string>
+    <string name="snack_no_updates_found">Geen nieuwe updates gevonden</string>
+    <string name="snack_updates_check_failed">Kan niet controleren op updates. Controleer uw internetverbinding en probeer het later opnieuw.</string>
+    <string name="snack_download_failed">Downloaden mislukt. Controleer uw internetverbinding en probeer het later opnieuw.</string>
+    <string name="snack_download_verification_failed">Verificatie van de update is mislukt.</string>
+    <string name="snack_download_verified">Downloaden voltooid.</string>
+    <string name="snack_update_not_installable">Deze update kan niet worden geïnstalleerd bovenop de huidige versie.</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_verifying_update">Update verifiëren</string>
+    <string name="list_no_updates">Jouw apparaat draait op de nieuwste versie</string>
+    <string name="blocked_update_dialog_title">Update geblokkeerd</string>
+    <!-- Actions -->
+    <string name="action_download">Download</string>
+    <string name="action_pause">Pauzeren</string>
+    <string name="action_resume">Hervatten</string>
+    <string name="action_install">Installeren</string>
+    <string name="action_cancel">Annuleren</string>
+    <string name="confirm_delete_dialog_title">Verwijder bestand</string>
+    <string name="confirm_delete_dialog_message">Het geselecteerde updatebestand verwijderen?</string>
+    <string name="pause_button">Pauzeren</string>
+    <string name="resume_button">Hervatten</string>
+    <string name="suspend_button">Onderbreken</string>
+    <string name="reboot">Opnieuw opstarten</string>
+    <string name="details_button">Details weergeven</string>
+    <!-- Installation -->
+    <string name="apply_update_dialog_title">Update toepassen</string>
+    <string name="apply_update_dialog_message">Uw systeem wordt bijgewerkt naar <xliff:g id="update_name">%1$s</xliff:g>.\n\nWanneer u op <xliff:g id="ok">%2$s</xliff:g> drukt, zal het apparaat herstarten naar recovery om de update te installeren.\n\nLet op: een compatibele recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>
+    <string name="apply_update_dialog_message_ab">Uw systeem wordt bijgewerkt naar <xliff:g id="update_name">%1$s</xliff:g>.\n\nWanneer u op <xliff:g id="ok">%2$s</xliff:g> drukt, zal het apparaat de update op de achtergrond uitvoeren.\n\nWanneer de installatie voltooid is zal gevraagd worden het toestel te herstarten.</string>
+    <string name="cancel_installation_dialog_message">Installatie annuleren?</string>
+    <string name="installing_update">Update pakket installeren</string>
+    <string name="installing_update_error">Installatiefout</string>
+    <string name="installing_update_finished">Update geïnstalleerd</string>
+    <string name="finalizing_package">Installatie van het pakket afronden</string>
+    <string name="preparing_ota_first_boot">Eerste keer opstarten voorbereiden</string>
+    <string name="dialog_prepare_zip_message">Update voorbereiding</string>
+    <string name="dialog_battery_low_message_pct">Uw batterijniveau is te laag, u moet minstens <xliff:g id="percent_discharging">%1$d</xliff:g>%% batterijcapaciteit hebben om door te gaan of <xliff:g id="percent_charging">%2$d</xliff:g>%% tijdens het opladen.</string>
+    <!-- Export update -->
+    <string name="dialog_export_title">Update exporteren naar interne opslag</string>
+    <string name="notification_export_success">Update geëxporteerd naar interne opslag</string>
+    <string name="notification_export_fail">Fout bij exporteren</string>
+    <string name="toast_already_exporting">Er wordt al een update geëxporteerd</string>
+    <!-- ETA -->
+    <plurals name="eta_seconds">
+        <item quantity="one">1 seconde resterend</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconden resterend</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minuut resterend</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minuten resterend</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 uur resterend</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> uur resterend</item>
+    </plurals>
+    <!-- Mobile data warning -->
+    <string name="update_on_mobile_data_title">Waarschuwing</string>
+    <string name="update_on_mobile_data_message">U staat op het punt om een update-pakket te downloaden via mobiele gegevens, wat kan leiden tot een hoog gegevensgebruik. Wilt u verder gaan?</string>
+    <string name="checkbox_mobile_data_warning">Niet opnieuw tonen</string>
+    <string name="menu_mobile_data_warning">Waarschuwing mobiele data</string>
+    <!-- Info section -->
+    <string name="extras_category_title">Extra\'s</string>
+    <string name="maintainer_info_title">Beheerder</string>
+    <string name="donate_info_title">Doneren</string>
+    <string name="donate_info_summary">Steun de ontwikkeling</string>
+    <string name="website_info_title">Website</string>
+    <string name="website_info_summary">Bezoek onze website</string>
+    <string name="news_info_title">Nieuws</string>
+    <string name="news_info_summary">Blijf op de hoogte van updates en ander nieuws</string>
+    <string name="forum_info_title">Forum</string>
+    <string name="forum_info_summary">Bekijk forumberichten</string>
+    <string name="error_open_url">Fout bij het openen van URL in browser</string>
+</resources>
