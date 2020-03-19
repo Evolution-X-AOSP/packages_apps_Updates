@@ -58,6 +58,7 @@
     <string name="list_no_updates">আপনার ডিভাইসের সিস্টেম আপ-টু-ডেট আছে</string>
     <string name="blocked_update_dialog_title">আপডেট ব্লক করা হয়েছে</string>
     <!-- Actions -->
+    <string name="action_download">ডাউনলোড</string>
     <string name="action_pause">বিরতি</string>
     <string name="action_resume">পুনরারম্ভ</string>
     <string name="action_install">ইনস্টল করুন</string>
