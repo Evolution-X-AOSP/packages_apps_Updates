@@ -57,7 +57,7 @@
     <string name="text_download_speed">%1$s, %2$s/s</string>
     <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> von <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> von <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
-    <string name="list_verifying_update">Update wird geprüft</string>
+    <string name="list_verifying_update">Update wird überprüft</string>
     <string name="list_no_updates">Ihr Gerät ist auf den neusten Stand</string>
     <string name="blocked_update_dialog_title">Update blockiert</string>
     <!-- Actions -->
@@ -77,14 +77,14 @@
     <!-- Installation -->
     <string name="apply_update_dialog_title">Update installieren</string>
     <string name="apply_update_dialog_message">Sie sind im Begriff auf <xliff:g id="update_name">%1$s</xliff:g>\n\n zu updaten. Wenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, anderenfalls muss das Update manuell installiert werden.</string>
-    <string name="apply_update_dialog_message_ab">Bereit zum Update auf <xliff:g id="update_name">%1$s</xliff:g>\n\nWenn Sie <xliff:g id="ok">%2$s drücken</xliff:g>, beginnt das Gerät im Hintergrund mit der Installation\n\nSobald diese abgeschlossen ist, werden Sie zum Neustart aufgefordert.</string>
+    <string name="apply_update_dialog_message_ab">Sie sind im Begriff auf <xliff:g id="update_name">%1$s</xliff:g>\n\n zu updaten. Wenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, anderenfalls muss das Update manuell installiert werden.</string>
     <string name="cancel_installation_dialog_message">Installation abbrechen?</string>
     <string name="installing_update">Update-Paket wird installiert</string>
     <string name="installing_update_error">Installationsfehler</string>
     <string name="installing_update_finished">Update installiert</string>
     <string name="finalizing_package">Die Paketinstallation wird abgeschlossen</string>
     <string name="preparing_ota_first_boot">Erster Start wird vorbereitet</string>
-    <string name="dialog_prepare_zip_message">Update wird vorbereitet</string>
+    <string name="dialog_prepare_zip_message">Vorläufige Update-Vorbereitung</string>
     <string name="dialog_battery_low_title">Niedriger Akkustand</string>
     <string name="dialog_battery_low_message_pct">Der Akkustand ist zu niedrig. Es werden mindestens <xliff:g id="percent_discharging">%1$d</xliff:g>%% Restkapazität (oder <xliff:g id="percent_charging">%2$d</xliff:g>%% mit angeschlossenem Ladegerät) benötigt, um fortzufahren.</string>
     <!-- Export update -->
@@ -94,15 +94,15 @@
     <string name="toast_already_exporting">Es wird bereits ein Update exportiert</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="one">1 Sekunde verbleibend</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> Sekunden verbleibend</item>
         <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Sekunden verbleibend</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">noch 1 Minute verbleibend</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> Minuten verbleibend</item>
         <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Minuten verbleibend</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">noch 1 Stunde verbleibend</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> Stunden verbleiben</item>
         <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Stunden verbleibend</item>
     </plurals>
     <!-- Mobile data warning -->
@@ -112,7 +112,7 @@
     <string name="menu_mobile_data_warning">Mobildaten-Warnung</string>
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
-    <string name="maintainer_info_title">Inhaber</string>
+    <string name="maintainer_info_title">Maintainer</string>
     <string name="donate_info_title">Spende</string>
     <string name="donate_info_summary">Unterstütze die Entwicklung</string>
     <string name="website_info_title">Webseite</string>
