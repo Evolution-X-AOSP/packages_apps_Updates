@@ -20,7 +20,7 @@
     <!-- Notifications -->
     <string name="export_channel_title">تكملة التصدير</string>
     <string name="new_updates_channel_title">تحديثات جديدة</string>
-    <string name="ongoing_channel_title">التنزيلات الجارية</string>
+    <string name="ongoing_channel_title">تحميلات جاريه</string>
     <string name="update_failed_channel_title">فشل التحديث</string>
     <string name="verification_failed_notification">فشلت عملية التحقق</string>
     <string name="verifying_download_notification">جارٍ التحقق من التحديث</string>
