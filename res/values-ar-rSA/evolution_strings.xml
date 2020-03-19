@@ -32,11 +32,14 @@
     <string name="update_failed_notification">فشل التحديث</string>
     <string name="installation_suspended_notification">تم تعليق التثبيت</string>
     <!-- Menu -->
+    <string name="menu_refresh">تحديث</string>
     <string name="menu_preferences">التفضيلات</string>
     <string name="menu_auto_updates_check">التحقق من التحديثات تلقائياً</string>
     <string name="menu_auto_updates_check_interval_daily">مرة في اليوم</string>
     <string name="menu_auto_updates_check_interval_weekly">مرة في الأسبوع</string>
     <string name="menu_auto_updates_check_interval_monthly">مرة في الشهر</string>
+    <string name="menu_auto_updates_check_interval_never">ابداً</string>
+    <string name="menu_delete_update">حذف</string>
     <string name="menu_copy_url">نسخ الرابط</string>
     <string name="menu_export_update">تصدير التحديث</string>
     <string name="menu_show_changelog">التغييرات في الإصدار الحالي</string>
@@ -58,9 +61,12 @@
     <string name="list_no_updates">جهازك محدث</string>
     <string name="blocked_update_dialog_title">تم حظر التحديث</string>
     <!-- Actions -->
+    <string name="action_download">تنزيل</string>
     <string name="action_pause">إيقاف مؤقت</string>
     <string name="action_resume">إستئناف</string>
     <string name="action_install">تثبيت</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_cancel">إلغاء</string>
     <string name="confirm_delete_dialog_title">حذف الملف</string>
     <string name="confirm_delete_dialog_message">حذف ملف التحديث المحدد؟</string>
     <string name="pause_button">إيقاف مؤقت</string>
@@ -79,6 +85,7 @@
     <string name="finalizing_package">جاري إنهاء تثبيت الحزمة</string>
     <string name="preparing_ota_first_boot">جاري الإعداد للتشغيل الأول</string>
     <string name="dialog_prepare_zip_message">الإعداد الأولي للتحديث</string>
+    <string name="dialog_battery_low_title">البطارية منخفضة</string>
     <string name="dialog_battery_low_message_pct">مستوى البطارية منخفض جداً، تحتاج على الأقل <xliff:g id="percent_discharging">%1$d</xliff:g>%% من البطارية للمتابعة، <xliff:g id="percent_charging">%2$d</xliff:g>%% في حالة الشحن.</string>
     <!-- Export update -->
     <string name="dialog_export_title">تصدير التحديث إلى وحدة التخزين الداخلية</string>
