@@ -32,6 +32,7 @@
     <string name="update_failed_notification">A atualização falhou</string>
     <string name="installation_suspended_notification">Instalação suspensa</string>
     <!-- Menu -->
+    <string name="menu_refresh">Atualizar</string>
     <string name="menu_preferences">Preferências</string>
     <string name="menu_auto_updates_check">Verificar atualizações automaticamente</string>
     <string name="menu_auto_updates_check_interval_daily">Diariamente</string>
@@ -54,7 +55,7 @@
     <string name="snack_download_verified">Download concluído.</string>
     <string name="snack_update_not_installable">Esta atualização não pode ser instalada por cima da versão atual.</string>
     <string name="text_download_speed">%1$s, %2$s/s</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="porcentagem">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verificando atualização</string>
     <string name="list_no_updates">Seu dispositivo está atualizado</string>
