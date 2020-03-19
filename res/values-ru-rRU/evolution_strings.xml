@@ -44,8 +44,8 @@
     <string name="menu_export_update">Экспорт обновлений</string>
     <string name="menu_show_changelog">Изменения в текущей версии</string>
     <string name="changelog_loading">Загрузка…</string>
-    <string name="label_download_url">URL для загрузки</string>
-    <string name="toast_download_url_copied">URL скопирован</string>
+    <string name="label_download_url">Ссылка для скачивания</string>
+    <string name="toast_download_url_copied">Ссылка скопирована</string>
     <!-- General -->
     <string name="update_found_notification">Доступно обновление системы</string>
     <string name="snack_no_updates_found">Нет доступных обновлений</string>
