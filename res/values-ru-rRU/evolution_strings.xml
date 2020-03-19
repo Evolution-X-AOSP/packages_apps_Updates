@@ -24,7 +24,7 @@
     <string name="update_failed_channel_title">Ошибка обновления</string>
     <string name="verification_failed_notification">Ошибка проверки</string>
     <string name="verifying_download_notification">Проверка обновления</string>
-    <string name="downloading_notification">Загружается</string>
+    <string name="downloading_notification">Загрузка</string>
     <string name="download_paused_notification">Загрузка приостановлена</string>
     <string name="download_paused_error_notification">Ошибка загрузки</string>
     <string name="download_completed_notification">Загрузка завершена</string>
@@ -54,9 +54,9 @@
     <string name="snack_download_verification_failed">Ошибка проверки обновления.</string>
     <string name="snack_download_verified">Загрузка завершена.</string>
     <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
-    <string name="text_download_speed">%1$s, %2$s/с</string>
-    <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> из <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> из <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Проверка обновления</string>
     <string name="list_no_updates">Обновлений нет</string>
     <string name="blocked_update_dialog_title">Обновление заблокировано</string>
@@ -95,19 +95,19 @@
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one">Осталась 1 секунда</item>
-        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> секунд</item>
+        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> секунды</item>
         <item quantity="many">осталось <xliff:g id="count">%d</xliff:g> секунд</item>
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> секунд</item>
     </plurals>
     <plurals name="eta_minutes">
         <item quantity="one">Осталась 1 минута</item>
-        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> минут</item>
+        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> минуты</item>
         <item quantity="many">осталось <xliff:g id="count">%d</xliff:g> минут</item>
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> минут</item>
     </plurals>
     <plurals name="eta_hours">
         <item quantity="one">Остался 1 час</item>
-        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> часов</item>
+        <item quantity="few">осталось <xliff:g id="count">%d</xliff:g> часа</item>
         <item quantity="many">осталось <xliff:g id="count">%d</xliff:g> часов</item>
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> часов</item>
     </plurals>
