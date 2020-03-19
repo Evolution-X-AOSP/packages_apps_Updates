@@ -37,6 +37,7 @@
     <string name="menu_auto_updates_check_interval_daily">O dată pe zi</string>
     <string name="menu_auto_updates_check_interval_weekly">O dată pe săptămână</string>
     <string name="menu_auto_updates_check_interval_monthly">O dată pe lună</string>
+    <string name="menu_auto_updates_check_interval_never">Niciodată</string>
     <string name="menu_copy_url">Copiază URL</string>
     <string name="menu_export_update">Exportă actualizare</string>
     <string name="menu_show_changelog">Modificări în versiunea curentă</string>
