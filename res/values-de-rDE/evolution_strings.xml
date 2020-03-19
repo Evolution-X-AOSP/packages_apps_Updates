@@ -107,7 +107,7 @@
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Warnung</string>
-    <string name="update_on_mobile_data_message">Du bist dabei ein Software-Update über das Mobilfunknetz herunterzuladen, was zu einem hohen Datenverbrauch führen kann. Möchtest du fortfahren?</string>
+    <string name="update_on_mobile_data_message">Sie sind dabei ein Software-Update über das Mobilfunknetz herunterzuladen, was zu einem hohen Datenverbrauch führen kann. Möchten Sie fortfahren?</string>
     <string name="checkbox_mobile_data_warning">Nicht mehr anzeigen</string>
     <string name="menu_mobile_data_warning">Mobildaten-Warnung</string>
     <!-- Info section -->
