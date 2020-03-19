@@ -38,6 +38,7 @@
     <string name="menu_auto_updates_check_interval_weekly">O dată pe săptămână</string>
     <string name="menu_auto_updates_check_interval_monthly">O dată pe lună</string>
     <string name="menu_auto_updates_check_interval_never">Niciodată</string>
+    <string name="menu_delete_update">Ștergeți</string>
     <string name="menu_copy_url">Copiază URL</string>
     <string name="menu_export_update">Exportă actualizare</string>
     <string name="menu_show_changelog">Modificări în versiunea curentă</string>
@@ -63,6 +64,7 @@
     <string name="action_pause">Pauză</string>
     <string name="action_resume">Reluaţi</string>
     <string name="action_install">Instalați</string>
+    <string name="action_delete">Ștergeți</string>
     <string name="action_cancel">Anulare</string>
     <string name="confirm_delete_dialog_title">Şterge fişier</string>
     <string name="confirm_delete_dialog_message">Șterge fișierul de actualizare selectat?</string>
