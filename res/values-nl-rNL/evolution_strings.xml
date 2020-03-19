@@ -38,6 +38,7 @@
     <string name="menu_auto_updates_check_interval_weekly">Eenmaal per week</string>
     <string name="menu_auto_updates_check_interval_monthly">Eenmaal per maand</string>
     <string name="menu_auto_updates_check_interval_never">Nooit</string>
+    <string name="menu_delete_update">Verwijderen</string>
     <string name="menu_copy_url">URL kopiëren</string>
     <string name="menu_export_update">Update exporteren</string>
     <string name="menu_show_changelog">Wijzigingen in huidige versie</string>
@@ -63,6 +64,7 @@
     <string name="action_pause">Pauzeren</string>
     <string name="action_resume">Hervatten</string>
     <string name="action_install">Installeren</string>
+    <string name="action_delete">Verwijderen</string>
     <string name="action_cancel">Annuleren</string>
     <string name="confirm_delete_dialog_title">Verwijder bestand</string>
     <string name="confirm_delete_dialog_message">Het geselecteerde updatebestand verwijderen?</string>
@@ -82,6 +84,7 @@
     <string name="finalizing_package">Installatie van het pakket afronden</string>
     <string name="preparing_ota_first_boot">Eerste keer opstarten voorbereiden</string>
     <string name="dialog_prepare_zip_message">Update voorbereiding</string>
+    <string name="dialog_battery_low_title">Lage batterij</string>
     <string name="dialog_battery_low_message_pct">Uw batterijniveau is te laag, u moet minstens <xliff:g id="percent_discharging">%1$d</xliff:g>%% batterijcapaciteit hebben om door te gaan of <xliff:g id="percent_charging">%2$d</xliff:g>%% tijdens het opladen.</string>
     <!-- Export update -->
     <string name="dialog_export_title">Update exporteren naar interne opslag</string>
