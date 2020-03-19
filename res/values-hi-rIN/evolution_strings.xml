@@ -22,39 +22,39 @@
     <string name="new_updates_channel_title">नया अपडेट</string>
     <string name="ongoing_channel_title">डाउनलोड जारी है</string>
     <string name="update_failed_channel_title">अपडेट विफल</string>
-    <string name="verification_failed_notification">पुष्टिकरण असफल</string>
+    <string name="verification_failed_notification">पुष्टिकरण विफल</string>
     <string name="verifying_download_notification">अपडेट की पुष्टि हो रही है</string>
     <string name="downloading_notification">डाउनलोड किया जा रहा है</string>
     <string name="download_paused_notification">डाउनलोड रुक गया</string>
-    <string name="download_paused_error_notification">डाउनलोड त्रुटि</string>
-    <string name="download_completed_notification">डाउनलोड समाप्त हुआ</string>
+    <string name="download_paused_error_notification">डाउनलोड में गलती</string>
+    <string name="download_completed_notification">डाउनलोड पूर्ण हुआ</string>
     <string name="download_starting_notification">डाउनलोड प्रारम्भ हो रहा है</string>
-    <string name="update_failed_notification">अद्यतन असफल</string>
+    <string name="update_failed_notification">अपडेट विफल</string>
     <string name="installation_suspended_notification">स्थापना निलंबित</string>
     <!-- Menu -->
     <string name="menu_refresh">ताज़ा करना</string>
     <string name="menu_preferences">प्राथमिकताएं</string>
-    <string name="menu_auto_updates_check">अपडेट की जांच करें</string>
+    <string name="menu_auto_updates_check">अपडेट की स्वत: जांच करें</string>
     <string name="menu_auto_updates_check_interval_daily">दिन में एक बार</string>
-    <string name="menu_auto_updates_check_interval_weekly">साप्ताहिक</string>
-    <string name="menu_auto_updates_check_interval_monthly">प्रतिमास</string>
+    <string name="menu_auto_updates_check_interval_weekly">सप्ताह में एक बार</string>
+    <string name="menu_auto_updates_check_interval_monthly">महीने में एक बार</string>
     <string name="menu_auto_updates_check_interval_never">कभी नहीँ</string>
     <string name="menu_delete_update">हटाएं</string>
-    <string name="menu_copy_url">URL कापी करें</string>
-    <string name="menu_export_update">अद्यतन निर्यात करे</string>
+    <string name="menu_copy_url">यूआरएल कॉपी करें</string>
+    <string name="menu_export_update">अपडेट निर्यात करें</string>
     <string name="menu_show_changelog">वर्तमान संस्करण में परिवर्तन</string>
     <string name="changelog_loading">लोड हो रहा है…</string>
-    <string name="label_download_url">URL डाउनलोड करें</string>
-    <string name="toast_download_url_copied">URL की नकल की गई</string>
+    <string name="label_download_url">यूआरएल डाउनलोड करें</string>
+    <string name="toast_download_url_copied">यूआरएल कॉपी किया गया</string>
     <!-- General -->
     <string name="update_found_notification">नया अपडेट उपलब्ध है</string>
     <string name="snack_no_updates_found">कोई नई अपडेट नहीं पाई गयी</string>
-    <string name="snack_updates_check_failed">अद्यतन जांच असफल रही कृपया अपना इंटरनेट कनेक्शन जांचें और बाद में फिर से प्रयास करें।</string>
-    <string name="snack_download_failed">अद्यतन जांच असफल रही कृपया अपना इंटरनेट कनेक्शन जांचें और बाद में फिर से प्रयास करें।</string>
-    <string name="snack_download_verification_failed">अद्यतन सत्यापन विफल रहा।</string>
-    <string name="snack_download_verified">डाउनलोड समाप्त हुआ.</string>
-    <string name="snack_update_not_installable">यह अद्यतन वर्तमान बिल्ड के शीर्ष पर स्थापित नहीं किया जा सकता है।</string>
-    <string name="text_download_speed">%1$s, %2$s/एस</string>
+    <string name="snack_updates_check_failed">अपडेट जांच विफल रही । कृपया अपना इंटरनेट कनेक्शन जांचें और बाद में फिर से प्रयास करें।</string>
+    <string name="snack_download_failed">अपडेट जांच विफल रही । कृपया अपना इंटरनेट कनेक्शन जांचें और बाद में फिर से प्रयास करें।</string>
+    <string name="snack_download_verification_failed">अपडेट सत्यापन विफल रहा।</string>
+    <string name="snack_download_verified">डाउनलोड पूर्ण हुआ.</string>
+    <string name="snack_update_not_installable">यह अपडेट वर्तमान संस्करण पर इंस्टॉल नहीं किया जा सकता है।</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
     <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">अपडेट की पुष्टि हो रही है</string>
@@ -62,35 +62,35 @@
     <string name="blocked_update_dialog_title">अपडेट अवरुद्ध</string>
     <!-- Actions -->
     <string name="action_download">डाउन्लोड</string>
-    <string name="action_pause">विराम दें</string>
+    <string name="action_pause">रोकें</string>
     <string name="action_resume">फिर से शुरू करें</string>
     <string name="action_install">इंस्टॉल करें</string>
     <string name="action_delete">हटाएं</string>
     <string name="action_cancel">कैंसिल</string>
     <string name="confirm_delete_dialog_title">फाइल हटाई जाए?</string>
     <string name="confirm_delete_dialog_message">चयनित अपडेट फ़ाइल हटाएँ?</string>
-    <string name="pause_button">विराम दें</string>
+    <string name="pause_button">रोकें</string>
     <string name="resume_button">फिर से शुरू करें</string>
     <string name="suspend_button">निलंबित</string>
     <string name="reboot">रीबूट करें</string>
     <string name="details_button">विवरण देखें</string>
     <!-- Installation -->
-    <string name="apply_update_dialog_title">अपडेट लागू करें</string>
-    <string name="apply_update_dialog_message">आप <xliff:g id="filename">%1$s</xliff:g> में अद्यतन करने जा रहे हैं।\n\nयदि आप अद्यतन को दबाएँगे, तो उपकरण अद्यतन को स्थापित करने के लिए रिकवरी मोड में रीस्टार्ट करेगा।\n\nटिप्पणी: इस सुविधा के लिए संगत रिकवरी की आवश्यकता है, अन्यथा आपको स्वयं अद्यतनों को स्थापित करना पड़ेगा।</string>
+    <string name="apply_update_dialog_title">अपडेट इंस्टॉल करें</string>
+    <string name="apply_update_dialog_message">आप <xliff:g id="filename">%1$s</xliff:g> में अपडेट करने जा रहे हैं।\n\nयदि आप अपडेट को दबाएँगे, तो फोन अपडेट इंस्टॉल करने के लिए रिकवरी मोड में जाएगा।\n\nटिप्पणी: इस फीचर के लिए संगत रिकवरी की आवश्यकता है, अन्यथा आपको स्वयं अपडेट को इंस्टॉल करना पड़ेगा।</string>
     <string name="apply_update_dialog_message_ab">आप <xliff:g id="filename">%1$s</xliff:g> में अद्यतन करने जा रहे हैं।\n\nयदि आप अद्यतन को दबाएँगे, तो उपकरण अद्यतन को पृष्ठभूमि में स्थापित करने लगेगा। यह प्रक्रिया संपुर्ण होने पर आपको रिबूट करने के लिए पूछा जाएगा।</string>
-    <string name="cancel_installation_dialog_message">स्थापना रद्द करें?</string>
+    <string name="cancel_installation_dialog_message">इंस्टॉल करना रद्द करें?</string>
     <string name="installing_update">पैकेज इंस्टॉल हो रहा है</string>
-    <string name="installing_update_error">स्थापना त्रुटि</string>
-    <string name="installing_update_finished">अद्यतन स्थापित किया गया</string>
-    <string name="finalizing_package">पैकेज स्थापना को अंतिम रूप देना</string>
-    <string name="preparing_ota_first_boot">प्रथम बूट के लिए तैयार हो रहा है</string>
-    <string name="dialog_prepare_zip_message">प्रारंभिक अपडेट की तैयारी जारी</string>
+    <string name="installing_update_error">इंस्टॉल करने में गलती</string>
+    <string name="installing_update_finished">अपडेट इंस्टॉल किया गया</string>
+    <string name="finalizing_package">अपडेट इंस्टॉल को अंतिम रूप दें</string>
+    <string name="preparing_ota_first_boot">पहली बार खुलने के लिए तैयार हो रहा है</string>
+    <string name="dialog_prepare_zip_message">अपडेट से पहले की तैयारी</string>
     <string name="dialog_battery_low_title">कम बैटरी</string>
     <string name="dialog_battery_low_message_pct">बैटरी कम है, आपको आगे बढ़ने के लिए कम से कम <xliff:g id="percent_discharging">%1$d</xliff:g>%% बैटरी चाहिए, <xliff:g id="percent_charging">%2$d</xliff:g>%% बैटरी अगर आप चार्ज कर रहे हैं।</string>
     <!-- Export update -->
     <string name="dialog_export_title">अपडेट को फ़ोन के स्टोरेज में निर्यात किया जा रहा है</string>
     <string name="notification_export_success">अपडेट फ़ोन के स्टोरेज में सफलतापूर्वक निर्यात किया गया</string>
-    <string name="notification_export_fail">निर्यात में त्रुटि</string>
+    <string name="notification_export_fail">निर्यात में गलती</string>
     <string name="toast_already_exporting">पहले से ही एक अपडेट निर्यात किया जा रहा है</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
@@ -107,19 +107,19 @@
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">चेतावनी</string>
-    <string name="update_on_mobile_data_message">आप मोबाइल डेटा का उपयोग कर एक अपडेट पैकेज डाउनलोड करने वाले हैं, जो संभवत: उच्च डेटा उपयोग का कारण होने जा रहा है। क्या आप कार्यवाही को जारी रखना चाहते हैं?</string>
-    <string name="checkbox_mobile_data_warning">दुबारा न दिखाएं</string>
+    <string name="update_on_mobile_data_message">आप मोबाइल डेटा का उपयोग कर अपडेट डाउनलोड करने जा रहे हैं, जिससे आपका अधिक डेटा खत्म होगा। क्या आप डाउनलोड को जारी रखना चाहते हैं?</string>
+    <string name="checkbox_mobile_data_warning">दोबारा ना दिखाएं</string>
     <string name="menu_mobile_data_warning">मोबाइल डेटा चेतावनी</string>
     <!-- Info section -->
     <string name="extras_category_title">अतिरिक्त</string>
-    <string name="maintainer_info_title">अनुरक्षक</string>
+    <string name="maintainer_info_title">मेंटेनर</string>
     <string name="donate_info_title">दान करें</string>
-    <string name="donate_info_summary">विकास का समर्थन करें</string>
+    <string name="donate_info_summary">रोम के विकास का समर्थन करें</string>
     <string name="website_info_title">वेबसाइट</string>
     <string name="website_info_summary">हमारी वेबसाइट पर जाएँ</string>
     <string name="news_info_title">समाचार</string>
     <string name="news_info_summary">अपडेट्स और अन्य खबरों के बारे में सूचित रहें</string>
     <string name="forum_info_title">फोरम</string>
     <string name="forum_info_summary">फोरम पोस्ट देखें</string>
-    <string name="error_open_url">ब्राउज़र में URL खोलने में विफल</string>
+    <string name="error_open_url">ब्राउज़र में यूआरएल खोलने में विफल</string>
 </resources>
