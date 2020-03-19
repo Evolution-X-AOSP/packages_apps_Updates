@@ -32,6 +32,7 @@
     <string name="update_failed_notification">अद्यतन असफल</string>
     <string name="installation_suspended_notification">स्थापना निलंबित</string>
     <!-- Menu -->
+    <string name="menu_refresh">ताज़ा करना</string>
     <string name="menu_preferences">प्राथमिकताएं</string>
     <string name="menu_auto_updates_check">अपडेट की जांच करें</string>
     <string name="menu_auto_updates_check_interval_daily">दिन में एक बार</string>
