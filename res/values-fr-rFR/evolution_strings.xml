@@ -32,6 +32,7 @@
     <string name="update_failed_notification">Échec de la mise à jour</string>
     <string name="installation_suspended_notification">Installation interrompue</string>
     <!-- Menu -->
+    <string name="menu_refresh">Actualiser</string>
     <string name="menu_preferences">Préférences</string>
     <string name="menu_auto_updates_check">Vérification automatique des mises à jour</string>
     <string name="menu_auto_updates_check_interval_daily">Une fois par jour</string>
