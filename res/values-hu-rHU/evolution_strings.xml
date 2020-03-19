@@ -37,6 +37,8 @@
     <string name="menu_auto_updates_check_interval_daily">Naponta egyszer</string>
     <string name="menu_auto_updates_check_interval_weekly">Hetente egyszer</string>
     <string name="menu_auto_updates_check_interval_monthly">Havonta egyszer</string>
+    <string name="menu_auto_updates_check_interval_never">Soha</string>
+    <string name="menu_delete_update">Törlés</string>
     <string name="menu_copy_url">Az URL másolása</string>
     <string name="menu_export_update">Frissítés exportálása</string>
     <string name="menu_show_changelog">Változások a jelenlegi verzióban</string>
@@ -58,9 +60,12 @@
     <string name="list_no_updates">A rendszer naprakész</string>
     <string name="blocked_update_dialog_title">A frissítés blokkolva</string>
     <!-- Actions -->
+    <string name="action_download">Letöltés</string>
     <string name="action_pause">Szüneteltetés</string>
     <string name="action_resume">Folytatás</string>
     <string name="action_install">Telepítés</string>
+    <string name="action_delete">Törlés</string>
+    <string name="action_cancel">Mégsem</string>
     <string name="confirm_delete_dialog_title">Fájl törlése</string>
     <string name="confirm_delete_dialog_message">Kijelölt frissítés törlése?</string>
     <string name="pause_button">Szünet</string>
