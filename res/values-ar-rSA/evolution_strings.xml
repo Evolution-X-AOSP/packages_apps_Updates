@@ -20,7 +20,7 @@
     <!-- Notifications -->
     <string name="export_channel_title">تكملة التصدير</string>
     <string name="new_updates_channel_title">تحديثات جديدة</string>
-    <string name="ongoing_channel_title">تحميلات جاريه</string>
+    <string name="ongoing_channel_title">التنزيلات الجارية</string>
     <string name="update_failed_channel_title">فشل التحديث</string>
     <string name="verification_failed_notification">فشلت عملية التحقق</string>
     <string name="verifying_download_notification">جارٍ التحقق من التحديث</string>
@@ -61,7 +61,7 @@
     <string name="list_no_updates">جهازك محدث</string>
     <string name="blocked_update_dialog_title">تم حظر التحديث</string>
     <!-- Actions -->
-    <string name="action_download">تنزيل</string>
+    <string name="action_download">تحميل</string>
     <string name="action_pause">إيقاف مؤقت</string>
     <string name="action_resume">إستئناف</string>
     <string name="action_install">تثبيت</string>
@@ -126,7 +126,7 @@
     <string name="extras_category_title">إضافات</string>
     <string name="maintainer_info_title">المشرف</string>
     <string name="donate_info_title">تبرع</string>
-    <string name="donate_info_summary">إدعم المطور</string>
+    <string name="donate_info_summary">إدعم التطوير</string>
     <string name="website_info_title">الموقع</string>
     <string name="website_info_summary">زيارة موقعنا الإلكتروني</string>
     <string name="news_info_title">الأخبار</string>
