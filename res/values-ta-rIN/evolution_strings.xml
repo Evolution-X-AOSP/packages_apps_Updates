@@ -37,6 +37,7 @@
     <string name="menu_auto_updates_check_interval_daily">தினம் ஒரு முறை</string>
     <string name="menu_auto_updates_check_interval_weekly">வாரம் ஒரு முறை</string>
     <string name="menu_auto_updates_check_interval_monthly">மாதம் ஒரு முறை</string>
+    <string name="menu_delete_update">நீக்கு</string>
     <string name="menu_copy_url">URL-ஐ நகலெடு</string>
     <string name="menu_export_update">மேம்படுத்தல் ஏற்றுமதி</string>
     <string name="menu_show_changelog">தற்போதைய பதிப்பில் மாற்றங்கள்</string>
@@ -61,9 +62,11 @@ update_check_failed
     <string name="list_no_updates">உங்கள் பதிப்பு மேம்பட்ட பதிப்பாக உள்ளது</string>
     <string name="blocked_update_dialog_title">புதுப்பிப்பு தடுக்கப்பட்டது</string>
     <!-- Actions -->
+    <string name="action_download">பதிவிறக்கம்</string>
     <string name="action_pause">இடைநிறுத்து</string>
     <string name="action_resume">மறுதொடக்கம்</string>
     <string name="action_install">நிறுவு</string>
+    <string name="action_delete">நீக்கு</string>
     <string name="action_cancel">ரத்துசெய்</string>
     <string name="confirm_delete_dialog_title">கோப்புகளை அழி</string>
     <string name="confirm_delete_dialog_message">தேர்ந்தெடுக்கப்பட்ட புதுப்பித்தல் கோப்பை நீக்கவா?</string>
@@ -83,6 +86,7 @@ update_check_failed
     <string name="finalizing_package">தொகுப்பு நிறுவலை முடிக்கிறது</string>
     <string name="preparing_ota_first_boot">முதல் துவக்க தயாராகிறது</string>
     <string name="dialog_prepare_zip_message">ஆரம்ப புதுப்பித்தல் தயாரிப்பு</string>
+    <string name="dialog_battery_low_title">பேட்டரி குறைவு</string>
     <string name="dialog_battery_low_message_pct">பேட்டரி தேவை அளவு குறைவாக உள்ளது<xliff:g id="percent_discharging">%1$d</xliff:g>%% ஆரம்பிக்க <xliff:g id="percent_charging">%2$d</xliff:g>%% சக்தி என்றால்.</string>
     <!-- Export update -->
     <string name="dialog_export_title">உள் சேமிப்பகத்திற்கு புதுப்பிப்பை ஏற்றுமதி செய்கிறது</string>
