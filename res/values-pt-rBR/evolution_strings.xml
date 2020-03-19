@@ -26,7 +26,7 @@
     <string name="verifying_download_notification">Verificando atualização</string>
     <string name="downloading_notification">Baixando</string>
     <string name="download_paused_notification">Download pausado</string>
-    <string name="download_paused_error_notification">Erro no download</string>
+    <string name="download_paused_error_notification">Erro ao baixar</string>
     <string name="download_completed_notification">Download concluído</string>
     <string name="download_starting_notification">Iniciando download</string>
     <string name="update_failed_notification">A atualização falhou</string>
@@ -55,8 +55,8 @@
     <string name="snack_download_verified">Download concluído.</string>
     <string name="snack_update_not_installable">Esta atualização não pode ser instalada por cima da versão atual.</string>
     <string name="text_download_speed">%1$s, %2$s/s</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="porcentagem">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> de <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="porcentagem">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> de <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verificando atualização</string>
     <string name="list_no_updates">Seu dispositivo está atualizado</string>
     <string name="blocked_update_dialog_title">Atualização bloqueada</string>
@@ -77,7 +77,7 @@
     <!-- Installation -->
     <string name="apply_update_dialog_title">Instalar atualização</string>
     <string name="apply_update_dialog_message">Você está prestes a atualizar para <xliff:g id="update_name">%1$s</xliff:g>.\n\nSe você pressionar <xliff:g id="ok">%2$s</xliff:g>o dispositivo irá reiniciar no modo de recuperação para instalar a atualização.\n\nNota: Esta função requer um Recovey compatível ou as atualizações terão de ser instaladas manualmente.</string>
-    <string name="apply_update_dialog_message_ab">Você está prestes a atualizar para <xliff:g id="update_name">%1$s</xliff:g>.\n\nSe você pressionar <xliff:g id="ok">%2$s</xliff:g>o dispositivo começará a instalar em segundo plano.\n\nUma vez concluído, será solicitado a você reiniciar o dispositivo.</string>
+    <string name="apply_update_dialog_message_ab">Você está prestes a atualizar para <xliff:g id="update_name">%1$s</xliff:g>.\n\nSe você pressionar <xliff:g id="ok">%2$s</xliff:g>o dispositivo começará a instalar em segundo plano.\n\nUma vez concluído, será solicitada a reinicialização o dispositivo.</string>
     <string name="cancel_installation_dialog_message">Deseja cancelar a instalação?</string>
     <string name="installing_update">Instalando pacote de atualização</string>
     <string name="installing_update_error">Erro na instalação</string>
@@ -86,7 +86,7 @@
     <string name="preparing_ota_first_boot">Preparando para a primeira inicialização</string>
     <string name="dialog_prepare_zip_message">Preparação preliminar de atualização</string>
     <string name="dialog_battery_low_title">Bateria fraca</string>
-    <string name="dialog_battery_low_message_pct">O nível da bateria está muito baixo, você precisa de pelo menos <xliff:g id="percent_discharging">%1$d</xliff:g>%% da bateria para continuar, <xliff:g id="percent_charging">%2$d</xliff:g>%% se estiver carregando.</string>
+    <string name="dialog_battery_low_message_pct">O nível da bateria está muito baixo, você precisa de pelo menos <xliff:g id="percent_discharging">%1$d</xliff:g>%% de bateria para continuar, <xliff:g id="percent_charging">%2$d</xliff:g>%% se estiver carregando.</string>
     <!-- Export update -->
     <string name="dialog_export_title">Exportando a atualização para o armazenamento interno</string>
     <string name="notification_export_success">Atualização exportada para o armazenamento interno</string>
