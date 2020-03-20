@@ -32,6 +32,7 @@
     <string name="update_failed_notification">Frissítés sikertelen</string>
     <string name="installation_suspended_notification">A telepítés felfüggesztve</string>
     <!-- Menu -->
+    <string name="menu_refresh">Frissítés</string>
     <string name="menu_preferences">Beállítások</string>
     <string name="menu_auto_updates_check">Frissítések automatikus ellenőrzése</string>
     <string name="menu_auto_updates_check_interval_daily">Naponta egyszer</string>
