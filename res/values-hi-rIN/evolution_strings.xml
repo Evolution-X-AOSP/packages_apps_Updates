@@ -30,7 +30,7 @@
     <string name="download_completed_notification">डाउनलोड पूर्ण हुआ</string>
     <string name="download_starting_notification">डाउनलोड प्रारम्भ हो रहा है</string>
     <string name="update_failed_notification">अपडेट विफल</string>
-    <string name="installation_suspended_notification">स्थापना निलंबित</string>
+    <string name="installation_suspended_notification">इंस्टॉल करना निलंबित किया गया</string>
     <!-- Menu -->
     <string name="menu_refresh">ताज़ा करना</string>
     <string name="menu_preferences">प्राथमिकताएं</string>
@@ -76,8 +76,8 @@
     <string name="details_button">विवरण देखें</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">अपडेट इंस्टॉल करें</string>
-    <string name="apply_update_dialog_message">आप <xliff:g id="filename">%1$s</xliff:g> में अपडेट करने जा रहे हैं।\n\nयदि आप अपडेट को दबाएँगे, तो फोन अपडेट इंस्टॉल करने के लिए रिकवरी मोड में जाएगा।\n\nटिप्पणी: इस फीचर के लिए संगत रिकवरी की आवश्यकता है, अन्यथा आपको स्वयं अपडेट को इंस्टॉल करना पड़ेगा।</string>
-    <string name="apply_update_dialog_message_ab">आप <xliff:g id="filename">%1$s</xliff:g> में अद्यतन करने जा रहे हैं।\n\nयदि आप अद्यतन को दबाएँगे, तो उपकरण अद्यतन को पृष्ठभूमि में स्थापित करने लगेगा। यह प्रक्रिया संपुर्ण होने पर आपको रिबूट करने के लिए पूछा जाएगा।</string>
+    <string name="apply_update_dialog_message">आप <xliff:g id="update_name">%1$s</xliff:g>.\n\n में अपडेट करने जा रहे हैं।\n\nयदि आप <xliff:g id="ok">%2$s</xliff:g>, को दबाएँगे, तो फोन अपडेट इंस्टॉल करने के लिए रिकवरी मोड में जाएगा।\n\nटिप्पणी: इस फीचर के लिए संगत रिकवरी की आवश्यकता है, अन्यथा आपको स्वयं अपडेट को इंस्टॉल करना पड़ेगा।</string>
+    <string name="apply_update_dialog_message_ab">आप<xliff:g id="update_name">%1$s</xliff:g>.\n\nIमें अपडेट करने जा रहे हैं।\n\nयदि आप <xliff:g id="ok">%2$s</xliff:g> को दबाएँगे, तो फोन अपडेट को बैकग्राउंड में इंस्टॉल करने लगेगा। यह प्रक्रिया संपुर्ण होने पर आपको रिबूट करने के लिए पूछा जाएगा।</string>
     <string name="cancel_installation_dialog_message">इंस्टॉल करना रद्द करें?</string>
     <string name="installing_update">पैकेज इंस्टॉल हो रहा है</string>
     <string name="installing_update_error">इंस्टॉल करने में गलती</string>
