@@ -32,11 +32,13 @@
     <string name="update_failed_notification">மேம்பாடு தோல்வியடைந்தது</string>
     <string name="installation_suspended_notification">நிறுவல் இடைநிறுத்தப்பட்டது</string>
     <!-- Menu -->
+    <string name="menu_refresh">புதுப்பி</string>
     <string name="menu_preferences">விருப்பங்கள்</string>
     <string name="menu_auto_updates_check">ஆட்டோ புதுப்பித்தல்களை சரிபார்</string>
     <string name="menu_auto_updates_check_interval_daily">தினம் ஒரு முறை</string>
     <string name="menu_auto_updates_check_interval_weekly">வாரம் ஒரு முறை</string>
     <string name="menu_auto_updates_check_interval_monthly">மாதம் ஒரு முறை</string>
+    <string name="menu_auto_updates_check_interval_never">ஒருபோதுமில்லை</string>
     <string name="menu_delete_update">நீக்கு</string>
     <string name="menu_copy_url">URL-ஐ நகலெடு</string>
     <string name="menu_export_update">மேம்படுத்தல் ஏற்றுமதி</string>
