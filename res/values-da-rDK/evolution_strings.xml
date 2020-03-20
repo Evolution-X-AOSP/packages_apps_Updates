@@ -58,9 +58,11 @@
     <string name="list_no_updates">Din enhed er opdateret</string>
     <string name="blocked_update_dialog_title">Opdatering blokeret</string>
     <!-- Actions -->
+    <string name="action_download">Download</string>
     <string name="action_pause">Pause</string>
     <string name="action_resume">Genoptag</string>
     <string name="action_install">Installér</string>
+    <string name="action_cancel">Annuller</string>
     <string name="confirm_delete_dialog_title">Slet fil</string>
     <string name="confirm_delete_dialog_message">Vil du slette den valgte opdateringsfil?</string>
     <string name="pause_button">Pause</string>
