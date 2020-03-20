@@ -38,6 +38,7 @@
     <string name="menu_auto_updates_check_interval_weekly">Εβδομαδιαία</string>
     <string name="menu_auto_updates_check_interval_monthly">Μηνιαία</string>
     <string name="menu_auto_updates_check_interval_never">Ποτέ</string>
+    <string name="menu_delete_update">Διαγραφή</string>
     <string name="menu_copy_url">Αντιγραφή URL</string>
     <string name="menu_export_update">Εξαγωγή ενημέρωσης</string>
     <string name="menu_show_changelog">Αλλαγές στην τρέχουσα έκδοση</string>
@@ -63,6 +64,7 @@
     <string name="action_pause">Παύση</string>
     <string name="action_resume">Συνέχιση</string>
     <string name="action_install">Εγκατάσταση</string>
+    <string name="action_delete">Διαγραφή</string>
     <string name="action_cancel">Ακύρωση</string>
     <string name="confirm_delete_dialog_title">Διαγραφή αρχείου</string>
     <string name="confirm_delete_dialog_message">Διαγραφή του επιλεγμένου αρχείου ενημέρωσης;</string>
