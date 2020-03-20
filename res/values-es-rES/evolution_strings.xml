@@ -42,13 +42,13 @@
     <string name="menu_delete_update">Eliminar</string>
     <string name="menu_copy_url">Copiar URL</string>
     <string name="menu_export_update">Exportar actualización</string>
-    <string name="menu_show_changelog">Mostrar registro de cambios</string>
+    <string name="menu_show_changelog">Cambios en la última versión</string>
     <string name="changelog_loading">Cargando…</string>
     <string name="label_download_url">URL de descarga</string>
     <string name="toast_download_url_copied">URL copiada</string>
     <!-- General -->
-    <string name="update_found_notification">Actualización del sistema disponible</string>
-    <string name="snack_no_updates_found">No se encontraron nuevas actualizaciones</string>
+    <string name="update_found_notification">Actualización disponible</string>
+    <string name="snack_no_updates_found">No hay nuevas actualizaciones</string>
     <string name="snack_updates_check_failed">Error en la comprobación de actualizaciones. Por favor, verifique la conexión a Internet e inténtalo nuevamente.</string>
     <string name="snack_download_failed">Descarga fallida. Compruebe la conexión a Internet e inténtelo nuevamente.</string>
     <string name="snack_download_verification_failed">La verificación de la actualización falló.</string>
