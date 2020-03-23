@@ -54,14 +54,14 @@
     <string name="snack_download_verification_failed">Verificarea actualizării a eșuat.</string>
     <string name="snack_download_verified">Descărcare terminată.</string>
     <string name="snack_update_not_installable">Această actualizare nu poate fi instalată pe versiunea curentă.</string>
-    <string name="text_download_speed">%1$s, %2$s/sn</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
     <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> din <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> din <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verificare actualizare</string>
     <string name="list_no_updates">Dispozitivul dumneavoastră este actualizat</string>
     <string name="blocked_update_dialog_title">Actualizare blocată</string>
     <!-- Actions -->
-    <string name="action_download">Descărcare</string>
+    <string name="action_download">Descărcați</string>
     <string name="action_pause">Pauză</string>
     <string name="action_resume">Reluaţi</string>
     <string name="action_install">Instalați</string>
@@ -89,7 +89,7 @@
     <string name="dialog_battery_low_message_pct">Nivelul bateriei este prea scăzut. Aveți nevoie de cel puțin<xliff:g id="percent_discharging">%1$d</xliff:g>%% pentru a continua, <xliff:g id="percent_charging">%2$d</xliff:g>%% dacă telefonul este la încărcat.</string>
     <!-- Export update -->
     <string name="dialog_export_title">Exportarea actualizării în spațiul de stocare intern</string>
-    <string name="notification_export_success">Actualizare exportată în stocare internă</string>
+    <string name="notification_export_success">Actualizare exportată în spatiul de stocare intern</string>
     <string name="notification_export_fail">Eroare de export</string>
     <string name="toast_already_exporting">Se exportează deja o actualizare</string>
     <!-- ETA -->
