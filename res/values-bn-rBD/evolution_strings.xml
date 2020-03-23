@@ -37,6 +37,8 @@
     <string name="menu_auto_updates_check_interval_daily">প্রতিদিনে একবার</string>
     <string name="menu_auto_updates_check_interval_weekly">প্রতি সপ্তাহে একবার</string>
     <string name="menu_auto_updates_check_interval_monthly">প্রতি মাসে একবার</string>
+    <string name="menu_auto_updates_check_interval_never">কখনো না</string>
+    <string name="menu_delete_update">মুছে ফেলুন</string>
     <string name="menu_copy_url">URL কপি করুন</string>
     <string name="menu_export_update">আপডেট এক্সপোর্ট করুন</string>
     <string name="menu_show_changelog">বর্তমান সংস্করণে যেসব পরিবর্তন এসেছে</string>
@@ -62,6 +64,7 @@
     <string name="action_pause">বিরতি</string>
     <string name="action_resume">পুনরারম্ভ</string>
     <string name="action_install">ইনস্টল করুন</string>
+    <string name="action_delete">মুছে ফেলুন</string>
     <string name="action_cancel">বাতিল করুন</string>
     <string name="confirm_delete_dialog_title">ফাইল মুছে ফেলুন</string>
     <string name="confirm_delete_dialog_message">নির্বাচিত আপডেট ফাইলটি মুছে দিতে চান?</string>
@@ -81,6 +84,7 @@
     <string name="finalizing_package">ইনস্টল প্যাকেজটি চূড়ান্ত করা হচ্ছে</string>
     <string name="preparing_ota_first_boot">প্রথম বুটের জন্য তৈরি হচ্ছে</string>
     <string name="dialog_prepare_zip_message">প্রারম্ভিক আপডেটের প্রস্তুতি</string>
+    <string name="dialog_battery_low_title">চার্জ কম</string>
     <string name="dialog_battery_low_message_pct">ব্যাটারির চার্জ খুবই কম, আপনার অন্তত <xliff:g id="percent_discharging">%1$d</xliff:g>%% চার্জ থাকতে হবে হালনাগাদ ইনস্টল করার জন্য। চার্জিত অবস্থায় <xliff:g id="percent_charging">%2$d</xliff:g> থাকতে হবে।</string>
     <!-- Export update -->
     <string name="dialog_export_title">ইন্টারনাল স্টোরেজে আপডেট এক্সপোর্ট করা হচ্ছে</string>
