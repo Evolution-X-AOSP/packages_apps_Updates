@@ -61,7 +61,7 @@
     <string name="list_no_updates">Twój system jest aktualny</string>
     <string name="blocked_update_dialog_title">Aktualizacja zablokowana</string>
     <!-- Actions -->
-    <string name="action_download">Pobierz</string>
+    <string name="action_download">Pobieranie</string>
     <string name="action_pause">Wstrzymaj</string>
     <string name="action_resume">Wznów</string>
     <string name="action_install">Instaluj</string>
