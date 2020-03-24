@@ -107,19 +107,19 @@
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Advertencia</string>
-    <string name="update_on_mobile_data_message">Se descargará un paquete de actualización usando los datos móviles lo que probablemente ocasione un alto consumo de datos. ¿Deseas continuar?</string>
+    <string name="update_on_mobile_data_message">Se descargará un paquete de actualización usando los datos móviles, probablemente ocasione un alto consumo de datos. ¿Deseas continuar?</string>
     <string name="checkbox_mobile_data_warning">No volver a mostrar</string>
     <string name="menu_mobile_data_warning">Advertencia de datos móviles</string>
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
     <string name="maintainer_info_title">Mantenedor</string>
     <string name="donate_info_title">Donar</string>
-    <string name="donate_info_summary">Apoyar el desarrollo</string>
+    <string name="donate_info_summary">Apoyar al desarrollo</string>
     <string name="website_info_title">Sitio web</string>
     <string name="website_info_summary">Visite nuestro sitio web</string>
     <string name="news_info_title">Noticias</string>
     <string name="news_info_summary">Permanecer informado sobre actualizaciones y otras noticias</string>
     <string name="forum_info_title">Foro</string>
     <string name="forum_info_summary">Ver publicaciones del foro</string>
-    <string name="error_open_url">Falló al abrir la URL en el navegador</string>
+    <string name="error_open_url">Fallo al abrir la URL en el navegador</string>
 </resources>
