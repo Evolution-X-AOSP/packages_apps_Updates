@@ -32,6 +32,7 @@
     <string name="update_failed_notification">আপডেট ব্যর্থ</string>
     <string name="installation_suspended_notification">ইনস্টল সাসপেন্ড করা হয়েছে</string>
     <!-- Menu -->
+    <string name="menu_refresh">রিফ্রেশ</string>
     <string name="menu_preferences">প্রেফারেন্স সমূহ</string>
     <string name="menu_auto_updates_check">স্বয়ংক্রিয় আপডেট চেক করা</string>
     <string name="menu_auto_updates_check_interval_daily">প্রতিদিনে একবার</string>
