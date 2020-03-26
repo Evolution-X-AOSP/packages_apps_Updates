@@ -100,13 +100,13 @@
         <item quantity="other">Pozostało <xliff:g id="count">%d</xliff:g> sekund</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">Pozostała 1 minuta</item>
-        <item quantity="few">Pozostały <xliff:g id="count">%d</xliff:g> minuty</item>
+        <item quantity="one">Pozostało &lt;xliff: g id="count"&gt;%d&lt;/xliff: g&gt; minut</item>
+        <item quantity="few">Pozostało <xliff:g id="count">%d</xliff:g> minut</item>
         <item quantity="many">Pozostało <xliff:g id="count">%d</xliff:g> minut</item>
         <item quantity="other">Pozostało <xliff:g id="count">%d</xliff:g> minut</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">Pozostała 1 godzina</item>
+        <item quantity="one">Pozostały &lt;xliff: g id="count"&gt;%d&lt;/xliff: g&gt; godziny</item>
         <item quantity="few">Pozostały <xliff:g id="count">%d</xliff:g> godziny</item>
         <item quantity="many">Pozostało <xliff:g id="count">%d</xliff:g> godzin</item>
         <item quantity="other">Pozostało <xliff:g id="count">%d</xliff:g> godzin</item>
