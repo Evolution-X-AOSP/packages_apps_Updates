@@ -58,10 +58,10 @@
     <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">अपडेट की पुष्टि हो रही है</string>
-    <string name="list_no_updates">आपका सिस्टम अपडेट नवीनतम है।</string>
+    <string name="list_no_updates">आप रोम के नवीनतम संस्करण पर हैं।</string>
     <string name="blocked_update_dialog_title">अपडेट अवरुद्ध</string>
     <!-- Actions -->
-    <string name="action_download">डाउन्लोड</string>
+    <string name="action_download">डाउनलोड</string>
     <string name="action_pause">रोकें</string>
     <string name="action_resume">फिर से शुरू करें</string>
     <string name="action_install">इंस्टॉल करें</string>
