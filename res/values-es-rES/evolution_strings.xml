@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App name -->
-    <string name="app_name">Actualizaciones del sistema</string>
+    <string name="app_name">Actualización del sistema</string>
     <!-- Notifications -->
     <string name="export_channel_title">Exportación finalizada</string>
     <string name="new_updates_channel_title">Nuevas actualizaciones</string>
@@ -55,10 +55,10 @@
     <string name="snack_download_verified">Descarga completada.</string>
     <string name="snack_update_not_installable">Esta actualización no puede instalarse encima de la versión actual.</string>
     <string name="text_download_speed">%1$s, %2$s/s</string>
-    <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> de <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> de <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="duration" example="3 minutos">%3$s</xliff:g> restantes) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> de <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="Faltan 3 minutos" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verificando actualización</string>
-    <string name="list_no_updates">Su versión está actualizada</string>
+    <string name="list_no_updates">Tu dispositivo está actualizado</string>
     <string name="blocked_update_dialog_title">Actualización bloqueada</string>
     <!-- Actions -->
     <string name="action_download">Descarga</string>
@@ -76,8 +76,8 @@
     <string name="details_button">Ver detalles</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Aplicar actualización</string>
-    <string name="apply_update_dialog_message">Actualizarás a <xliff:g id="filename">%1$s</xliff:g>.\n\nAl pulsar en <xliff:g id="ok">%2$s</xliff:g>, se reiniciará el dispositivo en modo «Recovery» para instalar la actualización.\n\nNota: Esta función requiere un «Recovery» compatible o las actualizaciones deberán instalarse manualmente.</string>
-    <string name="apply_update_dialog_message_ab">Actualizarás a <xliff:g id="filename">%1$s</xliff:g>. \n\nAl pulsar en <xliff:g id="ok">%2$s</xliff:g>, el dispositivo comenzará a instalar en segundo plano.\n\nUna vez terminado el proceso, se le pedirá que reinicie.</string>
+    <string name="apply_update_dialog_message">Estás a punto de actualizar a <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi presionas <xliff:g id="ok">%2$s</xliff:g>, el dispositivo se reiniciará por sí solo al modo Recovery para instalar la actualización.\n\nNota: Esta característica requiere un Recovery compatible o si no las actualizaciones necesitarán ser instaladas manualmente.</string>
+    <string name="apply_update_dialog_message_ab">Estás a punto de actualizar a <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi presionas <xliff:g id="ok">%2$s</xliff:g>, el dispositivo empezará con la instalación en segundo plano.\n\nAl completarse, se le pedirá reiniciar.</string>
     <string name="cancel_installation_dialog_message">¿Cancelar la instalación?</string>
     <string name="installing_update">Instalando paquete de actualización</string>
     <string name="installing_update_error">Error de instalación</string>
