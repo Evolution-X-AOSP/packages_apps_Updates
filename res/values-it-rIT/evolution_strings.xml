@@ -23,42 +23,42 @@
     <string name="ongoing_channel_title">Download in corso</string>
     <string name="update_failed_channel_title">Aggiornamento fallito</string>
     <string name="verification_failed_notification">Verifica fallita</string>
-    <string name="verifying_download_notification">Verifica aggiornamento</string>
+    <string name="verifying_download_notification">Verifica aggiornamento in corso</string>
     <string name="downloading_notification">Download in corso</string>
     <string name="download_paused_notification">Download in pausa</string>
     <string name="download_paused_error_notification">Errore durante il download</string>
     <string name="download_completed_notification">Download completato</string>
-    <string name="download_starting_notification">Avvio del download</string>
+    <string name="download_starting_notification">Avvio download</string>
     <string name="update_failed_notification">Aggiornamento fallito</string>
     <string name="installation_suspended_notification">Installazione sospesa</string>
     <!-- Menu -->
     <string name="menu_refresh">Aggiorna</string>
-    <string name="menu_preferences">Preferenze</string>
+    <string name="menu_preferences">Impostazioni</string>
     <string name="menu_auto_updates_check">Controllo aggiornamenti automatico</string>
-    <string name="menu_auto_updates_check_interval_daily">Quotidianamente</string>
-    <string name="menu_auto_updates_check_interval_weekly">Settimanalmente</string>
-    <string name="menu_auto_updates_check_interval_monthly">Mensilmente</string>
+    <string name="menu_auto_updates_check_interval_daily">Ogni giorno</string>
+    <string name="menu_auto_updates_check_interval_weekly">Una volta a settimana</string>
+    <string name="menu_auto_updates_check_interval_monthly">Una volta al mese</string>
     <string name="menu_auto_updates_check_interval_never">Mai</string>
     <string name="menu_delete_update">Cancella</string>
     <string name="menu_copy_url">Copia indirizzo URL</string>
     <string name="menu_export_update">Esporta aggiornamento</string>
-    <string name="menu_show_changelog">Mostra il changelog</string>
+    <string name="menu_show_changelog">Mostra changelog</string>
     <string name="changelog_loading">Caricamento…</string>
     <string name="label_download_url">URL del download</string>
     <string name="toast_download_url_copied">URL copiato</string>
     <!-- General -->
     <string name="update_found_notification">Aggiornamento di sistema disponibile</string>
     <string name="snack_no_updates_found">Nessun nuovo aggiornamento trovato</string>
-    <string name="snack_updates_check_failed">La verifica di aggiornamenti è fallita. Controlla la connessione ad internet e riprova più tardi.</string>
+    <string name="snack_updates_check_failed">Controllo degli aggiornamenti non riuscito. Controlla la connessione ad internet e riprova.</string>
     <string name="snack_download_failed">Il download dell\'aggiornamento è fallito. Controlla la connessione ad internet e riprova più tardi.</string>
     <string name="snack_download_verification_failed">Verifica dell\'aggiornamento fallita.</string>
     <string name="snack_download_verified">Download completato.</string>
-    <string name="snack_update_not_installable">Questo aggiornamento non può essere installato sopra la versione corrente.</string>
+    <string name="snack_update_not_installable">Aggiornamento incompatibile con la versione corrente.</string>
     <string name="text_download_speed">%1$s, %2$s/s</string>
     <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> di <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> di <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
     <string name="list_verifying_update">Verifica aggiornamento</string>
-    <string name="list_no_updates">La tua versione è aggiornata</string>
+    <string name="list_no_updates">Il dispositivo è aggiornato</string>
     <string name="blocked_update_dialog_title">Aggiornamento bloccato</string>
     <!-- Actions -->
     <string name="action_download">Download</string>
@@ -108,14 +108,14 @@
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Attenzione</string>
     <string name="update_on_mobile_data_message">Stai per scaricare un aggiornamento utilizzando i dati mobili, ciò potrebbe comportare un utilizzo elevato di dati. Vuoi procedere?</string>
-    <string name="checkbox_mobile_data_warning">Non mostrare di nuovo</string>
+    <string name="checkbox_mobile_data_warning">Non mostrare più</string>
     <string name="menu_mobile_data_warning">Avviso utilizzo dati mobili</string>
     <!-- Info section -->
     <string name="extras_category_title">Extra</string>
     <string name="maintainer_info_title">Maintainer</string>
     <string name="donate_info_title">Donazione</string>
     <string name="donate_info_summary">Supporta lo sviluppo</string>
-    <string name="website_info_title">Sito Web</string>
+    <string name="website_info_title">Sito web</string>
     <string name="website_info_summary">Visita il nostro sito web</string>
     <string name="news_info_title">Novità</string>
     <string name="news_info_summary">Rimani informato sugli aggiornamenti e altre novità</string>
