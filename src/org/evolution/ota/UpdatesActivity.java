@@ -86,6 +86,7 @@ public class UpdatesActivity extends UpdatesListActivity {
     private Button checkUpdateButton;
     private TextView updateStatus;
     private TextView androidVersion;
+    private TextView evolutionDevice;
     private TextView evolutionVersion;
     private TextView securityVersion;
     private TextView lastUpdateCheck;
@@ -127,6 +128,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         checkUpdateButton = findViewById(R.id.check_updates);
         updateStatus = findViewById(R.id.no_new_updates_view);
         androidVersion = findViewById(R.id.android_version);
+        evolutionDevice = findViewById(R.id.evolution_device);
         evolutionVersion = findViewById(R.id.evolution_version);
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         lastUpdateCheck = findViewById(R.id.last_update_check);
@@ -134,6 +136,8 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         androidVersion.setText(String.format(getResources()
                 .getString(R.string.android_version, Build.VERSION.RELEASE)));
+        evolutionDevice.setText(String.format(getResources()
+                .getString(R.string.evolution_device, SystemProperties.get("org.evolution.device"))));
         evolutionVersion.setText(String.format(getResources()
                 .getString(R.string.evolution_version, SystemProperties.get("org.evolution.build_version"))));
         securityVersion.setText(String.format(getResources()
@@ -265,6 +269,7 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         findViewById(R.id.recycler_view).setVisibility(View.GONE);
         androidVersion.setVisibility(View.VISIBLE);
+        evolutionDevice.setVisibility(View.VISIBLE);
         evolutionVersion.setVisibility(View.VISIBLE);
         securityVersion.setVisibility(View.VISIBLE);
         lastUpdateCheck.setVisibility(View.VISIBLE);
@@ -277,6 +282,7 @@ public class UpdatesActivity extends UpdatesListActivity {
 
         findViewById(R.id.recycler_view).setVisibility(View.VISIBLE);
         androidVersion.setVisibility(View.GONE);
+        evolutionDevice.setVisibility(View.GONE);
         evolutionVersion.setVisibility(View.GONE);
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
@@ -437,6 +443,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
         androidVersion.setVisibility(View.GONE);
+        evolutionDevice.setVisibility(View.GONE);
         evolutionVersion.setVisibility(View.GONE);
 
         if (mRefreshIconView == null) {
