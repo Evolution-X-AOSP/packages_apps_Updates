@@ -91,6 +91,18 @@
             android:textSize="16sp" />
 
         <TextView
+            android:id="@+id/evolution_maintainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:visibility="visible"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingBottom="3dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+
+        <TextView
             android:id="@+id/evolution_version"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
