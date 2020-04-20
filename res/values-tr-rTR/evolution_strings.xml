@@ -39,9 +39,9 @@
     <string name="menu_auto_updates_check_interval_weekly">Haftada bir defa</string>
     <string name="menu_auto_updates_check_interval_monthly">Ayda bir defa</string>
     <string name="menu_auto_updates_check_interval_never">Asla</string>
-    <string name="menu_delete_update">Temizle</string>
-    <string name="menu_copy_url">URL adresini kopyala</string>
-    <string name="menu_export_update">Güncellemeyi dışarı aktar</string>
+    <string name="menu_delete_update">Sil</string>
+    <string name="menu_copy_url">Bağlantı adresini kopyala</string>
+    <string name="menu_export_update">Güncellemeyi dışa aktar</string>
     <string name="menu_show_changelog">Mevcut sürümdeki değişiklikler</string>
     <string name="changelog_loading">Yükleniyor…</string>
     <string name="label_download_url">İndirme bağlantısı</string>
@@ -65,7 +65,7 @@
     <string name="action_pause">Duraklat</string>
     <string name="action_resume">Devam et</string>
     <string name="action_install">Yükle</string>
-    <string name="action_delete">Temizle</string>
+    <string name="action_delete">Sil</string>
     <string name="action_cancel">İptal</string>
     <string name="confirm_delete_dialog_title">Dosyayı sil</string>
     <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
@@ -113,7 +113,7 @@
     <!-- Info section -->
     <string name="extras_category_title">Ekstralar</string>
     <string name="maintainer_info_title">Cihaz sorumlusu</string>
-    <string name="donate_info_title">Bağış yap</string>
+    <string name="donate_info_title">Bağış yapın</string>
     <string name="donate_info_summary">Geliştirmeyi destekle</string>
     <string name="website_info_title">İnternet sitesi</string>
     <string name="website_info_summary">İnternet sitemizi ziyaret edin</string>
@@ -121,5 +121,5 @@
     <string name="news_info_summary">Güncellemeler ve diğer haberler hakkında bilgi sahibi olun</string>
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Forum gönderilerini görüntüle</string>
-    <string name="error_open_url">URL\'yi tarayıcıda açma başarısız oldu</string>
+    <string name="error_open_url">Bağlantıyı tarayıcıda açma başarısız oldu</string>
 </resources>
