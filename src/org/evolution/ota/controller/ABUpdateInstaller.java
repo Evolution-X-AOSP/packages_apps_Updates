@@ -24,6 +24,7 @@ import android.os.UpdateEngineCallback;
 import android.text.TextUtils;
 import android.util.Log;
 
+import org.evolution.ota.R;
 import org.evolution.ota.misc.Constants;
 import org.evolution.ota.misc.Utils;
 import org.evolution.ota.model.Update;
@@ -212,7 +213,8 @@ class ABUpdateInstaller {
         }
 
         boolean enableABPerfMode = PreferenceManager.getDefaultSharedPreferences(mContext)
-                .getBoolean(Constants.PREF_AB_PERF_MODE, false);
+                .getBoolean(Constants.PREF_AB_PERF_MODE,
+                        mContext.getResources().getBoolean(R.bool.config_ab_perf_mode));
         mUpdateEngine.setPerformanceMode(enableABPerfMode);
 
         String zipFileUri = "file://" + file.getAbsolutePath();
