@@ -36,6 +36,7 @@ import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import org.evolution.ota.R;
 import org.evolution.ota.controller.UpdaterController;
 import org.evolution.ota.controller.UpdaterService;
 import org.evolution.ota.misc.Constants;
@@ -280,7 +281,8 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             return;
         }
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(mActivity);
-        boolean warn = preferences.getBoolean(Constants.PREF_METERED_NETWORK_WARNING, true);
+        boolean warn = preferences.getBoolean(Constants.PREF_METERED_NETWORK_WARNING,
+                mActivity.getResources().getBoolean(R.bool.config_metered_network_warning));
         if (!(Utils.isNetworkMetered(mActivity) && warn)) {
             mUpdaterController.startDownload(downloadId);
             return;

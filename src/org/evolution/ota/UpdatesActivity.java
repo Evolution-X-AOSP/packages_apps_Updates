@@ -56,14 +56,15 @@ import androidx.recyclerview.widget.SimpleItemAnimator;
 
 import com.google.android.material.snackbar.Snackbar;
 
+import org.evolution.ota.R;
 import org.evolution.ota.misc.FetchChangelog;
-import org.json.JSONException;
 import org.evolution.ota.controller.UpdaterController;
 import org.evolution.ota.controller.UpdaterService;
 import org.evolution.ota.download.DownloadClient;
 import org.evolution.ota.misc.Constants;
 import org.evolution.ota.misc.Utils;
 import org.evolution.ota.model.UpdateInfo;
+import org.json.JSONException;
 
 import java.io.File;
 import java.io.IOException;
@@ -566,8 +567,10 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         autoCheckInterval.setSelection(Utils.getUpdateCheckSetting(this));
         customURLInput.setText(prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL));
         meteredNetworkWarning.setChecked(prefs.getBoolean(Constants.PREF_METERED_NETWORK_WARNING,
-                prefs.getBoolean(Constants.PREF_MOBILE_DATA_WARNING, true)));
-        abPerfMode.setChecked(prefs.getBoolean(Constants.PREF_AB_PERF_MODE, false));
+                prefs.getBoolean(Constants.PREF_MOBILE_DATA_WARNING,
+                        getResources().getBoolean(R.bool.config_metered_network_warning))));
+        abPerfMode.setChecked(prefs.getBoolean(Constants.PREF_AB_PERF_MODE,
+                getResources().getBoolean(R.bool.config_ab_perf_mode)));
 
         new AlertDialog.Builder(this, R.style.AppTheme_AlertDialogStyle)
                 .setTitle(R.string.menu_preferences)
