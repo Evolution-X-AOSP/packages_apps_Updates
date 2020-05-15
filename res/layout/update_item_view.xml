@@ -90,18 +90,6 @@
                 android:visibility="visible" />
 
             <TextView
-                android:id="@+id/notification_content"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="@string/notification_content"
-                android:textColor="@color/text_primary"
-                android:textSize="16sp"
-                android:visibility="visible" />
-
-            <TextView
                 android:id="@+id/whats_new_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

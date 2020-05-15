@@ -158,9 +158,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             viewHolder.mProgressBar.setIndeterminate(false);
             viewHolder.mProgressBar.setProgress(update.getProgress());
         }
-
-        viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
-                .getString(R.string.notification_content), Utils.getDeviceCodeName()));
         viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String fileSize = Utils.readableFileSize(update.getFileSize());
@@ -195,8 +192,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                     getLongClickListener(update, false, viewHolder.mBuildDate));
             setButtonAction(viewHolder.mAction, Action.DOWNLOAD, downloadId, !isBusy());
         }
-        viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
-                .getString(R.string.notification_content), Utils.getDeviceCodeName()));
         viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String fileSize = Utils.readableFileSize(update.getFileSize());
@@ -241,8 +236,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                 throw new RuntimeException("Unknown update status");
         }
 
-        viewHolder.mNotificationContent.setText(String.format(mActivity.getResources()
-                .getString(R.string.notification_content), Utils.getDeviceCodeName()));
         viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String buildDate = StringGenerator.getDateLocalizedUTC(mActivity,
@@ -577,7 +570,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
         private TextView mBuildDate;
         private TextView mBuildSize;
-        private TextView mNotificationContent;
         private TextView mWhatsNew;
 
         private ProgressBar mProgressBar;
@@ -589,7 +581,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
             mBuildDate = view.findViewById(R.id.build_date);
             mBuildSize = view.findViewById(R.id.build_size);
-            mNotificationContent = view.findViewById(R.id.notification_content);
             mWhatsNew = view.findViewById(R.id.whats_new);
 
             mProgressBar = view.findViewById(R.id.progress_bar);
