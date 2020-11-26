@@ -76,7 +76,7 @@
     <string name="details_button">상세 보기</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">업데이트 적용</string>
-    <string name="apply_update_dialog_message"><xliff:g id="update_name">%1$s</xliff:g> 버전으로 업그레이드를 시도하려 합니다.\n\n<xliff:g id="ok">%2$s</xliff:g>을 누르면 업데이트를 설치하기 위해 기기가 리커버리 모드로 다시 시작됩니다.\n\n주의: 이 기능은 호환되는 리커버리가 필요하며, 없을 경우 업데이트를 수동으로 설치해야 합니다.</string>
+    <string name="apply_update_dialog_message"><xliff:g id="update_name">%1$s</xliff:g> 버전으로 업그레이드를 시도하려 합니다.\n\n<xliff:g id="ok">%2$s</xliff:g>을 누르면 업데이트를 설치하기 위해 기기가 복구 모드로 다시 시작됩니다.\n\n주의: 이 기능은 호환되는 복구 모드가 필요하며, 없을 경우 업데이트를 수동으로 설치해야 합니다.</string>
     <string name="apply_update_dialog_message_ab"><xliff:g id="update_name">%1$s</xliff:g> 버전으로 업그레이드를 시도하려 합니다.\n\n<xliff:g id="ok">%2$s</xliff:g>을 누르면 백그라운드에서 이 업데이트를 설치합니다.\n\n설치가 완료되면 기기를 다시 시작할 것인지 묻는 대화 상자가 나타납니다.</string>
     <string name="cancel_installation_dialog_message">설치를 취소하시겠습니까?</string>
     <string name="installing_update">업데이트 패키지 설치 중</string>
