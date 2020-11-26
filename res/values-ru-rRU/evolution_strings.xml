@@ -66,7 +66,7 @@
     <string name="action_resume">Продолжить</string>
     <string name="action_install">Установить</string>
     <string name="action_delete">Удалить</string>
-    <string name="action_cancel">Отменить</string>
+    <string name="action_cancel">Отмена</string>
     <string name="confirm_delete_dialog_title">Удалить файл</string>
     <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
     <string name="pause_button">Пауза</string>
@@ -85,7 +85,7 @@
     <string name="finalizing_package">Завершение установки</string>
     <string name="preparing_ota_first_boot">Подготовка к первой загрузке</string>
     <string name="dialog_prepare_zip_message">Подготовка обновления</string>
-    <string name="dialog_battery_low_title">Низкий уровень заряда батареи</string>
+    <string name="dialog_battery_low_title">Низкий заряд батареи</string>
     <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, для продолжения необходимо хотя бы <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряда или <xliff:g id="percent_charging">%2$d</xliff:g>%% во время зарядки.</string>
     <!-- Export update -->
     <string name="dialog_export_title">Экспорт обновления во внутреннюю память</string>
