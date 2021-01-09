@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The Evolution X Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name -->
+    <string name="app_name">ᱥᱭᱥᱴᱟᱹᱢ ᱟᱹᱯᱰᱮᱴ</string>
+    <!-- Notifications -->
+    <string name="export_channel_title">ᱪᱟᱵᱟ ᱠᱚ ᱵᱷᱮᱡᱟᱭ ᱢᱮ</string>
+    <string name="new_updates_channel_title">ᱱᱟᱶᱟ ᱟᱹᱯᱰᱮᱴᱠᱚ</string>
+    <string name="ongoing_channel_title">ᱪᱟᱹᱞᱩᱜᱽ ᱠᱟᱱ ᱰᱟᱩᱱᱞᱳᱰᱠᱚ</string>
+    <string name="update_failed_channel_title">ᱟᱹᱯᱰᱮᱴ ᱰᱤᱜᱟᱹᱣ</string>
+    <string name="verification_failed_notification">ᱣᱮᱨᱤᱯᱷᱤᱠᱚᱥᱚᱱ ᱰᱤᱜᱟᱹᱣ ᱮᱱᱟ</string>
+    <string name="verifying_download_notification">ᱟᱹᱯᱰᱮᱴ ᱣᱮᱨᱤᱯᱷᱭᱚᱜᱽ ᱠᱟᱱᱟ</string>
+    <string name="downloading_notification">ᱰᱟᱩᱱᱞᱳᱰᱤᱝ</string>
+    <string name="download_paused_notification">ᱰᱟᱩᱱᱞᱳᱰ ᱯᱚᱡᱽ ᱮᱱᱟ</string>
+    <string name="download_paused_error_notification">ᱰᱟᱩᱱᱞᱳᱰ ᱵᱷᱩᱞ</string>
+    <string name="download_completed_notification">ᱰᱟᱩᱱᱞᱳᱰ ᱦᱚᱭᱮᱱᱟ</string>
+    <string name="download_starting_notification">ᱰᱟᱩᱱᱞᱳᱰ ᱥᱦᱚᱵᱽᱚᱜ ᱠᱟᱱᱟ</string>
+    <string name="update_failed_notification">ᱟᱹᱯᱰᱮᱴ ᱰᱤᱜᱟᱹᱣ</string>
+    <string name="installation_suspended_notification">ᱵᱚᱦᱟᱞ ᱵᱚᱸᱫ ᱠᱟᱱᱟ</string>
+    <!-- Menu -->
+    <string name="menu_refresh">ᱨᱤᱯᱷᱨᱮᱥ</string>
+    <string name="menu_preferences">ᱠᱩᱥᱤᱠᱚ</string>
+    <string name="menu_auto_updates_check">ᱟᱡᱽ ᱛᱮ ᱟᱹᱯᱰᱮᱴᱠᱚ ᱪᱮᱠ</string>
+    <string name="menu_auto_updates_check_interval_daily">ᱫᱤᱱ ᱨᱮ ᱢᱤᱫ ᱡᱮᱠᱷᱟ</string>
+    <string name="menu_auto_updates_check_interval_weekly">ᱢᱤᱫᱽ ᱦᱟᱴ ᱨᱮ ᱢᱤᱫᱽ ᱡᱮᱠᱷᱟ</string>
+    <string name="menu_auto_updates_check_interval_monthly">ᱢᱤᱫᱽ ᱪᱟᱸᱫᱚ ᱨᱮ ᱢᱤᱫᱽ ᱡᱮᱠᱷᱟ</string>
+    <string name="menu_auto_updates_check_interval_never">ᱵᱟᱝᱜᱮ</string>
+    <string name="menu_delete_update">ᱢᱮᱟᱴᱣ</string>
+    <string name="menu_copy_url">URL ᱱᱚᱠᱚᱞ ᱢᱮ</string>
+    <string name="menu_export_update">ᱟᱹᱯᱰᱮᱴ ᱵᱷᱮᱡᱟ</string>
+    <string name="menu_show_changelog">ᱱᱤᱛᱚᱜᱟᱜᱽ ᱵᱷᱟᱹᱨᱥᱚᱱ ᱨᱮ ᱵᱚᱫᱚᱞ ᱠᱚ</string>
+    <string name="changelog_loading">ᱞᱟᱫᱮᱜᱽᱠᱟᱱᱟ…</string>
+    <string name="label_download_url">URL ᱰᱟᱩᱱᱞᱳᱰ</string>
+    <string name="toast_download_url_copied">URL ᱱᱚᱠᱚᱞᱮᱱᱟ</string>
+    <!-- General -->
+    <string name="update_found_notification">ᱥᱭᱥᱴᱟᱹᱢ ᱟᱹᱯᱰᱮᱴ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="snack_no_updates_found">ᱚᱠᱟ ᱱᱟᱶᱟ ᱟᱹᱯᱰᱮᱴ ᱠᱚ ᱵᱟᱹᱱᱩᱜᱼᱟ</string>
+    <string name="snack_updates_check_failed">ᱟᱹᱯᱰᱮᱴ ᱧᱮᱞ ᱰᱤᱜᱟᱹᱣ ᱾ ᱫᱚᱭᱟᱠᱟᱛᱮ ᱟᱢᱟᱜᱽ ᱤᱱᱴᱚᱨᱱᱮᱴ ᱡᱩᱲᱟᱹᱣ ᱧᱮᱞ ᱢᱮ ᱟᱨ ᱛᱟᱯᱨᱮ ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾</string>
+    <string name="snack_download_failed">ᱰᱟᱩᱱᱞᱳᱰ ᱰᱤᱜᱟᱹᱣ ᱾ ᱫᱚᱭᱟᱠᱟᱛᱮ ᱟᱢᱟᱜᱽ ᱤᱱᱴᱚᱨᱱᱮᱴ ᱡᱩᱲᱟᱹᱣ ᱧᱮᱞ ᱢᱮ ᱟᱨ ᱛᱚᱭᱚᱢᱛᱮ ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾</string>
+    <string name="snack_download_verification_failed">ᱟᱹᱯᱰᱮᱴ ᱣᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱰᱤᱜᱟᱹᱣ ᱮᱱᱟ ᱾</string>
+    <string name="snack_download_verified">ᱰᱟᱩᱱᱞᱳᱰ ᱦᱚᱭᱮᱱᱟ.</string>
+    <string name="snack_update_not_installable">ᱚᱱᱟ ᱵᱤᱞᱼᱴ ᱪᱮᱛᱟᱱ ᱨᱮ ᱟᱹᱯᱰᱮᱴ ᱵᱚᱦᱟᱞ ᱵᱟᱭ ᱜᱟᱱᱚᱜᱼᱟ ᱾</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="list_verifying_update">ᱟᱹᱯᱰᱮᱴ ᱣᱮᱨᱤᱯᱷᱭᱚᱜᱽ ᱠᱟᱱᱟ</string>
+    <string name="list_no_updates">ᱟᱢᱟᱜᱽ ᱥᱟᱫᱷᱚᱱ ᱟᱹᱯ ᱴᱩ ᱰᱮᱴ ᱜᱮᱭᱟ</string>
+    <string name="blocked_update_dialog_title">ᱟᱹᱯᱰᱮᱴ ᱵᱞᱚᱠ ᱮᱱᱟ</string>
+    <string name="blocked_update_dialog_summary">ᱱᱚᱶᱟ ᱟᱹᱯᱰᱮᱴ ᱫᱚ ᱱᱤᱡᱮᱛᱮ ᱥᱟᱯᱷᱟ ᱤᱱᱥᱴᱚᱞ ᱠᱟᱹᱢᱤ ᱛᱟᱭ ᱫᱚᱨᱠᱟᱨ (ᱥᱟᱯᱷᱟ ᱜᱤᱰᱤ/ᱟᱹᱯᱰᱮᱴ ᱤᱱᱥᱴᱚᱞ ᱢᱟᱲᱟᱝ ᱨᱮ ᱰᱟᱴᱟ ᱯᱟᱨᱴᱤᱥᱚᱱ ᱯᱷᱚᱨᱢᱟᱴ ᱠᱚ) ᱾ ᱫᱚᱭᱟᱠᱟᱛᱮ ᱵᱤᱞᱼᱴ ᱟᱞᱮᱭᱟᱜ ᱣᱮᱵᱥᱟᱭᱤᱴ ᱠᱷᱚᱱ ᱰᱟᱩᱱᱞᱳᱰ ᱯᱮ, ᱨᱤᱠᱟᱹᱣᱨᱤ ᱢᱚᱰ ᱛᱮ ᱨᱤᱵᱩᱴ ᱯᱮ ᱟᱨ ᱯᱨᱚᱥᱮᱡᱚᱨ ᱠᱚ ᱯᱟᱸᱡᱟᱭ ᱛᱟᱵᱚᱱ ᱯᱮ ᱾</string>
+    <!-- Actions -->
+    <string name="action_download">ᱰᱟᱩᱱᱞᱳᱰ</string>
+    <string name="action_pause">ᱛᱷᱩᱠᱩᱢ</string>
+    <string name="action_resume">ᱞᱟᱦᱟ</string>
+    <string name="action_install">ᱵᱚᱦᱟᱞ</string>
+    <string name="action_delete">ᱢᱮᱟᱴᱣ</string>
+    <string name="action_cancel">ᱵᱟᱹᱰᱨᱟᱹ</string>
+    <string name="confirm_delete_dialog_title">ᱨᱮᱫᱽ ᱢᱮᱴᱟᱣ ᱢᱮ</string>
+    <string name="confirm_delete_dialog_message">ᱵᱟᱪᱷᱟᱣ ᱟᱹᱯᱰᱮᱴ ᱨᱮᱫᱽ ᱢᱮᱴᱟᱣ ᱟᱢ ᱥᱮ?</string>
+    <string name="pause_button">ᱛᱷᱩᱠᱩᱢ</string>
+    <string name="resume_button">ᱞᱟᱦᱟ</string>
+    <string name="suspend_button">ᱵᱚᱸᱫᱚᱭ ᱢᱮ</string>
+    <string name="reboot">ᱨᱤᱵᱩᱻᱴ</string>
+    <string name="details_button">ᱵᱤᱵᱨᱚᱬ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <!-- Installation -->
+    <string name="apply_update_dialog_title">ᱟᱹᱯᱰᱮᱴ ᱮᱢ ᱪᱷᱚ</string>
+    <string name="apply_update_dialog_message">ᱟᱢ <xliff:g id="update_name">%1$s</xliff:g> ᱛᱮ ᱟᱹᱯᱰᱮᱴ ᱞᱟᱹᱜᱤᱫᱽ ᱮᱢ ᱾\n\n ᱡᱩᱫᱤ ᱟᱢ <xliff:g id="ok">%2$s</xliff:g> ᱚᱛᱟᱭᱟᱢ, ᱟᱢᱟᱜᱽ ᱥᱟᱫᱷᱚᱱ ᱫᱚ ᱟᱡᱽ ᱛᱮ ᱟᱹᱯᱰᱮᱴ ᱵᱚᱦᱟᱞ ᱞᱟᱹᱜᱤᱫᱽ ᱥᱟᱫᱷᱚᱱ ᱨᱤᱠᱟᱹᱣᱨ ᱢᱳᱰ ᱨᱮ ᱪᱟᱞᱟᱜᱼᱟ ᱾\n\n ᱠᱷᱟᱴᱚ ᱚᱞᱺ ᱱᱚᱶᱟ ᱯᱷᱤᱪᱚᱨ ᱫᱚ ᱠᱚᱢᱯᱟᱴᱤᱵᱟᱹᱞ ᱨᱤᱠᱟᱹᱣᱨᱤ ᱫᱚᱨᱠᱟᱨ ᱟᱨ ᱵᱟᱝ ᱱᱤᱡᱮ ᱛᱮ ᱟᱹᱯᱰᱴ ᱵᱚᱦᱟᱞ ᱛᱮ ᱯᱟᱲᱟᱣᱜᱼᱟ ᱾</string>
+    <string name="apply_update_dialog_message_ab">ᱟᱢ <xliff:g id="update_name">%1$s</xliff:g> ᱛᱮ ᱟᱹᱯᱜᱨᱮᱰ ᱞᱟᱹᱜᱤᱫᱛ ᱮᱢ ᱾\n\n ᱡᱩᱫᱤ ᱟᱢ <xliff:g id="ok">%2$s</xliff:g> ᱚᱛᱟᱭ ᱟᱢ, ᱥᱟᱫᱷᱚᱱ ᱫᱚ ᱵᱮᱠᱜᱨᱟᱩᱸᱰ ᱨᱮ ᱵᱚᱦᱟᱞ ᱮᱦᱚᱵᱽ ᱟᱭ ᱾\n\n ᱢᱤᱫᱽ ᱪᱟᱵᱟ ᱞᱮᱠᱷᱟᱱ, ᱟᱢ ᱨᱤᱵᱩᱻᱴ ᱞᱟᱹᱜᱤᱫᱽ ᱢᱮᱛᱟ ᱢᱟ ᱠᱚ ᱾</string>
+    <string name="cancel_installation_dialog_message">ᱵᱚᱦᱟᱞ ᱵᱟᱹᱰᱨᱟᱹ ᱭᱟᱢ ᱥᱮ?</string>
+    <string name="installing_update">ᱟᱹᱯᱰᱮᱴ ᱯᱮᱠᱮᱡᱽ ᱵᱚᱦᱟᱞᱚᱜᱽ ᱠᱟᱱᱟ</string>
+    <string name="installing_update_error">ᱵᱚᱦᱟᱞ ᱵᱷᱩᱞ</string>
+    <string name="installing_update_finished">ᱟᱹᱯᱰᱮᱴ ᱵᱚᱦᱟᱞᱮᱱᱟ</string>
+    <string name="finalizing_package">ᱯᱮᱠᱮᱡᱽ ᱵᱚᱦᱟᱞ ᱯᱷᱟᱭᱱᱟᱞᱟᱭᱡᱮᱥᱚᱱ</string>
+    <string name="preparing_ota_first_boot">ᱯᱨᱩᱛᱷᱩᱢ ᱵᱩᱻᱴ ᱞᱟᱹᱜᱤᱫᱽ ᱥᱚᱡᱽ</string>
+    <string name="dialog_prepare_zip_message">ᱯᱨᱤᱞᱤᱢᱤᱱᱟᱨᱭ ᱟᱹᱯᱰᱮᱴ ᱥᱟᱯᱲᱟᱣ</string>
+    <string name="dialog_battery_low_title">ᱠᱚᱢ ᱵᱮᱴᱨᱭ</string>
+    <string name="dialog_battery_low_message_pct">ᱵᱮᱨᱴᱨᱭ ᱞᱮᱣᱮᱞ ᱟᱹᱰᱤ ᱠᱚᱢ ᱟ, ᱞᱟᱦᱟ ᱞᱟᱹᱜᱤᱫᱽ ᱟᱢ ᱴᱷᱮᱱ ᱠᱚᱢ ᱥᱮ ᱠᱚᱢ <xliff:g id="percent_discharging">%1$d</xliff:g>%% ᱵᱮᱴᱨᱭ ᱫᱚᱨᱠᱟᱨ, <xliff:g id="percent_charging">%2$d</xliff:g>%% ᱡᱩᱫᱤ ᱪᱟᱨᱡᱤᱝᱚᱜᱽ ᱠᱟᱱᱟ ᱾</string>
+    <!-- Export update -->
+    <string name="dialog_export_title">ᱵᱷᱤᱛᱨᱭ ᱫᱚᱦᱚ ᱡᱟᱭᱜᱟ ᱥᱮᱫᱽ ᱟᱹᱯᱰᱮᱴ ᱵᱷᱮᱡᱟᱜᱽ ᱠᱟᱱᱟ</string>
+    <string name="notification_export_success">ᱵᱷᱤᱛᱨᱭ ᱫᱚᱦᱚ ᱡᱟᱭᱜᱟ ᱥᱮᱫᱽ ᱟᱹᱯᱰᱮᱴ ᱵᱷᱮᱡᱟ ᱮᱱᱟ</string>
+    <string name="notification_export_fail">ᱵᱷᱮᱡᱟ ᱵᱷᱩᱞ</string>
+    <string name="toast_already_exporting">ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱟᱹᱯᱰᱮᱴ ᱵᱷᱮᱡᱟᱜᱽ ᱠᱟᱱᱟ</string>
+    <!-- ETA -->
+    <plurals name="eta_seconds">
+        <item quantity="one">᱑ ᱴᱤᱡᱽ ᱥᱟᱨᱮᱡᱽ ᱟᱠᱟᱱᱟ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ᱴᱤᱡᱽ ᱥᱟᱨᱮᱡᱽ ᱟᱠᱟᱱᱟ</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">᱑ ᱴᱤᱡᱽ ᱥᱟᱨᱮᱡᱽ ᱟᱠᱟᱱᱟ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ᱴᱤᱯᱤᱡᱽ ᱥᱟᱨᱮᱡᱽ ᱠᱟᱱᱟ</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">᱑ ᱴᱟᱲᱟᱝ ᱥᱟᱨᱮᱡ ᱠᱟᱱᱟ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>  ᱴᱟᱲᱟᱝ ᱥᱟᱨᱮᱡ ᱠᱟᱱᱟ</item>
+    </plurals>
+    <!-- Mobile data warning -->
+    <string name="update_on_mobile_data_title">ᱦᱩᱥᱤᱭᱟᱹᱨ</string>
+    <string name="update_on_mobile_data_message">ᱟᱢ ᱱᱤᱛᱚᱜᱽ ᱱᱤᱡᱚᱨ ᱥᱟᱫᱷᱚᱱ ᱨᱮᱭᱟᱜ ᱰᱟᱟ ᱛᱮ ᱟᱹᱯᱰᱮᱴ ᱯᱮᱠᱮᱡᱽ ᱮᱢ ᱰᱟᱩᱱᱞᱳᱰ ᱞᱟᱹᱜᱤᱫᱽ ᱟᱠᱟ ᱫᱚ ᱟᱢᱟᱜᱽ ᱰᱟᱴᱟ ᱵᱮᱵᱷᱟᱨ ᱠᱚ ᱵᱚᱰᱷᱟᱣ ᱛᱟᱢᱟᱭ ᱾ ᱟᱢ ᱡᱷᱚᱛᱚ ᱞᱮᱠᱷᱟ ᱛᱮ ᱞᱟᱦᱟ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ ᱥᱮ?</string>
+    <string name="checkbox_mobile_data_warning">ᱟᱨ ᱟᱞᱚᱱ ᱫᱮᱠᱷᱟᱣᱟ</string>
+    <string name="menu_mobile_data_warning">ᱢᱚᱵᱟᱭᱤᱞ ᱰᱟᱴᱟ ᱦᱩᱥᱤᱭᱟᱹᱨ</string>
+    <!-- Info section -->
+    <string name="extras_category_title">ᱵᱟᱹᱲᱛᱤ</string>
+    <string name="maintainer_info_title">ᱢᱮᱱᱴᱮᱱᱟᱹᱨ</string>
+    <string name="donate_info_title">ᱫᱟᱱ</string>
+    <string name="donate_info_summary">ᱰᱮᱵᱷᱞᱚᱯᱢᱮᱴ ᱠᱚ ᱥᱟᱹᱯᱚᱨᱴ ᱢᱮ</string>
+    <string name="website_info_title">ᱣᱮᱵᱽᱥᱟᱭᱤᱴ</string>
+    <string name="website_info_summary">ᱟᱞᱮᱭᱟᱜᱽ ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱦᱤᱨᱤ ᱤᱫᱤ ᱯᱮ</string>
+    <string name="news_info_title">ᱠᱷᱚᱵᱚᱨ</string>
+    <string name="news_info_summary">ᱟᱹᱯᱰᱮᱴᱠᱚ ᱟᱨ ᱚᱞᱜᱟ ᱠᱷᱚᱵᱚᱨ ᱵᱟᱵᱚᱛ ᱨᱮ ᱥᱩᱪᱤᱛ ᱛᱟᱦᱮᱸ ᱠᱚ ᱢᱮ</string>
+    <string name="forum_info_title">ᱯᱷᱚᱨᱩᱢ</string>
+    <string name="forum_info_summary">ᱯᱷᱚᱨᱩᱢ ᱯᱚᱥᱴ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
+    <string name="error_open_url">ᱵᱨᱟᱩᱡᱟᱹᱨ ᱨᱮ URL ᱠᱷᱩᱞᱟᱹ ᱠᱚ ᱰᱤᱜᱟᱹᱣ</string>
+</resources>

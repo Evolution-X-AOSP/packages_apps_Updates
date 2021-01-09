@@ -60,6 +60,7 @@
     <string name="list_verifying_update">جارٍ التحقق من التحديث</string>
     <string name="list_no_updates">جهازك محدث</string>
     <string name="blocked_update_dialog_title">تم حظر التحديث</string>
+    <string name="blocked_update_dialog_summary">يتطلب هذا التحديث إجراء تنظيف يدوي لتثبيت (مسح / تنسيق قسم البيانات قبل تثبيت التحديث). يرجى تنزيل البناء من موقعنا على شبكة الإنترنت، وإعادة التشغيل إلى وضع الاسترداد واتبع الإجراءات للقيام بذلك.</string>
     <!-- Actions -->
     <string name="action_download">تحميل</string>
     <string name="action_pause">إيقاف مؤقت</string>

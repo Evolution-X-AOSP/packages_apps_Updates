@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Vérification de la mise à jour</string>
     <string name="list_no_updates">Votre appareil est à jour</string>
     <string name="blocked_update_dialog_title">Mise à jour bloquée</string>
+    <string name="blocked_update_dialog_summary">Cette mise à jour nécessite une procédure d\'installation manuelle propre (Nettoyage/Formatage de la partition de données avant d\'installer la mise à jour). Veuillez télécharger la version à partir de notre site Web, redémarrez en mode de récupération et suivez les procédures pour le faire.</string>
     <!-- Actions -->
     <string name="action_download">Téléchargements</string>
     <string name="action_pause">Pause</string>

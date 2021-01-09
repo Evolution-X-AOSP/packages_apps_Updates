@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Перевірка оновлення</string>
     <string name="list_no_updates">У вас найновіша версія</string>
     <string name="blocked_update_dialog_title">Оновлення заблоковане</string>
+    <string name="blocked_update_dialog_summary">Для цього оновлення необхідно вручну очистити процедуру встановлення (Wiping/Formating розділ даних перед встановленням оновлення). Будь ласка, завантажте збірку із нашого сайту, перезавантажтеся в режим відновлення і для цього дотримуйтесь процедур.</string>
     <!-- Actions -->
     <string name="action_download">Завантаження</string>
     <string name="action_pause">Пауза</string>
