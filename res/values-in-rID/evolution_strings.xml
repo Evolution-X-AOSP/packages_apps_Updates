@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Memverifikasi pembaruan</string>
     <string name="list_no_updates">Sistem Anda sudah yang terbaru</string>
     <string name="blocked_update_dialog_title">Pembaruan terblokir</string>
+    <string name="blocked_update_dialog_summary">Pembaruan ini memerlukan prosedur instalasi bersih manual (Menghapus/Memformat partisi Data sebelum menginstal pembaruan). Silakan unduh build dari situs web kami, reboot ke mode pemulihan dan ikuti prosedur untuk melakukannya.‌‌</string>
     <!-- Actions -->
     <string name="action_download">Unduh</string>
     <string name="action_pause">Jeda</string>
