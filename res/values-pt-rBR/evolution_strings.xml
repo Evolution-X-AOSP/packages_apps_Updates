@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Verificando atualização</string>
     <string name="list_no_updates">Seu dispositivo está atualizado</string>
     <string name="blocked_update_dialog_title">Atualização bloqueada</string>
+    <string name="blocked_update_dialog_summary">Esta atualização requer um procedimento de limpeza manual (Limpando/formatando a partição de dados antes de instalar a atualização). Por favor, baixe a compilação em nosso site, reinicie no modo recuperação e siga os procedimentos para isso.</string>
     <!-- Actions -->
     <string name="action_download">Download</string>
     <string name="action_pause">Pausar</string>

@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Update wird überprüft</string>
     <string name="list_no_updates">Ihr Gerät ist auf den neusten Stand</string>
     <string name="blocked_update_dialog_title">Update blockiert</string>
+    <string name="blocked_update_dialog_summary">Dieses Update erfordert eine manuelle Reinigung der Installation (Löschen/Formatieren der Datenpartition vor der Installation des Updates). Bitte laden Sie das Build von unserer Website herunter, starten Sie in den Wiederherstellungsmodus und befolgen Sie die Prozeduren, um dies zu tun.</string>
     <!-- Actions -->
     <string name="action_download">Download</string>
     <string name="action_pause">Anhalten</string>

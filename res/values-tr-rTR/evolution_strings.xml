@@ -60,6 +60,9 @@
     <string name="list_verifying_update">Güncelleme doğrulanıyor</string>
     <string name="list_no_updates">Cihazınız güncel</string>
     <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
+    <string name="blocked_update_dialog_summary">Bu güncelleme elle temiz bir kurulum süreci gerektiriyor. 
+(Güncelleme yapmadan önce Veri bölümünü Silin yada Biçimlendirin)
+Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve bunu yapmak için prosedürleri izleyin.</string>
     <!-- Actions -->
     <string name="action_download">İndirme</string>
     <string name="action_pause">Duraklat</string>

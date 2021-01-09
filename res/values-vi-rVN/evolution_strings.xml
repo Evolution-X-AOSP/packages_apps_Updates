@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Đang xác minh bản cập nhật</string>
     <string name="list_no_updates">Hệ thống của bạn đã được cập nhật</string>
     <string name="blocked_update_dialog_title">Cập nhật bị chặn</string>
+    <string name="blocked_update_dialog_summary">Bản cập nhật này yêu cầu quy trình cài đặt sạch thủ công (Xóa / Định dạng phân vùng Dữ liệu trước khi cài đặt bản cập nhật). Vui lòng tải xuống bản dựng từ trang web của chúng tôi, khởi động lại ở chế độ khôi phục và làm theo các quy trình để làm như vậy.</string>
     <!-- Actions -->
     <string name="action_download">Tải xuống</string>
     <string name="action_pause">Tạm dừng</string>

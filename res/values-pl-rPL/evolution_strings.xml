@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Sprawdzanie aktualizacji</string>
     <string name="list_no_updates">Twój system jest aktualny</string>
     <string name="blocked_update_dialog_title">Aktualizacja zablokowana</string>
+    <string name="blocked_update_dialog_summary">Ta aktualizacja wymaga ręcznej procedury instalacji (czyszczenie/formatowanie partycji danych przed zainstalowaniem aktualizacji). Pobierz paczkę .zip z naszej strony internetowej, następnie uruchom ponownie urządzenie do trybu recovery i przestrzegaj procedur instalacji, aby dokonać aktualizacji systemu.</string>
     <!-- Actions -->
     <string name="action_download">Pobieranie</string>
     <string name="action_pause">Wstrzymaj</string>

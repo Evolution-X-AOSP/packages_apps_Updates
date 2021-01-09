@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Праверка абнаўленняў</string>
     <string name="list_no_updates">Ваша прылада ў актуальным стане</string>
     <string name="blocked_update_dialog_title">Абнаўленне заблакавана</string>
+    <string name="blocked_update_dialog_summary">Гэта абнаўленне патрабуе працэдуры чыстай устаноўкі ўручную (выдаленне/фарматаванне раздзела дадзеных перад устаноўкай абнаўлення). Спампуйце зборку з нашага сайта, перазагрузіцеся ў рэжым аднаўлення і выконвайце гэтую працэдуру.</string>
     <!-- Actions -->
     <string name="action_download">Спампоўка</string>
     <string name="action_pause">Паўза</string>

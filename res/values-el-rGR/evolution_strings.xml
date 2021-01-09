@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Επαλήθευση ενημέρωσης</string>
     <string name="list_no_updates">Η συσκευή σας είναι ενημερωμένη</string>
     <string name="blocked_update_dialog_title">Η ενημέρωση μπλοκαρίστηκε</string>
+    <string name="blocked_update_dialog_summary">Αυτή η ενημέρωση απαιτεί μια μη αυτόματη διαδικασία καθαρής εγκατάστασης (Σβήσιμο / Μορφοποίηση του διαμερίσματος δεδομένων πριν από την εγκατάσταση της ενημέρωσης). Πραγματοποιήστε λήψη του build από τον δικτυακό τόπο μας, επανεκκινήστε σε λειτουργία ανάκτησης και ακολουθήστε τις διαδικασίες για να το κάνετε.</string>
     <!-- Actions -->
     <string name="action_download">Λήψη</string>
     <string name="action_pause">Παύση</string>

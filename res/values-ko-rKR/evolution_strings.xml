@@ -21,7 +21,7 @@
     <string name="export_channel_title">내보내기 완료</string>
     <string name="new_updates_channel_title">새 업데이트</string>
     <string name="ongoing_channel_title">진행 중인 다운로드</string>
-    <string name="update_failed_channel_title">업데이트에 실패하였습니다</string>
+    <string name="update_failed_channel_title">업데이트를 실패하였습니다</string>
     <string name="verification_failed_notification">검증 실패</string>
     <string name="verifying_download_notification">업데이트 검증 중</string>
     <string name="downloading_notification">다운로드 중</string>
@@ -29,37 +29,38 @@
     <string name="download_paused_error_notification">다운로드 오류</string>
     <string name="download_completed_notification">다운로드가 완료되었습니다</string>
     <string name="download_starting_notification">다운로드 시작</string>
-    <string name="update_failed_notification">업데이트에 실패하였습니다</string>
-    <string name="installation_suspended_notification">설치가 지연되었습니다.</string>
+    <string name="update_failed_notification">업데이트를 실패하였습니다</string>
+    <string name="installation_suspended_notification">설치가 보류되었습니다</string>
     <!-- Menu -->
-    <string name="menu_refresh">새로고침</string>
+    <string name="menu_refresh">새로 고침</string>
     <string name="menu_preferences">설정</string>
     <string name="menu_auto_updates_check">업데이트 자동 확인</string>
     <string name="menu_auto_updates_check_interval_daily">하루에 한 번</string>
     <string name="menu_auto_updates_check_interval_weekly">일주일에 한 번</string>
-    <string name="menu_auto_updates_check_interval_monthly">한달에 한 번</string>
+    <string name="menu_auto_updates_check_interval_monthly">한 달에 한 번</string>
     <string name="menu_auto_updates_check_interval_never">사용 안함</string>
     <string name="menu_delete_update">삭제</string>
     <string name="menu_copy_url">URL 복사</string>
     <string name="menu_export_update">업데이트 내보내기</string>
-    <string name="menu_show_changelog">현재 버전의 변경 사항</string>
+    <string name="menu_show_changelog">변경 사항</string>
     <string name="changelog_loading">로딩 중…</string>
-    <string name="label_download_url">다운로드 개체가 저장되었습니다.</string>
+    <string name="label_download_url">다운로드 URL</string>
     <string name="toast_download_url_copied">URL 복사됨</string>
     <!-- General -->
     <string name="update_found_notification">시스템 업데이트를 사용할 수 있습니다</string>
     <string name="snack_no_updates_found">새 업데이트가 없습니다.</string>
-    <string name="snack_updates_check_failed">업데이트를 확인 과정을 진행 하지 못하였습니다. 인터넷이 제대로 연결되어 있는지 확인한 후에 다시 시도하세요.</string>
+    <string name="snack_updates_check_failed">업데이트 확인에 실패했습니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.</string>
     <string name="snack_download_failed">다운로드에 실패했습니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.</string>
     <string name="snack_download_verification_failed">업데이트 검증에 실패했습니다.</string>
     <string name="snack_download_verified">다운로드가 완료되었습니다.</string>
     <string name="snack_update_not_installable">현재 빌드에서는 이 업데이트를 설치할 수 없습니다.</string>
-    <string name="text_download_speed">%1$s, %2$s/s</string>
-    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
-    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g> of <xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
+    <string name="text_download_speed">%1$s, %2$s/초</string>
+    <string name="list_download_progress_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g>/<xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> • <xliff:g example="56" id="percentage">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g example="12.2" id="filesize_without_unit">%1$s</xliff:g>/<xliff:g example="310 MB" id="filesize_without_unit">%2$s</xliff:g> (<xliff:g example="3 minutes left" id="eta">%3$s</xliff:g>) • <xliff:g example="56" id="percentage">%4$s</xliff:g></string>
     <string name="list_verifying_update">업데이트 검증 중</string>
     <string name="list_no_updates">기기가 최신 상태입니다</string>
     <string name="blocked_update_dialog_title">업데이트 차단됨</string>
+    <string name="blocked_update_dialog_summary">이 업데이트는 수동 초기화 설치 작업이 필요합니다(이 업데이트를 설치하기 전에 Data 파티션을 Wipe 또는 포맷해야 합니다). 빌드를 저희 웹사이트에서 다운로드하고, 복구(리커버리) 모드로 다시 시작 후 순서에 따라 설치 작업을 진행하세요.</string>
     <!-- Actions -->
     <string name="action_download">다운로드</string>
     <string name="action_pause">일시 중지</string>

@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Ověření aktualizace</string>
     <string name="list_no_updates">Vaše zařízení je aktuální</string>
     <string name="blocked_update_dialog_title">Aktualizace zablokována</string>
+    <string name="blocked_update_dialog_summary">Tato aktualizace vyžaduje manuální čistou instalaci (formátování oddílu /data). Stáhněte si prosím sestavení z našich webových stránek, restartujte do režimu recovery a postupujte podle instrukcí pro clean flash.</string>
     <!-- Actions -->
     <string name="action_download">Download</string>
     <string name="action_pause">Pozastavit</string>
