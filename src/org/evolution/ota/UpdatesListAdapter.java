@@ -26,7 +26,6 @@ import android.content.res.Resources;
 import android.os.BatteryManager;
 import android.os.PowerManager;
 import android.text.method.LinkMovementMethod;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -57,7 +56,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.io.File;
-import java.io.IOException;
 import java.text.DateFormat;
 import java.text.NumberFormat;
 import java.util.List;
@@ -436,21 +434,16 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
         UpdateInfo update = mUpdaterController.getUpdate(downloadId);
         int resId;
         String extraMessage = "";
-        try {
-            if (Utils.isABUpdate(update.getFile())) {
-                resId = R.string.apply_update_dialog_message_ab;
-            } else {
-                resId = R.string.apply_update_dialog_message;
-                extraMessage = " (" + Constants.DOWNLOAD_PATH + ")";
-            }
-        } catch (IOException e) {
-            Log.e(TAG, "Could not determine the type of the update");
-            return null;
+        if (Utils.isABDevice()) {
+            resId = R.string.apply_update_dialog_message_ab;
+        } else {
+            resId = R.string.apply_update_dialog_message;
+            extraMessage = " (" + Constants.DOWNLOAD_PATH + ")";
         }
 
         return new AlertDialog.Builder(mActivity, R.style.AppTheme_AlertDialogStyle)
                 .setTitle(R.string.apply_update_dialog_title)
-                .setMessage(mActivity.getString(resId,update.getName(),
+                .setMessage(mActivity.getString(resId, update.getName(),
                         mActivity.getString(android.R.string.ok)) + extraMessage)
                 .setPositiveButton(android.R.string.ok,
                         (dialog, which) -> Utils.triggerUpdate(mActivity, downloadId))
