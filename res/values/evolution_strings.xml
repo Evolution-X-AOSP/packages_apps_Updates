@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -67,7 +67,7 @@
     <string name="blocked_update_dialog_summary">This update requires a manual clean install procedure (Wiping/Formatting the Data partition before installing the update). Please download the build from our website, reboot to recovery mode and follow the procedures to do so.</string>
 
     <!-- Actions -->
-    <string name="action_download">Download</string>
+    <string name="action_download">Download and install</string>
     <string name="action_pause">Pause</string>
     <string name="action_resume">Resume</string>
     <string name="action_install">Install</string>
@@ -133,4 +133,19 @@
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">View forum posts</string>
     <string name="error_open_url">Failed to open URL in browser</string>
+
+    <!-- OTA section -->
+    <string name="android_version">Android version: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Security patch level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Check for update</string>
+    <string name="last_successful_check_for_update">Last checked for update at: %1$s</string>
+    <string name="system_update_available">System update available</string>
+    <string name="what_s_new">Here are the new changes:</string>
+    <string name="this_is_what_s_new">- This is what\'s new</string>
+    <string name="advisory_notice_title">Advisory notice</string>
+    <string name="advisory_notice_content">- It is recommended that users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.</string>
+    <string name="update_size">Update size: %1$s</string>
+    <string name="notification">There is a new Evolution X update available for your device!</string>
+    <string name="download_over_mobiledata_warning">Downloading updates over a cellular network, metered Wi-Fi, or while roaming may cause additional charges.</string>
 </resources>

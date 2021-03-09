@@ -218,10 +218,10 @@
             android:background="@drawable/roundedbutton"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
-            android:fontFamily="google-sans"
+            android:fontFamily="google-sans-medium"
             android:text="@string/check_for_update"
             android:textAllCaps="false"
-            android:textColor="#fff"
+            android:textColor="@*android:color/notification_material_background_color"
             tools:text="Pause" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
