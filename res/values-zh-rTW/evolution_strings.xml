@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -60,8 +60,9 @@
     <string name="list_verifying_update">正在驗證更新</string>
     <string name="list_no_updates">您的系統是最新的</string>
     <string name="blocked_update_dialog_title">更新已被封鎖</string>
+    <string name="blocked_update_dialog_summary">此更新需要手動重新安裝過程（在安裝更新之前抹除/格式化數據分區）。 請從我們的網站下載構建，重新啟動到恢復模式，然後按照以下步驟進行操作。</string>
     <!-- Actions -->
-    <string name="action_download">下載</string>
+    <string name="action_download">下載及安裝</string>
     <string name="action_pause">暫停</string>
     <string name="action_resume">恢復</string>
     <string name="action_install">安裝</string>
@@ -119,4 +120,18 @@
     <string name="forum_info_title">討論區</string>
     <string name="forum_info_summary">檢視討論區文章</string>
     <string name="error_open_url">在瀏覽器中打開 URL 失敗</string>
+    <!-- OTA section -->
+    <string name="android_version">Android 版本： <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X 版本： <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">安全補丁等級： <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">檢查更新</string>
+    <string name="last_successful_check_for_update">上次檢查更新在: %1$s</string>
+    <string name="system_update_available">新版系統已推出！</string>
+    <string name="what_s_new">新版變更:</string>
+    <string name="this_is_what_s_new">- 新事物如下</string>
+    <string name="advisory_notice_title">諮詢通知</string>
+    <string name="advisory_notice_content">- 建議用戶使用WiFi下載更新。 如果你想使用行動網路，請注意(包括漫遊中使用)數據傳輸， 可能會產生額外費用 - 請聯絡你的網路供應商如果你有任何問題。</string>
+    <string name="update_size">檔案大小：%1$s</string>
+    <string name="notification">你的設備有新版 Evolution X 可用！</string>
+    <string name="download_over_mobiledata_warning">下載更新檔案通過行動網路、按量計費WiFi或漫遊數據可能會產生額外費用</string>
 </resources>
