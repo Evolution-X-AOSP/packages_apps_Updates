@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -120,4 +120,18 @@
     <string name="forum_info_title">论坛</string>
     <string name="forum_info_summary">查看论坛帖子</string>
     <string name="error_open_url">在浏览器中打开链接失败</string>
+    <!-- OTA section -->
+    <string name="android_version">Android 版本： <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X 版本： <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">安全补丁等级： <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">检查更新</string>
+    <string name="last_successful_check_for_update">最后一次检查更新于： %1$s</string>
+    <string name="system_update_available">系统更新可用</string>
+    <string name="what_s_new">以下是新的更改：</string>
+    <string name="this_is_what_s_new">- 这是新鲜事</string>
+    <string name="advisory_notice_title">咨询通知</string>
+    <string name="advisory_notice_content">- 建议用户尽可能使用 Wi-Fi 来下载更新。 如果您想要使用蜂窝移动网络连接，请注意在移动网络上下载数据(包括在漫游环境中的数据)， 可能会产生额外费用 - 如果您有任何问题，请与您的网络提供商联系。</string>
+    <string name="update_size">文件大小：%1$s</string>
+    <string name="notification">您的设备有新的 Evolution X 更新！</string>
+    <string name="download_over_mobiledata_warning">通过移动网络下载更新，计量 Wi-Fi，或漫游时可能导致额外费用。</string>
 </resources>
