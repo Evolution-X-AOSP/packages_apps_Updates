@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -123,4 +123,18 @@
     <string name="forum_info_title">Fórum</string>
     <string name="forum_info_summary">Ver posts do fórum</string>
     <string name="error_open_url">Falha ao abrir o URL no navegador</string>
+    <!-- OTA section -->
+    <string name="android_version">Versão do Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versão da Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Versão do patch de segurança: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Verificar se há atualizações</string>
+    <string name="last_successful_check_for_update">Última verificação por atualizações: %1$s</string>
+    <string name="system_update_available">Atualização de sistema disponível</string>
+    <string name="what_s_new">Aqui estão as novas mudanças:</string>
+    <string name="this_is_what_s_new">- Isto é o que há de novo</string>
+    <string name="advisory_notice_title">Aviso consultivo</string>
+    <string name="advisory_notice_content">- É recomendável que os usuários usem o Wi-Fi sempre que possível para baixar atualizações. Se você deseja usar a conexão por dados móveis, observe que você está baixando dados através de uma rede celular (incluindo quando estiver em um ambiente de roaming), poderá incorrer em cobranças adicionais — verifique com a sua Operadora caso tenha alguma preocupação.</string>
+    <string name="update_size">Tamanho da atualização: %1$s</string>
+    <string name="notification">Há uma nova atualização da Evolution X disponível para o seu dispositivo!</string>
+    <string name="download_over_mobiledata_warning">Fazer download de atualizações em uma rede celular, Wi-Fi limitado ou em roaming pode causar cobranças adicionais.</string>
 </resources>
