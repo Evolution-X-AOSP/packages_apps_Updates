@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -62,7 +62,7 @@
     <string name="blocked_update_dialog_title">Aktualizacja zablokowana</string>
     <string name="blocked_update_dialog_summary">Ta aktualizacja wymaga ręcznej procedury instalacji (czyszczenie/formatowanie partycji danych przed zainstalowaniem aktualizacji). Pobierz paczkę .zip z naszej strony internetowej, następnie uruchom ponownie urządzenie do trybu recovery i przestrzegaj procedur instalacji, aby dokonać aktualizacji systemu.</string>
     <!-- Actions -->
-    <string name="action_download">Pobieranie</string>
+    <string name="action_download">Pobierz i zainstaluj</string>
     <string name="action_pause">Wstrzymaj</string>
     <string name="action_resume">Wznów</string>
     <string name="action_install">Instaluj</string>
@@ -129,4 +129,18 @@
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Zobacz posty na forum</string>
     <string name="error_open_url">Nie można otworzyć adresu URL w przeglądarce</string>
+    <!-- OTA section -->
+    <string name="android_version">Wersja Androida: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Wersja Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Poziom aktualizacji zabezpieczeń: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Sprawdź czy są dostępne nowe aktualizacje</string>
+    <string name="last_successful_check_for_update">Ostatnio sprawdzano pod kątem aktualizacji w: %1$s</string>
+    <string name="system_update_available">Aktualizacja systemu jest dostępna</string>
+    <string name="what_s_new">Oto nowe zmiany:</string>
+    <string name="this_is_what_s_new">- To są nowości</string>
+    <string name="advisory_notice_title">Zawiadomienie doradcze</string>
+    <string name="advisory_notice_content">- Zaleca się, aby użytkownicy używali Wi-Fi w miarę możliwości w celu pobierania aktualizacji. Jeśli chcesz korzystać z mobilnego połączenia komórkowego, należy pamiętać, że pobieranie danych przez komórkową sieć komórkową (w tym w środowisku roamingu), może ponieść dodatkowe opłaty - sprawdź u swojego dostawcy sieci w razie jakichkolwiek wątpliwości.</string>
+    <string name="update_size">Rozmiar pliku aktualizacji: %1$s</string>
+    <string name="notification">Dostępna jest nowa aktualizacja Evolution X dla twojego urządzenia!</string>
+    <string name="download_over_mobiledata_warning">Pobieranie aktualizacji przez sieć komórkową, dane Wi-Fi lub w roamingu może powodować dodatkowe opłaty.</string>
 </resources>
