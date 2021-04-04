@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -123,4 +123,18 @@
     <string name="forum_info_title">ᱯᱷᱚᱨᱩᱢ</string>
     <string name="forum_info_summary">ᱯᱷᱚᱨᱩᱢ ᱯᱚᱥᱴ ᱠᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
     <string name="error_open_url">ᱵᱨᱟᱩᱡᱟᱹᱨ ᱨᱮ URL ᱠᱷᱩᱞᱟᱹ ᱠᱚ ᱰᱤᱜᱟᱹᱣ</string>
+    <!-- OTA section -->
+    <string name="android_version">ᱮᱱᱰᱨᱚᱭᱮᱰ ᱵᱷᱟᱹᱨᱥᱟᱹᱱ: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X ᱵᱷᱟᱹᱨᱥᱟᱹᱱ: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">ᱨᱩᱠᱷᱤᱭᱟᱹ ᱯᱮᱪ ᱞᱮᱣᱮᱞ:<xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">ᱟᱹᱯᱰᱮᱴ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱢᱮ</string>
+    <string name="last_successful_check_for_update">ᱢᱟᱲᱟᱝ ᱫᱷᱟᱣ ᱟᱹᱯᱰᱮᱴ ᱪᱮᱠ: %1$s</string>
+    <string name="system_update_available">ᱥᱭᱥᱴᱟᱹᱢ ᱟᱹᱯᱰᱮᱴ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="what_s_new">ᱱᱟᱶᱟ ᱠᱚ ᱱᱟᱶᱟ ᱵᱚᱫᱚᱞ ᱠᱚ:</string>
+    <string name="this_is_what_s_new">ᱼ ᱱᱚᱶᱟ ᱠᱚ ᱫᱚ ᱱᱟᱶᱟ ᱢᱮᱱᱟᱜᱼᱟ</string>
+    <string name="advisory_notice_title">ᱮᱰᱵᱷᱟᱭᱡᱚᱨᱭ ᱱᱚᱴᱤᱥ</string>
+    <string name="advisory_notice_content">ᱼ ᱱᱟᱶᱟ ᱨᱤᱠᱚᱢᱮᱱᱰᱮᱥᱟᱱ ᱢᱮᱱᱟᱜᱼᱟ ᱡᱮ, ᱟᱯᱮ ᱟᱹᱯᱰᱮᱴ ᱰᱟᱩᱱᱞᱳᱰ ᱡᱷᱚᱜ Wi-Fi ᱨᱮᱭᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱠᱚᱨᱟᱣ ᱛᱟᱵᱚᱱ ᱯᱮ ᱾ ᱟᱯᱮ ᱡᱩᱫᱤ ᱢᱚᱵᱟᱭᱤᱞ ᱰᱟᱴᱟ ᱛᱮ ᱰᱟᱩᱱᱞᱳᱰ ᱮᱫ ᱠᱷᱟᱱ ᱫᱚ, ᱫᱚᱭᱟᱠᱟᱛᱮ ᱢᱚᱱᱮ ᱫᱚᱦᱚᱭ ᱯᱮ ᱢᱚᱵᱟᱭᱤᱞ ᱰᱟᱴᱟ ᱛᱮ ᱠᱷᱟᱱ ᱡᱟᱹᱥᱛᱤ ᱯᱩᱨᱟᱹ ᱠᱚᱴᱟᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ (ᱨᱚᱢᱤᱝ ᱡᱷᱚᱜ), ᱟᱢᱟᱜ ᱱᱮᱴᱣᱟᱨᱠ ᱯᱨᱚᱣᱟᱭᱰᱟᱹᱨ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱮᱢ ᱾</string>
+    <string name="update_size">ᱟᱹᱯᱰᱮᱴ ᱢᱟᱯ:%1$s</string>
+    <string name="notification">ᱟᱢᱟᱜ ᱥᱟᱫᱷᱚᱱ ᱞᱟᱹᱜᱤᱫ ᱱᱟᱶᱟ Evolution X ᱟᱹᱯᱰᱮᱴ ᱦᱮᱡ ᱟᱠᱟᱱᱟ!</string>
+    <string name="download_over_mobiledata_warning">ᱢᱚᱵᱟᱭᱤᱞ ᱱᱮᱴᱣᱟᱨᱠ, ᱢᱮᱱᱴᱚᱨ ᱟᱠᱟᱱ Wi-Fi, ᱟᱨ ᱵᱟᱝ ᱨᱚᱢᱤᱝ ᱡᱷᱚᱜ ᱛᱮ ᱟᱹᱯᱰᱮᱴ ᱠᱚ ᱰᱟᱩᱱᱞᱳᱰᱚᱜ ᱠᱟᱱᱟ ᱾ ᱢᱮᱱᱠᱷᱟᱱ ᱨᱚᱢᱤᱝ ᱨᱮ ᱡᱟᱹᱥᱛᱤ ᱯᱩᱭᱥᱟᱹ ᱠᱚᱴᱟᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾</string>
 </resources>
