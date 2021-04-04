@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -62,7 +62,7 @@
     <string name="blocked_update_dialog_title">Aktualizace zablokována</string>
     <string name="blocked_update_dialog_summary">Tato aktualizace vyžaduje manuální čistou instalaci (formátování oddílu /data). Stáhněte si prosím sestavení z našich webových stránek, restartujte do režimu recovery a postupujte podle instrukcí pro clean flash.</string>
     <!-- Actions -->
-    <string name="action_download">Download</string>
+    <string name="action_download">Stáhnout a nainstalovat</string>
     <string name="action_pause">Pozastavit</string>
     <string name="action_resume">Pokračovat</string>
     <string name="action_install">Instalovat</string>
@@ -129,4 +129,18 @@
     <string name="forum_info_title">Fórum</string>
     <string name="forum_info_summary">Zobrazit příspěvky ve fóru</string>
     <string name="error_open_url">Nepodařilo se otevřít adresu URL v prohlížeči</string>
+    <!-- OTA section -->
+    <string name="android_version">Verze Androidu: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Verze EvolutionX: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Úroveň bezpečnostní opravy: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Zkontrolovat aktualizace</string>
+    <string name="last_successful_check_for_update">Naposledy vyhledány aktualizace v: %1$s</string>
+    <string name="system_update_available">Je dostupná aktualizace systému</string>
+    <string name="what_s_new">Novinky:</string>
+    <string name="this_is_what_s_new">- Toto jsou novinky</string>
+    <string name="advisory_notice_title">Doporučení</string>
+    <string name="advisory_notice_content">- Doporučuje se, aby uživatelé ke stažení aktualizací použili Wi-Fi, kdykoli je to možné. Pokud si přejete používat datové připojení, mějte prosím na paměti, že za stahování dat přes mobilní síť (i v prostředí roamingu) může být účtován poplatek - zkontrolujte u poskytovatele sítě, pokud máte nějaké poplatky.</string>
+    <string name="update_size">Velikost aktualizace: %1$s</string>
+    <string name="notification">Pro vaše zařízení je k dispozici nová aktualizace Evolution X!</string>
+    <string name="download_over_mobiledata_warning">Za stahování aktualizací přes mobilní síť, měřené Wi-Fi nebo během roamingu mohou být účtovány poplatky.</string>
 </resources>

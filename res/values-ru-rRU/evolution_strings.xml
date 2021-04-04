@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -129,4 +129,18 @@
     <string name="forum_info_title">Форум</string>
     <string name="forum_info_summary">Посмотреть сообщения на форуме</string>
     <string name="error_open_url">Не удалось открыть URL в браузере</string>
+    <!-- OTA section -->
+    <string name="android_version">Версия Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Версия Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Обновление системы безопасности Android: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Проверить обновление</string>
+    <string name="last_successful_check_for_update">Последняя проверка обновлений: %1$s</string>
+    <string name="system_update_available">Доступно обновление системы</string>
+    <string name="what_s_new">Вот новые изменения:</string>
+    <string name="this_is_what_s_new">- Что нового</string>
+    <string name="advisory_notice_title">Информационное уведомление</string>
+    <string name="advisory_notice_content">- Пользователям рекомендуется использовать Wi-Fi по возможности для загрузки обновлений. Если вы хотите использовать сотовое мобильное соединение, обратите внимание, что загрузка данных через сотовую мобильную сеть (в том числе в среде роуминга), может повлечь за собой дополнительные расходы. Если у вас есть какие-либо вопросы, проверьте сетевой провайдер.</string>
+    <string name="update_size">Размер обновления: %1$s</string>
+    <string name="notification">Доступно новое обновление Evolution X для вашего устройства!</string>
+    <string name="download_over_mobiledata_warning">Загрузка обновлений по сотовой сети, Wi-Fi с ограничением трафика или в роуминге может потребовать дополнительной оплаты.</string>
 </resources>

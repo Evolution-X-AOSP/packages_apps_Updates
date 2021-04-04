@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -64,7 +64,7 @@
 (Güncelleme yapmadan önce Veri bölümünü Silin yada Biçimlendirin)
 Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve bunu yapmak için prosedürleri izleyin.</string>
     <!-- Actions -->
-    <string name="action_download">İndirme</string>
+    <string name="action_download">İndir ve yükle</string>
     <string name="action_pause">Duraklat</string>
     <string name="action_resume">Devam et</string>
     <string name="action_install">Yükle</string>
@@ -125,4 +125,18 @@ Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve 
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Forum gönderilerini görüntüle</string>
     <string name="error_open_url">Bağlantıyı tarayıcıda açma başarısız oldu</string>
+    <!-- OTA section -->
+    <string name="android_version">Android sürümü: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X sürümü: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Güvenlik yaması düzeyi: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Güncellemeleri denetle</string>
+    <string name="last_successful_check_for_update">Güncelleme için son kontrol: %1$s</string>
+    <string name="system_update_available">Sistem güncellemesi mevcut</string>
+    <string name="what_s_new">İşte yeni değişiklikler:</string>
+    <string name="this_is_what_s_new">- Yeni olan bu</string>
+    <string name="advisory_notice_title">Danışma bildirimi</string>
+    <string name="advisory_notice_content">- Kullanıcıların güncellemeleri indirmek için mümkün olan her yerde Wi-Fi kullanmaları önerilir. Hücresel Mobil bağlantısını kullanmak istiyorsanız, lütfen bir Hücresel Mobil Ağ üzerinden veri indirmenin (Dolaşım ortamında olduğu zamanlar dahil) ek ücrete tabi olabileceğini unutmayın - herhangi bir endişeniz varsa Ağ Sağlayıcınıza danışın.</string>
+    <string name="update_size">Güncelleme boyutu: %1$s</string>
+    <string name="notification">Cihazınız için yeni bir Evolution X güncellemesi mevcut!</string>
+    <string name="download_over_mobiledata_warning">Güncellemeleri bir mobil ağ, ölçülü Wi-Fi üzerinden veya dolaşımdayken indirmek ek ücretlere neden olabilir.</string>
 </resources>

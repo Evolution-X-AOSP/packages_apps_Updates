@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -129,4 +129,18 @@
     <string name="forum_info_title">Форум</string>
     <string name="forum_info_summary">Паглядзець паведамленні на форуме</string>
     <string name="error_open_url">Не атрымалася адкрыць спасылку</string>
+    <!-- OTA section -->
+    <string name="android_version">Android версія: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Версія Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Абнаўленне сістэмы бяспекі Android: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Праверыць абнаўленне</string>
+    <string name="last_successful_check_for_update">Апошняя праверка абнаўленняў: %1$s</string>
+    <string name="system_update_available">Даступна абнаўленне сістэмы</string>
+    <string name="what_s_new">Вось новыя змены:</string>
+    <string name="this_is_what_s_new">- Што новага</string>
+    <string name="advisory_notice_title">Інфармацыйнае апавяшчэнне</string>
+    <string name="advisory_notice_content">- Карыстальнікам рэкамендуецца выкарыстоўваць Wi-Fi па магчымасці для спампоўкі абнаўленняў. Калі вы хочаце выкарыстоўваць сотавае мабільнае злучэнне, звярніце ўвагу, што загрузка дадзеных праз сотавую мабільную сетку (у тым ліку ў асяроддзі роўмінгу), можа пацягнуць за сабой дадатковыя выдаткі. Калі ў вас ёсць якія-небудзь пытанні, праверце сеткавы правайдэр.</string>
+    <string name="update_size">Памер абнаўлення: %1$s</string>
+    <string name="notification">Даступна новае абнаўленне Evolution X для вашай прылады!</string>
+    <string name="download_over_mobiledata_warning">Спампоўка абнаўленняў па сотавай сеткі, Wi-Fi з абмежаваннем трафіку або ў роўмінгу можа запатрабаваць дадатковай аплаты.</string>
 </resources>
