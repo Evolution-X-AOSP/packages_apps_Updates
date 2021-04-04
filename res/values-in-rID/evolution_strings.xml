@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -62,7 +62,7 @@
     <string name="blocked_update_dialog_title">Pembaruan terblokir</string>
     <string name="blocked_update_dialog_summary">Pembaruan ini memerlukan prosedur instalasi bersih manual (Menghapus/Memformat partisi Data sebelum menginstal pembaruan). Silakan unduh build dari situs web kami, mulai ulang ke mode pemulihan dan ikuti prosedur untuk melakukannya.</string>
     <!-- Actions -->
-    <string name="action_download">Unduh</string>
+    <string name="action_download">Unduh dan pasang</string>
     <string name="action_pause">Jeda</string>
     <string name="action_resume">Lanjutkan</string>
     <string name="action_install">Pasang</string>
@@ -120,4 +120,18 @@
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Lihat kiriman forum</string>
     <string name="error_open_url">Gagal membuka tautan di peramban</string>
+    <!-- OTA section -->
+    <string name="android_version">Versi Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versi Evolution X:<xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Tingkat level patch keamanan: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Periksa pembaruan</string>
+    <string name="last_successful_check_for_update">Terakhir diperiksa untuk pembaruan pada: %1$s</string>
+    <string name="system_update_available">Pembaruan Sistem tersedia</string>
+    <string name="what_s_new">Berikut perubahan terbaru:</string>
+    <string name="this_is_what_s_new">- Apa saja yang baru</string>
+    <string name="advisory_notice_title">Pemberitahuan penasihat</string>
+    <string name="advisory_notice_content">- Pengguna disarankan menggunakan Wi-Fi jika memungkinkan untuk mengunduh pembaruan. Jika Anda ingin menggunakan koneksi Jaringan Seluler, harap perhatikan bahwa mengunduh data melalui Jaringan Seluler (termasuk saat berada di lingkungan Roaming), dapat menimbulkan biaya tambahan - hubungi Penyedia Jaringan Anda jika Anda memiliki masalah.</string>
+    <string name="update_size">Ukuran pembaruan: %1$s</string>
+    <string name="notification">Ada pembaruan Evolution X baru tersedia untuk perangkat Anda!</string>
+    <string name="download_over_mobiledata_warning">Mengunduh pembaruan melalui jaringan seluler, Wi-Fi terukur, atau saat roaming dapat menyebabkan biaya tambahan.</string>
 </resources>
