@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -120,4 +120,18 @@
     <string name="forum_info_title">Diễn đàn</string>
     <string name="forum_info_summary">Xem các bài đăng trong diễn đàn</string>
     <string name="error_open_url">Không thể mở URL trong trình duyệt</string>
+    <!-- OTA section -->
+    <string name="android_version">Phiên bản Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Phiên bản Evolution X</string>
+    <string name="security_patch_level">Cấp bản vá bảo mật: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Kiểm tra bản cập nhật</string>
+    <string name="last_successful_check_for_update">Lần kiểm tra cập nhật lần cuối: %1$s</string>
+    <string name="system_update_available">Đã có bản cập nhật hệ thống</string>
+    <string name="what_s_new">Dưới đây là những thay đổi mới:</string>
+    <string name="this_is_what_s_new">-Đây là những thứ mới</string>
+    <string name="advisory_notice_title">Thông báo tư vấn</string>
+    <string name="advisory_notice_content">- Người dùng nên sử dụng Wi-Fi ở mọi nơi có thể để tải xuống các bản cập nhật. Nếu bạn muốn sử dụng kết nối Di động Di động, xin lưu ý rằng việc tải xuống dữ liệu qua Mạng Di động (bao gồm cả khi ở trong môi trường Chuyển vùng), có thể phải trả thêm phí - hãy kiểm tra với Nhà cung cấp mạng của bạn nếu bạn có bất kỳ lo ngại nào.</string>
+    <string name="update_size">Kích cỡ bản cập nhật: %1$s</string>
+    <string name="notification">Đã có bản cập nhật Evolution X mới cho thiết bị của bạn!</string>
+    <string name="download_over_mobiledata_warning">Tải xuống các bản cập nhật qua mạng di động, Wi-Fi được đo hoặc trong khi chuyển vùng có thể gây ra các khoản phí bổ sung.</string>
 </resources>
