@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -62,7 +62,7 @@
     <string name="blocked_update_dialog_title">Η ενημέρωση μπλοκαρίστηκε</string>
     <string name="blocked_update_dialog_summary">Αυτή η ενημέρωση απαιτεί μια μη αυτόματη διαδικασία καθαρής εγκατάστασης (Σβήσιμο / Μορφοποίηση του διαμερίσματος δεδομένων πριν από την εγκατάσταση της ενημέρωσης). Πραγματοποιήστε λήψη του build από τον δικτυακό τόπο μας, επανεκκινήστε σε λειτουργία ανάκτησης και ακολουθήστε τις διαδικασίες για να το κάνετε.</string>
     <!-- Actions -->
-    <string name="action_download">Λήψη</string>
+    <string name="action_download">Λήψη και εγκατάσταση</string>
     <string name="action_pause">Παύση</string>
     <string name="action_resume">Συνέχιση</string>
     <string name="action_install">Εγκατάσταση</string>
@@ -123,4 +123,18 @@
     <string name="forum_info_title">Κοινότητα</string>
     <string name="forum_info_summary">Δείτε της δημοσιεύσεις της κοινότητας</string>
     <string name="error_open_url">Απέτυχε το άνοιγμα της διεύθυνσης URL στο πρόγραμμα περιήγησης</string>
+    <!-- OTA section -->
+    <string name="android_version">Έκδοση Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Έκδοση Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Επίπεδο ενημέρωσης ασφαλείας: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Έλεγχος για ενημερώσεις</string>
+    <string name="last_successful_check_for_update">Τελευταίος έλεγχος για ενημερώσεις στις: %1$s</string>
+    <string name="system_update_available">Διαθέσιμη ενημέρωση συστήματος</string>
+    <string name="what_s_new">Εδώ είναι οι νέες αλλαγές:</string>
+    <string name="this_is_what_s_new">- Αυτό είναι καινούργιο</string>
+    <string name="advisory_notice_title">Συμβουλευτική ανακοίνωση</string>
+    <string name="advisory_notice_content">- Συνιστάται οι χρήστες να χρησιμοποιούν Wi-Fi όποτε είναι δυνατόν για να κατεβάζουν ενημερώσεις. Εάν επιθυμείτε να χρησιμοποιήσετε τη σύνδεση Κινητής Τηλεφωνίας, παρακαλούμε σημειώστε ότι η λήψη δεδομένων μέσω δικτύου κινητής τηλεφωνίας (συμπεριλαμβανομένης της περίπτωσης σε περιβάλλον περιαγωγής), ενδέχεται να σας επιβαρύνει με πρόσθετες χρεώσεις - ελέγξτε με τον πάροχο δικτύου σας σε περίπτωση που έχετε οποιαδήποτε ανησυχία.</string>
+    <string name="update_size">Μέγεθος ενημέρωσης: %1$s</string>
+    <string name="notification">Υπάρχει μια νέα ενημέρωση Evolution X διαθέσιμη για τη συσκευή σας!</string>
+    <string name="download_over_mobiledata_warning">Η λήψη ενημερώσεων μέσω δικτύου κινητής τηλεφωνίας, μετρημένο Wi-Fi, ή κατά την περιαγωγή μπορεί να επιφέρει πρόσθετες χρεώσεις.</string>
 </resources>
