@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -123,4 +123,18 @@
     <string name="forum_info_title">Foro</string>
     <string name="forum_info_summary">Ver publicaciones del foro</string>
     <string name="error_open_url">Fallo al abrir la URL en el navegador</string>
+    <!-- OTA section -->
+    <string name="android_version">Versión de Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versión de Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Nivel del parche de seguridad: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Buscar actualizaciones</string>
+    <string name="last_successful_check_for_update">Última comprobación de actualizaciones a la(s): %1$s</string>
+    <string name="system_update_available">Actualización disponible</string>
+    <string name="what_s_new">Estos son los nuevos cambios y novedades:</string>
+    <string name="this_is_what_s_new">Estas son las novedades</string>
+    <string name="advisory_notice_title">Aviso de advertencia</string>
+    <string name="advisory_notice_content">- Se recomienda que los usuarios utilicen Wi-Fi siempre que sea posible para descargar las actualizaciones. Si desea utilizar la conexión de datos tenga en cuenta que la descarga de a través de la misma (incluyendo en un entorno de Roaming) puede incurrir en cargos adicionales, consulte con su proveedor de red si tiene alguna preocupación. -</string>
+    <string name="update_size">Tamaño de actualización: %1$s</string>
+    <string name="notification">¡Hay una nueva actualización de Evolution X disponible para tu dispositivo!</string>
+    <string name="download_over_mobiledata_warning">Si descargas las actualizaciones a través de la red móvil, Wi-Fi medido o en itinerancia de red móvil, es posible que te hagan cargos adicionales.</string>
 </resources>
