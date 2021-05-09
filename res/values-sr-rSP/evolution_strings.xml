@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -60,6 +60,7 @@
     <string name="list_verifying_update">Верификација ажурирања</string>
     <string name="list_no_updates">Ваш уређај је ажуриран</string>
     <string name="blocked_update_dialog_title">Ажурирање је блокирано</string>
+    <string name="blocked_update_dialog_summary">Ово ажурирање захтева ручни поступак чисте инсталације (брисање / форматирање партиције података пре инсталирања исправке). Преузмите фајл са наше веб странице, поново покрените рачунар у режим опоравка и следите процедуре да бисте то урадили.</string>
     <!-- Actions -->
     <string name="action_download">Преузми</string>
     <string name="action_pause">Паузирај</string>
@@ -125,4 +126,18 @@
     <string name="forum_info_title">Форум</string>
     <string name="forum_info_summary">Погледајте објаве на форуму</string>
     <string name="error_open_url">Неуспело учитавање линка у претраживачу</string>
+    <!-- OTA section -->
+    <string name="android_version">Андроид верзија:<xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X верзија: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Ниво сигурносне закрпе:<xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Провери да ли постоје ажурирања</string>
+    <string name="last_successful_check_for_update">Последњи пут проверен за ажурирање у:%1$s</string>
+    <string name="system_update_available">Ажурирање система је доступно</string>
+    <string name="what_s_new">Ево нових промена:</string>
+    <string name="this_is_what_s_new">- Ово је ново</string>
+    <string name="advisory_notice_title">Савети </string>
+    <string name="advisory_notice_content">- Препоручује се да корисници користе ви-фи где год је то могуће како бисте преузели исправке. Ако желите да користите мобилну везу, имајте на уму да преузимање података преко мобилне мреже (укључујући и када сте у роминг окружењу), могу настати додатни трошкови - обратите се свом мрежном провајдеру ако имате било каквих недоумица.</string>
+    <string name="update_size">Време ажурирања: %1$s</string>
+    <string name="notification">За ваш уређај је доступно ново ажурирање Evolution X!</string>
+    <string name="download_over_mobiledata_warning">Преузимање ажурирања преко мобилне мреже, одмереног Ви-Фи-ја или током роминга може проузроковати додатне оптужбе.</string>
 </resources>
