@@ -39,7 +39,6 @@ import android.widget.TextView;
 import org.evolution.ota.controller.UpdaterController;
 import org.evolution.ota.controller.UpdaterService;
 import org.evolution.ota.misc.Constants;
-import org.evolution.ota.misc.PermissionsUtils;
 import org.evolution.ota.misc.StringGenerator;
 import org.evolution.ota.misc.Utils;
 import org.evolution.ota.model.UpdateInfo;
@@ -502,15 +501,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
     }
 
     private void exportUpdate() {
-        boolean hasPermission = PermissionsUtils.checkAndRequestStoragePermission(
-                mActivity, ExportUpdateService.EXPORT_STATUS_PERMISSION_REQUEST_CODE);
-        if (!hasPermission) {
-            return;
-        }
         File dest = new File(Utils.getExportPath(), mSelectedUpdate.getName());
-        if (dest.exists()) {
-            dest = Utils.appendSequentialNumber(dest);
-        }
         Intent intent = new Intent(mActivity, ExportUpdateService.class);
         intent.setAction(ExportUpdateService.ACTION_START_EXPORTING);
         intent.putExtra(ExportUpdateService.EXTRA_SOURCE_FILE, mSelectedUpdate.getFile());
