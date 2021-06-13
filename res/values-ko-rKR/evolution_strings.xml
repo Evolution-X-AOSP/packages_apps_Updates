@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -120,4 +120,18 @@
     <string name="forum_info_title">포럼</string>
     <string name="forum_info_summary">포럼 게시물 보기</string>
     <string name="error_open_url">브라우저에서 URL을 열지 못했습니다.</string>
+    <!-- OTA section -->
+    <string name="android_version">Android 버전: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X 버전: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">보안 패치 수준: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">업데이트 확인</string>
+    <string name="last_successful_check_for_update">마지막 업데이트 확인: %1$s</string>
+    <string name="system_update_available">새 업데이트가 있습니다</string>
+    <string name="what_s_new">다음과 같은 변경 사항이 있습니다:</string>
+    <string name="this_is_what_s_new">- 새로운 것</string>
+    <string name="advisory_notice_title">중요 안내</string>
+    <string name="advisory_notice_content">- Wi-Fi를 통해 업데이트를 다운로드하는 것을 권장합니다. 모바일 데이터를 사용하고자 한다면, 통신사를 통해 현재 사용 중인 요금제의 데이터 제공량을 확인해주세요. 통신사 정책에 따라 추가 요금이 발생될 수도 있습니다.</string>
+    <string name="update_size">업데이트 크기: %1$s</string>
+    <string name="notification">새 Evolution X 업데이트가 가능합니다!</string>
+    <string name="download_over_mobiledata_warning">모바일 데이터, 종량제 Wi-Fi, 또는 로밍 상태에서 업데이트를 다운로드하면 추가 요금이 발생될 수 있습니다.</string>
 </resources>
