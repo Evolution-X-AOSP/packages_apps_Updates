@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@
     <string name="update_failed_notification">Update fehlgeschlagen</string>
     <string name="installation_suspended_notification">Installation unterbrochen</string>
     <!-- Menu -->
-    <string name="menu_refresh">Aktualisieren (refresh)</string>
+    <string name="menu_refresh">Aktualisieren</string>
     <string name="menu_preferences">Einstellungen</string>
     <string name="menu_auto_updates_check">Automatisch nach Updates suchen</string>
     <string name="menu_auto_updates_check_interval_daily">Einmal am Tag</string>
@@ -60,9 +60,9 @@
     <string name="list_verifying_update">Update wird überprüft</string>
     <string name="list_no_updates">Ihr Gerät ist auf den neusten Stand</string>
     <string name="blocked_update_dialog_title">Update blockiert</string>
-    <string name="blocked_update_dialog_summary">Dieses Update erfordert eine manuelle Reinigung der Installation (Löschen/Formatieren der Datenpartition vor der Installation des Updates). Bitte laden Sie das Build von unserer Website herunter, starten Sie in den Wiederherstellungsmodus und befolgen Sie die Prozeduren, um dies zu tun.</string>
+    <string name="blocked_update_dialog_summary">Dieses Update erfordert eine manuelle, saubere Installation (Löschen/Formatieren der Datenpartition vor der Installation des Updates). Bitte laden Sie das Build von unserer Website herunter, starten Sie in den Wiederherstellungsmodus und befolgen Sie die Anweisungen, um das Update auszuführen.</string>
     <!-- Actions -->
-    <string name="action_download">Download</string>
+    <string name="action_download">Herunterladen and installieren</string>
     <string name="action_pause">Anhalten</string>
     <string name="action_resume">Fortsetzen</string>
     <string name="action_install">Installieren</string>
@@ -96,11 +96,11 @@
     <!-- ETA -->
     <plurals name="eta_seconds">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> Sekunden verbleibend</item>
-        <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Sekunden verbleibend</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Sekunden verbleibend</item>
     </plurals>
     <plurals name="eta_minutes">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> Minuten verbleibend</item>
-        <item quantity="other">noch <xliff:g id="count">%d</xliff:g> Minuten verbleibend</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Minuten verbleibend</item>
     </plurals>
     <plurals name="eta_hours">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> Stunden verbleiben</item>
@@ -123,4 +123,18 @@
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Forumbeiträge anzeigen</string>
     <string name="error_open_url">Fehler beim Öffnen der URL im Browser</string>
+    <!-- OTA section -->
+    <string name="android_version">Android Version: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Sicherheits-Patch-Level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Nach Update suchen</string>
+    <string name="last_successful_check_for_update">Zuletzt auf Update überprüft am: %1$s</string>
+    <string name="system_update_available">Systemaktualisierung verfügbar</string>
+    <string name="what_s_new">Hier sind die neuen Änderungen:</string>
+    <string name="this_is_what_s_new">- Das ist neu</string>
+    <string name="advisory_notice_title">Mitteilung</string>
+    <string name="advisory_notice_content">- Es wird empfohlen, Wlan zu verwenden, wo immer möglich, um Updates herunterzuladen. Wenn Sie die Mobilfunkverbindung verwenden (einschließlich Roaming), kann das mit zusätzlichen Kosten verbunden sein - fragen Sie bei Ihrem Netzbetreiber, falls Sie irgendwelche Bedenken haben.</string>
+    <string name="update_size">Update Größe: %1$s</string>
+    <string name="notification">Es gibt ein neues Evolution X Update für dein Gerät!</string>
+    <string name="download_over_mobiledata_warning">Das Herunterladen von Updates über ein Mobilfunknetz, kostenpflichtiges Wlan oder bei Roaming kann zusätzliche Kosten verursachen.</string>
 </resources>
