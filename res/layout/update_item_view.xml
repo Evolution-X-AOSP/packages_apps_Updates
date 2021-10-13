@@ -41,7 +41,7 @@
                 android:paddingBottom="5dp"
                 android:fontFamily="google-sans"
                 android:text="@string/system_update_available"
-                android:textColor="@color/text_primary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="22sp" />
 
             <RelativeLayout
@@ -84,7 +84,7 @@
                 android:paddingEnd="16dp"
                 android:fontFamily="google-sans"
                 android:text="@string/notification"
-                android:textColor="@color/text_primary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
@@ -101,7 +101,7 @@
                 android:paddingBottom="5dp"
                 android:fontFamily="google-sans"
                 android:text="@string/what_s_new"
-                android:textColor="@color/text_primary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
@@ -114,7 +114,7 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:text="@string/this_is_what_s_new"
-                android:textColor="@color/text_primary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="16sp"
                 android:visibility="visible" />
 
@@ -128,7 +128,7 @@
                 android:paddingEnd="16dp"
                 android:fontFamily="google-sans"
                 android:text="@string/advisory_notice_title"
-                android:textColor="@color/text_primary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:visibility="visible" />
@@ -142,7 +142,7 @@
                 android:paddingEnd="16dp"
                 android:paddingBottom="5dp"
                 android:text="@string/advisory_notice_content"
-                android:textColor="@color/text_primary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="16sp"
                 android:visibility="visible" />
 
@@ -156,7 +156,7 @@
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
                 android:text="@string/update_size"
-                android:textColor="@color/text_primary"
+                android:textColor="?android:attr/textColorPrimary"
                 android:textSize="16sp"
                 android:visibility="visible" />
 
@@ -221,7 +221,7 @@
             android:fontFamily="google-sans-medium"
             android:text="@string/check_for_update"
             android:textAllCaps="false"
-            android:textColor="@*android:color/notification_material_background_color"
+            android:textColor="?android:attr/textColorPrimaryInverse"
             tools:text="Pause" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
