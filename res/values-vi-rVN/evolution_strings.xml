@@ -95,13 +95,13 @@
     <string name="toast_already_exporting">Đã xuất một bản cập nhật</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
-        <item quantity="other">Còn 1 giây nữa</item>
+        <item quantity="other">còn <xliff:g id="count">%d</xliff:g> giây nữa</item>
     </plurals>
     <plurals name="eta_minutes">
         <item quantity="other">Còn 1 phút nữa</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="other">Còn 1 giờ nữa</item>
+        <item quantity="other">còn <xliff:g id="count">%d</xliff:g> giờ nữa</item>
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">Cảnh báo</string>
