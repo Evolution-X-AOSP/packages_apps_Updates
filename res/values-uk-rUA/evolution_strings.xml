@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -129,4 +129,18 @@
     <string name="forum_info_title">Форум</string>
     <string name="forum_info_summary">Останні дописи форуму</string>
     <string name="error_open_url">Не вдалося відкрити посилання у браузері</string>
+    <!-- OTA section -->
+    <string name="android_version">Android <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Версія Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Версія патчу безпеки: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Перевірити оновлення</string>
+    <string name="last_successful_check_for_update">Остання перевірка: %1$s</string>
+    <string name="system_update_available">Доступне оновлення системи</string>
+    <string name="what_s_new">Ось нові зміни:</string>
+    <string name="this_is_what_s_new">- Що нового</string>
+    <string name="advisory_notice_title">Інформаційне сповіщення</string>
+    <string name="advisory_notice_content">- Рекомендується, щоб користувачі використовували Wi-Fi, коли завгодно для завантаження оновлень. Якщо ви бажаєте використовувати мобільне мобільне з\'єднання, зверніть увагу на те, що завантаження даних через мобільну мобільну мережу (включаючи в умовах роумінгу), може викликати додаткові витрати - перевірте пакет послуг з вашим Інтернет провайдером якщо не впевнені.</string>
+    <string name="update_size">Розмір Оновлення: %1$s</string>
+    <string name="notification">Для вашого пристрою доступне нове оновлення Evolution X!</string>
+    <string name="download_over_mobiledata_warning">Завантаження оновлень через мобільну мережу, Wi-Fi з лімітованим трафіком або у роумінгу може призвести до додаткових витрат.</string>
 </resources>
