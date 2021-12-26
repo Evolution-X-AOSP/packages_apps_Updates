@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -32,11 +32,14 @@
     <string name="update_failed_notification">A atualização falhou</string>
     <string name="installation_suspended_notification">Instalação suspensa</string>
     <!-- Menu -->
+    <string name="menu_refresh">Atualizar</string>
     <string name="menu_preferences">Preferências</string>
     <string name="menu_auto_updates_check">Verificação automática de atualizações</string>
     <string name="menu_auto_updates_check_interval_daily">Uma vez por dia</string>
     <string name="menu_auto_updates_check_interval_weekly">Uma vez por semana</string>
     <string name="menu_auto_updates_check_interval_monthly">Uma vez por mês</string>
+    <string name="menu_auto_updates_check_interval_never">Nunca</string>
+    <string name="menu_delete_update">Eliminar</string>
     <string name="menu_copy_url">Copiar URL</string>
     <string name="menu_export_update">Exportar atualização</string>
     <string name="menu_show_changelog">Alterações na versão atual</string>
@@ -57,10 +60,13 @@
     <string name="list_verifying_update">A verificar atualização</string>
     <string name="list_no_updates">O seu sistema está atualizado</string>
     <string name="blocked_update_dialog_title">Atualização bloqueada</string>
+    <string name="blocked_update_dialog_summary">Esta atualização requer uma instalação limpa (Wipe/Format Data). Transfira a atualização no nosso site, reinicie no modo Recovery e siga os procedimentos necessários.</string>
     <!-- Actions -->
+    <string name="action_download">Transferir e instalar</string>
     <string name="action_pause">Pausar</string>
     <string name="action_resume">Continuar</string>
     <string name="action_install">Instalar</string>
+    <string name="action_delete">Eliminar</string>
     <string name="action_cancel">Cancelar</string>
     <string name="confirm_delete_dialog_title">Eliminar ficheiro</string>
     <string name="confirm_delete_dialog_message">Deseja eliminar o ficheiro de atualizações selecionado?</string>
@@ -80,6 +86,7 @@
     <string name="finalizing_package">A finalizar a instalação do pacote</string>
     <string name="preparing_ota_first_boot">A preparar para a primeira inicialização</string>
     <string name="dialog_prepare_zip_message">Preparação preliminar de atualização</string>
+    <string name="dialog_battery_low_title">Bateria fraca</string>
     <string name="dialog_battery_low_message_pct">O nível da bateria está demasiado baixo. Precisa de, pelo menos, <xliff:g id="percent_discharging">%1$d</xliff:g>%% de bateria para continuar, <xliff:g id="percent_charging">%2$d</xliff:g>%% se estiver a carregar.</string>
     <!-- Export update -->
     <string name="dialog_export_title">A exportar a atualização para o armazenamento interno</string>
@@ -116,4 +123,18 @@
     <string name="forum_info_title">Fórum</string>
     <string name="forum_info_summary">Ver publicações no Fórum</string>
     <string name="error_open_url">Falha ao abrir o URL no navegador</string>
+    <!-- OTA section -->
+    <string name="android_version">Versão Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versão Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Nível do patch de segurança: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Verificar atualizações</string>
+    <string name="last_successful_check_for_update">Última verificação em: %1$s</string>
+    <string name="system_update_available">Nova atualização disponível</string>
+    <string name="what_s_new">Novas alterações:</string>
+    <string name="this_is_what_s_new">- Isto é o que há de novo</string>
+    <string name="advisory_notice_title">Aviso de consultoria</string>
+    <string name="advisory_notice_content">- É recomendado que os utilizadores usem o Wi-Fi sempre que possível para transferir atualizações. Se deseja usar a ligação de dados móveis, tenha em atenção que pode incorrer em taxas adicionais.</string>
+    <string name="update_size">Tamanho da atualização: %1$s</string>
+    <string name="notification">Há uma nova atualização Evolution X disponível para o seu dispositivo!</string>
+    <string name="download_over_mobiledata_warning">Transferir de atualizações com dados móveis, Wi-Fi limitado ou em roaming pode causar taxas adicionais.</string>
 </resources>
