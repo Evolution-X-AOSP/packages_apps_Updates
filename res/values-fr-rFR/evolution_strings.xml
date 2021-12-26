@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -123,4 +123,18 @@
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Voir les messages du forum</string>
     <string name="error_open_url">Échec de l\'ouverture de l’URL dans le navigateur</string>
+    <!-- OTA section -->
+    <string name="android_version">Version Android : <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Version de Evolution X : <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Niveau du correctif de sécurité : <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Vérifier les mises à jour</string>
+    <string name="last_successful_check_for_update">Dernière vérification de mise à jour à : %1$s</string>
+    <string name="system_update_available">Une mise à jour système est disponible</string>
+    <string name="what_s_new">Voici les nouveaux changements :</string>
+    <string name="this_is_what_s_new">- Voici ce qui est nouveau</string>
+    <string name="advisory_notice_title">Avis d\'information</string>
+    <string name="advisory_notice_content">- Il est recommandé que les utilisateurs utilisent le Wi-Fi dans la mesure du possible afin de télécharger les mises à jour. Si vous souhaitez utiliser la connexion mobile cellulaire, veuillez noter que le téléchargement de données via un réseau mobile cellulaire (y compris dans un environnement d\'itinérance), peut entraîner des frais supplémentaires - vérifiez auprès de votre fournisseur de réseau si vous avez des doutes.</string>
+    <string name="update_size">Taille de la mise à jour: %1$s</string>
+    <string name="notification">Il y a une nouvelle mise à jour Evolution X disponible pour votre appareil!</string>
+    <string name="download_over_mobiledata_warning">Le téléchargement de mises à jour via un réseau mobile, un Wi-Fi limité ou l\'itinérance peut entraîner des frais supplémentaires.</string>
 </resources>
