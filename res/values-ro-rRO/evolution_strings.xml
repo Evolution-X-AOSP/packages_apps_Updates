@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -60,8 +60,9 @@
     <string name="list_verifying_update">Verificare actualizare</string>
     <string name="list_no_updates">Dispozitivul dumneavoastră este actualizat</string>
     <string name="blocked_update_dialog_title">Actualizare blocată</string>
+    <string name="blocked_update_dialog_summary">Această actualizare necesită o procedură manuală de instalare de la zero (Ștergerea/formatarea partiției de date înainte de a instala actualizarea). Descărcați actualizarea de pe site-ul nostru, reporniți în modul de recuperare și urmați procedurile pentru a face acest lucru.</string>
     <!-- Actions -->
-    <string name="action_download">Descărcați</string>
+    <string name="action_download">Descărcare și instalare</string>
     <string name="action_pause">Pauză</string>
     <string name="action_resume">Reluaţi</string>
     <string name="action_install">Instalați</string>
@@ -125,4 +126,18 @@
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Vizualizaţi postările forumului</string>
     <string name="error_open_url">Nu s-a reușit deschiderea adresei URL în browser</string>
+    <!-- OTA section -->
+    <string name="android_version">Versiune Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Versiune Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Nivelul patch-ului de securitate: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Verificare actualizări</string>
+    <string name="last_successful_check_for_update">Ultima verificare pentru actualizare la: %1$s</string>
+    <string name="system_update_available">Este disponibilă o actualizare de sistem</string>
+    <string name="what_s_new">Iată noile modificări:</string>
+    <string name="this_is_what_s_new">- Asta este ceea ce este nou</string>
+    <string name="advisory_notice_title">Aviz consultativ</string>
+    <string name="advisory_notice_content">- Este recomandat ca utilizatorii să folosească Wi-Fi ori de câte ori este posibil pentru a descărca actualizările. Dacă doriți să utilizați conexiunea mobilă mobilă, vă rugăm să rețineți că descărcarea prin intermediul unei rețele mobile (inclusiv când este într-un mediu de roaming), pot suporta costuri suplimentare - verificați furnizorul dvs. de rețea în cazul în care aveți vreo preocupare.</string>
+    <string name="update_size">Mărime actualizare: %1$s</string>
+    <string name="notification">Există o nouă actualizare Evolution X disponibilă pentru dispozitivul dvs!</string>
+    <string name="download_over_mobiledata_warning">Descărcarea actualizărilor printr-o rețea mobilă, prin rețea Wi-Fi contorizată sau în roaming poate cauza costuri suplimentare.</string>
 </resources>
