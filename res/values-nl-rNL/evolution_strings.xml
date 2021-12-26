@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -60,8 +60,9 @@
     <string name="list_verifying_update">Update verifiëren</string>
     <string name="list_no_updates">Jouw apparaat draait op de nieuwste versie</string>
     <string name="blocked_update_dialog_title">Update geblokkeerd</string>
+    <string name="blocked_update_dialog_summary">Deze update vereist een handmatige schone installatie procedure (Wipe/Format van de Data partitie alvorens de update te installeren). Download alstublieft de update van onze website, herstart in recovery-modus en volg de vereiste procedure.</string>
     <!-- Actions -->
-    <string name="action_download">Download</string>
+    <string name="action_download">Downloaden en installeren</string>
     <string name="action_pause">Pauzeren</string>
     <string name="action_resume">Hervatten</string>
     <string name="action_install">Installeren</string>
@@ -122,4 +123,18 @@
     <string name="forum_info_title">Forum</string>
     <string name="forum_info_summary">Bekijk forumberichten</string>
     <string name="error_open_url">Fout bij het openen van URL in browser</string>
+    <!-- OTA section -->
+    <string name="android_version">Android versie: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X versie: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="security_patch_level">Beveiligings patch niveau: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Controleren op updates</string>
+    <string name="last_successful_check_for_update">Laatst gecontroleerd op update op: %1$s</string>
+    <string name="system_update_available">Systeemupdate beschikbaar</string>
+    <string name="what_s_new">Hier zijn de nieuwe wijzigingen:</string>
+    <string name="this_is_what_s_new">- Dit is wat nieuw is</string>
+    <string name="advisory_notice_title">Adviesbericht</string>
+    <string name="advisory_notice_content">- Het is aanbevolen dat gebruikers gebruik maken van wifi waar mogelijk om updates te downloaden. Als u gebruik wilt maken van een mobiele verbinding, houd er rekening mee dat gegevens worden gedownload via een mobiel netwerk (ook in een roaming omgeving), extra kosten met zich mee kunnen brengen - controleer bij uw Internet Provider als u problemen heeft.</string>
+    <string name="update_size">Updategrootte: %1$s</string>
+    <string name="notification">Er is een nieuwe Evolution X update beschikbaar voor je apparaat!</string>
+    <string name="download_over_mobiledata_warning">Het downloaden van updates over een mobiel netwerk, gemeten Wi-Fi, of tijdens roaming kunnen extra kosten met zich meebrengen.</string>
 </resources>
