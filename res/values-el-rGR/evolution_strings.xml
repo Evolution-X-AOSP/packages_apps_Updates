@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">Εξαγωγή ενημέρωσης στον εσωτερικό χώρο</string>
     <string name="notification_export_success">Η ενημέρωση εξήχθη στον εσωτερικό χώρο</string>
-    <string name="notification_export_fail">Σφάλμα εξαγωγής</string>
+    <string name="notification_export_fail">Απέτυχε η εξαγωγή της ενημέρωσης στον εσωτερικό χώρο αποθήκευσης</string>
     <string name="toast_already_exporting">Εξάγεται ήδη μία ενημέρωση</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
