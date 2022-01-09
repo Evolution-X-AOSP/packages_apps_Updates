@@ -93,7 +93,7 @@ Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve 
     <!-- Export update -->
     <string name="dialog_export_title">Güncelleme dahili depolamaya aktarılıyor</string>
     <string name="notification_export_success">Güncelleme dahili depolamaya aktarıldı</string>
-    <string name="notification_export_fail">Dışa aktarım hatası</string>
+    <string name="notification_export_fail">Güncelleme dahili depolamaya çıkartılamadı</string>
     <string name="toast_already_exporting">Bir güncelleme zaten dışa aktarılıyor</string>
     <!-- ETA -->
     <plurals name="eta_seconds">

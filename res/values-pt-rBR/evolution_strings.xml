@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">Exportando a atualização para o armazenamento interno</string>
     <string name="notification_export_success">Atualização exportada para o armazenamento interno</string>
-    <string name="notification_export_fail">Erro ao exportar</string>
+    <string name="notification_export_fail">Falha ao exportar a atualização para a memória interna</string>
     <string name="toast_already_exporting">Uma atualização já está sendo exportada</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
