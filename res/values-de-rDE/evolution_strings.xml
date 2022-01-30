@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">Exportiere Update zum internen Speicher</string>
     <string name="notification_export_success">Update zum internen Speicher exportiert</string>
-    <string name="notification_export_fail">Fehler beim Exportieren</string>
+    <string name="notification_export_fail">Das Update konnte nicht auf den internen Speicher exportiert werden</string>
     <string name="toast_already_exporting">Es wird bereits ein Update exportiert</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
@@ -124,8 +124,8 @@
     <string name="forum_info_summary">Forumbeiträge anzeigen</string>
     <string name="error_open_url">Fehler beim Öffnen der URL im Browser</string>
     <!-- OTA section -->
-    <string name="android_version">Android Version: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="android_version">Android-Version: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X-Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Sicherheits-Patch-Level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Nach Update suchen</string>
     <string name="last_successful_check_for_update">Zuletzt auf Update überprüft am: %1$s</string>
