@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">アップデートファイルを内部ストレージに保存</string>
     <string name="notification_export_success">アップデートファイルを内部ストレージに保存しました</string>
-    <string name="notification_export_fail">エクスポートエラー</string>
+    <string name="notification_export_fail">アップデートファイルの内部ストレージへの保存に失敗しました</string>
     <string name="toast_already_exporting">既にアップデートをエクスポートしています</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
