@@ -50,6 +50,9 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
+    lint {
+        ignore 'ProtectedPermissions', 'ExtraTranslation', 'ImpliedQuantity', 'MissingQuantity', 'MissingTranslation'
+    }
     buildTypes {
         release {
             signingConfig signingConfigs.release
