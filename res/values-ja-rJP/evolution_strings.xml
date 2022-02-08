@@ -105,7 +105,7 @@
     </plurals>
     <!-- Mobile data warning -->
     <string name="update_on_mobile_data_title">警告</string>
-    <string name="update_on_mobile_data_message">モバイルデータ通信で更新プログラムをダウンロードするとデータ使用量が増加する可能性があります。続行しますか?</string>
+    <string name="update_on_mobile_data_message">モバイルデータ通信でアップデートプログラムをダウンロードするとデータ使用量が増加する可能性があります。続行しますか?</string>
     <string name="checkbox_mobile_data_warning">今後表示しない</string>
     <string name="menu_mobile_data_warning">モバイルデータの警告</string>
     <!-- Info section -->
@@ -125,7 +125,7 @@
     <string name="evolution_version">Evolution X バージョン: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">セキュリティパッチレベル: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">アップデートを確認</string>
-    <string name="last_successful_check_for_update">更新の最終確認日時: %1$s</string>
+    <string name="last_successful_check_for_update">最終確認日時: %1$s</string>
     <string name="system_update_available">システムアップデートが利用可能です</string>
     <string name="what_s_new">新規変更点:</string>
     <string name="this_is_what_s_new">- これが新機能です</string>
