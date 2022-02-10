@@ -7,4 +7,11 @@
         <item name="android:statusBarColor">@color/theme_primary</item>
         <item name="android:navigationBarColor">@color/theme_primary</item>
     </style>
+
+    <style name="Theme.CollapsingToolbar.Settings" parent="@style/Theme.MaterialComponents.DayNight">
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="elevationOverlayColor">?attr/colorPrimary</item>
+        <item name="colorPrimary">@*android:color/primary_dark_device_default_settings</item>
+        <item name="colorAccent">@*android:color/accent_device_default_dark</item>
+    </style>
 </resources>
