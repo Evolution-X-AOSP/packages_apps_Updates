@@ -65,7 +65,7 @@ import java.util.zip.ZipFile;
 
 public class Utils {
 
-    private static final String TAG = "Utils";
+    private static final String TAG = "Updates.Utils";
 
     private Utils() {
     }
@@ -104,7 +104,7 @@ public class Utils {
 
         Constants.fileName = object.getString("filename");
 
-        Log.d("Hritik2118", update.getWhatsNew());
+        Log.d(TAG, update.getWhatsNew());
         return update;
     }
 
@@ -149,8 +149,8 @@ public class Utils {
         return null;
     }
 
-    public static String getServerURL() {
-        return String.format(Constants.OTA_URL, SystemProperties.get(Constants.PROP_DEVICE), SystemProperties.get(Constants.PROP_VERSION_CODE));
+    public static String getServerURL(String customURL) {
+        return String.format(customURL + "/builds/%s.json", SystemProperties.get(Constants.PROP_DEVICE));
     }
 
     public static String getSecurityPatchLevel() {
@@ -167,12 +167,12 @@ public class Utils {
     }
 
     public static boolean isCurrentVersion(UpdateBaseInfo update) {
-        Log.d("HRITIK: isCurrentVersion", String.valueOf(SystemProperties.getLong("ro.build.date.utc", 0)));
+        Log.d("Updates.Utils: isCurrentVersion", String.valueOf(SystemProperties.getLong("ro.build.date.utc", 0)));
         return update.getTimestamp() > SystemProperties.getLong("ro.build.date.utc", 0);
     }
 
-    public static String getDownloadWebpageUrl(String fileName) {
-        return String.format(Constants.DOWNLOAD_WEBPAGE_URL, SystemProperties.get(Constants.PROP_DEVICE), fileName);
+    public static String getDownloadWebpageUrl(String customURL, String fileName) {
+        return String.format(customURL + "/changelogs/%s/%s.txt", SystemProperties.get(Constants.PROP_DEVICE), fileName);
     }
 
     public static void triggerUpdate(Context context, String downloadId) {

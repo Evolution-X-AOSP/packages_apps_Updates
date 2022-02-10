@@ -24,12 +24,15 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.SystemClock;
+import android.content.SharedPreferences;
+import androidx.preference.PreferenceManager;
 import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
 
 import org.json.JSONException;
 import org.evolution.ota.download.DownloadClient;
+import org.evolution.ota.misc.Constants;
 import org.evolution.ota.misc.FetchChangelog;
 import org.evolution.ota.misc.Utils;
 
@@ -48,6 +51,8 @@ public class UpdatesCheckReceiver extends BroadcastReceiver {
 
     private static final String NEW_UPDATES_NOTIFICATION_CHANNEL =
             "new_updates_notification_channel";
+
+    public String customURL;
 
     private static void showNotification(Context context) {
         NotificationManager notificationManager =
@@ -148,7 +153,10 @@ public class UpdatesCheckReceiver extends BroadcastReceiver {
 
         final File json = Utils.getCachedUpdateList(context);
         final File jsonNew = new File(json.getAbsolutePath() + UUID.randomUUID());
-        String url = Utils.getServerURL();
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        customURL = prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL);
+        Log.d("checkupdate", "checking at url : " + customURL);
+        String url = Utils.getServerURL(customURL);
         DownloadClient.DownloadCallback callback = new DownloadClient.DownloadCallback() {
             @Override
             public void onFailure(boolean cancelled) {
