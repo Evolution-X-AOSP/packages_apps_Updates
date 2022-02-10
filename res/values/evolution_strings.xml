@@ -135,17 +135,21 @@
     <string name="error_open_url">Failed to open URL in browser</string>
 
     <!-- OTA section -->
-    <string name="android_version">Android version: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
-    <string name="security_patch_level">Security patch level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="android_version">Android version : <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X version : <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolution X build : <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
+    <string name="security_patch_level">Security patch level : <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Check for update</string>
-    <string name="last_successful_check_for_update">Last checked for update at: %1$s</string>
+    <string name="last_successful_check_for_update">Last checked for update at : %1$s</string>
     <string name="system_update_available">System update available</string>
-    <string name="what_s_new">Here are the new changes:</string>
+    <string name="what_s_new">Here are the new changes :</string>
     <string name="this_is_what_s_new">- This is what\'s new</string>
     <string name="advisory_notice_title">Advisory notice</string>
     <string name="advisory_notice_content">- It is recommended that users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.</string>
-    <string name="update_size">Update size: %1$s</string>
+    <string name="update_size">Update size : %1$s</string>
     <string name="notification">There is a new Evolution X update available for your device!</string>
     <string name="download_over_mobiledata_warning">Downloading updates over a cellular network, metered Wi-Fi, or while roaming may cause additional charges.</string>
+
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Set a custom OTA URL link</string>
 </resources>
