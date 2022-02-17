@@ -126,6 +126,7 @@
     <!-- OTA section -->
     <string name="android_version">Έκδοση Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Έκδοση Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolution X build: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Επίπεδο ενημέρωσης ασφαλείας: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Έλεγχος για ενημερώσεις</string>
     <string name="last_successful_check_for_update">Τελευταίος έλεγχος για ενημερώσεις στις: %1$s</string>
@@ -137,4 +138,6 @@
     <string name="update_size">Μέγεθος ενημέρωσης: %1$s</string>
     <string name="notification">Υπάρχει μια νέα ενημέρωση Evolution X διαθέσιμη για τη συσκευή σας!</string>
     <string name="download_over_mobiledata_warning">Η λήψη ενημερώσεων μέσω δικτύου κινητής τηλεφωνίας, μετρημένο Wi-Fi, ή κατά την περιαγωγή μπορεί να επιφέρει πρόσθετες χρεώσεις.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Ορίστε έναν προσαρμοσμένο σύνδεσμο OTA URL</string>
 </resources>
