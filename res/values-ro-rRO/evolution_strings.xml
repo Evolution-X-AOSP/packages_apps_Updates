@@ -129,6 +129,7 @@
     <!-- OTA section -->
     <string name="android_version">Versiune Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Versiune Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolution X: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Nivelul patch-ului de securitate: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Verificare actualizări</string>
     <string name="last_successful_check_for_update">Ultima verificare pentru actualizare la: %1$s</string>
@@ -140,4 +141,6 @@
     <string name="update_size">Mărime actualizare: %1$s</string>
     <string name="notification">Există o nouă actualizare Evolution X disponibilă pentru dispozitivul dvs!</string>
     <string name="download_over_mobiledata_warning">Descărcarea actualizărilor printr-o rețea mobilă, prin rețea Wi-Fi contorizată sau în roaming poate cauza costuri suplimentare.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Setează un URL OTA personalizat</string>
 </resources>

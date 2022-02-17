@@ -132,6 +132,7 @@
     <!-- OTA section -->
     <string name="android_version">Версия Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Версия Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Сборка Evolution X: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Обновление системы безопасности Android: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Проверить обновление</string>
     <string name="last_successful_check_for_update">Последняя проверка обновлений: %1$s</string>
@@ -143,4 +144,6 @@
     <string name="update_size">Размер обновления: %1$s</string>
     <string name="notification">Доступно новое обновление Evolution X для вашего устройства!</string>
     <string name="download_over_mobiledata_warning">Загрузка обновлений через сотовую сеть, Wi-Fi с ограничением трафика или во время роуминга может повлечь за собой дополнительные расходы.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Задать свою OTA ссылку</string>
 </resources>

@@ -123,6 +123,7 @@
     <!-- OTA section -->
     <string name="android_version">Android バージョン: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Evolution X バージョン: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolution X ビルド: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">セキュリティパッチレベル: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">アップデートを確認</string>
     <string name="last_successful_check_for_update">最終確認日時: %1$s</string>
@@ -134,4 +135,6 @@
     <string name="update_size">アップデートサイズ: %1$s</string>
     <string name="notification">お使いの端末に新しい Evolution X のアップデートがあります!</string>
     <string name="download_over_mobiledata_warning">モバイル回線経由、従量制の Wi-Fi 経由、ローミング中にアップデートをダウンロードする場合に追加料金が発生する可能性があります。</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">カスタム OTA リンクを設定</string>
 </resources>
