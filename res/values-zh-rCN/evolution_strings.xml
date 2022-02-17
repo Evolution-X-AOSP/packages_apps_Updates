@@ -123,6 +123,7 @@
     <!-- OTA section -->
     <string name="android_version">Android 版本： <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Evolution X 版本： <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolution X 编译： <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">安全补丁等级： <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">检查更新</string>
     <string name="last_successful_check_for_update">最后一次检查更新于： %1$s</string>
@@ -134,4 +135,6 @@
     <string name="update_size">文件大小：%1$s</string>
     <string name="notification">您的设备有新的 Evolution X 更新！</string>
     <string name="download_over_mobiledata_warning">通过移动网络下载更新，计量 Wi-Fi，或漫游时可能导致额外费用。</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">设置自定义 OTA URL 链接</string>
 </resources>
