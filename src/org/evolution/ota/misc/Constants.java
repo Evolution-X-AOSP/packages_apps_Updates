@@ -36,12 +36,12 @@ public final class Constants {
     static final int AUTO_UPDATES_CHECK_INTERVAL_DAILY = 1;
     static final int AUTO_UPDATES_CHECK_INTERVAL_WEEKLY = 2;
     static final int AUTO_UPDATES_CHECK_INTERVAL_MONTHLY = 3;
-    static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "org.evolution.device";
-    static final String PROP_BUILD_VERSION = "org.evolution.version.prop";
-    static final String PROP_VERSION_CODE = "org.evolution.ota.version_code";
+    public static final String PROP_AB_DEVICE = "ro.build.ab_update";
+    public static final String PROP_DEVICE = "org.evolution.device";
+    public static final String PROP_BUILD_VERSION = "org.evolution.version.prop";
+    public static final String PROP_VERSION_CODE = "org.evolution.ota.version_code";
     public static final String OTA_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
-    static final String EXPORT_PATH = "EvolutionX-Updates/";
+    public static final String EXPORT_PATH = "EvolutionX-Updates/";
     public static String fileName = "";
 }
