@@ -97,6 +97,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
     private TextView lastUpdateCheck;
     private String LastUpdateCheck;
     public static String customURL;
+    public String changelogURLFormat;
 
     public static Context contextExt;
 
@@ -161,9 +162,9 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         androidVersion.setText(String.format(getResources()
                 .getString(R.string.android_version, Build.VERSION.RELEASE)));
         evolutionVersion.setText(String.format(getResources()
-                .getString(R.string.evolution_version, SystemProperties.get("org.evolution.build_version"))));
+                .getString(R.string.evolution_version, SystemProperties.get(Constants.PROP_BUILD_VERSION_2))));
         evolutionVersionDisplay.setText(String.format(getResources()
-                .getString(R.string.evolution_version_display, SystemProperties.get("org.evolution.version"))));
+                .getString(R.string.evolution_version_display, SystemProperties.get(Constants.PROP_VERSION))));
         securityVersion.setText(String.format(getResources()
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
         lastUpdateCheck.setText(String.format(getResources()
@@ -181,7 +182,12 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         customURL = prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL);
 
 	changelogButton.setOnClickListener(view -> {
-            Intent openChangelogURL = new Intent(Intent.ACTION_VIEW, Uri.parse(customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get("org.evolution.version") + ".zip.txt"));
+            if (SystemProperties.get(Constants.PROP_KEY_TYPE) == "signed") {
+                changelogURLFormat = customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get(Constants.PROP_VERSION) + ".zip.txt";
+            } else {
+                changelogURLFormat = customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get(Constants.PROP_VERSION) + "-unsigned.zip.txt";
+            }
+            Intent openChangelogURL = new Intent(Intent.ACTION_VIEW, Uri.parse(changelogURLFormat));
             startActivity(openChangelogURL);
         });
 

@@ -40,6 +40,9 @@ public final class Constants {
     public static final String PROP_DEVICE = "org.evolution.device";
     public static final String PROP_BUILD_VERSION = "org.evolution.version.prop";
     public static final String PROP_VERSION_CODE = "org.evolution.ota.version_code";
+    public static final String PROP_BUILD_VERSION_2 = "org.evolution.build_version";
+    public static final String PROP_VERSION = "org.evolution.version";
+    public static final String PROP_KEY_TYPE = "org.evolution.key_type";
     public static final String OTA_URL = "https://raw.githubusercontent.com/Evolution-X-Devices/official_devices/master/";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     public static final String EXPORT_PATH = "EvolutionX-Updates/";
