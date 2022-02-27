@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -87,6 +88,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
 
     private ProgressBar progressBar;
     private Button checkUpdateButton;
+    private Button changelogButton;
     private TextView updateStatus;
     private TextView androidVersion;
     private TextView evolutionVersion;
@@ -147,6 +149,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
 
         progressBar = findViewById(R.id.progress_bar);
         checkUpdateButton = findViewById(R.id.check_updates);
+        changelogButton = findViewById(R.id.changelog_button);
         updateStatus = findViewById(R.id.no_new_updates_view);
         androidVersion = findViewById(R.id.android_version);
         evolutionVersion = findViewById(R.id.evolution_version);
@@ -168,9 +171,18 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         checkUpdateButton.setOnClickListener(view -> {
             progressBar.setVisibility(View.VISIBLE);
             checkUpdateButton.setVisibility(View.GONE);
+            changelogButton.setVisibility(View.GONE);
             securityVersion.setVisibility(View.GONE);
             lastUpdateCheck.setVisibility(View.GONE);
             downloadUpdatesList(true);
+        });
+
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        customURL = prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL);
+
+	changelogButton.setOnClickListener(view -> {
+            Intent openChangelogURL = new Intent(Intent.ACTION_VIEW, Uri.parse(customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get("org.evolution.version") + ".zip.txt"));
+            startActivity(openChangelogURL);
         });
 
         downloadUpdatesList(true);
@@ -354,6 +366,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         lastUpdateCheck.setVisibility(View.GONE);
 
         checkUpdateButton.setVisibility(View.GONE);
+        changelogButton.setVisibility(View.GONE);
     }
 
     private void loadUpdatesList(File jsonFile, boolean manualRefresh)
@@ -508,6 +521,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
     private void refreshAnimationStart() {
         progressBar.setVisibility(View.VISIBLE);
         checkUpdateButton.setVisibility(View.GONE);
+        changelogButton.setVisibility(View.GONE);
         securityVersion.setVisibility(View.GONE);
         lastUpdateCheck.setVisibility(View.GONE);
         androidVersion.setVisibility(View.GONE);
@@ -527,6 +541,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
     private void refreshAnimationStop() {
         progressBar.setVisibility(View.GONE);
         checkUpdateButton.setVisibility(View.VISIBLE);
+        changelogButton.setVisibility(View.VISIBLE);
         if (isUpdateAvailable) {
             showUpdates();
         } else {
