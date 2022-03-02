@@ -126,6 +126,7 @@
     <string name="evolution_version_display">Evolution X ビルド: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">セキュリティパッチレベル: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">アップデートを確認</string>
+    <string name="changelog_button_text">更新履歴</string>
     <string name="last_successful_check_for_update">最終確認日時: %1$s</string>
     <string name="system_update_available">システムアップデートが利用可能です</string>
     <string name="what_s_new">新規変更点:</string>
