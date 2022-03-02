@@ -129,6 +129,7 @@
     <string name="evolution_version_display">Evolution X build: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Επίπεδο ενημέρωσης ασφαλείας: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Έλεγχος για ενημερώσεις</string>
+    <string name="changelog_button_text">Αρχείο καταγραφής αλλαγών</string>
     <string name="last_successful_check_for_update">Τελευταίος έλεγχος για ενημερώσεις στις: %1$s</string>
     <string name="system_update_available">Διαθέσιμη ενημέρωση συστήματος</string>
     <string name="what_s_new">Εδώ είναι οι νέες αλλαγές:</string>
