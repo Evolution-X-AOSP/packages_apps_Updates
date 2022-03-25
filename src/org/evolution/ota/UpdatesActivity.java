@@ -182,7 +182,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         customURL = prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL);
 
 	changelogButton.setOnClickListener(view -> {
-            if (SystemProperties.get(Constants.PROP_KEY_TYPE) == "signed") {
+            if (SystemProperties.get(Constants.PROP_KEY_TYPE).equals("signed")) {
                 changelogURLFormat = customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get(Constants.PROP_VERSION) + ".zip.txt";
             } else {
                 changelogURLFormat = customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get(Constants.PROP_VERSION) + "-unsigned.zip.txt";
