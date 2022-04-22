@@ -132,12 +132,12 @@
     <string name="changelog_button_text">Registro delle modifiche</string>
     <string name="last_successful_check_for_update">Ultimo controllo per l\'aggiornamento il: %1$s</string>
     <string name="system_update_available">Aggiornamento di sistema disponibile</string>
-    <string name="what_s_new">Ecco le nuove modifiche:</string>
+    <string name="what_s_new">Questi sono i cambiamenti:</string>
     <string name="this_is_what_s_new">- Ecco le novità</string>
     <string name="advisory_notice_title">Avviso consultivo</string>
-    <string name="advisory_notice_content">- Si consigliano gli utenti di usare la Wi-Fi quando possibile per scaricare gli aggiornamenti. Se desideri usare la connessione Mobile del Cellulare, sei pregato di notare che scaricare i dati su una Rete Mobile Cellulare (incluso quando in un ambiente di Roaming), potresti incorrere in addebiti aggiuntivi, controlla il tuo Provider di Rete se dovessi avere preoccupazioni.</string>
-    <string name="update_size">Aggiorna dimensione: %1$s</string>
-    <string name="notification">Un nuovo aggiornamento è disponibile di Evolution X per il tuo dispositivo!</string>
+    <string name="advisory_notice_content">- Per scaricare gli aggiornamenti è raccomandato l\'utilizzo di una rete Wi-Fi ove possibile. Nel caso di utilizzo della rete mobile del cellulare, si prega di prestare attenzione al fatto che scaricare dati tramite una rete mobile cellulare (specialmente se in roaming) potrebbe comportare degli addebiti aggiuntivi. Consigliamo di verificare con il proprio provider qualora vi fossero dubbi in merito.</string>
+    <string name="update_size">Dimensione aggiornamento: %1$s</string>
+    <string name="notification">Un nuovo aggiornamento di Evolution X è disponibile per il tuo dispositivo!</string>
     <string name="download_over_mobiledata_warning">Scaricare gli aggiornamenti su una rete mobile, Wi-Fi misurato o con il roaming, potrebbe causare addebiti aggiuntivi.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Imposta un link OTA personalizzato</string>

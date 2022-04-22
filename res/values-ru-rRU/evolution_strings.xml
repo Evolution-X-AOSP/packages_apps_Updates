@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">Экспорт обновления во внутреннюю память</string>
     <string name="notification_export_success">Обновление экспортировано во внутреннюю память</string>
-    <string name="notification_export_fail">Ошибка экспорта</string>
+    <string name="notification_export_fail">Ошибка экспорта обновления на внутреннюю память</string>
     <string name="toast_already_exporting">Экспорт обновления уже выполняется</string>
     <!-- ETA -->
     <plurals name="eta_seconds">

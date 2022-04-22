@@ -126,15 +126,19 @@
     <!-- OTA section -->
     <string name="android_version">Versão do Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Versão da EvolutionX: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolução X Compilação: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Versão do patch de segurança: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Verificar se há atualizações</string>
+    <string name="changelog_button_text">Registro de alterações</string>
     <string name="last_successful_check_for_update">Última verificação por atualizações: %1$s</string>
     <string name="system_update_available">Atualização do sistema disponível</string>
     <string name="what_s_new">Aqui estão as novas mudanças:</string>
     <string name="this_is_what_s_new">- Isto é o que há de novo</string>
-    <string name="advisory_notice_title">Aviso de consultoria</string>
+    <string name="advisory_notice_title">Aviso</string>
     <string name="advisory_notice_content">- É recomendável que os usuários usem o Wi-Fi sempre que possível para baixar atualizações. Se você deseja usar a conexão por dados móveis, observe que você está baixando dados através de uma rede celular (incluindo quando estiver em um ambiente de roaming), poderá incorrer em cobranças adicionais — verifique com a sua operadora caso tenha alguma preocupação.</string>
     <string name="update_size">Tamanho da atualização: %1$s</string>
     <string name="notification">Existe uma nova atualização da EvolutionX disponível para o seu dispositivo!</string>
     <string name="download_over_mobiledata_warning">Fazer download de atualizações em uma rede celular, Wi-Fi limitado ou em roaming pode causar cobranças adicionais.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Definir link personalizado para atualizações OTA</string>
 </resources>
