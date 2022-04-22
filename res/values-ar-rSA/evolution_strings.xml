@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -62,7 +62,7 @@
     <string name="blocked_update_dialog_title">تم حظر التحديث</string>
     <string name="blocked_update_dialog_summary">يتطلب هذا التحديث إجراء تنظيف يدوي لتثبيت (مسح / تنسيق قسم البيانات قبل تثبيت التحديث). يرجى تنزيل البناء من موقعنا على شبكة الإنترنت، وإعادة التشغيل إلى وضع الاسترداد واتبع الإجراءات للقيام بذلك.</string>
     <!-- Actions -->
-    <string name="action_download">تحميل</string>
+    <string name="action_download">تنزيل وتثبيت</string>
     <string name="action_pause">إيقاف مؤقت</string>
     <string name="action_resume">إستئناف</string>
     <string name="action_install">تثبيت</string>
@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">تصدير التحديث إلى وحدة التخزين الداخلية</string>
     <string name="notification_export_success">تم تصدير التحديث إلى وحدة التخزين الداخلية</string>
-    <string name="notification_export_fail">خطأ في التصدير</string>
+    <string name="notification_export_fail">فشل تصدير التحديث إلى وحدة التخزين الداخلية</string>
     <string name="toast_already_exporting">جارٍ تصدير التحديث بالفعل</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
@@ -135,4 +135,22 @@
     <string name="forum_info_title">المنتدى</string>
     <string name="forum_info_summary">عرض مشاركات المنتدى</string>
     <string name="error_open_url">فشل في فتح عنوان URL في المتصفح</string>
+    <!-- OTA section -->
+    <string name="android_version"> إصدار الاندرويد: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolution X build: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
+    <string name="security_patch_level">مستوى تصحيح الأمان: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">تحقق من التحديثات</string>
+    <string name="changelog_button_text">سِجل التغييرات</string>
+    <string name="last_successful_check_for_update">آخر فحص للتحديث في: %1$s</string>
+    <string name="system_update_available">يتوفر تحديث للنظام</string>
+    <string name="what_s_new">وفيما يلي التغييرات الجديدة:</string>
+    <string name="this_is_what_s_new">- هذا ما هو جديد</string>
+    <string name="advisory_notice_title">إشعار استشاري</string>
+    <string name="advisory_notice_content">- يوصى بأن يستخدم المستخدمون شبكة Wi-Fi كلما أمكن ذلك لتنزيل التحديثات. إذا كنت ترغب في استخدام الاتصال الخلوي ، يرجى ملاحظة أن تنزيل البيانات عبر شبكة الجوال الخلوية (خاصة أثناء التَّجْوال) ، قد يؤدي إلى تحمل رسوم إضافية - تحقق من مزود الشبكة إذا كان لديك أي مخاوف.</string>
+    <string name="update_size">حجم التحديث: %1$s</string>
+    <string name="notification">هناك تحديث جديد لـ Evolution X متوفر لجهازك!</string>
+    <string name="download_over_mobiledata_warning">قد يؤدي تنزيل التحديثات عبر شبكة خلوية أو شبكة Wi-Fi محدودة أو أثناء التجوال إلى فرض رسوم إضافية.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">تعيين رابط URL مخصص OTA</string>
 </resources>
