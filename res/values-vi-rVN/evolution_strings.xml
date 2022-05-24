@@ -123,8 +123,10 @@
     <!-- OTA section -->
     <string name="android_version">Phiên bản Android: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Phiên bản Evolution X</string>
+    <string name="evolution_version_display">Phiên bản Android: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Cấp bản vá bảo mật: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Kiểm tra bản cập nhật</string>
+    <string name="changelog_button_text">Nhật ký thay đổi</string>
     <string name="last_successful_check_for_update">Lần kiểm tra cập nhật lần cuối: %1$s</string>
     <string name="system_update_available">Đã có bản cập nhật hệ thống</string>
     <string name="what_s_new">Dưới đây là những thay đổi mới:</string>
@@ -134,4 +136,6 @@
     <string name="update_size">Kích cỡ bản cập nhật: %1$s</string>
     <string name="notification">Đã có bản cập nhật Evolution X mới cho thiết bị của bạn!</string>
     <string name="download_over_mobiledata_warning">Tải xuống các bản cập nhật qua mạng di động, Wi-Fi được đo hoặc trong khi chuyển vùng có thể gây ra các khoản phí bổ sung.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Đặt link OTA tuỳ chỉnh</string>
 </resources>

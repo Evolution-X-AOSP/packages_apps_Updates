@@ -129,6 +129,7 @@
     <string name="evolution_version_display">Build de Evolution X : <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Niveau du correctif de sécurité : <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Vérifier les mises à jour</string>
+    <string name="changelog_button_text">Journal de modifications</string>
     <string name="last_successful_check_for_update">Dernière vérification de mise à jour à : %1$s</string>
     <string name="system_update_available">Une mise à jour système est disponible</string>
     <string name="what_s_new">Voici les nouveaux changements :</string>
