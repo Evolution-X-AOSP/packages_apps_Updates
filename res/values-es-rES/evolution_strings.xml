@@ -60,7 +60,7 @@
     <string name="list_verifying_update">Verificando actualización</string>
     <string name="list_no_updates">Tu dispositivo está actualizado</string>
     <string name="blocked_update_dialog_title">Actualización bloqueada</string>
-    <string name="blocked_update_dialog_summary">Esta actualización requiere un procedimiento de limpieza manual (borrar/Formatear la partición de datos antes de instalar la actualización). Descargue la versión desde nuestro sitio web, reinicie en modo de recuperación y siga los procedimientos para hacerlo.</string>
+    <string name="blocked_update_dialog_summary">Esta actualización requiere un procedimiento de limpieza manual (Borrar/Formatear la partición de datos antes de instalar la actualización). Porfavor descargue la actualización desde nuestro sitio web, reinicie en modo de recuperación y siga los procedimientos para hacerlo.</string>
     <!-- Actions -->
     <string name="action_download">Descarga</string>
     <string name="action_pause">Pausar</string>
@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">Exportando actualización al almacenamiento interno</string>
     <string name="notification_export_success">Actualización exportada al almacenamiento interno</string>
-    <string name="notification_export_fail">Error de exportación</string>
+    <string name="notification_export_fail">Error al exportar la actualización al almacenamiento interno</string>
     <string name="toast_already_exporting">Ya se está exportando una actualización</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
