@@ -100,7 +100,7 @@
     </plurals>
     <plurals name="eta_minutes">
         <item quantity="one">1 minuto rimanente</item>
-        <item quantity="other">1 minuto rimasto</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minuti rimanenti</item>
     </plurals>
     <plurals name="eta_hours">
         <item quantity="one">1 ora rimanente</item>
