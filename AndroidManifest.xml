@@ -25,6 +25,11 @@
         tools:ignore="GoogleAppIndexingWarning"
         android:usesCleartextTraffic="false">
 
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            tools:replace="android:authorities"/>
+
         <activity
             android:name=".UpdatesActivity"
             android:excludeFromRecents="true"
