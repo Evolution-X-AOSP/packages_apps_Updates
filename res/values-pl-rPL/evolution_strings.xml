@@ -60,7 +60,7 @@
     <string name="list_verifying_update">Sprawdzanie aktualizacji</string>
     <string name="list_no_updates">Twój system jest aktualny</string>
     <string name="blocked_update_dialog_title">Aktualizacja zablokowana</string>
-    <string name="blocked_update_dialog_summary">Ta aktualizacja wymaga ręcznej procedury instalacji (czyszczenie/formatowanie partycji danych przed zainstalowaniem aktualizacji). Pobierz paczkę .zip z naszej strony internetowej, następnie uruchom ponownie urządzenie do trybu recovery i przestrzegaj procedur instalacji, aby dokonać aktualizacji systemu.</string>
+    <string name="blocked_update_dialog_summary">Ta aktualizacja wymaga ręcznej procedury instalacji (czyszczenie/formatowanie partycji danych przed zainstalowaniem aktualizacji). Pobierz aktualizację z naszej strony internetowej, następnie uruchom ponownie urządzenie do trybu recovery i przestrzegaj procedur instalacji, aby dokonać aktualizacji systemu.</string>
     <!-- Actions -->
     <string name="action_download">Pobierz i zainstaluj</string>
     <string name="action_pause">Wstrzymaj</string>
@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">Eksportowanie aktualizacji do pamięci wewnętrznej</string>
     <string name="notification_export_success">Aktualizacja wyeksportowana do pamięci wewnętrznej</string>
-    <string name="notification_export_fail">Błąd eksportowania</string>
+    <string name="notification_export_fail">Nieudane eksportowanie aktualizacji do pamięci wewnętrznej</string>
     <string name="toast_already_exporting">Aktualizacja jest już eksportowana</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
@@ -132,9 +132,11 @@
     <!-- OTA section -->
     <string name="android_version">Wersja Androida: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Wersja Evolution X: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Wersja Evolution X: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Poziom aktualizacji zabezpieczeń: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
-    <string name="check_for_update">Sprawdź czy są dostępne nowe aktualizacje</string>
-    <string name="last_successful_check_for_update">Ostatnio sprawdzano pod kątem aktualizacji w: %1$s</string>
+    <string name="check_for_update">Sprawdź dostępność aktualizacji</string>
+    <string name="changelog_button_text">Lista zmian</string>
+    <string name="last_successful_check_for_update">Ostatnio sprawdzano aktualizacje: %1$s</string>
     <string name="system_update_available">Aktualizacja systemu jest dostępna</string>
     <string name="what_s_new">Oto nowe zmiany:</string>
     <string name="this_is_what_s_new">- To są nowości</string>
@@ -142,5 +144,7 @@
     <string name="advisory_notice_content">- Zaleca się, aby użytkownicy używali Wi-Fi w miarę możliwości w celu pobierania aktualizacji. Jeśli chcesz korzystać z mobilnego połączenia komórkowego, należy pamiętać, że pobieranie danych przez komórkową sieć komórkową (w tym w środowisku roamingu), może ponieść dodatkowe opłaty - sprawdź u swojego dostawcy sieci w razie jakichkolwiek wątpliwości.</string>
     <string name="update_size">Rozmiar pliku aktualizacji: %1$s</string>
     <string name="notification">Dostępna jest nowa aktualizacja Evolution X dla twojego urządzenia!</string>
-    <string name="download_over_mobiledata_warning">Pobieranie aktualizacji przez sieć komórkową, dane Wi-Fi lub w roamingu może powodować dodatkowe opłaty.</string>
+    <string name="download_over_mobiledata_warning">Pobieranie aktualizacji przez sieć komórkową, ograniczone Wi-Fi lub w roamingu może powodować dodatkowe opłaty.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Ustaw niestandardowy link OTA</string>
 </resources>
