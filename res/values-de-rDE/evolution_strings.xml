@@ -91,7 +91,7 @@
     <!-- Export update -->
     <string name="dialog_export_title">Exportiere Update zum internen Speicher</string>
     <string name="notification_export_success">Update zum internen Speicher exportiert</string>
-    <string name="notification_export_fail">Das Update konnte nicht auf den internen Speicher exportiert werden</string>
+    <string name="notification_export_fail">Fehler beim Export auf den internen Speicher</string>
     <string name="toast_already_exporting">Es wird bereits ein Update exportiert</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
@@ -134,11 +134,11 @@
     <string name="system_update_available">Systemaktualisierung verfügbar</string>
     <string name="what_s_new">Hier sind die neuen Änderungen:</string>
     <string name="this_is_what_s_new">- Das ist neu</string>
-    <string name="advisory_notice_title">Mitteilung</string>
-    <string name="advisory_notice_content">- Es wird empfohlen, Wlan zu verwenden, wo immer möglich, um Updates herunterzuladen. Wenn Sie die Mobilfunkverbindung verwenden (einschließlich Roaming), kann das mit zusätzlichen Kosten verbunden sein - fragen Sie bei Ihrem Netzbetreiber, falls Sie irgendwelche Bedenken haben.</string>
-    <string name="update_size">Update Größe: %1$s</string>
+    <string name="advisory_notice_title">Hinweis</string>
+    <string name="advisory_notice_content">- Es wird empfohlen, WLAN zum Herunterladen von Updates zu verwenden, sofern es möglich ist. Wenn Sie eine Mobilfunkverbindung verwenden (einschließlich Roaming), kann dies mit zusätzlichen Kosten verbunden sein – erkundigen Sie sich diesbezüglich bei Ihrem Netzbetreiber, falls Sie irgendwelche Fragen haben.</string>
+    <string name="update_size">Update-Größe: %1$s</string>
     <string name="notification">Es gibt ein neues Evolution X Update für dein Gerät!</string>
-    <string name="download_over_mobiledata_warning">Das Herunterladen von Updates über ein Mobilfunknetz, kostenpflichtiges Wlan oder bei Roaming kann zusätzliche Kosten verursachen.</string>
+    <string name="download_over_mobiledata_warning">Das Herunterladen von Updates über ein Mobilfunknetz, kostenpflichtiges WLAN oder bei Roaming kann zusätzliche Kosten verursachen.</string>
     <!-- Custom OTA URLs -->
-    <string name="customOTAUrl">Benutzerdefinierte OTA-URL-Link festlegen</string>
+    <string name="customOTAUrl">Benutzerdefinierten OTA-URL-Link festlegen</string>
 </resources>
