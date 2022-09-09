@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2020 The Evolution X Project
+    Copyright (C) 2019-2021 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -60,8 +60,9 @@
     <string name="list_verifying_update">A frissítés ellenőrzése</string>
     <string name="list_no_updates">A rendszer naprakész</string>
     <string name="blocked_update_dialog_title">A frissítés blokkolva</string>
+    <string name="blocked_update_dialog_summary">Ezt a frissítést csak manuálisan, tiszta telepítéssel lehet végrehajtani (Format Data is kötelező telepítés előtt). Töltse le weboldalunkról a frissítést, indítsa újra a készüléket recovery módban és kövesse a telepítési utasításokat.</string>
     <!-- Actions -->
-    <string name="action_download">Letöltés</string>
+    <string name="action_download">Letöltés és telepítés</string>
     <string name="action_pause">Szüneteltetés</string>
     <string name="action_resume">Folytatás</string>
     <string name="action_install">Telepítés</string>
@@ -91,7 +92,7 @@ illetve, ha éppen tölt, akkor még <xliff:g id="percent_charging">%2$d</xliff:
     <!-- Export update -->
     <string name="dialog_export_title">Frissítőcsomag átvitele a belső tárhelyre</string>
     <string name="notification_export_success">A Frissítőcsomag áthelyezve a belső tárhelyre</string>
-    <string name="notification_export_fail">Exportálási hiba</string>
+    <string name="notification_export_fail">Nem sikerült a frissítést a belső tárhelyre exportálni</string>
     <string name="toast_already_exporting">Egy frissítés exportálása már folyamatban van</string>
     <!-- ETA -->
     <plurals name="eta_seconds">
@@ -123,4 +124,22 @@ illetve, ha éppen tölt, akkor még <xliff:g id="percent_charging">%2$d</xliff:
     <string name="forum_info_title">Fórum</string>
     <string name="forum_info_summary">Tekintse meg a fórumbejegyzéseket</string>
     <string name="error_open_url">Nem sikerült megnyitni a linket a böngészőben</string>
+    <!-- OTA section -->
+    <string name="android_version">Android verzió: <xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Evolution X verzió: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display">Evolution X <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g> kiadás</string>
+    <string name="security_patch_level">Biztonsági javítás szintje: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
+    <string name="check_for_update">Frissítéskeresés</string>
+    <string name="changelog_button_text">Változáslista</string>
+    <string name="last_successful_check_for_update">Legutóbbi frissítésellenőrzés: %1$s</string>
+    <string name="system_update_available">Rendszerfrissítés érhető el</string>
+    <string name="what_s_new">Ezeket a változásokat tartalmazza:</string>
+    <string name="this_is_what_s_new">- Ezek az újdonságok</string>
+    <string name="advisory_notice_title">Megfontolandó tanács</string>
+    <string name="advisory_notice_content">- Javasoljuk, hogy ahol lehetséges, Wi-Fi-t használjanak a frissítések letöltéséhez. Mobilkapcsolat esetén vegye figyelembe, hogy az adatok mobilhálózaton keresztüli letöltése (beleértve a barangolásos környezetet is) további költségekkel járhat – ha valami nem kristálytiszta, forduljon szolgáltatójához.</string>
+    <string name="update_size">A frissítés mérete: %1$s</string>
+    <string name="notification">Egy új Evolution X frissítés érhető el a készülékére!</string>
+    <string name="download_over_mobiledata_warning">A frissítések letöltése mobiladaton, fizetős Wi-Fi-n vagy barangoláskor további költségeket vonhat maga után.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Egyedi OTA-frissítés linkje</string>
 </resources>
