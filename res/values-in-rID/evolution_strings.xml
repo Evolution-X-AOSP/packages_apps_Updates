@@ -128,13 +128,14 @@
     <string name="check_for_update">Periksa pembaruan</string>
     <string name="changelog_button_text">Catatan perubahan</string>
     <string name="last_successful_check_for_update">Terakhir diperiksa untuk pembaruan pada: %1$s</string>
-    <string name="system_update_available">Pembaruan Sistem tersedia</string>
+    <string name="system_update_available">Pembaruan sistem tersedia</string>
     <string name="what_s_new">Berikut perubahan terbaru:</string>
     <string name="this_is_what_s_new">- Apa saja yang baru</string>
-    <string name="advisory_notice_title">Pemberitahuan penasihat</string>
-    <string name="advisory_notice_content">- Pengguna disarankan menggunakan Wi-Fi jika memungkinkan untuk mengunduh pembaruan. Jika Anda ingin menggunakan koneksi Jaringan Seluler, harap perhatikan bahwa mengunduh data melalui Jaringan Seluler (termasuk saat berada di lingkungan Roaming), dapat menimbulkan biaya tambahan - hubungi Penyedia Jaringan Anda jika Anda memiliki masalah.</string>
+    <string name="advisory_notice_title">Pemberitahuan nasihat</string>
+    <string name="advisory_notice_content">- Pengguna disarankan menggunakan Wi-Fi jika memungkinkan untuk mengunduh pembaruan. Jika Anda ingin menggunakan koneksi Jaringan Seluler, harap perhatikan bahwa mengunduh data melalui Jaringan Seluler (termasuk saat berada di lingkungan Roaming), dapat menimbulkan biaya tambahan
+- Hubungi Penyedia Jaringan Anda jika Anda memiliki masalah.</string>
     <string name="update_size">Ukuran pembaruan: %1$s</string>
-    <string name="notification">Ada pembaruan Evolution X baru tersedia untuk perangkat Anda!</string>
+    <string name="notification">Ada pembaruan Evolution X baru yang tersedia untuk perangkat Anda!</string>
     <string name="download_over_mobiledata_warning">Mengunduh pembaruan melalui jaringan seluler, Wi-Fi terukur, atau saat roaming dapat menyebabkan biaya tambahan.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Setel tautan URL OTA kustom</string>
