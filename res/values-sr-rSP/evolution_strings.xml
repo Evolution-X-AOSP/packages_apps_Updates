@@ -129,8 +129,10 @@
     <!-- OTA section -->
     <string name="android_version">Андроид верзија:<xliff:g id="version" example="8.1.0">%1$s</xliff:g></string>
     <string name="evolution_version">Evolution X верзија: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version_display"><xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Ниво сигурносне закрпе:<xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Провери да ли постоје ажурирања</string>
+    <string name="changelog_button_text">Дневник измена</string>
     <string name="last_successful_check_for_update">Последњи пут проверен за ажурирање у:%1$s</string>
     <string name="system_update_available">Ажурирање система је доступно</string>
     <string name="what_s_new">Ево нових промена:</string>
@@ -140,4 +142,6 @@
     <string name="update_size">Време ажурирања: %1$s</string>
     <string name="notification">За ваш уређај је доступно ново ажурирање Evolution X!</string>
     <string name="download_over_mobiledata_warning">Преузимање ажурирања преко мобилне мреже, одмереног Ви-Фи-ја или током роминга може проузроковати додатне оптужбе.</string>
+    <!-- Custom OTA URLs -->
+    <string name="customOTAUrl">Постави мануелно линк за аутоматско унапређење</string>
 </resources>
