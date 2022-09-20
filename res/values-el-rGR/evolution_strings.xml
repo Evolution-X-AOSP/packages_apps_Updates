@@ -60,7 +60,7 @@
     <string name="list_verifying_update">Επαλήθευση ενημέρωσης</string>
     <string name="list_no_updates">Η συσκευή σας είναι ενημερωμένη</string>
     <string name="blocked_update_dialog_title">Η ενημέρωση μπλοκαρίστηκε</string>
-    <string name="blocked_update_dialog_summary">Αυτή η ενημέρωση απαιτεί μια μη αυτόματη διαδικασία καθαρής εγκατάστασης (Σβήσιμο / Μορφοποίηση του διαμερίσματος δεδομένων πριν από την εγκατάσταση της ενημέρωσης). Πραγματοποιήστε λήψη του build από τον ιστότοπο μας, επανεκκινήστε σε λειτουργία ανάκτησης και ακολουθήστε τις διαδικασίες για να το κάνετε.</string>
+    <string name="blocked_update_dialog_summary">Αυτή η ενημέρωση απαιτεί μια μη αυτόματη διαδικασία καθαρής εγκατάστασης (Σβήσιμο / Μορφοποίηση του διαμερίσματος δεδομένων πριν από την εγκατάσταση της ενημέρωσης). Πραγματοποιήστε λήψη του build από τον ιστότοπο μας, επανεκκινήστε στη λειτουργία recovery και ακολουθήστε τις διαδικασίες για να την κάνετε.</string>
     <!-- Actions -->
     <string name="action_download">Λήψη και εγκατάσταση</string>
     <string name="action_pause">Παύση</string>
@@ -133,12 +133,12 @@
     <string name="last_successful_check_for_update">Τελευταίος έλεγχος για ενημερώσεις στις: %1$s</string>
     <string name="system_update_available">Διαθέσιμη ενημέρωση συστήματος</string>
     <string name="what_s_new">Εδώ είναι οι νέες αλλαγές:</string>
-    <string name="this_is_what_s_new">- Αυτό είναι καινούργιο</string>
+    <string name="this_is_what_s_new">- Αυτά είναι τα νέα</string>
     <string name="advisory_notice_title">Συμβουλευτική ανακοίνωση</string>
     <string name="advisory_notice_content">- Συνιστάται οι χρήστες να χρησιμοποιούν Wi-Fi όποτε είναι δυνατόν για να κατεβάζουν ενημερώσεις. Εάν επιθυμείτε να χρησιμοποιήσετε τη σύνδεση Κινητής Τηλεφωνίας, παρακαλούμε σημειώστε ότι η λήψη δεδομένων μέσω δικτύου κινητής τηλεφωνίας (συμπεριλαμβανομένης της περίπτωσης σε περιβάλλον περιαγωγής), ενδέχεται να σας επιβαρύνει με πρόσθετες χρεώσεις - ελέγξτε με τον πάροχο δικτύου σας σε περίπτωση που έχετε οποιαδήποτε ανησυχία.</string>
     <string name="update_size">Μέγεθος ενημέρωσης: %1$s</string>
-    <string name="notification">Υπάρχει μια νέα ενημέρωση Evolution X διαθέσιμη για τη συσκευή σας!</string>
-    <string name="download_over_mobiledata_warning">Η λήψη ενημερώσεων μέσω δικτύου κινητής τηλεφωνίας, περιορισμένο Wi-Fi, ή κατά την περιαγωγή μπορεί να επιφέρει πρόσθετες χρεώσεις.</string>
+    <string name="notification">Υπάρχει μια νέα ενημερωμένη έκδοση Evolution X διαθέσιμη για τη συσκευή σας!</string>
+    <string name="download_over_mobiledata_warning">Η λήψη ενημερώσεων μέσω δικτύου κινητής τηλεφωνίας, περιορισμένου Wi-Fi, ή κατά την περιαγωγή μπορεί να επιφέρει πρόσθετες χρεώσεις.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Ορίστε έναν προσαρμοσμένο σύνδεσμο OTA URL</string>
 </resources>
