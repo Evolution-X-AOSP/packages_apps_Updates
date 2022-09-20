@@ -130,7 +130,7 @@
     <string name="security_patch_level">Actualització de seguretat d\'Android: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Cerca actualitzacions</string>
     <string name="changelog_button_text">Canvis</string>
-    <string name="last_successful_check_for_update">Última comprovació d\'actualització: %1$s</string>
+    <string name="last_successful_check_for_update">Última comprovació: %1$s</string>
     <string name="system_update_available">Actualització del sistema disponible</string>
     <string name="what_s_new">Aquests són els canvis:</string>
     <string name="this_is_what_s_new">- Això són les novetats</string>
