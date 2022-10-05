@@ -179,16 +179,9 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         });
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        customURL = prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL);
 
 	changelogButton.setOnClickListener(view -> {
-            if (SystemProperties.get(Constants.PROP_KEY_TYPE).equals("signed")) {
-                changelogURLFormat = customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get(Constants.PROP_VERSION) + ".zip.txt";
-            } else {
-                changelogURLFormat = customURL + "/changelogs/" + SystemProperties.get(Constants.PROP_DEVICE) + "/" + SystemProperties.get(Constants.PROP_VERSION) + "-unsigned.zip.txt";
-            }
-            Intent openChangelogURL = new Intent(Intent.ACTION_VIEW, Uri.parse(changelogURLFormat));
-            startActivity(openChangelogURL);
+            startActivity(new Intent(this, LocalChangelogActivity.class));
         });
 
         downloadUpdatesList(true);
