@@ -40,12 +40,23 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
-    required: ["privapp_whitelist_org.evolution.ota.xml"],
+    required: [
+        "privapp_whitelist_org.evolution.ota",
+        "default-permissions_org.evolution.ota",
+    ],
+}
+prebuilt_etc {
+    name: "privapp_whitelist_org.evolution.ota",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "privapp_whitelist_org.evolution.ota.xml",
+    filename_from_src: true,
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.evolution.ota.xml",
+    name: "default-permissions_org.evolution.ota",
     system_ext_specific: true,
-    src: "privapp_whitelist_org.evolution.ota.xml",
-    sub_dir: "permissions",
+    sub_dir: "default-permissions",
+    src: "default-permissions_org.evolution.ota.xml",
+    filename_from_src: true,
 }
