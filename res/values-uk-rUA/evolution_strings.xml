@@ -147,4 +147,7 @@
     <string name="download_over_mobiledata_warning">Завантаження оновлень через мобільну мережу, Wi-Fi з лімітованим трафіком або у роумінгу може призвести до додаткових витрат.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Встановити власне посилання для OTA</string>
+    <string name="info_dialog_title">Чи ви знали?</string>
+    <string name="info_dialog_message">Оновлення Evolution X є повними інсталяційними пакетами. Це означає, що ви завжди можете встановити лише останнє оновлення, навіть якщо ви пропустили деякі між ними!</string>
+    <string name="info_dialog_ok">Дякую за інформацію!</string>
 </resources>
