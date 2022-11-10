@@ -144,4 +144,7 @@
     <string name="download_over_mobiledata_warning">Descărcarea actualizărilor printr-o rețea mobilă, prin rețea Wi-Fi contorizată sau în roaming poate cauza costuri suplimentare.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Setează un URL OTA personalizat</string>
+    <string name="info_dialog_title">Știați că?</string>
+    <string name="info_dialog_message">Actualizările Evolution X sunt pachete complete de instalare. Asta înseamnă că poți instala întotdeauna doar cea mai recentă actualizare, chiar dacă ai omis unele între ele!</string>
+    <string name="info_dialog_ok">Mulțumesc pentru informații!</string>
 </resources>

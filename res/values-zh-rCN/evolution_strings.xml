@@ -138,4 +138,7 @@
     <string name="download_over_mobiledata_warning">通过移动网络下载更新，计量 Wi-Fi，或漫游时可能导致额外费用。</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">设置自定义 OTA URL 链接</string>
+    <string name="info_dialog_title">你知道吗？</string>
+    <string name="info_dialog_message">Evolution X 采用完整更新（非增量更新）方式进行系统升级。这意味着即使您之前未完成所有的系统升级，也随时可以直接升级到最新的系统版本！</string>
+    <string name="info_dialog_ok">感谢您的反馈！</string>
 </resources>

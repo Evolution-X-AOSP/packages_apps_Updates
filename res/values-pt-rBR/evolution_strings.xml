@@ -77,7 +77,7 @@
     <string name="details_button">Ver detalhes</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Instalar atualização</string>
-    <string name="apply_update_dialog_message">Você está prestes a atualizar para <xliff:g id="update_name">%1$s</xliff:g>.\n\nSe você pressionar <xliff:g id="ok">%2$s</xliff:g>o dispositivo irá reiniciar no modo de recuperação para instalar a atualização.\n\nNota: Esta função requer um Recovey compatível ou as atualizações terão de ser instaladas manualmente.</string>
+    <string name="apply_update_dialog_message">Você está prestes a atualizar para <xliff:g id="update_name">%1$s</xliff:g>.\n\nAo clicar em <xliff:g id="ok">%2$s</xliff:g>, o dispositivo reiniciará na recuperação para instalar a atualização.\n\nÉ necessário ter uma recuperação compatível, caso contrário as atualizações deverão ser instaladas manualmente.</string>
     <string name="apply_update_dialog_message_ab">Você está prestes a atualizar para <xliff:g id="update_name">%1$s</xliff:g>.\n\nSe você pressionar <xliff:g id="ok">%2$s</xliff:g>, o dispositivo começará a instalar em segundo plano.\n\nUma vez concluído, será solicitada a reinicialização o dispositivo.</string>
     <string name="cancel_installation_dialog_message">Deseja cancelar a instalação?</string>
     <string name="installing_update">Instalando pacote de atualização</string>
@@ -141,4 +141,7 @@
     <string name="download_over_mobiledata_warning">Fazer download de atualizações em uma rede celular, Wi-Fi limitado ou em roaming pode causar cobranças adicionais.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Definir link personalizado para atualizações OTA</string>
+    <string name="info_dialog_title">Você sabia?</string>
+    <string name="info_dialog_message">Atualizações Evolution X são pacotes completos de instalação. Isso significa que você pode instalar a última atualização, mesmo que você tenha ignorado versões anteriores!</string>
+    <string name="info_dialog_ok">Obrigado pelas informações!</string>
 </resources>

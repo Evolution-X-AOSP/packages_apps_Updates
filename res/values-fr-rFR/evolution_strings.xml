@@ -141,4 +141,7 @@
     <string name="download_over_mobiledata_warning">Le téléchargement de mises à jour via un réseau mobile, un Wi-Fi limité ou l\'itinérance peut entraîner des frais supplémentaires.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Définir un lien OTA personnalisé</string>
+    <string name="info_dialog_title">Le saviez-vous?</string>
+    <string name="info_dialog_message">Les mises à jour d\'Evolution X sont des paquets d\'installation complets. Cela signifie que vous pouvez toujours installer la dernière mise à jour, même si vous en avez ignoré entre temps !</string>
+    <string name="info_dialog_ok">Merci pour l\'information !</string>
 </resources>

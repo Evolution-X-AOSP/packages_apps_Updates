@@ -141,4 +141,7 @@
     <string name="download_over_mobiledata_warning">Scaricare gli aggiornamenti su una rete mobile, Wi-Fi misurato o con il roaming, potrebbe causare addebiti aggiuntivi.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Imposta un link OTA personalizzato</string>
+    <string name="info_dialog_title">Lo sapevi?</string>
+    <string name="info_dialog_message">Gli aggiornamenti di Evolution X sono pacchetti d\'installazione completi. Ciò significa che puoi sempre installare solo l\'ultimo aggiornamento, anche se ne hai saltati alcuni in precedenza!</string>
+    <string name="info_dialog_ok">Grazie per l\'informazione!</string>
 </resources>

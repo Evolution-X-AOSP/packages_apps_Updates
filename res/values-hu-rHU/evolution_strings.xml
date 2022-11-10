@@ -142,4 +142,7 @@ illetve, ha éppen tölt, akkor még <xliff:g id="percent_charging">%2$d</xliff:
     <string name="download_over_mobiledata_warning">A frissítések letöltése mobiladaton, fizetős Wi-Fi-n vagy barangoláskor további költségeket vonhat maga után.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Egyedi OTA-frissítés linkje</string>
+    <string name="info_dialog_title">Ön tudta?</string>
+    <string name="info_dialog_message">Az EvolutionX frissítései teljes telepítőcsomagok. Ez azt jelenti, hogy mindig elég a legfrissebb csomagot telepítenie, nem baj ha kihagyott párat!</string>
+    <string name="info_dialog_ok">Köszönet az információért!</string>
 </resources>

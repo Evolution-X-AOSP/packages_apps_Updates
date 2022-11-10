@@ -141,4 +141,7 @@
     <string name="download_over_mobiledata_warning">Transferir de atualizações com dados móveis, Wi-Fi limitado ou em roaming pode causar taxas adicionais.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Definir hiperligação personalizada para atualizações OTA</string>
+    <string name="info_dialog_title">Sabia que...?</string>
+    <string name="info_dialog_message">As atualizações da Evolution X são pacotes de instalação completa. Isso significa que pode instalar apenas a última atualização, mesmo que tenha ignorado alguma anteriormente!</string>
+    <string name="info_dialog_ok">Obrigado pela informação!</string>
 </resources>

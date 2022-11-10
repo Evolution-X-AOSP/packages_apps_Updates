@@ -138,4 +138,7 @@
     <string name="download_over_mobiledata_warning">モバイル回線経由、従量制の Wi-Fi 経由、ローミング中にアップデートをダウンロードする場合に追加料金が発生する可能性があります。</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">カスタム OTA リンクを設定</string>
+    <string name="info_dialog_title">ご存知ですか?</string>
+    <string name="info_dialog_message">Evolution X のアップデートは完全なインストールパッケージです。つまり、いくつかのアップデートをスキップしても、最新のアップデートのみをインストールするだけで良いのです!</string>
+    <string name="info_dialog_ok">情報提供ありがとうございました!</string>
 </resources>

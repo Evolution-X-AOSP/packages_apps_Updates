@@ -143,4 +143,7 @@ Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve 
     <string name="download_over_mobiledata_warning">Güncellemeleri bir mobil ağ, ölçülü Wi-Fi üzerinden veya dolaşımdayken indirmek ek ücretlere neden olabilir.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Özel bir OTA URL linki ayarlayın</string>
+    <string name="info_dialog_title">Biliyor musun?</string>
+    <string name="info_dialog_message">Evolution X güncellemeleri tam yükleme paketleridir. Bu demektir ki güncelleme atlamış olsanız bile her zaman sadece son güncellemeyi kurabilirsiniz!</string>
+    <string name="info_dialog_ok">Bilgi için teşekkürler!</string>
 </resources>

@@ -60,7 +60,7 @@
     <string name="list_verifying_update">Проверка обновления</string>
     <string name="list_no_updates">Обновлений нет</string>
     <string name="blocked_update_dialog_title">Обновление заблокировано</string>
-    <string name="blocked_update_dialog_summary">Это обновление требует ручной процедуры установки (очистка/форматирование раздела Data перед установкой обновления). Пожалуйста, скачайте сборку с нашего сайта, перезагрузитесь в recovery и следуйте процедуре, чтобы это сделать.</string>
+    <string name="blocked_update_dialog_summary">Это обновление требует ручной процедуры установки (очистка/форматирование раздела Data перед установкой обновления). Пожалуйста, скачайте сборку с нашего сайта, перезагрузитесь в рекавери и следуйте процедуре, чтобы это сделать.</string>
     <!-- Actions -->
     <string name="action_download">Загрузить и установить</string>
     <string name="action_pause">Пауза</string>
@@ -147,4 +147,7 @@
     <string name="download_over_mobiledata_warning">Загрузка обновлений через сотовую сеть, Wi-Fi с ограничением трафика или во время роуминга может повлечь за собой дополнительные расходы.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Задать свою OTA ссылку</string>
+    <string name="info_dialog_title">А знаете ли вы?</string>
+    <string name="info_dialog_message">Обновления Evolution X представляют собой полные установочные пакеты. Это означает, что вы всегда можете установить только последнее обновление, даже если вы пропустили некоторые промежуточные!</string>
+    <string name="info_dialog_ok">Спасибо за информацию!</string>
 </resources>
