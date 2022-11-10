@@ -141,4 +141,7 @@
     <string name="download_over_mobiledata_warning">Das Herunterladen von Updates über ein Mobilfunknetz, kostenpflichtiges WLAN oder bei Roaming kann zusätzliche Kosten verursachen.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Benutzerdefinierten OTA-URL-Link festlegen</string>
+    <string name="info_dialog_title">Schon gewusst?</string>
+    <string name="info_dialog_message">Evolution X-Updates sind vollständige Installationspakete. Das bedeutet, dass immer auch nur das neueste Update installiert werden kann, selbst wenn zwischendurch einige übersprungen wurden!</string>
+    <string name="info_dialog_ok">Danke für die Information!</string>
 </resources>
