@@ -139,4 +139,7 @@
     <string name="download_over_mobiledata_warning">Mengunduh pembaruan melalui jaringan seluler, Wi-Fi terukur, atau saat roaming dapat menyebabkan biaya tambahan.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Setel tautan URL OTA kustom</string>
+    <string name="info_dialog_title">Tahukah Anda?</string>
+    <string name="info_dialog_message">Pembaruan Evolution X adalah paket instalasi lengkap. Itu berarti Anda selalu dapat menginstal hanya pembaruan terbaru, bahkan jika Anda melewatkan beberapa di antaranya!</string>
+    <string name="info_dialog_ok">Terima kasih atas infonya!</string>
 </resources>
