@@ -141,4 +141,7 @@
     <string name="download_over_mobiledata_warning">Η λήψη ενημερώσεων μέσω δικτύου κινητής τηλεφωνίας, περιορισμένου Wi-Fi, ή κατά την περιαγωγή μπορεί να επιφέρει πρόσθετες χρεώσεις.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Ορίστε έναν προσαρμοσμένο σύνδεσμο OTA URL</string>
+    <string name="info_dialog_title">Το ήξερες;</string>
+    <string name="info_dialog_message">Οι ενημερώσεις του Evolution X είναι πλήρη πακέτα εγκατάστασης. Αυτό σημαίνει ότι μπορείτε πάντα να εγκαταστήσετε μόνο την πιο πρόσφατη ενημέρωση, ακόμα κι αν παραλείψατε κάποια ενδιάμεσα!</string>
+    <string name="info_dialog_ok">Ευχαριστώ για τις πληροφορίες!</string>
 </resources>
