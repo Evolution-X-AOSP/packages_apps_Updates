@@ -25,10 +25,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.SystemClock;
 import android.content.SharedPreferences;
-import androidx.preference.PreferenceManager;
 import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
+import androidx.preference.PreferenceManager;
 
 import org.json.JSONException;
 import org.evolution.ota.download.DownloadClient;
