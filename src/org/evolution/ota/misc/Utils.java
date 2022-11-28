@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2017-2023 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
- * Copyright (C) 2019-2020 The Evolution X Project
+ * Copyright (C) 2019-2023 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -184,24 +184,14 @@ public class Utils {
     }
 
     public static boolean isNetworkAvailable(Context context) {
-        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(
-                Context.CONNECTIVITY_SERVICE);
-        if (cm == null) {
-            return false;
-        }
+        ConnectivityManager cm = context.getSystemService(ConnectivityManager.class);
         NetworkInfo info = cm.getActiveNetworkInfo();
         return !(info == null || !info.isConnected() || !info.isAvailable());
     }
 
-    public static boolean isOnWifiOrEthernet(Context context) {
-        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(
-                Context.CONNECTIVITY_SERVICE);
-        if (cm == null) {
-            return false;
-        }
-        NetworkInfo info = cm.getActiveNetworkInfo();
-        return (info != null && (info.getType() == ConnectivityManager.TYPE_ETHERNET
-                || info.getType() == ConnectivityManager.TYPE_WIFI));
+    public static boolean isNetworkMetered(Context context) {
+        ConnectivityManager cm = context.getSystemService(ConnectivityManager.class);
+        return cm.isActiveNetworkMetered();
     }
 
     public static boolean checkForNewUpdates(File oldJson, File newJson)

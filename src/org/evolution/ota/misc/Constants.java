@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2017-2023 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,6 +20,7 @@ public final class Constants {
     public static final String AB_PAYLOAD_BIN_PATH = "payload.bin";
     public static final String AB_PAYLOAD_PROPERTIES_PATH = "payload_properties.txt";
     public static final String PREF_AUTO_UPDATES_CHECK_INTERVAL = "auto_updates_check_interval";
+    public static final String PREF_METERED_NETWORK_WARNING = "pref_metered_network_warning";
     public static final String PREF_MOBILE_DATA_WARNING = "pref_mobile_data_warning";
     public static final String PREF_CUSTOM_OTA_URL = "pref_custom_ota_url";
     public static final String PREF_NEEDS_REBOOT_ID = "needs_reboot_id";

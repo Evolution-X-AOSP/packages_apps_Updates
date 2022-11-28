@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2017-2023 The LineageOS Project
  * Copyright (C) 2019 The PixelExperience Project
  * Copyright (C) 2019-2021 The Evolution X Project
  *
@@ -557,13 +557,15 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         View view = LayoutInflater.from(this).inflate(R.layout.preferences_dialog, null);
         Spinner autoCheckInterval =
                 view.findViewById(R.id.preferences_auto_updates_check_interval);
-        Switch dataWarning = view.findViewById(R.id.preferences_mobile_data_warning);
+        Switch meteredNetworkWarning = view.findViewById(
+                R.id.preferences_metered_network_warning);
         EditText customURLInput = view.findViewById(R.id.preferences_customOTAUrl);
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         autoCheckInterval.setSelection(Utils.getUpdateCheckSetting(this));
         customURLInput.setText(prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL));
-        dataWarning.setChecked(prefs.getBoolean(Constants.PREF_MOBILE_DATA_WARNING, true));
+        meteredNetworkWarning.setChecked(prefs.getBoolean(Constants.PREF_METERED_NETWORK_WARNING,
+                prefs.getBoolean(Constants.PREF_MOBILE_DATA_WARNING, true)));
 
         new AlertDialog.Builder(this, R.style.AppTheme_AlertDialogStyle)
                 .setTitle(R.string.menu_preferences)
@@ -573,8 +575,8 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
                     prefs.edit()
                             .putInt(Constants.PREF_AUTO_UPDATES_CHECK_INTERVAL,
                                     autoCheckInterval.getSelectedItemPosition())
-                            .putBoolean(Constants.PREF_MOBILE_DATA_WARNING,
-                                    dataWarning.isChecked())
+                            .putBoolean(Constants.PREF_METERED_NETWORK_WARNING,
+                                    meteredNetworkWarning.isChecked())
                             .putString(Constants.PREF_CUSTOM_OTA_URL,
                                     customURLStr)
                             .apply();
