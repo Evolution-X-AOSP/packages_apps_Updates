@@ -198,6 +198,11 @@ public class Utils {
         return false;
     }
 
+    public static boolean isNetworkMetered(Context context) {
+        ConnectivityManager cm = context.getSystemService(ConnectivityManager.class);
+        return cm.isActiveNetworkMetered();
+    }
+
     public static boolean isOnWifiOrEthernet(Context context) {
         ConnectivityManager cm = context.getSystemService(ConnectivityManager.class);
         Network activeNetwork = cm.getActiveNetwork();
