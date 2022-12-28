@@ -348,9 +348,9 @@ public class Utils {
     public static long getUpdateCheckInterval(Context context) {
         switch (Utils.getUpdateCheckSetting(context)) {
             case Constants.AUTO_UPDATES_CHECK_INTERVAL_DAILY:
+            default:
                 return AlarmManager.INTERVAL_DAY;
             case Constants.AUTO_UPDATES_CHECK_INTERVAL_WEEKLY:
-            default:
                 return AlarmManager.INTERVAL_DAY * 7;
             case Constants.AUTO_UPDATES_CHECK_INTERVAL_MONTHLY:
                 return AlarmManager.INTERVAL_DAY * 30;
