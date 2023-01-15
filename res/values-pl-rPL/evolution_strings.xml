@@ -147,4 +147,7 @@
     <string name="download_over_mobiledata_warning">Pobieranie aktualizacji przez sieć komórkową, ograniczone Wi-Fi lub w roamingu może powodować dodatkowe opłaty.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Ustaw niestandardowy link OTA</string>
+    <string name="info_dialog_title">Czy wiedziałeś?</string>
+    <string name="info_dialog_message">Aktualizacje Evolution X to pełne pakiety instalacyjne. Oznacza to, że zawsze możesz zainstalować tylko najnowszą aktualizację, nawet jeśli pominąłeś niektóre pakiety!</string>
+    <string name="info_dialog_ok">Dobrze wiedzieć!</string>
 </resources>
