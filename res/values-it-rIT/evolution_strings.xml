@@ -134,7 +134,7 @@
     <string name="system_update_available">Aggiornamento di sistema disponibile</string>
     <string name="what_s_new">Questi sono i cambiamenti:</string>
     <string name="this_is_what_s_new">- Ecco le novità</string>
-    <string name="advisory_notice_title">Avviso consultivo</string>
+    <string name="advisory_notice_title">Avviso informativo</string>
     <string name="advisory_notice_content">- Per scaricare gli aggiornamenti è raccomandato l\'utilizzo di una rete Wi-Fi ove possibile. Nel caso di utilizzo della rete mobile del cellulare, si prega di prestare attenzione al fatto che scaricare dati tramite una rete mobile cellulare (specialmente se in roaming) potrebbe comportare degli addebiti aggiuntivi. Consigliamo di verificare con il proprio provider qualora vi fossero dubbi in merito.</string>
     <string name="update_size">Dimensione aggiornamento: %1$s</string>
     <string name="notification">Un nuovo aggiornamento di Evolution X è disponibile per il tuo dispositivo!</string>
