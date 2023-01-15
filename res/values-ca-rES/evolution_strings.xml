@@ -141,4 +141,7 @@
     <string name="download_over_mobiledata_warning">Poden aplicar-se càrrecs addicionals en baixar actualitzacions a través de la xarxa mòbil, Wi-Fi d\'ús mesurat o en itinerància.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Estableix un enllaç URL d\'OTA personalitzat</string>
+    <string name="info_dialog_title">Ho sabies?</string>
+    <string name="info_dialog_message">Les actualitzacions de l\'Evolution X són paquets d\'instal·lació complets. Això vol dir que sempre podeu instal·lar només la darrera actualització, fins i tot si n\'heu saltat alguna d\'entremig!</string>
+    <string name="info_dialog_ok">Gràcies per la informació!</string>
 </resources>
