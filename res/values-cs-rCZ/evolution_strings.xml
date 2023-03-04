@@ -147,4 +147,7 @@
     <string name="download_over_mobiledata_warning">Za stahování aktualizací přes mobilní síť, měřené Wi-Fi nebo během roamingu mohou být účtovány poplatky.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Nastavit vlastní odkaz OTA URL</string>
+    <string name="info_dialog_title">Věděli jste?</string>
+    <string name="info_dialog_message">Aktualizace Evolution X jsou plné instalační balíčky. To znamená, že můžete vždy nainstalovat pouze nejnovější aktualizaci, a\u00a0je možné některé z\u00a0nich zcela přeskočit!</string>
+    <string name="info_dialog_ok">Děkujeme za informace!</string>
 </resources>
