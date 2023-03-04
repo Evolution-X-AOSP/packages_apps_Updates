@@ -77,8 +77,8 @@
     <string name="details_button">Details anzeigen</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Update installieren</string>
-    <string name="apply_update_dialog_message">Sie sind im Begriff auf <xliff:g id="update_name">%1$s</xliff:g>\n\n zu updaten. Wenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, anderenfalls muss das Update manuell installiert werden.</string>
-    <string name="apply_update_dialog_message_ab">Sie sind im Begriff auf <xliff:g id="update_name">%1$s</xliff:g>\n\n zu updaten. Wenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, anderenfalls muss das Update manuell installiert werden.</string>
+    <string name="apply_update_dialog_message">Sie sind dabei, Folgendes <xliff:g id="update_name">%1$s</xliff:g>\n\n zu aktualisieren. Wenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, anderenfalls muss das Update manuell installiert werden.</string>
+    <string name="apply_update_dialog_message_ab">Sie sind dabei, Folgendes <xliff:g id="update_name">%1$s</xliff:g>\n\n zu aktualisieren. Wenn Sie <xliff:g id="ok">%2$s</xliff:g> drücken, wird das Gerät im Recovery-Modus gestartet, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, anderenfalls muss das Update manuell installiert werden.</string>
     <string name="cancel_installation_dialog_message">Installation abbrechen?</string>
     <string name="installing_update">Update-Paket wird installiert</string>
     <string name="installing_update_error">Installationsfehler</string>
@@ -128,7 +128,7 @@
     <string name="evolution_version">Evolution X-Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="evolution_version_display">Evolution X Build: <xliff:g id="version" example="lmi-ota-sq1d.220205.003-02092024">%1$s</xliff:g></string>
     <string name="security_patch_level">Sicherheits-Patch-Level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
-    <string name="check_for_update">Nach Update suchen</string>
+    <string name="check_for_update">Auf Update prüfen</string>
     <string name="changelog_button_text">Änderungsprotokoll</string>
     <string name="last_successful_check_for_update">Zuletzt auf Update überprüft am: %1$s</string>
     <string name="system_update_available">Systemaktualisierung verfügbar</string>
