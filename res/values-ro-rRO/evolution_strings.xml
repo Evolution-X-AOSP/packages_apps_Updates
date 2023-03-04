@@ -77,8 +77,8 @@
     <string name="details_button">Vezi detaliile</string>
     <!-- Installation -->
     <string name="apply_update_dialog_title">Aplicaţi actualizarea</string>
-    <string name="apply_update_dialog_message">Sunteți pe cale de a face upgrade la <xliff:g id="update_name">%1$s</xliff:g>.\n\nDacă apăsați <xliff:g id="ok">%2$s</xliff:g>, dispozitivul se va restarta în modul de recuperare pentru a instala actualizarea.\n\nNotă: Această caracteristică necesită un Recovery compatibil sau actualizările vor trebui să fie instalate manual.</string>
-    <string name="apply_update_dialog_message_ab">Sunteți pe cale de a face upgrade la <xliff:g id="update_name">%1$s</xliff:g>.\n\nDacă apăsați <xliff:g id="ok">%2$s</xliff:g>, dispozitivul va începe instalarea în fundal.\n\nOdată finalizată, veți fi anunțat(ă) să reporniți telefonul.</string>
+    <string name="apply_update_dialog_message">Ești pe cale să instalezi <xliff:g id="update_name">%1$s</xliff:g>.\n\nDacă apeși <xliff:g id="ok">%2$s</xliff:g>, dispozitivul va reporni în modul recuperare pentru a instala actualizarea.\n\nNotă: Această caracteristică necesită Recuperare compatibilă ori actualizările vor trebui instalate manual.</string>
+    <string name="apply_update_dialog_message_ab">Ești pe cale să instalezi <xliff:g id="update_name">%1$s</xliff:g>.\n\nDacă apeși <xliff:g id="ok">%2$s</xliff:g>, dispozitivul va începe instalarea în fundal.\n\nOdată terminată, ți se va solicita să repornești dispozitivul.</string>
     <string name="cancel_installation_dialog_message">Anulați instalarea?</string>
     <string name="installing_update">Se instalează pachetul de actualizare</string>
     <string name="installing_update_error">Eroare la instalare</string>
@@ -144,7 +144,7 @@
     <string name="download_over_mobiledata_warning">Descărcarea actualizărilor printr-o rețea mobilă, prin rețea Wi-Fi contorizată sau în roaming poate cauza costuri suplimentare.</string>
     <!-- Custom OTA URLs -->
     <string name="customOTAUrl">Setează un URL OTA personalizat</string>
-    <string name="info_dialog_title">Știați că?</string>
+    <string name="info_dialog_title">Știai că?</string>
     <string name="info_dialog_message">Actualizările Evolution X sunt pachete complete de instalare. Asta înseamnă că poți instala întotdeauna doar cea mai recentă actualizare, chiar dacă ai omis unele între ele!</string>
     <string name="info_dialog_ok">Mulțumesc pentru informații!</string>
 </resources>
