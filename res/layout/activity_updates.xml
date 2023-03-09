@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/ic_partial_system_update_current" />
+            app:srcCompat="@drawable/ic_system_update_evolution" />
 
         <TextView
             android:id="@+id/no_new_updates_view"
