@@ -69,8 +69,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
     private final float mAlphaDisabledValue;
 
-    public static String changelogData;
-
     private List<String> mDownloadIds;
     private String mSelectedDownload;
     private UpdaterController mUpdaterController;
@@ -157,7 +155,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             viewHolder.mProgressBar.setIndeterminate(false);
             viewHolder.mProgressBar.setProgress(update.getProgress());
         }
-        viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String fileSize = Utils.readableFileSize(update.getFileSize());
         viewHolder.mBuildSize.setText(String
@@ -186,7 +183,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             setupOptionMenuListeners(update, false, viewHolder);
             setButtonAction(viewHolder.mAction, Action.DOWNLOAD, downloadId, !isBusy());
         }
-        viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String fileSize = Utils.readableFileSize(update.getFileSize());
         viewHolder.mBuildSize.setText(String
@@ -229,8 +225,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             default:
                 throw new RuntimeException("Unknown update status");
         }
-
-        viewHolder.mWhatsNew.setText(changelogData != null ? changelogData : "");
 
         String buildDate = StringGenerator.getDateLocalizedUTC(mActivity,
                 DateFormat.LONG, update.getTimestamp());

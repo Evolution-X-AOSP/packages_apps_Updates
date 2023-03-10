@@ -55,7 +55,6 @@ import androidx.recyclerview.widget.SimpleItemAnimator;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.evolution.ota.misc.FetchChangelog;
 import org.json.JSONException;
 import org.evolution.ota.controller.UpdaterController;
 import org.evolution.ota.controller.UpdaterService;
@@ -139,9 +138,6 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
 
         updateIcon = (ImageView) findViewById(R.id.update_ic);
         updateIcon.setOnClickListener(this);
-
-        FetchChangelog changelog = new FetchChangelog();
-        changelog.execute();
 
         sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         LastUpdateCheck = sharedPref.getString("LastUpdateCheck", "Not checked");
