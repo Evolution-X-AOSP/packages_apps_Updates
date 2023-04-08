@@ -139,6 +139,9 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                     update.getFinalizing() ?
                             R.string.finalizing_package :
                             R.string.preparing_ota_first_boot);
+            String percentage = NumberFormat.getPercentInstance().format(
+                    update.getInstallProgress() / 100.f);
+            viewHolder.mPercentage.setText(percentage);
             viewHolder.mProgressBar.setIndeterminate(false);
             viewHolder.mProgressBar.setProgress(update.getInstallProgress());
         } else if (mUpdaterController.isVerifyingUpdate(downloadId)) {
@@ -152,6 +155,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
             String total = Utils.readableFileSize(update.getFileSize());
             String percentage = NumberFormat.getPercentInstance().format(
                     update.getProgress() / 100.f);
+            viewHolder.mPercentage.setText(percentage);
             viewHolder.mProgressText.setText(mActivity.getString(R.string.list_download_progress_new,
                     downloaded, total, percentage));
             viewHolder.mProgressBar.setIndeterminate(false);
@@ -588,6 +592,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
         private ProgressBar mProgressBar;
         private TextView mProgressText;
+        private TextView mPercentage;
 
         ViewHolder(final View view) {
             super(view);
@@ -599,6 +604,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
             mProgressBar = view.findViewById(R.id.progress_bar);
             mProgressText = view.findViewById(R.id.progress_text);
+            mPercentage = view.findViewById(R.id.progress_percent);
         }
     }
 }
