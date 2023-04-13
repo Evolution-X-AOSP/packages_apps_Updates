@@ -574,7 +574,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
         private TextView mBuildDate;
         private TextView mBuildSize;
-        private TextView mWhatsNew;
 
         private ProgressBar mProgressBar;
         private TextView mProgressText;
@@ -585,7 +584,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
 
             mBuildDate = view.findViewById(R.id.build_date);
             mBuildSize = view.findViewById(R.id.build_size);
-            mWhatsNew = view.findViewById(R.id.whats_new);
 
             mProgressBar = view.findViewById(R.id.progress_bar);
             mProgressText = view.findViewById(R.id.progress_text);

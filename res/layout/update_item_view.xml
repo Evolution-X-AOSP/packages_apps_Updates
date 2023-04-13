@@ -90,35 +90,6 @@
                 android:visibility="visible" />
 
             <TextView
-                android:id="@+id/whats_new_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:gravity="start"
-                android:paddingStart="16dp"
-                android:paddingTop="5dp"
-                android:paddingEnd="16dp"
-                android:paddingBottom="5dp"
-                android:fontFamily="google-sans"
-                android:text="@string/what_s_new"
-                android:textColor="?android:attr/textColorPrimary"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/whats_new"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="@string/this_is_what_s_new"
-                android:textColor="?android:attr/textColorPrimary"
-                android:textSize="16sp"
-                android:visibility="visible" />
-
-            <TextView
                 android:id="@+id/advisory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
