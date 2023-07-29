@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@
     <string name="menu_copy_url">Bağlantı adresini kopyala</string>
     <string name="menu_export_update">Güncellemeyi dışa aktar</string>
     <string name="menu_show_changelog">Mevcut sürümdeki değişiklikler</string>
+    <string name="menu_ab_perf_mode">Güncelleme işlemine öncelik ver</string>
     <string name="changelog_loading">Yükleniyor…</string>
     <string name="label_download_url">İndirme bağlantısı</string>
     <string name="toast_download_url_copied">Bağlantı kopyalandı</string>
@@ -108,11 +110,10 @@ Lütfen yapıyı web sitemizden indirin, kurtarma modunda yeniden başlatın ve 
         <item quantity="one">1 saat kaldı</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> saat kaldı</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Uyarı</string>
-    <string name="update_on_mobile_data_message">Yüksek veri kullanımına neden olabilecek mobil veri bağlantınızı kullanarak bir güncelleme paketi indirmek üzeresiniz. Devam etmek ister misiniz?</string>
-    <string name="checkbox_mobile_data_warning">Tekrar gösterme</string>
-    <string name="menu_mobile_data_warning">Mobil veri uyarısı</string>
+    <string name="update_over_metered_network_title">Uyarı</string>
+    <string name="update_over_metered_network_message">Mobil veri kullanarak, büyük olasılıkla yüksek veri kullanımına yol açacak bir güncelleme paketi indirmek üzeresiniz. Devam etmek ister misiniz?</string>
+    <string name="checkbox_metered_network_warning">Tekrar gösterme</string>
+    <string name="menu_metered_network_warning">Tarifeli ağ uyarısı</string>
     <!-- Info section -->
     <string name="extras_category_title">Ekstralar</string>
     <string name="maintainer_info_title">Cihaz sorumlusu</string>

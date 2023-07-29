@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@
     <string name="menu_copy_url">Salin tautan</string>
     <string name="menu_export_update">Ekspor pembaruan</string>
     <string name="menu_show_changelog">Perubahan dalam versi saat ini</string>
+    <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>
     <string name="changelog_loading">Memuat…</string>
     <string name="label_download_url">Unduh tautan</string>
     <string name="toast_download_url_copied">Tautan disalin</string>
@@ -103,11 +105,10 @@
     <plurals name="eta_hours">
         <item quantity="other"><xliff:g id="count">%d</xliff:g> jam tersisa</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Peringatan</string>
-    <string name="update_on_mobile_data_message">Anda akan megunduh paket pemutakhiran menggunakan data seluler yang mungkin akan menyebabkan penggunaan data yang tinggi. Apakah Anda yakin ingin melanjutkan?</string>
-    <string name="checkbox_mobile_data_warning">Jangan tampilkan lagi</string>
-    <string name="menu_mobile_data_warning">Peringatan data seluler</string>
+    <string name="update_over_metered_network_title">Peringatan</string>
+    <string name="update_over_metered_network_message">Anda akan mengunduh paket pembaruan melalui jaringan terukur yang kemungkinan besar akan menyebabkan penggunaan data yang tinggi. Apakah Anda ingin melanjutkan?</string>
+    <string name="checkbox_metered_network_warning">Jangan tampilkan lagi</string>
+    <string name="menu_metered_network_warning">Peringatan jaringan terukur</string>
     <!-- Info section -->
     <string name="extras_category_title">Tambahan</string>
     <string name="maintainer_info_title">Pengelola</string>

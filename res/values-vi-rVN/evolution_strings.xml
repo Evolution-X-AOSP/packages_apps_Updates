@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,11 +44,12 @@
     <string name="menu_copy_url">Sao chép URL</string>
     <string name="menu_export_update">Xuất bản cập nhật</string>
     <string name="menu_show_changelog">Thay đổi trong phiên bản hiện tại</string>
+    <string name="menu_ab_perf_mode">Ưu tiên quá trình cập nhật</string>
     <string name="changelog_loading">Đang tải…</string>
     <string name="label_download_url">Tải xuống URL</string>
     <string name="toast_download_url_copied">Đã sao chép URL</string>
     <!-- General -->
-    <string name="update_found_notification">Đã có bản cập nhật hệ thống</string>
+    <string name="update_found_notification">Đã có bản cập nhật mới</string>
     <string name="snack_no_updates_found">Không có bản cập nhật mới</string>
     <string name="snack_updates_check_failed">Kiểm tra bản cập nhật không thành công. Vui lòng kiểm tra kết nối internet của bạn và thử lại sau.</string>
     <string name="snack_download_failed">Tải xuống không thành công. Vui lòng kiểm tra kết nối internet của bạn và thử lại sau.</string>
@@ -83,8 +85,8 @@
     <string name="installing_update">Đang cài đặt gói cập nhật</string>
     <string name="installing_update_error">Lỗi cài đặt</string>
     <string name="installing_update_finished">Đã cài đặt bản cập nhật</string>
-    <string name="finalizing_package">Đang hoàn tất cài đặt</string>
-    <string name="preparing_ota_first_boot">Đang chuẩn bị cho lần khởi động đầu tiên</string>
+    <string name="finalizing_package">Đang hoàn tất cập nhật</string>
+    <string name="preparing_ota_first_boot">Đang chuẩn bị khởi động</string>
     <string name="dialog_prepare_zip_message">Chuẩn bị cập nhật sơ bộ</string>
     <string name="dialog_battery_low_title">Pin yếu</string>
     <string name="dialog_battery_low_message_pct">Mức pin quá thấp, bạn cần tối thiểu <xliff:g id="percent_discharging">%1$d</xliff:g>%% pin để tiếp tục, <xliff:g id="percent_charging">%2$d</xliff:g>%% nếu đang sạc.</string>
@@ -103,11 +105,10 @@
     <plurals name="eta_hours">
         <item quantity="other">còn <xliff:g id="count">%d</xliff:g> giờ nữa</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Cảnh báo</string>
-    <string name="update_on_mobile_data_message">Bạn sắp tải xuống một gói cập nhật bằng dữ liệu di động, có thể dẫn đến việc sử dụng dữ liệu cao. Bạn có muốn tiến hành không?</string>
-    <string name="checkbox_mobile_data_warning">Không hiển thị lại</string>
-    <string name="menu_mobile_data_warning">Cảnh báo dữ liệu di động</string>
+    <string name="update_over_metered_network_title">Cảnh báo</string>
+    <string name="update_over_metered_network_message">Bạn sắp tải xuống một gói cập nhật qua một mạng bị hạn chế, điều này có thể làm tăng mức sử dụng dữ liệu. Bạn có muốn tiến hành không?</string>
+    <string name="checkbox_metered_network_warning">Không hiển thị lại</string>
+    <string name="menu_metered_network_warning">Cảnh báo mạng bị hạn chế</string>
     <!-- Info section -->
     <string name="extras_category_title">Bổ sung</string>
     <string name="maintainer_info_title">Người bảo trì</string>
@@ -132,7 +133,7 @@
     <string name="what_s_new">Đây là những thay đổi mới:</string>
     <string name="this_is_what_s_new">-Đây là những thứ mới</string>
     <string name="advisory_notice_title">Lời khuyên</string>
-    <string name="advisory_notice_content">- Bạn nên sử dụng Wi-Fi khi có thể để tải xuống các bản cập nhật. Nếu bạn vẫn muốn sử dụng Dữ liệu Di động, hãy lưu ý rằng việc tải xuống các bản cập nhật qua Dữ liệu Di động (bao gồm cả khi Chuyển vùng), có thể phải trả thêm phí - hãy kiểm tra với Nhà cung cấp mạng của bạn để tránh các vấn đề có thẻ xảy ra.</string>
+    <string name="advisory_notice_content">- Bạn nên sử dụng Wi-Fi khi có thể để tải xuống các bản cập nhật. Bạn có thể sẽ phải trả thêm phí khi tải xuống bản cập nhật qua dữ liệu di động - hãy liên hệ với nhà cung cấp mạng nếu bạn có thắc mắc.</string>
     <string name="update_size">Kích cỡ bản cập nhật: %1$s</string>
     <string name="notification">Đã có bản cập nhật Evolution X mới cho thiết bị của bạn!</string>
     <string name="download_over_mobiledata_warning">Tải xuống các bản cập nhật qua mạng di động, Wi-Fi được đo hoặc trong khi chuyển vùng có thể gây ra các khoản phí bổ sung.</string>
