@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@
     <string name="menu_copy_url">Copia URL</string>
     <string name="menu_export_update">Esporta aggiornamento</string>
     <string name="menu_show_changelog">Mostra changelog</string>
+    <string name="menu_ab_perf_mode">Priorità al processo di aggiornamento</string>
     <string name="changelog_loading">Caricamento…</string>
     <string name="label_download_url">URL del download</string>
     <string name="toast_download_url_copied">URL copiato</string>
@@ -106,11 +108,10 @@
         <item quantity="one">1 ora rimanente</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> ore rimanenti</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Attenzione</string>
-    <string name="update_on_mobile_data_message">Stai per scaricare un aggiornamento utilizzando i dati mobili, ciò potrebbe comportare un utilizzo elevato di dati. Vuoi procedere?</string>
-    <string name="checkbox_mobile_data_warning">Non mostrare più</string>
-    <string name="menu_mobile_data_warning">Avviso utilizzo dati mobili</string>
+    <string name="update_over_metered_network_title">Attenzione</string>
+    <string name="update_over_metered_network_message">Stai per scaricare un aggiornamento tramite una rete a consumo e ciò probabilmente comporterà un elevato utilizzo dei dati. Vuoi procedere?</string>
+    <string name="checkbox_metered_network_warning">Non mostrare più</string>
+    <string name="menu_metered_network_warning">Avviso di rete a consumo</string>
     <!-- Info section -->
     <string name="extras_category_title">Extra</string>
     <string name="maintainer_info_title">Mantenitore</string>

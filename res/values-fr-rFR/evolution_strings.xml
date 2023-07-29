@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@
     <string name="menu_copy_url">Copier l\'URL</string>
     <string name="menu_export_update">Exporter la mise à jour</string>
     <string name="menu_show_changelog">Historique des modifications</string>
+    <string name="menu_ab_perf_mode">Prioriser le processus de mise à jour</string>
     <string name="changelog_loading">Chargement…</string>
     <string name="label_download_url">URL de téléchargement</string>
     <string name="toast_download_url_copied">URL copiée</string>
@@ -106,11 +108,10 @@
         <item quantity="one">1 heure restante</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> heures restantes</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Attention</string>
-    <string name="update_on_mobile_data_message">Vous allez télécharger une mise à jour en utilisant les données mobiles et beaucoup de data va donc être utilisée. Voulez-vous continuer ?</string>
-    <string name="checkbox_mobile_data_warning">Ne plus afficher</string>
-    <string name="menu_mobile_data_warning">Avertissement d\'usage des données mobiles</string>
+    <string name="update_over_metered_network_title">Attention</string>
+    <string name="update_over_metered_network_message">Vous êtes sur le point de télécharger une mise à jour via les données mobiles, ce qui entraînera probablement une consommation élevée des données. Voulez vous continuer ?</string>
+    <string name="checkbox_metered_network_warning">Ne plus afficher</string>
+    <string name="menu_metered_network_warning">Avertissement de réseau forfaitaire</string>
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
     <string name="maintainer_info_title">Mainteneur</string>
