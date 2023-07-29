@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@
     <string name="menu_copy_url">Скопировать ссылку</string>
     <string name="menu_export_update">Экспорт обновлений</string>
     <string name="menu_show_changelog">Список изменений</string>
+    <string name="menu_ab_perf_mode">Приоритет процесса обновления</string>
     <string name="changelog_loading">Загрузка…</string>
     <string name="label_download_url">Ссылка для скачивания</string>
     <string name="toast_download_url_copied">Ссылка скопирована</string>
@@ -112,11 +114,10 @@
         <item quantity="many">осталось <xliff:g id="count">%d</xliff:g> часов</item>
         <item quantity="other">осталось <xliff:g id="count">%d</xliff:g> часов</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Предупреждение</string>
-    <string name="update_on_mobile_data_message">Скачивание обновления с помощью мобильных данных расходует большой объём трафика и может привести к большим расходам. Продолжить?</string>
-    <string name="checkbox_mobile_data_warning">Больше не показывать</string>
-    <string name="menu_mobile_data_warning">Предупрежд. о моб. данных</string>
+    <string name="update_over_metered_network_title">Предупреждение</string>
+    <string name="update_over_metered_network_message">Вы собираетесь загрузить пакет обновления через мобильную сеть, что, вероятно, приведёт к значительному расходу данных. Продолжить?</string>
+    <string name="checkbox_metered_network_warning">Больше не показывать</string>
+    <string name="menu_metered_network_warning">Предупреждение о расходе данных</string>
     <!-- Info section -->
     <string name="extras_category_title">Дополнения</string>
     <string name="maintainer_info_title">Разработчик</string>
