@@ -559,6 +559,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
                 view.findViewById(R.id.preferences_auto_updates_check_interval);
         Switch meteredNetworkWarning = view.findViewById(
                 R.id.preferences_metered_network_warning);
+        Switch abPerfMode = view.findViewById(R.id.preferences_ab_perf_mode);
         EditText customURLInput = view.findViewById(R.id.preferences_customOTAUrl);
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
@@ -566,6 +567,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
         customURLInput.setText(prefs.getString(Constants.PREF_CUSTOM_OTA_URL, Constants.OTA_URL));
         meteredNetworkWarning.setChecked(prefs.getBoolean(Constants.PREF_METERED_NETWORK_WARNING,
                 prefs.getBoolean(Constants.PREF_MOBILE_DATA_WARNING, true)));
+        abPerfMode.setChecked(prefs.getBoolean(Constants.PREF_AB_PERF_MODE, true));
 
         new AlertDialog.Builder(this, R.style.AppTheme_AlertDialogStyle)
                 .setTitle(R.string.menu_preferences)
@@ -577,6 +579,7 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
                                     autoCheckInterval.getSelectedItemPosition())
                             .putBoolean(Constants.PREF_METERED_NETWORK_WARNING,
                                     meteredNetworkWarning.isChecked())
+                            .putBoolean(Constants.PREF_AB_PERF_MODE, abPerfMode.isChecked())
                             .putString(Constants.PREF_CUSTOM_OTA_URL,
                                     customURLStr)
                             .apply();
@@ -586,6 +589,11 @@ public class UpdatesActivity extends UpdatesListActivity implements View.OnClick
                     } else {
                         UpdatesCheckReceiver.cancelRepeatingUpdatesCheck(this);
                         UpdatesCheckReceiver.cancelUpdatesCheck(this);
+                    }
+
+                    if (Utils.isABDevice()) {
+                        boolean enableABPerfMode = abPerfMode.isChecked();
+                        mUpdaterService.getUpdaterController().setPerformanceMode(enableABPerfMode);
                     }
                 })
                 .show();
