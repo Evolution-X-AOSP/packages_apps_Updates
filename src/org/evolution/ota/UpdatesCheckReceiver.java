@@ -33,12 +33,14 @@ import androidx.preference.PreferenceManager;
 import org.json.JSONException;
 import org.evolution.ota.download.DownloadClient;
 import org.evolution.ota.misc.Constants;
+import org.evolution.ota.misc.FetchChangelog;
 import org.evolution.ota.misc.Utils;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 import java.util.UUID;
+import java.util.concurrent.ExecutionException;
 
 public class UpdatesCheckReceiver extends BroadcastReceiver {
 
@@ -174,13 +176,20 @@ public class UpdatesCheckReceiver extends BroadcastReceiver {
             public void onSuccess(File destination) {
                 try {
                     if (json.exists() && Utils.checkForNewUpdates(json, jsonNew)) {
+                        // Download the changelog BEFORE the user is going to click the notification
+                        FetchChangelog changelog = new FetchChangelog();
+                        changelog.execute();
+
+                        // Wait for the changelog to finish being fetched.
+                        changelog.get();
+
                         showNotification(context);
                         updateRepeatingUpdatesCheck(context);
                     }
                     jsonNew.renameTo(json);
                     // In case we set a one-shot check because of a previous failure
                     cancelUpdatesCheck(context);
-                } catch (IOException | JSONException e) {
+                } catch (IOException | JSONException | InterruptedException | ExecutionException e) {
                     Log.e(TAG, "Could not parse list, scheduling new check", e);
                     scheduleUpdatesCheck(context);
                 }

@@ -47,4 +47,5 @@ public final class Constants {
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     public static final String EXPORT_PATH = "EvolutionX-Updates/";
     public static final String HAS_SEEN_INFO_DIALOG = "has_seen_info_dialog";
+    public static String fileName = "";
 }
