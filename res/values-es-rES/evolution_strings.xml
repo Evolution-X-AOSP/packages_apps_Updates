@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@
     <string name="menu_copy_url">Copiar URL</string>
     <string name="menu_export_update">Exportar actualización</string>
     <string name="menu_show_changelog">Cambios en la última versión</string>
+    <string name="menu_ab_perf_mode">Priorizar el proceso de actualización</string>
     <string name="changelog_loading">Cargando…</string>
     <string name="label_download_url">URL de descarga</string>
     <string name="toast_download_url_copied">URL copiada</string>
@@ -106,11 +108,10 @@
         <item quantity="one">1 hora restante</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">Advertencia</string>
-    <string name="update_on_mobile_data_message">Se descargará un paquete de actualización usando los datos móviles, probablemente ocasione un alto consumo de datos. ¿Deseas continuar?</string>
-    <string name="checkbox_mobile_data_warning">No volver a mostrar</string>
-    <string name="menu_mobile_data_warning">Advertencia de datos móviles</string>
+    <string name="update_over_metered_network_title">Advertencia</string>
+    <string name="update_over_metered_network_message">Vas a descargar un paquete de actualización a través de datos móviles, lo cual causará un alto consumo de datos móviles. ¿Quieres continuar?</string>
+    <string name="checkbox_metered_network_warning">No volver a mostrar</string>
+    <string name="menu_metered_network_warning">Advertencia de consumo de datos</string>
     <!-- Info section -->
     <string name="extras_category_title">Extras</string>
     <string name="maintainer_info_title">Mantenedor</string>
