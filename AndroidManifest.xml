@@ -17,6 +17,8 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
 
     <application
         android:allowBackup="false"
@@ -57,8 +59,12 @@
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name=".controller.UpdaterService" />
-        <service android:name=".ExportUpdateService" />
+        <service 
+            android:name=".controller.UpdaterService"
+            android:foregroundServiceType="systemExempted" />
+        <service 
+            android:name=".ExportUpdateService"
+            android:foregroundServiceType="systemExempted" />
 
         <receiver
             android:name=".UpdaterReceiver"
