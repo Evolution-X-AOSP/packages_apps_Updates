@@ -23,6 +23,7 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
 import android.content.pm.ServiceInfo;
+import android.net.Uri;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.util.Log;
@@ -156,7 +157,8 @@ public class ExportUpdateService extends Service {
             }
         };
 
-        startForeground(NOTIFICATION_ID, notificationBuilder.build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED);
+        startForeground(NOTIFICATION_ID, notificationBuilder.build(),
+                ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE);
         notificationManager.notify(NOTIFICATION_ID, notificationBuilder.build());
 
         @SuppressLint("RestrictedApi") Runnable runnableComplete = () -> {
