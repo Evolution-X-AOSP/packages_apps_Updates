@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2017-2023 The LineageOS Project
+    Copyright (C) 2019-2023 The Evolution X Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -43,6 +44,7 @@
     <string name="menu_copy_url">复制链接</string>
     <string name="menu_export_update">导出更新</string>
     <string name="menu_show_changelog">当前版本的变化</string>
+    <string name="menu_ab_perf_mode">更新进程优先</string>
     <string name="changelog_loading">载入中...</string>
     <string name="label_download_url">下载链接</string>
     <string name="toast_download_url_copied">链接已复制</string>
@@ -103,11 +105,10 @@
     <plurals name="eta_hours">
         <item quantity="other">剩余 <xliff:g id="count">%d</xliff:g> 小时</item>
     </plurals>
-    <!-- Mobile data warning -->
-    <string name="update_on_mobile_data_title">警告</string>
-    <string name="update_on_mobile_data_message">您将通过移动数据网络下载更新包，这可能会导致较大的数据用量，是否继续？</string>
-    <string name="checkbox_mobile_data_warning">不再询问</string>
-    <string name="menu_mobile_data_warning">移动数据警告</string>
+    <string name="update_over_metered_network_title">警告</string>
+    <string name="update_over_metered_network_message">您将通过一个按流量计费的网络下载更新包，这可能会导致较大的数据用量，是否继续？</string>
+    <string name="checkbox_metered_network_warning">不再询问</string>
+    <string name="menu_metered_network_warning">按流量计费网络警告</string>
     <!-- Info section -->
     <string name="extras_category_title">附加功能</string>
     <string name="maintainer_info_title">维护者</string>

@@ -44,7 +44,7 @@
     <string name="menu_copy_url">Kopiuj link</string>
     <string name="menu_export_update">Eksportuj aktualizację</string>
     <string name="menu_show_changelog">Zmiany w obecnej wersji</string>
-    <string name="menu_ab_perf_mode">Priorytet procesu aktualizacji</string>
+    <string name="menu_ab_perf_mode">Nadaj wyższy priorytet procesowi aktualizacji</string>
     <string name="changelog_loading">Ładowanie…</string>
     <string name="label_download_url">Pobierz adres URL</string>
     <string name="toast_download_url_copied">Skopiowano link</string>
